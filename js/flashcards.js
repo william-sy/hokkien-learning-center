@@ -6,6 +6,7 @@ const COOKIE_KEYS = {
 };
 
 const LS_LEARNED_KEY = "hokkien_learned_words";
+const SR_KEY         = "hokkien_sr_due"; // Set of english keys needing review
 
 const state = {
   content: null,
@@ -17,6 +18,7 @@ const state = {
   difficulty: "normal",
   reviewLearnedOnly: false,
   isFlipped: false,
+  dueSet: new Set(),   // words rated incorrect/partial last session
   stats: {
     correct: 0,
     partial: 0,
@@ -116,6 +118,26 @@ function shuffleArray(array) {
   return shuffled;
 }
 
+// ── Spaced Repetition helpers ─────────────────────────────────────────────────
+
+function loadDueSet() {
+  try {
+    const raw = localStorage.getItem(SR_KEY);
+    state.dueSet = raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch (_) { state.dueSet = new Set(); }
+}
+
+function saveDueSet() {
+  localStorage.setItem(SR_KEY, JSON.stringify([...state.dueSet]));
+}
+
+// Sort deck so due cards come first, then shuffle each group
+function sortDeckWithDueFirst(deck) {
+  const due   = shuffleArray(deck.filter(e => state.dueSet.has(e.english)));
+  const fresh = shuffleArray(deck.filter(e => !state.dueSet.has(e.english)));
+  return [...due, ...fresh];
+}
+
 function startSession() {
   state.selectedDialect = byId("flashcardDialect").value;
   state.mode = byId("flashcardMode").value;
@@ -138,10 +160,13 @@ function startSession() {
     return;
   }
 
-  state.currentDeck = shuffleArray(filtered);
+  state.currentDeck = sortDeckWithDueFirst(filtered);
   state.currentIndex = 0;
   state.isFlipped = false;
   state.stats = { correct: 0, partial: 0, incorrect: 0 };
+  // Clear due set at session start — rebuilt from ratings this session
+  state.dueSet = new Set();
+  saveDueSet();
 
   byId("flashcardSection").style.display = "block";
   byId("resultsSection").style.display = "none";
@@ -163,6 +188,11 @@ function showCard() {
   byId("questionContent").innerHTML = question;
   byId("answerContent").innerHTML = answer;
   byId("detailsContent").innerHTML = details;
+  byId("detailsContent").style.display = details.trim() ? "" : "none";
+
+  // Show 📌 due tag if this card needs review
+  const dueTag = byId("srDueTag");
+  if (dueTag) dueTag.style.display = state.dueSet.has(card.english) ? "" : "none";
 
   updateProgress();
 }
@@ -251,9 +281,17 @@ function showAnswer() {
 
 function rateCard(rating) {
   state.stats[rating]++;
-  
+
+  const card = state.currentDeck[state.currentIndex];
+  if (rating === "incorrect" || rating === "partial") {
+    state.dueSet.add(card.english);
+  } else {
+    state.dueSet.delete(card.english); // mastered this session
+  }
+  saveDueSet();
+
   state.currentIndex++;
-  
+
   if (state.currentIndex >= state.currentDeck.length) {
     showResults();
   } else {
@@ -264,6 +302,13 @@ function rateCard(rating) {
 function updateProgress() {
   byId("cardProgress").textContent = `${state.currentIndex + 1} / ${state.currentDeck.length}`;
   byId("cardScore").textContent = `Correct: ${state.stats.correct} | Incorrect: ${state.stats.incorrect}`;
+  const badge = byId("srBadge");
+  if (badge) {
+    const due = state.dueSet.size;
+    badge.innerHTML = due > 0
+      ? `<strong>${due}</strong> card${due !== 1 ? "s" : ""} queued for review next session`
+      : "";
+  }
 }
 
 function showResults() {
@@ -274,6 +319,18 @@ function showResults() {
   byId("correctCount").textContent = state.stats.correct;
   byId("partialCount").textContent = state.stats.partial;
   byId("incorrectCount").textContent = state.stats.incorrect;
+
+  const due = state.dueSet.size;
+  let srNote = byId("srNote");
+  if (!srNote) {
+    srNote = document.createElement("p");
+    srNote.id = "srNote";
+    srNote.style.cssText = "text-align:center;margin-top:1rem;font-size:0.9rem;opacity:0.75";
+    byId("resultsSection").querySelector(".results-actions").before(srNote);
+  }
+  srNote.textContent = due > 0
+    ? `📌 ${due} card${due !== 1 ? "s" : ""} marked for review — they\'ll appear first next session.`
+    : "✅ All cards mastered this session!";
 }
 
 function endSession() {
@@ -303,6 +360,7 @@ async function init() {
     state.dictionary = data.dictionary;
 
     initDialectSelect();
+    loadDueSet();
     
     byId("flashcardMode").value = state.mode;
     byId("flashcardDifficulty").value = state.difficulty;

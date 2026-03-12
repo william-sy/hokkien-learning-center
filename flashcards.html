@@ -14,6 +14,7 @@
     <meta property="og:url" content="https://william-sy.github.io/hokkien-learning-center/flashcards.html" />
     
     <link rel="stylesheet" href="styles.css" />
+    <script src="js/theme-toggle.js"></script>
   </head>
   <body>
     <header class="hero">
@@ -22,8 +23,10 @@
         <a href="index.html" class="nav-link">Learn</a>
         <a href="dictionary.html" class="nav-link">Dictionary</a>
         <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
         <a href="info.html" class="nav-link">General Info</a>
         <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
       </nav>
     </header>
 
@@ -71,8 +74,10 @@
       <section class="card flashcard-container" id="flashcardSection" style="display: none;">
         <div class="flashcard-stats">
           <span id="cardProgress">0 / 0</span>
+          <span id="srDueTag" class="sr-due-tag" style="display:none">📌 Review due</span>
           <span id="cardScore">Correct: 0 | Incorrect: 0</span>
         </div>
+        <div class="sr-badge" id="srBadge"></div>
 
         <div class="flashcard" id="flashcard">
           <div class="flashcard-front" id="flashcardFront">

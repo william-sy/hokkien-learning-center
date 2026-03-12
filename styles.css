@@ -23,6 +23,28 @@
   }
 }
 
+/* Manual theme overrides — applied instantly by js/theme-toggle.js */
+html[data-theme="dark"] {
+  --bg: #1a0a0a;
+  --panel: #2a1515;
+  --text: #f5e6e6;
+  --muted: #b89090;
+  --accent: #dc2626;
+  --accent-hover: #ef4444;
+  --border: #4a2525;
+  --highlight: #fecaca;
+}
+html[data-theme="light"] {
+  --bg: #fef2f2;
+  --panel: #ffffff;
+  --text: #1a0a0a;
+  --muted: #7f1d1d;
+  --accent: #dc2626;
+  --accent-hover: #b91c1c;
+  --border: #fecaca;
+  --highlight: #dc2626;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -88,7 +110,22 @@ body {
   color: white;
 }
 
-.hero p {
+.theme-toggle-btn {
+  background: none;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.55rem;
+  cursor: pointer;
+  font-size: 1rem;
+  width: auto;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: border-color 0.2s;
+  color: inherit;
+}
+.theme-toggle-btn:hover {
+  border-color: var(--accent);
+}
   max-width: 700px;
   margin: 0 auto;
   font-size: clamp(0.95rem, 2vw, 1.1rem);
@@ -569,11 +606,33 @@ ol li {
 .flashcard-stats {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding: 0.75rem 1rem;
   background: var(--bg);
   border-radius: 6px;
   font-size: 0.9rem;
   font-weight: 500;
+}
+
+.sr-badge {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  min-height: 1.2rem;
+}
+.sr-badge strong { color: var(--accent); }
+
+.sr-due-tag {
+  font-size: 0.72rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 4px;
+  padding: 0.1rem 0.45rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .flashcard {
@@ -1656,3 +1715,70 @@ h3:first-child {
 }
 .pm-feedback.pm-success { color: #27ae60; }
 .pm-feedback.pm-error   { color: #e74c3c; }
+
+/* ─── Grammar Page ────────────────────────────────────────────────── */
+
+.grammar-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.75rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.grammar-toc strong { margin-right: 0.25rem; }
+.grammar-toc a {
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.grammar-toc a:hover { background: rgba(220,38,38,0.1); }
+
+.grammar-note {
+  background: var(--bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.grammar-examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.grammar-example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.ge-hanzi {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.ge-poj {
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-style: italic;
+}
+.ge-en {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* Section heading anchors */
+.card h3 { scroll-margin-top: 1.5rem; }
