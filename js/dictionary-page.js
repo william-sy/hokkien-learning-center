@@ -126,6 +126,7 @@ function initDialectSelect() {
 }
 
 function initAlphabetNav() {
+  // Button nav (medium+ screens)
   document.querySelectorAll(".alphabet-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       state.selectedLetter = btn.dataset.letter;
@@ -133,10 +134,28 @@ function initAlphabetNav() {
       
       document.querySelectorAll(".alphabet-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
+
+      const sel = document.getElementById("alphabetSelect");
+      if (sel) sel.value = state.selectedLetter;
       
       renderDictionary();
     });
   });
+
+  // Dropdown fallback (narrow screens ≤500px)
+  const alphabetSelect = document.getElementById("alphabetSelect");
+  if (alphabetSelect) {
+    alphabetSelect.addEventListener("change", () => {
+      state.selectedLetter = alphabetSelect.value;
+      setCookie(COOKIE_KEYS.selectedLetter, state.selectedLetter);
+
+      document.querySelectorAll(".alphabet-btn").forEach(b => {
+        b.classList.toggle("active", b.dataset.letter === state.selectedLetter);
+      });
+
+      renderDictionary();
+    });
+  }
 }
 
 function initSearch() {
@@ -331,7 +350,7 @@ async function init() {
     initAlphabetNav();
     initSearch();
     
-    // Set active letter button
+    // Set active letter button + sync dropdown
     document.querySelectorAll(".alphabet-btn").forEach(btn => {
       if (btn.dataset.letter === state.selectedLetter) {
         btn.classList.add("active");
@@ -339,6 +358,8 @@ async function init() {
         btn.classList.remove("active");
       }
     });
+    const alphabetSelect = document.getElementById("alphabetSelect");
+    if (alphabetSelect) alphabetSelect.value = state.selectedLetter;
     
     renderDictionary();
 

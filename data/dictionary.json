@@ -459,6 +459,13 @@
     "tags": [
       "food",
       "meal"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "chá-tùiⁿ, chá-khí-tùiⁿ",
+        "tl": "tsá-tùinn, tsá-khí-tùinn"
+      }
     ]
   },
   {

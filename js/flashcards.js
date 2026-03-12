@@ -1,7 +1,11 @@
 const COOKIE_KEYS = {
   selectedDialect: "hokkien_flashcard_dialect",
-  mode: "hokkien_flashcard_mode"
+  mode: "hokkien_flashcard_mode",
+  difficulty: "hokkien_flashcard_difficulty",
+  reviewLearnedOnly: "hokkien_flashcard_learned_only"
 };
+
+const LS_LEARNED_KEY = "hokkien_learned_words";
 
 const state = {
   content: null,
@@ -10,6 +14,8 @@ const state = {
   currentIndex: 0,
   selectedDialect: "all",
   mode: "english-to-hokkien",
+  difficulty: "normal",
+  reviewLearnedOnly: false,
   isFlipped: false,
   stats: {
     correct: 0,
@@ -83,11 +89,22 @@ function initDialectSelect() {
 }
 
 function filterDictionary() {
-  return state.dictionary.filter((entry) => {
+  let entries = state.dictionary.filter((entry) => {
     if (state.selectedDialect === "all") return true;
     if (entry.dialectId === state.selectedDialect) return true;
     return entry.dialectId === "shared";
   });
+
+  if (state.reviewLearnedOnly) {
+    let learnedSet = new Set();
+    try {
+      const raw = localStorage.getItem(LS_LEARNED_KEY);
+      if (raw) learnedSet = new Set(JSON.parse(raw));
+    } catch (_) {}
+    entries = entries.filter(e => learnedSet.has(e.english));
+  }
+
+  return entries;
 }
 
 function shuffleArray(array) {
@@ -102,14 +119,22 @@ function shuffleArray(array) {
 function startSession() {
   state.selectedDialect = byId("flashcardDialect").value;
   state.mode = byId("flashcardMode").value;
+  state.difficulty = byId("flashcardDifficulty").value;
+  state.reviewLearnedOnly = byId("reviewLearnedOnly").checked;
   
   setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
   setCookie(COOKIE_KEYS.mode, state.mode);
+  setCookie(COOKIE_KEYS.difficulty, state.difficulty);
+  setCookie(COOKIE_KEYS.reviewLearnedOnly, state.reviewLearnedOnly ? "1" : "0");
 
   const filtered = filterDictionary();
   
   if (filtered.length === 0) {
-    alert("No cards available for this dialect. Please select another or add entries to the dictionary.");
+    if (state.reviewLearnedOnly) {
+      alert("No learned words found for this dialect. Mark some words as learned on the Dictionary page first, then try again.");
+    } else {
+      alert("No cards available for this dialect. Please select another or add entries to the dictionary.");
+    }
     return;
   }
 
@@ -151,24 +176,33 @@ function generateCardContent(entry) {
     ? ["english-to-hokkien", "hokkien-to-english", "hanzi-to-romanization"][Math.floor(Math.random() * 3)]
     : state.mode;
 
+  const poj = entry.poj || entry.tl || "-";
+  const toneHint = (state.difficulty === "easy" && entry.tone)
+    ? `<p class="flashcard-hint">💡 Tone: ${entry.tone}</p>` : "";
+
   switch (mode) {
     case "english-to-hokkien":
-      question = `<h3>${entry.english}</h3>`;
-      answer = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${entry.poj || entry.tl || "-"}</p>`;
-      details = `<p><strong>Tone:</strong> ${entry.tone || "-"}</p><p><strong>Example:</strong> ${entry.example || "-"}</p>`;
+      question = `<h3>${entry.english}</h3>${toneHint}`;
+      answer = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>`;
       break;
 
     case "hokkien-to-english":
-      question = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${entry.poj || entry.tl || "-"}</p>`;
+      question = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>`;
       answer = `<h3>${entry.english}</h3>`;
-      details = `<p><strong>Tone:</strong> ${entry.tone || "-"}</p><p><strong>Example:</strong> ${entry.example || "-"}</p>`;
       break;
 
     case "hanzi-to-romanization":
-      question = `<h3>${entry.hanzi || entry.english}</h3>`;
-      answer = `<p class="romanization large">${entry.poj || entry.tl || "-"}</p>`;
-      details = `<p><strong>English:</strong> ${entry.english}</p><p><strong>Tone:</strong> ${entry.tone || "-"}</p>`;
+      question = `<h3>${entry.hanzi || entry.english}</h3>${toneHint}`;
+      answer = `<p class="romanization large">${poj}</p>`;
       break;
+  }
+
+  if (state.difficulty !== "hard") {
+    if (mode === "english-to-hokkien" || mode === "hokkien-to-english") {
+      details = `<p><strong>Tone:</strong> ${entry.tone || "-"}</p>${entry.example ? `<p><strong>Example:</strong> ${entry.example}</p>` : ""}`;
+    } else {
+      details = `<p><strong>English:</strong> ${entry.english}</p><p><strong>Tone:</strong> ${entry.tone || "-"}</p>`;
+    }
   }
 
   return { question, answer, details };
@@ -223,6 +257,8 @@ function restartSession() {
 function hydrateStateFromCookies() {
   state.selectedDialect = getCookie(COOKIE_KEYS.selectedDialect) || "all";
   state.mode = getCookie(COOKIE_KEYS.mode) || "english-to-hokkien";
+  state.difficulty = getCookie(COOKIE_KEYS.difficulty) || "normal";
+  state.reviewLearnedOnly = getCookie(COOKIE_KEYS.reviewLearnedOnly) === "1";
 }
 
 async function init() {
@@ -236,6 +272,8 @@ async function init() {
     initDialectSelect();
     
     byId("flashcardMode").value = state.mode;
+    byId("flashcardDifficulty").value = state.difficulty;
+    byId("reviewLearnedOnly").checked = state.reviewLearnedOnly;
 
     byId("backBtn").addEventListener("click", () => window.location.href = "index.html");
     byId("startBtn").addEventListener("click", startSession);

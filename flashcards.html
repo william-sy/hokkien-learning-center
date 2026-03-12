@@ -49,6 +49,20 @@
               <option value="mixed">Mixed</option>
             </select>
           </div>
+
+          <div class="control-group">
+            <label for="flashcardDifficulty">Difficulty</label>
+            <select id="flashcardDifficulty">
+              <option value="normal">Normal</option>
+              <option value="easy">Easy (tone hint shown)</option>
+              <option value="hard">Hard (no tone / example)</option>
+            </select>
+          </div>
+
+          <div class="control-group" style="flex-direction:row;align-items:center;gap:0.5rem;">
+            <input type="checkbox" id="reviewLearnedOnly" style="width:auto;margin:0;" />
+            <label for="reviewLearnedOnly" style="margin:0;cursor:pointer;">⭐ Learned words only</label>
+          </div>
           
           <button id="startBtn" class="primary-btn">Start Session</button>
         </div>
@@ -116,6 +130,7 @@
     </main>
 
     <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
 
     <script src="js/flashcards.js" type="module"></script>
   </body>
