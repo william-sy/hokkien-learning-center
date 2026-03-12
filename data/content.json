@@ -1,0 +1,238 @@
+{
+  "generalInfo": "Hokkien is a Southern Min language continuum with shared roots and rich regional variation. This learning center helps compare dialects while preserving local forms through community contributions.",
+  "dialects": [
+    {
+      "id": "quanzhou",
+      "name": "Quanzhou (泉州)",
+      "group": "Roots",
+      "notes": "One of the historical core varieties with conservative features in some phonological areas."
+    },
+    {
+      "id": "zhangzhou",
+      "name": "Zhangzhou (漳州)",
+      "group": "Roots",
+      "notes": "Another major historical base variety, influential in Taiwan and Southeast Asian communities."
+    },
+    {
+      "id": "xiamen",
+      "name": "Xiamen / Amoy (廈門)",
+      "group": "Roots",
+      "notes": "Often treated as a prestige urban variety and important in educational and reference materials."
+    },
+    {
+      "id": "taiwanese",
+      "name": "Taiwanese",
+      "group": "Modern Standards",
+      "notes": "A broad local standard shaped historically by Quanzhou/Zhangzhou contact and modern media usage."
+    },
+    {
+      "id": "sea_hokkien",
+      "name": "Southeast Asian Hokkien (General)",
+      "group": "Southeast Asia",
+      "notes": "Umbrella for diaspora varieties influenced by Malay, English, Tagalog, Indonesian, Thai, and Burmese contexts."
+    },
+    {
+      "id": "malaysia_north",
+      "name": "Malaysian Hokkien (North)",
+      "group": "Southeast Asia",
+      "notes": "Commonly associated with Penang and northern Peninsula speech communities."
+    },
+    {
+      "id": "malaysia_central",
+      "name": "Malaysian Hokkien (Central)",
+      "group": "Southeast Asia",
+      "notes": "Central region mix with contact influence from Mandarin, Cantonese, Malay, and English."
+    },
+    {
+      "id": "malaysia_south",
+      "name": "Malaysian Hokkien (South)",
+      "group": "Southeast Asia",
+      "notes": "Southern region communities with strong multilingual contact effects."
+    },
+    {
+      "id": "singapore",
+      "name": "Singaporean Hokkien",
+      "group": "Southeast Asia",
+      "notes": "Multilingual contact variety with English and Malay influence."
+    },
+    {
+      "id": "philippine",
+      "name": "Philippine Hokkien",
+      "group": "Southeast Asia",
+      "notes": "Often includes lexical contact with Filipino and English, varying by city/community."
+    },
+    {
+      "id": "indonesian",
+      "name": "Indonesian Hokkien",
+      "group": "Southeast Asia",
+      "notes": "Multiple local forms with Indonesian/Malay and Chinese language contact patterns."
+    },
+    {
+      "id": "burmese",
+      "name": "Burmese Hokkien",
+      "group": "Southeast Asia",
+      "notes": "Community heritage variety with local phonetic and lexical adaptation."
+    },
+    {
+      "id": "thai",
+      "name": "Thai Hokkien",
+      "group": "Southeast Asia",
+      "notes": "Heritage diaspora variety with Thai contact effects, often preserving older forms in some families."
+    },
+    {
+      "id": "shared",
+      "name": "Shared / Cross-dialect",
+      "group": "Shared",
+      "notes": "Entries useful across multiple Hokkien communities."
+    }
+  ],
+  "resources": [
+    {
+      "title": "Hokkien (Wikipedia)",
+      "type": "Reference",
+      "url": "https://en.wikipedia.org/wiki/Hokkien"
+    },
+    {
+      "title": "Taiwanese Hokkien (Wikipedia)",
+      "type": "Reference",
+      "url": "https://en.wikipedia.org/wiki/Taiwanese_Hokkien"
+    },
+    {
+      "title": "Pe̍h-ōe-jī (Wikipedia)",
+      "type": "Romanization",
+      "url": "https://en.wikipedia.org/wiki/Pe%CC%8Dh-%C5%8De-j%C4%AB"
+    },
+    {
+      "title": "Tâi-lô (Wikipedia)",
+      "type": "Romanization",
+      "url": "https://en.wikipedia.org/wiki/Taiwanese_Romanization_System"
+    },
+    {
+      "title": "Southern Min resources (Open directory)",
+      "type": "Further Study",
+      "url": "https://en.wikipedia.org/wiki/Southern_Min"
+    },
+    {
+      "title": "Taiwanese Hokkien Vocabulary",
+      "type": "Further Study",
+      "url": "https://www.learntaigi.com/"
+    },
+    {
+      "title": "Learn Penang Hokkien Online Lesson",
+      "type": "Further Study",
+      "url": "https://www.penang-traveltips.com/hokkien/learn.htm"
+    },
+    {
+      "title": "Learn Penang Hokkien",
+      "type": "Youtube channel",
+      "url": "https://www.youtube.com/@learnpenanghokkien"
+    },
+    {
+      "title": "ILoveLanguages! - PENANG HOKKIEN LANGUAGE, PEOPLE, & CULTURE ",
+      "type": "Youtube channel",
+      "url": "https://www.youtube.com/watch?v=hMFxhlMiuu8"
+    },
+    {
+      "title": "MOE Taiwanese Hokkien Dictionary (官方台語辭典)",
+      "type": "Dictionary",
+      "url": "https://twblg.dict.edu.tw/holodict_new/"
+    },
+    {
+      "title": "iTaigi — Community Hokkien Dictionary",
+      "type": "Dictionary",
+      "url": "https://itaigi.tw"
+    },
+    {
+      "title": "Maryknoll Taiwanese Dictionary",
+      "type": "Dictionary",
+      "url": "http://www.maryknoll.com.tw"
+    },
+    {
+      "title": "Pleco — Chinese Dictionary App (Hokkien add-on available)",
+      "type": "App",
+      "url": "https://www.pleco.com"
+    },
+    {
+      "title": "Anki — Hokkien Shared Decks",
+      "type": "Flashcard App",
+      "url": "https://ankiweb.net/shared/decks?search=hokkien"
+    },
+    {
+      "title": "Wiktionary — Hokkien Lemmas",
+      "type": "Reference",
+      "url": "https://en.wiktionary.org/wiki/Category:Hokkien_lemmas"
+    }
+  ],
+  "pronunciationTips": [
+    "Track tone changes (tone sandhi) in connected speech.",
+    "Nasal finals (-m, -n, -ng) are meaning-distinctive.",
+    "Check both POJ and Tâi-lô spellings when studying.",
+    "Collect local variants with notes instead of forcing one form."
+  ],
+  "toneCharts": {
+    "shared": [
+      {
+        "tone": "1",
+        "contour": "55",
+        "description": "High level"
+      },
+      {
+        "tone": "2",
+        "contour": "24",
+        "description": "Rising"
+      },
+      {
+        "tone": "3",
+        "contour": "21",
+        "description": "Low falling"
+      },
+      {
+        "tone": "5",
+        "contour": "13",
+        "description": "Low rising"
+      },
+      {
+        "tone": "7",
+        "contour": "33",
+        "description": "Mid level"
+      },
+      {
+        "tone": "8",
+        "contour": "5 / checked",
+        "description": "Checked syllable tone (stop finals)"
+      }
+    ],
+    "taiwanese": [
+      {
+        "tone": "1",
+        "contour": "44",
+        "description": "High/upper register"
+      },
+      {
+        "tone": "2",
+        "contour": "51",
+        "description": "Falling"
+      },
+      {
+        "tone": "3",
+        "contour": "31",
+        "description": "Low falling"
+      },
+      {
+        "tone": "5",
+        "contour": "24",
+        "description": "Rising"
+      },
+      {
+        "tone": "7",
+        "contour": "33",
+        "description": "Mid level"
+      },
+      {
+        "tone": "8",
+        "contour": "checked",
+        "description": "Stop-final checked tone"
+      }
+    ]
+  }
+}

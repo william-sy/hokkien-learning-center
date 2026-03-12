@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Typing Practice - Type POJ Romanization | Hokkien Learning Center</title>
+    <meta name="description" content="Practice typing Hokkien POJ romanization from English or Hanzi prompts. Improve your spelling and tone mark memory." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/typing-practice.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .typing-prompt { text-align: center; margin: 1.5rem 0; }
+      .typing-prompt .prompt-english { font-size: 2rem; font-weight: bold; margin-bottom: 0.25rem; }
+      .typing-prompt .prompt-hanzi  { font-size: 1.5rem; opacity: 0.7; }
+      .typing-prompt .prompt-hint   { font-size: 0.85rem; opacity: 0.5; margin-top: 0.5rem; cursor: pointer; }
+      .typing-input-row { display: flex; gap: 0.5rem; justify-content: center; align-items: center; flex-wrap: wrap; margin: 1rem 0; }
+      .typing-input-row input { font-size: 1.2rem; padding: 0.5rem 1rem; border: 2px solid var(--accent, #c0392b); border-radius: 6px; width: 260px; background: var(--bg, #1a0a0a); color: var(--text, #f5e6e6); }
+      .typing-input-row input.correct { border-color: #27ae60; background: var(--bg, #1a0a0a); }
+      .typing-input-row input.wrong   { border-color: #e74c3c; background: var(--bg, #1a0a0a); }
+      .typing-feedback { text-align: center; min-height: 2rem; font-size: 1.1rem; margin: 0.5rem 0; }
+      .typing-feedback.correct { color: #27ae60; }
+      .typing-feedback.wrong   { color: #e74c3c; }
+      .typing-answer { text-align: center; font-size: 1rem; opacity: 0.8; min-height: 1.5rem; }
+      .score-row { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin: 1rem 0; }
+      .score-box { text-align: center; }
+      .score-box .score-val { font-size: 2rem; font-weight: bold; }
+      .score-box .score-label { font-size: 0.8rem; opacity: 0.6; }
+      .skip-btn { background: none; border: 1px solid currentColor; opacity: 0.5; padding: 0.3rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+      .skip-btn:hover { opacity: 0.9; }
+
+      /* ── POJ character picker ── */
+      .char-picker { margin: 0.5rem auto 0; max-width: 420px; }
+      .char-picker-title { text-align: center; font-size: 0.72rem; opacity: 0.4; margin-bottom: 0.3rem; letter-spacing: 0.04em; text-transform: uppercase; }
+      .char-row { display: flex; align-items: center; gap: 0.2rem; justify-content: center; margin: 0.18rem 0; }
+      .char-row-label { font-size: 0.68rem; opacity: 0.35; width: 1rem; text-align: right; flex-shrink: 0; font-style: italic; }
+      .char-btn { background: transparent; border: 1px solid rgba(128,128,128,0.35); border-radius: 4px; padding: 0.18rem 0.4rem; cursor: pointer; font-size: 0.95rem; color: inherit; transition: background 0.1s, border-color 0.1s, color 0.1s; min-width: 2rem; text-align: center; line-height: 1.5; }
+      .char-btn:hover { background: var(--accent, #c0392b); color: #fff; border-color: var(--accent, #c0392b); }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <div class="game-header">
+          <h2>⌨️ Typing Practice</h2>
+          <button id="backBtn" class="secondary-btn">← Back to Learn</button>
+        </div>
+
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="typingDialect">Dialect</label>
+            <select id="typingDialect"></select>
+          </div>
+          <div class="control-group">
+            <label for="typingSource">Prompt</label>
+            <select id="typingSource">
+              <option value="words">Words only</option>
+              <option value="phrases">Phrases only</option>
+              <option value="both">Words &amp; Phrases</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="typingMode">Show me</label>
+            <select id="typingMode">
+              <option value="english">English → type POJ</option>
+              <option value="hanzi">Hanzi → type POJ</option>
+            </select>
+          </div>
+          <button id="startTypingBtn" class="primary-btn">Start</button>
+        </div>
+      </section>
+
+      <section class="card" id="typingGame" style="display:none">
+        <div class="score-row">
+          <div class="score-box"><div class="score-val" id="scoreCorrect">0</div><div class="score-label">Correct</div></div>
+          <div class="score-box"><div class="score-val" id="scoreWrong">0</div><div class="score-label">Wrong</div></div>
+          <div class="score-box"><div class="score-val" id="scoreSkipped">0</div><div class="score-label">Skipped</div></div>
+          <div class="score-box"><div class="score-val" id="scoreRemaining">0</div><div class="score-label">Remaining</div></div>
+        </div>
+
+        <div class="typing-prompt">
+          <div class="prompt-english" id="promptMain"></div>
+          <div class="prompt-hanzi"   id="promptSub"></div>
+          <div class="prompt-hint"    id="promptHint" title="Click to reveal a hint">💡 hint (click up to 3×)</div>
+        </div>
+
+        <div class="typing-input-row">
+          <input type="text" id="typingInput" placeholder="Type POJ here…" autocomplete="off" autocorrect="off" spellcheck="false" />
+          <button id="checkBtn" class="primary-btn">Check</button>
+          <button id="skipBtn"  class="skip-btn">Skip</button>
+        </div>
+
+        <div class="char-picker" id="charPicker"></div>
+
+        <div class="typing-feedback" id="typingFeedback"></div>
+        <div class="typing-answer"   id="typingAnswer"></div>
+      </section>
+
+      <section class="card" id="typingSummary" style="display:none">
+        <h3>Session Complete 🎉</h3>
+        <div class="score-row">
+          <div class="score-box"><div class="score-val" id="summaryCorrect">0</div><div class="score-label">Correct</div></div>
+          <div class="score-box"><div class="score-val" id="summaryWrong">0</div><div class="score-label">Wrong</div></div>
+          <div class="score-box"><div class="score-val" id="summarySkipped">0</div><div class="score-label">Skipped</div></div>
+        </div>
+        <div style="text-align:center;margin-top:1rem">
+          <button id="restartTypingBtn" class="primary-btn">Play Again</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/typing-practice.js" type="module"></script>
+  </body>
+</html>

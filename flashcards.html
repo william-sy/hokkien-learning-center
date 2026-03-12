@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Flashcards - Interactive Spaced Repetition Learning | Hokkien Learning Center</title>
+    <meta name="description" content="Practice Hokkien vocabulary with interactive flashcards. Learn English to Hokkien, Hanzi to romanization, and more with spaced repetition for all dialects." />
+    <meta name="keywords" content="Hokkien flashcards, learn Hokkien vocabulary, spaced repetition, Hokkien practice, language learning games" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/flashcards.html" />
+    
+    <meta property="og:title" content="Hokkien Flashcards - Interactive Learning" />
+    <meta property="og:description" content="Master Hokkien vocabulary with interactive flashcards supporting multiple dialects and learning modes." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/flashcards.html" />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <div class="game-header">
+          <h2>📚 Flashcards</h2>
+          <button id="backBtn" class="secondary-btn">← Back to Learn</button>
+        </div>
+        
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="flashcardDialect">Dialect</label>
+            <select id="flashcardDialect"></select>
+          </div>
+          
+          <div class="control-group">
+            <label for="flashcardMode">Card Mode</label>
+            <select id="flashcardMode">
+              <option value="english-to-hokkien">English → Hokkien</option>
+              <option value="hokkien-to-english">Hokkien → English</option>
+              <option value="hanzi-to-romanization">Hanzi → Romanization</option>
+              <option value="mixed">Mixed</option>
+            </select>
+          </div>
+          
+          <button id="startBtn" class="primary-btn">Start Session</button>
+        </div>
+      </section>
+
+      <section class="card flashcard-container" id="flashcardSection" style="display: none;">
+        <div class="flashcard-stats">
+          <span id="cardProgress">0 / 0</span>
+          <span id="cardScore">Correct: 0 | Incorrect: 0</span>
+        </div>
+
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-front" id="flashcardFront">
+            <div class="flashcard-label">Question</div>
+            <div class="flashcard-content" id="questionContent"></div>
+          </div>
+          <div class="flashcard-back" id="flashcardBack" style="display: none;">
+            <div class="flashcard-label">Answer</div>
+            <div class="flashcard-content" id="answerContent"></div>
+            <div class="flashcard-details" id="detailsContent"></div>
+          </div>
+        </div>
+
+        <div class="flashcard-actions" id="flashcardActions">
+          <button id="showAnswerBtn" class="primary-btn">Show Answer</button>
+        </div>
+
+        <div class="flashcard-rating" id="flashcardRating" style="display: none;">
+          <p class="muted">How well did you know this?</p>
+          <div class="rating-buttons">
+            <button class="rating-btn incorrect" data-rating="incorrect">❌ Didn't Know</button>
+            <button class="rating-btn partial" data-rating="partial">🤔 Partially</button>
+            <button class="rating-btn correct" data-rating="correct">✅ Got It!</button>
+          </div>
+        </div>
+
+        <button id="endSessionBtn" class="secondary-btn">End Session</button>
+      </section>
+
+      <section class="card" id="resultsSection" style="display: none;">
+        <h2>Session Results</h2>
+        <div class="results-summary">
+          <div class="result-stat">
+            <div class="stat-value" id="totalCards">0</div>
+            <div class="stat-label">Cards Reviewed</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value correct-color" id="correctCount">0</div>
+            <div class="stat-label">Correct</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value partial-color" id="partialCount">0</div>
+            <div class="stat-label">Partial</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value incorrect-color" id="incorrectCount">0</div>
+            <div class="stat-label">Incorrect</div>
+          </div>
+        </div>
+        <div class="results-actions">
+          <button id="restartBtn" class="primary-btn">Start New Session</button>
+          <button id="backToLearnBtn" class="secondary-btn">Back to Learn</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/flashcards.js" type="module"></script>
+  </body>
+</html>

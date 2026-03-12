@@ -1,0 +1,325 @@
+[
+  {
+    "dialectId": "singapore",
+    "english": "Where are you going?",
+    "hanzi": "汝欲去佗位？",
+    "poj": "Lí beh khì tó-uī?",
+    "tl": "Lí beh khì tó-uī?",
+    "tone": "2-4-3-2-7",
+    "audioHint": "li beh khi to-ui",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Lí beh khì tó-uī? Góa beh tńg-khì. (Where are you going? I'm heading back.)",
+    "tags": [
+      "question",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Good morning",
+    "hanzi": "早",
+    "poj": "Chá",
+    "tl": "Tsá",
+    "tone": "2",
+    "audioHint": "tsa",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Tsá! Lí ū tsia̍h-pá--bē? (Good morning! Have you eaten?)",
+    "tags": [
+      "greeting",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "How much?",
+    "hanzi": "偌濟錢？",
+    "poj": "Jōa-chē chîⁿ?",
+    "tl": "Juā-tsē tsînn?",
+    "tone": "7-7-5",
+    "audioHint": "jua-tse-tsinn",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Chit-ê juā-tsē tsînn? (How much is this?)",
+    "tags": [
+      "shopping",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I don't understand",
+    "hanzi": "我聽無",
+    "poj": "Góa thiaⁿ-bô",
+    "tl": "Guá thiann-bô",
+    "tone": "2-1-5",
+    "audioHint": "gua-thiann-bo",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Phái-sè, góa thiann-bô. (Sorry, I don't understand.)",
+    "tags": [
+      "conversation",
+      "beginner"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Goodbye",
+    "hanzi": "再會",
+    "poj": "Chài-hōe",
+    "tl": "Tsài-huē",
+    "tone": "3-7",
+    "audioHint": "tsai-hue",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Tsài-huē! Tshing-tsài koh lâi. (Goodbye! Please come again.)",
+    "tags": [
+      "farewell"
+    ]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "Sorry / Excuse me",
+    "hanzi": "歹勢",
+    "poj": "Pháiⁿ-sè",
+    "tl": "Pháinn-sè",
+    "tone": "2-3",
+    "audioHint": "phainn-se",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Pháinn-sè, góa beh kng-kuè. (Excuse me, I need to pass through.)",
+    "tags": [
+      "politeness",
+      "common"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "What is your name?",
+    "hanzi": "你叫啥名？",
+    "poj": "Lí kiò siáⁿ-miâ?",
+    "tl": "Lí kiò siáⁿ-miâ?",
+    "audioHint": "li-kio-siann-mia",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "question",
+      "introductions"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "My name is...",
+    "hanzi": "我叫...",
+    "poj": "Góa kiò ...",
+    "tl": "Guá kiò ...",
+    "audioHint": "gua-kio",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "introductions"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I am hungry",
+    "hanzi": "我枵",
+    "poj": "Góa iau",
+    "tl": "Guá iau",
+    "audioHint": "gua-iau",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I am full",
+    "hanzi": "我食飽矣",
+    "poj": "Góa chia̍h-pá--ah",
+    "tl": "Guá tsia̍h-pá--ah",
+    "audioHint": "gua-tsiah-pa-ah",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I love you",
+    "hanzi": "我愛你",
+    "poj": "Góa ài lí",
+    "tl": "Guá ài lí",
+    "audioHint": "gua-ai-li",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "emotion",
+      "common"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Please speak slowly",
+    "hanzi": "請講較慢咧",
+    "poj": "Chhiáⁿ kóng khah bān--leh",
+    "tl": "Tshiánn kóng khah bān--leh",
+    "audioHint": "tshiann-kong-khah-ban-leh",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "learning",
+      "conversation"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Do you speak Hokkien?",
+    "hanzi": "你會曉講福建話無？",
+    "poj": "Lí ē-hiáu kóng Hok-kiàn-uē bô?",
+    "tl": "Lí ē-hiáu kóng Hok-kiàn-uē bô?",
+    "audioHint": "li-e-hiau-kong-hok-kian-ue-bo",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "language",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Let's eat",
+    "hanzi": "來食飯",
+    "poj": "Lâi chia̍h-pn̄g",
+    "tl": "Lâi tsia̍h-pn̄g",
+    "audioHint": "lai-tsiah-png",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Be careful",
+    "hanzi": "細膩",
+    "poj": "Sè-jī",
+    "tl": "Sè-jī",
+    "audioHint": "se-ji",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "warning",
+      "common"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "No problem",
+    "hanzi": "無問題",
+    "poj": "Bô būn-tê",
+    "tl": "Bô būn-tê",
+    "audioHint": "bo-bun-te",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "common",
+      "reassurance"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Never mind",
+    "hanzi": "無要緊",
+    "poj": "Bô iàu-kín",
+    "tl": "Bô iàu-kín",
+    "audioHint": "bo-iau-kin",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "common",
+      "politeness"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Happy birthday",
+    "hanzi": "生日快樂",
+    "poj": "Seⁿ-ji̍t khoài-lo̍k",
+    "tl": "Senn-ji̍t khuài-lo̍k",
+    "audioHint": "senn-jit-khuai-lok",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "celebration"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Where do you live?",
+    "hanzi": "你住佗位？",
+    "poj": "Lí tòa tó-uī?",
+    "tl": "Lí tuà tó-uī?",
+    "audioHint": "li-tua-to-ui",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "question",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "How old are you?",
+    "hanzi": "你幾歲？",
+    "poj": "Lí kúi-hè?",
+    "tl": "Lí kuí-hè?",
+    "audioHint": "li-kui-he",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "question",
+      "introductions"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I miss you",
+    "hanzi": "我想你",
+    "poj": "Góa siūⁿ lí",
+    "tl": "Guá siūnn lí",
+    "audioHint": "gua-siuenn-li",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": ["emotion"]
+  },
+
+  { "dialectId": "malaysia_north", "english": "One cup of coffee, less sweet", "hanzi": "一杯咖啡，少甜", "poj": "Chit-pōe ka-pi, bô-uah thn̂g", "tl": "Tsit-puē ka-pi, bô-uah thn̂g", "audioHint": "tsit-pue-ka-pi-bo-uah-thng", "audioUrl": "", "category": "phrase", "tags": ["food", "hawker", "ordering"] },
+  { "dialectId": "malaysia_north", "english": "One cup of tea, no sugar", "hanzi": "一杯茶，無糖", "poj": "Chit-pōe tê, bô thn̂g", "tl": "Tsit-puē tê, bô thn̂g", "audioHint": "tsit-pue-te-bo-thng", "audioUrl": "", "category": "phrase", "tags": ["food", "hawker", "ordering"] },
+  { "dialectId": "malaysia_north", "english": "Pack it up (takeaway)", "hanzi": "打包", "poj": "Tah-pau", "tl": "Tah-pau", "audioHint": "tah-pau", "audioUrl": "", "category": "phrase", "tags": ["food", "hawker", "ordering"] },
+  { "dialectId": "malaysia_north", "english": "Eat here", "hanzi": "佇遮食", "poj": "Tī-chia chia̍h", "tl": "Tī-tsia tsia̍h", "audioHint": "ti-tsia-tsiah", "audioUrl": "", "category": "phrase", "tags": ["food", "hawker", "ordering"] },
+  { "dialectId": "shared", "english": "How much is this?", "hanzi": "這個偌濟錢？", "poj": "Chit-ê jōa-chē chîⁿ?", "tl": "Tsit-ê juā-tsē tsînn?", "audioHint": "tsit-e-jua-tse-tsinn", "audioUrl": "", "category": "phrase", "tags": ["hawker", "shopping", "question"] },
+  { "dialectId": "shared", "english": "Can you make it less spicy?", "hanzi": "會使較無辣無？", "poj": "Ē-sái khah bô-joa̍h--bô?", "tl": "Ē-sái khah bô-lua̍h--bô?", "audioHint": "e-sai-khah-bo-luah-bo", "audioUrl": "", "category": "phrase", "tags": ["food", "hawker", "ordering"] },
+
+  { "dialectId": "shared", "english": "Eat full, nothing to do (busybody)", "hanzi": "食飽無代誌", "poj": "Chia̍h-pá bô tāi-chì", "tl": "Tsia̍h-pá bô tāi-tsì", "audioHint": "tsiah-pa-bo-tai-tsi", "audioUrl": "", "category": "phrase", "tags": ["proverb", "culture"] },
+  { "dialectId": "shared", "english": "One hand cannot clap alone (need cooperation)", "hanzi": "一支手拍袂響", "poj": "Chit-ki chhiú phah bōe hiáng", "tl": "Tsit-ki tshiú phah buē hiáng", "audioHint": "tsit-ki-tshiu-phah-bue-hiang", "audioUrl": "", "category": "phrase", "tags": ["proverb", "culture"] },
+  { "dialectId": "shared", "english": "Better to teach a skill than give food", "hanzi": "教人食魚不如教人釣魚", "poj": "Kà lâng chia̍h hî put-jî kà lâng tiò hî", "tl": "Kà lâng tsia̍h hî put-jî kà lâng tiò hî", "audioHint": "ka-lang-tsiah-hi-put-ji-ka-lang-tio-hi", "audioUrl": "", "category": "phrase", "tags": ["proverb", "culture"] },
+  { "dialectId": "shared", "english": "No money, no talk", "hanzi": "無錢免講", "poj": "Bô chîⁿ biân kóng", "tl": "Bô tsînn biân kóng", "audioHint": "bo-tsinn-bian-kong", "audioUrl": "", "category": "phrase", "tags": ["proverb", "culture"] },
+
+  { "dialectId": "shared", "english": "Turn left", "hanzi": "倒轉", "poj": "Tò-tńg", "tl": "Tò-tńg", "audioHint": "to-tng", "audioUrl": "", "category": "phrase", "tags": ["directions", "transport"] },
+  { "dialectId": "shared", "english": "Turn right", "hanzi": "正轉", "poj": "Chiàⁿ-tńg", "tl": "Tsiànn-tńg", "audioHint": "tsiann-tng", "audioUrl": "", "category": "phrase", "tags": ["directions", "transport"] },
+  { "dialectId": "shared", "english": "Go straight ahead", "hanzi": "直直行", "poj": "Ti̍t-ti̍t kiâⁿ", "tl": "Ti̍t-ti̍t kiânn", "audioHint": "tit-tit-kiann", "audioUrl": "", "category": "phrase", "tags": ["directions", "transport"] },
+  { "dialectId": "shared", "english": "Where is the toilet?", "hanzi": "廁所佇佗位？", "poj": "Chhì-só tī tó-uī?", "tl": "Tshì-só tī tó-uī?", "audioHint": "tshi-so-ti-to-ui", "audioUrl": "", "category": "phrase", "tags": ["directions", "daily"] },
+  { "dialectId": "shared", "english": "Is it far from here?", "hanzi": "離遮遠無？", "poj": "Lī chia hn̄g--bô?", "tl": "Lī tsia hn̄g--bô?", "audioHint": "li-tsia-hng-bo", "audioUrl": "", "category": "phrase", "tags": ["directions", "question"] },
+
+  { "dialectId": "shared", "english": "What time is it now?", "hanzi": "現時幾點？", "poj": "Hiān-sî kuí-tiám?", "tl": "Hiān-sî kuí-tiám?", "audioHint": "hian-si-kui-tiam", "audioUrl": "", "category": "phrase", "tags": ["time", "question"] },
+  { "dialectId": "shared", "english": "It is three o'clock", "hanzi": "三點矣", "poj": "Saⁿ-tiám--ah", "tl": "Sann-tiám--ah", "audioHint": "sann-tiam-ah", "audioUrl": "", "category": "phrase", "tags": ["time", "basic"] },
+  { "dialectId": "shared", "english": "See you tomorrow", "hanzi": "明仔再再見", "poj": "Bîn-á-chài chài-hōe", "tl": "Bîn-á-tsài tsài-huē", "audioHint": "bin-a-tsai-tsai-hue", "audioUrl": "", "category": "phrase", "tags": ["farewell", "time"] },
+  { "dialectId": "shared", "english": "Wait a moment", "hanzi": "等一下", "poj": "Tán--chit-ē", "tl": "Tán--tsit-ē", "audioHint": "tan-tsit-e", "audioUrl": "", "category": "phrase", "tags": ["daily", "conversation"] }
+]

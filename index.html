@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Learning Center - Learn Taiwanese, Malaysian, Singaporean Hokkien</title>
+    <meta
+      name="description"
+      content="Free online Hokkien learning platform with interactive games, flashcards, tone quizzes, and comprehensive dictionary. Learn Taiwanese, Malaysian, Singaporean, Philippine, and other Hokkien dialects with POJ and Tâi-lô romanization."
+    />
+    <meta name="keywords" content="Hokkien, learn Hokkien, Taiwanese Hokkien, Malaysian Hokkien, Singaporean Hokkien, Southern Min, 閩南語, POJ, Tâi-lô, Hokkien dictionary, Hokkien tones, language learning, Chinese dialects" />
+    <meta name="author" content="Hokkien Learning Center" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/" />
+    <meta property="og:title" content="Hokkien Learning Center - Learn Multiple Hokkien Dialects" />
+    <meta property="og:description" content="Free interactive platform to learn Taiwanese, Malaysian, Singaporean, and other Hokkien varieties with games, flashcards, and comprehensive dictionary." />
+    <meta property="og:image" content="https://your-username.github.io/hokkien/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-username.github.io/hokkien/" />
+    <meta property="twitter:title" content="Hokkien Learning Center - Learn Multiple Hokkien Dialects" />
+    <meta property="twitter:description" content="Free interactive platform to learn Taiwanese, Malaysian, Singaporean, and other Hokkien varieties with games, flashcards, and comprehensive dictionary." />
+    <meta property="twitter:image" content="https://your-username.github.io/hokkien/og-image.png" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Hokkien Learning Center",
+      "description": "Community-powered platform for learning Hokkien dialects including Taiwanese, Malaysian, Singaporean, Philippine, Indonesian, Burmese, and Thai varieties.",
+      "url": "https://your-username.github.io/hokkien/",
+      "sameAs": [
+        "https://github.com/your-username/hokkien"
+      ],
+      "educationalLevel": "Beginner to Advanced",
+      "teaches": [
+        "Hokkien Language",
+        "Taiwanese Hokkien",
+        "Malaysian Hokkien",
+        "Singaporean Hokkien",
+        "Southern Min"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card controls">
+        <h2>Choose a variety</h2>
+        <label for="dialectSelect">Dialect / Variety</label>
+        <select id="dialectSelect" aria-label="Select dialect"></select>
+        <p class="muted" id="dialectNotes"></p>
+      </section>
+
+      <section class="card" id="dictionarySection">
+        <div class="section-title-row">
+          <h2>Words & Phrases</h2>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search by English, Hanzi, POJ/TL..."
+            aria-label="Search dictionary"
+          />
+        </div>
+        <div id="dictionaryList" class="dictionary-list"></div>
+      </section>
+
+      <section class="card" id="pronunciationSection">
+        <h2>Pronunciation & Tone Charts</h2>
+        <div id="pronunciationTips" class="pill-list"></div>
+        <div id="toneTableWrap"></div>
+      </section>
+
+      <section class="card" id="gameSection">
+        <h2>Practice & Games</h2>
+        <p class="muted">Interactive learning tools to reinforce your Hokkien skills</p>
+        <div class="game-placeholder">
+          <a href="flashcards.html" class="game-card active">
+            <div class="game-icon">📚</div>
+            <div class="game-title">Flashcards</div>
+            <div class="game-desc">Spaced repetition learning with multiple modes</div>
+          </a>
+          <a href="tone-quiz.html" class="game-card active">
+            <div class="game-icon">🎯</div>
+            <div class="game-title">Tone Quiz</div>
+            <div class="game-desc">Test your ability to identify tone patterns</div>
+          </a>
+          <div class="game-card">
+            <div class="game-icon">🗣️</div>
+            <div class="game-title">Listening Practice</div>
+            <div class="game-desc">Match audio to written forms (requires audio files)</div>
+            <div class="game-status">Coming soon</div>
+          </div>
+          <a href="character-match.html" class="game-card active">
+            <div class="game-icon">🔤</div>
+            <div class="game-title">Character Match</div>
+            <div class="game-desc">Match Hanzi with romanization and meaning</div>
+          </a>
+          <a href="typing-practice.html" class="game-card active">
+            <div class="game-icon">⌨️</div>
+            <div class="game-title">Typing Practice</div>
+            <div class="game-desc">Type the POJ romanization from English or Hanzi prompts</div>
+          </a>
+          <a href="phrase-builder.html" class="game-card active">
+            <div class="game-icon">🧩</div>
+            <div class="game-title">Phrase Builder</div>
+            <div class="game-desc">Rearrange scrambled word chips into the correct phrase</div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Tone Quiz - Test Your Tone Recognition Skills | Hokkien Learning Center</title>
+    <meta name="description" content="Practice identifying Hokkien tone patterns with interactive quizzes. Master the 8 tones of Hokkien including tone sandhi rules for all dialects." />
+    <meta name="keywords" content="Hokkien tones, tone quiz, Hokkien pronunciation, tone patterns, tone sandhi, learn Hokkien tones" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/tone-quiz.html" />
+    
+    <meta property="og:title" content="Hokkien Tone Quiz - Practice Tone Recognition" />
+    <meta property="og:description" content="Test and improve your Hokkien tone recognition with interactive quizzes covering all major dialects." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/tone-quiz.html" />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <div class="game-header">
+          <h2>🎯 Tone Quiz</h2>
+          <button id="backBtn" class="secondary-btn">← Back to Learn</button>
+        </div>
+        
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="toneDialect">Dialect</label>
+            <select id="toneDialect"></select>
+          </div>
+          
+          <div class="control-group">
+            <label for="questionCount">Number of Questions</label>
+            <select id="questionCount">
+              <option value="5">5 questions</option>
+              <option value="10" selected>10 questions</option>
+              <option value="15">15 questions</option>
+              <option value="20">20 questions</option>
+            </select>
+          </div>
+          
+          <button id="startBtn" class="primary-btn">Start Quiz</button>
+        </div>
+      </section>
+
+      <section class="card quiz-container" id="quizSection" style="display: none;">
+        <div class="quiz-stats">
+          <span id="quizProgress">0 / 0</span>
+          <span id="quizScore">Score: 0 / 0</span>
+        </div>
+
+        <div class="quiz-question">
+          <div class="question-header">
+            <h3 id="questionWord"></h3>
+            <p class="question-meta" id="questionMeta"></p>
+          </div>
+
+          <p class="question-prompt">What is the tone pattern for this word?</p>
+
+          <div class="quiz-choices" id="quizChoices"></div>
+
+          <div id="feedbackSection" style="display: none;">
+            <div class="feedback" id="feedbackMessage"></div>
+            <button id="nextBtn" class="primary-btn">Next Question</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="resultsSection" style="display: none;">
+        <h2>Quiz Results</h2>
+        <div class="results-summary">
+          <div class="result-stat">
+            <div class="stat-value" id="totalQuestions">0</div>
+            <div class="stat-label">Questions</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value correct-color" id="correctAnswers">0</div>
+            <div class="stat-label">Correct</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value" id="finalScore">0%</div>
+            <div class="stat-label">Score</div>
+          </div>
+        </div>
+        
+        <div class="performance-message" id="performanceMessage"></div>
+        
+        <div class="results-actions">
+          <button id="retryBtn" class="primary-btn">Try Again</button>
+          <button id="backToLearnBtn" class="secondary-btn">Back to Learn</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/tone-quiz.js" type="module"></script>
+  </body>
+</html>

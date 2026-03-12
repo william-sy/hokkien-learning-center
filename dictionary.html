@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Dictionary - Words & Phrases by Letter | Hokkien Learning Center</title>
+    <meta name="description" content="Browse comprehensive Hokkien dictionary alphabetically. Find words and phrases with Hanzi, POJ, Tâi-lô romanization, tones, and examples for all dialects." />
+    <meta name="keywords" content="Hokkien dictionary, Hokkien words, Hokkien phrases, POJ dictionary, Tâi-lô dictionary, bilingual dictionary" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/dictionary.html" />
+    
+    <meta property="og:title" content="Hokkien Dictionary - Words & Phrases" />
+    <meta property="og:description" content="Searchable Hokkien dictionary with words and phrases in Hanzi, POJ, and Tâi-lô romanization." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/dictionary.html" />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link active">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>📖 Dictionary</h2>
+        
+        <div class="dictionary-controls">
+          <div class="control-group">
+            <label for="dictDialect">Dialect Filter</label>
+            <select id="dictDialect"></select>
+          </div>
+          
+          <div class="control-group">
+            <label for="dictSearch">Search</label>
+            <input
+              id="dictSearch"
+              type="search"
+              placeholder="Search English, Hanzi, POJ, or Tâi-lô..."
+              aria-label="Search dictionary"
+            />
+          </div>
+        </div>
+
+        <div class="alphabet-nav" id="alphabetNav">
+          <button class="alphabet-btn active" data-letter="all">All</button>
+          <button class="alphabet-btn" data-letter="a">A</button>
+          <button class="alphabet-btn" data-letter="b">B</button>
+          <button class="alphabet-btn" data-letter="c">C</button>
+          <button class="alphabet-btn" data-letter="d">D</button>
+          <button class="alphabet-btn" data-letter="e">E</button>
+          <button class="alphabet-btn" data-letter="f">F</button>
+          <button class="alphabet-btn" data-letter="g">G</button>
+          <button class="alphabet-btn" data-letter="h">H</button>
+          <button class="alphabet-btn" data-letter="i">I</button>
+          <button class="alphabet-btn" data-letter="j">J</button>
+          <button class="alphabet-btn" data-letter="k">K</button>
+          <button class="alphabet-btn" data-letter="l">L</button>
+          <button class="alphabet-btn" data-letter="m">M</button>
+          <button class="alphabet-btn" data-letter="n">N</button>
+          <button class="alphabet-btn" data-letter="o">O</button>
+          <button class="alphabet-btn" data-letter="p">P</button>
+          <button class="alphabet-btn" data-letter="q">Q</button>
+          <button class="alphabet-btn" data-letter="r">R</button>
+          <button class="alphabet-btn" data-letter="s">S</button>
+          <button class="alphabet-btn" data-letter="t">T</button>
+          <button class="alphabet-btn" data-letter="u">U</button>
+          <button class="alphabet-btn" data-letter="v">V</button>
+          <button class="alphabet-btn" data-letter="w">W</button>
+          <button class="alphabet-btn" data-letter="x">X</button>
+          <button class="alphabet-btn" data-letter="y">Y</button>
+          <button class="alphabet-btn" data-letter="z">Z</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.5rem">
+          <h3>Words <span class="muted" style="font-size:0.85em;font-weight:normal">— looking for phrases? <a href="phrases.html">Visit the Phrases page →</a></span></h3>
+          <button class="print-btn" onclick="window.print()">🖨️ Print flashcards</button>
+        </div>
+        <div class="learned-count-bar" id="dictLearnedBar"></div>
+        <div id="wordsCount" class="results-count"></div>
+        <div id="wordsList" class="dictionary-entries"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/dictionary-page.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contribute to Hokkien Dictionary - Add Words, Phrases, Audio | Hokkien Learning Center</title>
+    <meta name="description" content="Help preserve Hokkien language by contributing dictionary entries, phrases, audio recordings, and resources. Easy JSON-based contribution guide for all Hokkien dialects." />
+    <meta name="keywords" content="contribute Hokkien, Hokkien dictionary contribution, language preservation, open source language learning, community contributions" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/contribute.html" />
+    
+    <meta property="og:title" content="Contribute to Hokkien Learning Center" />
+    <meta property="og:description" content="Help preserve the Hokkien language. Contribute words, phrases, audio recordings, and resources to our community-powered learning platform." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/contribute.html" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      details { border-top: 1px solid var(--border, #333); margin-top: 0.75rem; }
+      details + details { margin-top: 0; }
+      summary {
+        cursor: pointer;
+        padding: 0.65rem 0.25rem;
+        font-weight: 600;
+        font-size: 1rem;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        user-select: none;
+        color: var(--text, #f5e6e6);
+      }
+      summary::-webkit-details-marker { display: none; }
+      summary::before {
+        content: '›';
+        display: inline-block;
+        width: 1rem;
+        transition: transform 0.18s ease;
+        opacity: 0.55;
+        font-size: 1.1rem;
+      }
+      details[open] > summary::before { transform: rotate(90deg); opacity: 1; }
+      details[open] > summary { color: var(--accent, #c0392b); }
+      .details-body { padding: 0.25rem 0.25rem 0.75rem 1.5rem; }
+    </style>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link active">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Contribute & Keep It Alive</h2>
+        <p>
+          This project is designed to grow from JSON files, so contributions are
+          lightweight and beginner-friendly.
+        </p>
+        <ol>
+          <li>Add entries to <strong>data/dictionary.json</strong></li>
+          <li>Submit a Pull Request on GitHub</li>
+          <li>Get listed in community credits</li>
+        </ol>
+
+        <p class="muted small">
+          Tip: Replace the repository links in <strong>contribute.js</strong> with your
+          real GitHub repo URL after publishing.
+        </p>
+        <div class="link-actions">
+          <a id="issueLink" target="_blank" rel="noopener noreferrer">Open suggestion issue</a>
+          <a id="prLink" target="_blank" rel="noopener noreferrer">Open repository for PR</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <details>
+          <summary>What You Can Add</summary>
+          <div class="details-body">
+        <div class="contrib-ideas">
+          <div class="idea-card">
+            <h3>📝 Dictionary Entries</h3>
+            <p>Words, phrases, idioms with Hanzi, romanization, tones, and examples.</p>
+          </div>
+          <div class="idea-card">
+            <h3>🎵 Tone Charts</h3>
+            <p>Dialect-specific tone contours and descriptions.</p>
+          </div>
+          <div class="idea-card">
+            <h3>🔗 Resources</h3>
+            <p>Books, websites, videos, or research papers about Hokkien.</p>
+          </div>
+          <div class="idea-card">
+            <h3>🗺️ Regional Info</h3>
+            <p>Notes about specific dialects, pronunciation tips, or cultural context.</p>
+          </div>
+        </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="card">
+        <details>
+          <summary>JSON Structure Guide</summary>
+          <div class="details-body">
+        <p>Dictionary entries are stored in <code>data/dictionary.json</code> as a simple array. Metadata (dialects, resources, tone charts) stays in <code>data/content.json</code>.</p>
+
+        <details>
+          <summary>Field Reference</summary>
+          <div class="details-body">
+        <div class="field-guide">
+          <div class="field-item">
+            <h4><code>dialectId</code> (required)</h4>
+            <p>The dialect/variety this entry belongs to. Use one of these values:</p>
+            <ul class="compact-list">
+              <li><code>"shared"</code> - Shared / Cross-dialect</li>
+              <li><code>"quanzhou"</code> - Quanzhou (泉州)</li>
+              <li><code>"zhangzhou"</code> - Zhangzhou (漳州)</li>
+              <li><code>"xiamen"</code> - Xiamen / Amoy (廈門)</li>
+              <li><code>"taiwanese"</code> - Taiwanese</li>
+              <li><code>"sea_hokkien"</code> - Southeast Asian Hokkien (General)</li>
+              <li><code>"malaysia_north"</code> - Malaysian Hokkien (North)</li>
+              <li><code>"malaysia_central"</code> - Malaysian Hokkien (Central)</li>
+              <li><code>"malaysia_south"</code> - Malaysian Hokkien (South)</li>
+              <li><code>"singapore"</code> - Singaporean Hokkien</li>
+              <li><code>"philippine"</code> - Philippine Hokkien</li>
+              <li><code>"indonesian"</code> - Indonesian Hokkien</li>
+              <li><code>"burmese"</code> - Burmese Hokkien</li>
+              <li><code>"thai"</code> - Thai Hokkien</li>
+            </ul>
+          </div>
+          <div class="field-item">
+            <h4><code>english</code> (required)</h4>
+            <p>English translation or meaning. Keep it concise and clear.</p>
+            <p class="example">Example: <code>"Hello"</code>, <code>"Thank you"</code>, <code>"Where are you going?"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>hanzi</code> (optional)</h4>
+            <p>Chinese characters (traditional). Use empty string <code>""</code> if not applicable.</p>
+            <p class="example">Example: <code>"你好"</code>, <code>"多謝"</code>, <code>"好食"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>poj</code> (optional)</h4>
+            <p>Pe̍h-ōe-jī romanization. Standard romanization system for Hokkien.</p>
+            <p class="example">Example: <code>"Lí-hó"</code>, <code>"To-siā"</code>, <code>"Hó-chia̍h"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>tl</code> (optional)</h4>
+            <p>Tâi-lô (Taiwanese Romanization System). Official romanization in Taiwan.</p>
+            <p class="example">Example: <code>"Lí-hó"</code>, <code>"To-siā"</code>, <code>"Hó-tsia̍h"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>tone</code> (optional)</h4>
+            <p>Tone numbers for each syllable, separated by hyphens.</p>
+            <p class="example">Example: <code>"2-2"</code>, <code>"1-7"</code>, <code>"2-4-3-2-7"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>audioHint</code> (optional)</h4>
+            <p>Simplified pronunciation hint for learners without tone marks.</p>
+            <p class="example">Example: <code>"li-ho"</code>, <code>"to-sia"</code>, <code>"ho-tsiah"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>audioUrl</code> (optional)</h4>
+            <p>URL to audio file (MP3, WAV, OGG). Leave as empty string <code>""</code> if no audio available.</p>
+            <p class="example">Example: <code>"audio/hello.mp3"</code>, <code>"https://example.com/audio/hello.mp3"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>example</code> (optional)</h4>
+            <p>Example sentence showing the word/phrase in context.</p>
+            <p class="example">Example: <code>"Lí-hó! Góa sī sin-lâng. (Hello! I am new here.)"</code></p>
+          </div>
+          <div class="field-item">
+            <h4><code>tags</code> (optional)</h4>
+            <p>Array of tags for categorization and search. Use lowercase, relevant keywords.</p>
+            <p class="example">Example: <code>["greeting", "beginner"]</code>, <code>["food", "restaurant"]</code></p>
+            <p class="muted small">Suggested: greeting, politeness, food, question, daily, beginner, intermediate, advanced, family, travel, numbers, time, emotions</p>
+          </div>
+        </div>
+          </div>
+        </details>
+
+        <details>
+          <summary>Complete entry example</summary>
+          <div class="details-body">
+        <pre><code>{
+  "dialectId": "taiwanese",
+  "english": "Thank you",
+  "hanzi": "多謝",
+  "poj": "To-siā",
+  "tl": "To-siā",
+  "tone": "1-7",
+  "audioHint": "to-sia",
+  "audioUrl": "",
+  "example": "To-siā lí ê pang-chān.",
+  "tags": ["politeness", "beginner"]
+}</code></pre>
+        <p class="muted small"><strong>Audio:</strong> Audio buttons only appear when <code>audioUrl</code> has a value. Leave empty if unavailable.</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>Adding a resource entry</summary>
+          <div class="details-body">
+        <pre><code>{
+  "title": "Hokkien Dictionary",
+  "type": "Reference",
+  "url": "https://example.com"
+}</code></pre>
+          </div>
+        </details>
+          </div>
+        </details>
+      </section>
+
+      <section class="card">
+        <details>
+          <summary>🐍 Python Contributor Tools</summary>
+          <div class="details-body">
+        <p>The <code>scripts/</code> folder contains helper tools for power contributors. Run all commands from the <strong>repo root</strong>.</p>
+
+        <div class="field-guide">
+          <div class="field-item">
+            <h4><code>scripts/add_entry.py</code></h4>
+            <p>Interactive CLI to add new words or phrases to <code>data/dictionary.json</code> with guided prompts.</p>
+            <pre><code>python scripts/add_entry.py</code></pre>
+          </div>
+
+          <div class="field-item">
+            <h4><code>scripts/ocr_dictionary.py</code></h4>
+            <p>OCR pipeline for scanning physical Hokkien dictionaries via webcam or image file. Extracts entries automatically and flags uncertain results for review.</p>
+            <pre><code># Install dependencies first:
+pip install opencv-python pytesseract Pillow
+brew install tesseract   # macOS
+
+# Run:
+python scripts/ocr_dictionary.py</code></pre>
+          </div>
+
+          <div class="field-item">
+            <h4><code>scripts/correct_poj.py</code></h4>
+            <p>Fixes common Tesseract OCR misreads in POJ romanization. Run after OCR scanning, or use <code>--dry-run</code> to preview changes.</p>
+            <pre><code>python scripts/correct_poj.py            # fix in-place
+python scripts/correct_poj.py --dry-run  # preview only
+python scripts/correct_poj.py --word sti # look up one word</code></pre>
+          </div>
+
+          <div class="field-item">
+            <h4><code>scripts/test_parser.py</code></h4>
+            <p>Quick sanity-check: runs the OCR parser against a saved <code>ocr_output.txt</code> file and prints the parsed entries.</p>
+            <pre><code>python scripts/test_parser.py</code></pre>
+          </div>
+        </div>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/contribute.js" type="module"></script>
+  </body>
+</html>

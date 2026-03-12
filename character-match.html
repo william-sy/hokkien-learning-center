@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Character Matching Game - Match Hanzi with POJ/Tâi-lô | Hokkien Learning Center</title>
+    <meta name="description" content="Fun memory game to match Hokkien Hanzi characters with POJ/Tâi-lô romanization and English meanings. Perfect for visual learners." />
+    <meta name="keywords" content="Hokkien characters, Hanzi matching game, POJ, Tâi-lô, Hokkien memory game, learn Chinese characters" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/character-match.html" />
+    
+    <meta property="og:title" content="Hokkien Character Matching Game" />
+    <meta property="og:description" content="Match Hokkien characters with their romanization in this fun memory game supporting all dialects." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/character-match.html" />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <div class="game-header">
+          <h2>🔤 Character Match</h2>
+          <button id="backBtn" class="secondary-btn">← Back to Learn</button>
+        </div>
+        
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="matchDialect">Dialect</label>
+            <select id="matchDialect"></select>
+          </div>
+          
+          <div class="control-group">
+            <label for="matchMode">Match Mode</label>
+            <select id="matchMode">
+              <option value="hanzi-to-romanization">Hanzi → Romanization</option>
+              <option value="romanization-to-hanzi">Romanization → Hanzi</option>
+              <option value="hanzi-to-english">Hanzi → English</option>
+              <option value="english-to-hanzi">English → Hanzi</option>
+            </select>
+          </div>
+          
+          <button id="startBtn" class="primary-btn">Start Game</button>
+        </div>
+      </section>
+
+      <section class="card match-container" id="matchSection" style="display: none;">
+        <div class="match-stats">
+          <span id="matchTimer">Time: 0s</span>
+          <span id="matchScore">Matches: 0 / 0</span>
+        </div>
+
+        <div class="match-instruction">
+          <p>Click pairs to match them. Find all matching pairs!</p>
+        </div>
+
+        <div class="match-grid" id="matchGrid"></div>
+
+        <button id="endGameBtn" class="secondary-btn">End Game</button>
+      </section>
+
+      <section class="card" id="resultsSection" style="display: none;">
+        <h2>Game Results</h2>
+        <div class="results-summary">
+          <div class="result-stat">
+            <div class="stat-value" id="pairsCount">0</div>
+            <div class="stat-label">Pairs Matched</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value" id="timeSpent">0s</div>
+            <div class="stat-label">Time</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value" id="clicksCount">0</div>
+            <div class="stat-label">Clicks</div>
+          </div>
+        </div>
+        
+        <div class="performance-message" id="performanceMessage"></div>
+        
+        <div class="results-actions">
+          <button id="playAgainBtn" class="primary-btn">Play Again</button>
+          <button id="backToLearnBtn" class="secondary-btn">Back to Learn</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/character-match.js" type="module"></script>
+  </body>
+</html>

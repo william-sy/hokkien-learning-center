@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Phrases - Common Sentences & Expressions | Hokkien Learning Center</title>
+    <meta name="description" content="Learn everyday Hokkien phrases, sentences, and expressions. Greetings, questions, and common conversation starters with POJ, Tâi-lô, and audio." />
+    <meta name="keywords" content="Hokkien phrases, Hokkien sentences, Hokkien greetings, Hokkien conversation, learn Hokkien" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/phrases.html" />
+
+    <meta property="og:title" content="Hokkien Phrases - Common Sentences & Expressions" />
+    <meta property="og:description" content="Everyday Hokkien phrases with Hanzi, POJ, and Tâi-lô romanization." />
+    <meta property="og:url" content="https://your-username.github.io/hokkien/phrases.html" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link active">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>💬 Phrases</h2>
+        <p class="muted">Everyday sentences, greetings, and expressions to get you talking.</p>
+
+        <div class="dictionary-controls">
+          <div class="control-group">
+            <label for="phraseDialect">Dialect Filter</label>
+            <select id="phraseDialect"></select>
+          </div>
+
+          <div class="control-group">
+            <label for="phraseCategory">Category</label>
+            <select id="phraseCategory">
+              <option value="all">All categories</option>
+              <option value="greeting">Greetings</option>
+              <option value="farewell">Farewells</option>
+              <option value="question">Questions</option>
+              <option value="food">Food &amp; Drink</option>
+              <option value="hawker">Hawker &amp; Ordering</option>
+              <option value="proverb">Proverbs</option>
+              <option value="directions">Directions</option>
+              <option value="time">Time</option>
+              <option value="emotion">Emotions</option>
+              <option value="introductions">Introductions</option>
+              <option value="politeness">Politeness</option>
+              <option value="daily">Daily Life</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="phraseSearch">Search</label>
+            <input
+              id="phraseSearch"
+              type="search"
+              placeholder="Search English, Hanzi, or POJ..."
+              aria-label="Search phrases"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="learned-count-bar" id="phrasesLearnedBar"></div>
+        <div id="phrasesCount" class="results-count"></div>
+        <div id="phrasesList" class="dictionary-entries"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+
+    <script src="js/phrases-page.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Phrase Builder - Arrange POJ Words | Hokkien Learning Center</title>
+    <meta name="description" content="Practice Hokkien sentence structure by rearranging scrambled POJ word chips into the correct phrase order." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-username.github.io/hokkien/phrase-builder.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .pb-prompt { text-align: center; margin: 1.5rem 0; }
+      .pb-prompt .pb-english { font-size: 1.8rem; font-weight: bold; }
+      .pb-prompt .pb-hanzi   { font-size: 1.3rem; opacity: 0.7; margin-top: 0.25rem; }
+
+      .pb-answer-zone {
+        min-height: 3.5rem;
+        border: 2px dashed var(--accent, #c0392b);
+        border-radius: 8px;
+        padding: 0.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 1rem 0;
+        align-items: center;
+        background: rgba(192,57,43,0.04);
+      }
+      .pb-answer-zone.correct { border-color: #27ae60; background: rgba(39,174,96,0.06); }
+      .pb-answer-zone.wrong   { border-color: #e74c3c; background: rgba(231,76,60,0.06); }
+      .pb-answer-zone .placeholder {
+        opacity: 0.35; font-style: italic; font-size: 0.9rem; pointer-events: none;
+      }
+
+      .pb-bank {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0.75rem 0;
+        min-height: 2.5rem;
+      }
+
+      .pb-chip {
+        background: var(--card-bg, #1e1e1e);
+        border: 1.5px solid var(--accent, #c0392b);
+        border-radius: 20px;
+        padding: 0.35rem 0.85rem;
+        cursor: pointer;
+        font-size: 1rem;
+        user-select: none;
+        transition: opacity 0.15s, transform 0.1s;
+      }
+      .pb-chip:hover { opacity: 0.8; transform: scale(1.05); }
+      .pb-chip.used  { opacity: 0.2; pointer-events: none; }
+
+      .pb-feedback { text-align: center; min-height: 1.8rem; font-size: 1.05rem; margin: 0.5rem 0; }
+      .pb-feedback.correct { color: #27ae60; }
+      .pb-feedback.wrong   { color: #e74c3c; }
+      .pb-expected { text-align: center; font-size: 0.95rem; opacity: 0.7; min-height: 1.4rem; }
+
+      .pb-controls { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; margin: 0.75rem 0; }
+      .clear-btn   { background: none; border: 1px solid currentColor; opacity: 0.5; padding: 0.3rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+      .clear-btn:hover { opacity: 0.9; }
+
+      .score-row { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin: 1rem 0; }
+      .score-box .score-val   { font-size: 2rem; font-weight: bold; text-align: center; }
+      .score-box .score-label { font-size: 0.8rem; opacity: 0.6; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <div class="game-header">
+          <h2>🧩 Phrase Builder</h2>
+          <button id="backBtn" class="secondary-btn">← Back to Learn</button>
+        </div>
+        <p style="opacity:0.65;font-size:0.9rem;margin-bottom:1rem">
+          Tap the word chips in the correct order to build the Hokkien phrase.
+        </p>
+
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="pbDialect">Dialect</label>
+            <select id="pbDialect"></select>
+          </div>
+          <div class="control-group">
+            <label for="pbCategory">Category</label>
+            <select id="pbCategory">
+              <option value="all">All categories</option>
+              <option value="greetings">Greetings</option>
+              <option value="farewells">Farewells</option>
+              <option value="questions">Questions</option>
+              <option value="food">Food</option>
+              <option value="hawker">Hawker</option>
+              <option value="ordering">Ordering</option>
+              <option value="proverb">Proverbs</option>
+              <option value="directions">Directions</option>
+              <option value="time">Time</option>
+              <option value="emotions">Emotions</option>
+              <option value="daily">Daily Life</option>
+            </select>
+          </div>
+          <button id="startPBBtn" class="primary-btn">Start</button>
+        </div>
+      </section>
+
+      <section class="card" id="pbGame" style="display:none">
+        <div class="score-row">
+          <div class="score-box"><div class="score-val" id="pbCorrect">0</div><div class="score-label">Correct</div></div>
+          <div class="score-box"><div class="score-val" id="pbWrong">0</div><div class="score-label">Wrong</div></div>
+          <div class="score-box"><div class="score-val" id="pbSkipped">0</div><div class="score-label">Skipped</div></div>
+          <div class="score-box"><div class="score-val" id="pbRemaining">0</div><div class="score-label">Remaining</div></div>
+        </div>
+
+        <div class="pb-prompt">
+          <div class="pb-english" id="pbEnglish"></div>
+          <div class="pb-hanzi"   id="pbHanzi"></div>
+        </div>
+
+        <p style="font-size:0.8rem;opacity:0.5;text-align:center;margin-bottom:0.25rem">Your answer</p>
+        <div class="pb-answer-zone" id="pbAnswerZone">
+          <span class="placeholder">Tap a word below to start…</span>
+        </div>
+
+        <p style="font-size:0.8rem;opacity:0.5;text-align:center;margin:0.25rem 0">Word bank</p>
+        <div class="pb-bank" id="pbBank"></div>
+
+        <div class="pb-feedback" id="pbFeedback"></div>
+        <div class="pb-expected" id="pbExpected"></div>
+
+        <div class="pb-controls">
+          <button id="pbCheckBtn" class="primary-btn">Check</button>
+          <button id="pbClearBtn" class="clear-btn">Clear</button>
+          <button id="pbSkipBtn"  class="clear-btn">Skip</button>
+        </div>
+      </section>
+
+      <section class="card" id="pbSummary" style="display:none">
+        <h3>Session Complete 🎉</h3>
+        <div class="score-row">
+          <div class="score-box"><div class="score-val" id="pbSumCorrect">0</div><div class="score-label">Correct</div></div>
+          <div class="score-box"><div class="score-val" id="pbSumWrong">0</div><div class="score-label">Wrong</div></div>
+          <div class="score-box"><div class="score-val" id="pbSumSkipped">0</div><div class="score-label">Skipped</div></div>
+        </div>
+        <div style="text-align:center;margin-top:1rem">
+          <button id="pbRestartBtn" class="primary-btn">Play Again</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/phrase-builder.js" type="module"></script>
+  </body>
+</html>
