@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-username.github.io/hokkien/sitemap.xml
+Sitemap: https://william-sy.github.io/hokkien-learning-center/sitemap.xml

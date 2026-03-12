@@ -3,7 +3,7 @@ const COOKIE_KEYS = {
   search: "hokkien_search"
 };
 
-const REPO_URL = "https://github.com/your-username/your-repo";
+const REPO_URL = "https://github.com/william-sy/hokkien-learning-center";
 
 const state = {
   content: null,

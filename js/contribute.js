@@ -1,4 +1,4 @@
-const REPO_URL = "https://github.com/your-username/your-repo";
+const REPO_URL = "https://github.com/william-sy/hokkien-learning-center";
 
 function byId(id) {
   return document.getElementById(id);
