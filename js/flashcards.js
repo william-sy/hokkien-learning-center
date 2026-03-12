@@ -176,32 +176,65 @@ function generateCardContent(entry) {
     ? ["english-to-hokkien", "hokkien-to-english", "hanzi-to-romanization"][Math.floor(Math.random() * 3)]
     : state.mode;
 
-  const poj = entry.poj || entry.tl || "-";
-  const toneHint = (state.difficulty === "easy" && entry.tone)
-    ? `<p class="flashcard-hint">💡 Tone: ${entry.tone}</p>` : "";
+  const poj  = entry.poj || entry.tl || "-";
+  const diff = state.difficulty;
+
+  // Easy hint: first syllable of POJ (always available, e.g. "chá-...")
+  const firstSyllable = poj.split(/[-\s]/)[0];
+  const pojHint    = diff === "easy"
+    ? `<p class="flashcard-hint">💡 Starts with: <strong>${firstSyllable}-</strong></p>` : "";
+  const toneHint   = diff === "easy" && entry.tone
+    ? `<p class="flashcard-hint">🎵 Tone: ${entry.tone}</p>` : "";
+  const exHint     = diff === "easy" && entry.example
+    ? `<p class="flashcard-hint">💬 ${entry.example}</p>` : "";
 
   switch (mode) {
     case "english-to-hokkien":
-      question = `<h3>${entry.english}</h3>${toneHint}`;
-      answer = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>`;
+      // Easy:   English + POJ first-syllable hint + tone + example
+      // Normal: English only → flip reveals Hanzi + POJ + tone + example
+      // Hard:   English only → flip reveals Hanzi ONLY (must recall pronunciation)
+      question = `<h3>${entry.english}</h3>${pojHint}${toneHint}${exHint}`;
+      if (diff === "hard") {
+        answer = `<h3 style="font-size:2rem">${entry.hanzi || entry.english}</h3>
+                  <p class="flashcard-hint" style="opacity:0.4">Romanization hidden — recall it yourself</p>`;
+      } else {
+        answer = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>`;
+      }
       break;
 
     case "hokkien-to-english":
-      question = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>`;
+      // Hard: Hanzi only on question (no romanization) — already meaningful
+      // Easy/Normal: Hanzi + POJ as usual
+      if (diff === "hard") {
+        question = `<h3 style="font-size:2rem">${entry.hanzi || entry.english}</h3>
+                    <p class="flashcard-hint" style="opacity:0.4">Romanization hidden in hard mode</p>`;
+      } else {
+        question = `<h3>${entry.hanzi || "(No Hanzi)"}</h3><p class="romanization">${poj}</p>${toneHint}`;
+      }
       answer = `<h3>${entry.english}</h3>`;
       break;
 
     case "hanzi-to-romanization":
-      question = `<h3>${entry.hanzi || entry.english}</h3>${toneHint}`;
-      answer = `<p class="romanization large">${poj}</p>`;
+      // Easy: Hanzi + English meaning hint + tone hint on question
+      const meaningHint = diff === "easy"
+        ? `<p class="flashcard-hint">🔤 ${entry.english}</p>` : "";
+      question = `<h3 style="font-size:2rem">${entry.hanzi || entry.english}</h3>${meaningHint}${toneHint}`;
+      answer   = `<p class="romanization large">${poj}</p>`;
       break;
   }
 
-  if (state.difficulty !== "hard") {
+  // Details (shown after flip) — hidden entirely in Hard
+  if (diff !== "hard") {
     if (mode === "english-to-hokkien" || mode === "hokkien-to-english") {
-      details = `<p><strong>Tone:</strong> ${entry.tone || "-"}</p>${entry.example ? `<p><strong>Example:</strong> ${entry.example}</p>` : ""}`;
+      details = [
+        entry.tone    ? `<p><strong>Tone:</strong> ${entry.tone}</p>` : "",
+        entry.example ? `<p><strong>Example:</strong> ${entry.example}</p>` : ""
+      ].join("");
     } else {
-      details = `<p><strong>English:</strong> ${entry.english}</p><p><strong>Tone:</strong> ${entry.tone || "-"}</p>`;
+      details = [
+        `<p><strong>English:</strong> ${entry.english}</p>`,
+        entry.tone ? `<p><strong>Tone:</strong> ${entry.tone}</p>` : ""
+      ].join("");
     }
   }
 
