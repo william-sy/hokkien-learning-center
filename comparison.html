@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dialect Comparison - Hokkien Learning Center</title>
+    <meta name="description" content="Compare the same word or phrase across multiple Hokkien dialects including Taiwanese, Malaysian, Singaporean, Philippine, and more." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://william-sy.github.io/hokkien-learning-center/comparison.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link active">Comparison</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+
+      <section class="card">
+        <h2>Dialect Comparison</h2>
+        <p class="muted">Search for a word to see how it differs across Hokkien varieties. Words with many variants are highlighted below.</p>
+
+        <div class="comp-controls">
+          <input
+            id="compSearch"
+            type="search"
+            placeholder="Search English, Hanzi, or POJ/TL…"
+            aria-label="Search word"
+            autocomplete="off"
+          />
+          <span id="compResultCount" class="muted small"></span>
+        </div>
+
+        <!-- Popular words quick-pick (3+ dialect variants) -->
+        <div id="compChips" class="comp-word-chips" aria-label="Quick-pick words"></div>
+
+        <!-- Comparison table -->
+        <div id="compTableWrap" class="comp-table-wrap">
+          <p class="comp-placeholder" id="compPlaceholder">Loading dictionary…</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
+
+    <script type="module">
+// ── comparison.js (inline) ──────────────────────────────────────────────────
+
+const DIALECT_LABELS = {
+  shared:           "Shared / Cross-dialect",
+  quanzhou:         "Quanzhou (泉州)",
+  zhangzhou:        "Zhangzhou (漳州)",
+  xiamen:           "Xiamen / Amoy (廈門)",
+  taiwanese:        "Taiwanese (臺灣)",
+  sea_hokkien:      "SE Asian Hokkien",
+  malaysia_north:   "Malaysian – North",
+  malaysia_central: "Malaysian – Central",
+  malaysia_south:   "Malaysian – South",
+  singapore:        "Singaporean",
+  philippine:       "Philippine",
+  indonesian:       "Indonesian",
+  burmese:          "Burmese",
+  thai:             "Thai",
+};
+
+// ── state ───────────────────────────────────────────────────────────────────
+let allEntries  = [];   // raw dictionary.json array
+let wordMap     = new Map();  // english → Entry[]
+let popularWords = [];  // words with ≥ 3 dialect variants
+let activeChip  = null; // currently selected chip word
+
+// ── elements ─────────────────────────────────────────────────────────────────
+const searchInput  = document.getElementById("compSearch");
+const chipsWrap    = document.getElementById("compChips");
+const tableWrap    = document.getElementById("compTableWrap");
+const placeholder  = document.getElementById("compPlaceholder");
+const resultCount  = document.getElementById("compResultCount");
+
+// ── load data ────────────────────────────────────────────────────────────────
+async function loadDictionary() {
+  try {
+    const res  = await fetch("data/dictionary.json");
+    allEntries = await res.json();
+  } catch (e) {
+    console.error("Could not load dictionary.json:", e);
+    allEntries = [];
+  }
+
+  // Build word map grouped by english key (lower-cased for grouping)
+  for (const entry of allEntries) {
+    const key = (entry.english || "").trim();
+    if (!key) continue;
+    if (!wordMap.has(key)) wordMap.set(key, []);
+    wordMap.get(key).push(entry);
+  }
+
+  // Find words that appear in 3+ distinct dialects
+  popularWords = [];
+  for (const [word, entries] of wordMap) {
+    const dialects = new Set(entries.map(e => e.dialectId).filter(Boolean));
+    if (dialects.size >= 3) popularWords.push({ word, count: dialects.size });
+  }
+  // Sort by variant count desc, then alpha
+  popularWords.sort((a, b) => b.count - a.count || a.word.localeCompare(b.word));
+
+  renderChips(popularWords.slice(0, 40));
+  placeholder.textContent = popularWords.length
+    ? "Search for a word above, or pick one of the popular words below."
+    : "Search for a word above.";
+}
+
+// ── chips ─────────────────────────────────────────────────────────────────────
+function renderChips(words) {
+  chipsWrap.innerHTML = "";
+  if (words.length === 0) {
+    chipsWrap.textContent = "No popular words found.";
+    return;
+  }
+  for (const { word, count } of words) {
+    const btn = document.createElement("button");
+    btn.className = "comp-chip";
+    btn.innerHTML = `${word}<span class="comp-count-badge">${count}</span>`;
+    btn.addEventListener("click", () => selectWord(word, btn));
+    chipsWrap.appendChild(btn);
+  }
+}
+
+function selectWord(word, chipBtn) {
+  // Toggle: clicking the active chip deselects it
+  if (activeChip === word) {
+    activeChip = null;
+    chipBtn.classList.remove("active");
+    searchInput.value = "";
+    clearTable();
+    return;
+  }
+  activeChip = word;
+  // Remove active from all chips
+  chipsWrap.querySelectorAll(".comp-chip").forEach(c => c.classList.remove("active"));
+  chipBtn.classList.add("active");
+  searchInput.value = word;
+  showComparison(word);
+}
+
+// ── search ────────────────────────────────────────────────────────────────────
+function handleSearch() {
+  const raw = searchInput.value.trim();
+
+  // Deactivate chip if user is typing freely
+  if (raw !== activeChip) {
+    activeChip = null;
+    chipsWrap.querySelectorAll(".comp-chip").forEach(c => c.classList.remove("active"));
+  }
+
+  if (raw.length < 2) {
+    clearTable();
+    resultCount.textContent = "";
+    return;
+  }
+
+  // Find best English match first (exact, then starts-with, then contains)
+  const q = raw.toLowerCase();
+  let bestKey = null;
+
+  // Exact match
+  for (const key of wordMap.keys()) {
+    if (key.toLowerCase() === q) { bestKey = key; break; }
+  }
+  // Starts-with
+  if (!bestKey) {
+    for (const key of wordMap.keys()) {
+      if (key.toLowerCase().startsWith(q)) { bestKey = key; break; }
+    }
+  }
+  // Hanzi / POJ contains
+  if (!bestKey) {
+    outer: for (const [key, entries] of wordMap) {
+      for (const e of entries) {
+        if (
+          (e.hanzi  && e.hanzi.includes(raw)) ||
+          (e.poj    && e.poj.toLowerCase().includes(q)) ||
+          (e.tl     && e.tl.toLowerCase().includes(q))
+        ) {
+          bestKey = key;
+          break outer;
+        }
+      }
+    }
+  }
+  // English contains fallback
+  if (!bestKey) {
+    for (const key of wordMap.keys()) {
+      if (key.toLowerCase().includes(q)) { bestKey = key; break; }
+    }
+  }
+
+  if (bestKey) {
+    showComparison(bestKey);
+  } else {
+    clearTable();
+    resultCount.textContent = "No match found.";
+  }
+}
+
+// ── table ─────────────────────────────────────────────────────────────────────
+function showComparison(englishKey) {
+  const entries = wordMap.get(englishKey);
+  if (!entries || entries.length === 0) { clearTable(); return; }
+
+  const dialectCount = new Set(entries.map(e => e.dialectId).filter(Boolean)).size;
+  resultCount.textContent = `${dialectCount} dialect variant${dialectCount !== 1 ? "s" : ""} for "${englishKey}"`;
+
+  const table = document.createElement("table");
+  table.className = "comp-table";
+  table.setAttribute("role", "table");
+
+  // Header
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>Dialect</th>
+        <th>漢字 Hanzi</th>
+        <th>POJ</th>
+        <th>TL</th>
+        <th>Tone</th>
+        <th>Example</th>
+      </tr>
+    </thead>`;
+
+  const tbody = document.createElement("tbody");
+
+  // Sort: shared first, then alphabetically by dialectId
+  const sorted = [...entries].sort((a, b) => {
+    if (a.dialectId === "shared") return -1;
+    if (b.dialectId === "shared") return  1;
+    return (a.dialectId || "").localeCompare(b.dialectId || "");
+  });
+
+  for (const e of sorted) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="ct-dialect">${DIALECT_LABELS[e.dialectId] || e.dialectId || "—"}</td>
+      <td class="ct-hanzi">${e.hanzi  || "<span class='ct-muted'>—</span>"}</td>
+      <td class="ct-poj">${e.poj    || "<span class='ct-muted'>—</span>"}</td>
+      <td>${e.tl     || "<span class='ct-muted'>—</span>"}</td>
+      <td>${e.tone   || "<span class='ct-muted'>—</span>"}</td>
+      <td class="ct-muted">${e.example ? escHtml(e.example) : "—"}</td>`;
+    tbody.appendChild(tr);
+  }
+
+  table.appendChild(tbody);
+
+  // Replace table content (keep placeholder element for later reuse)
+  placeholder.style.display = "none";
+  tableWrap.innerHTML = "";
+  tableWrap.appendChild(placeholder);
+  tableWrap.appendChild(table);
+}
+
+function clearTable() {
+  // Remove any table, show placeholder
+  const old = tableWrap.querySelector("table");
+  if (old) old.remove();
+  placeholder.style.display = "";
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// ── init ──────────────────────────────────────────────────────────────────────
+searchInput.addEventListener("input", handleSearch);
+searchInput.addEventListener("keydown", e => {
+  if (e.key === "Enter") handleSearch();
+});
+
+loadDictionary();
+    </script>
+  </body>
+</html>

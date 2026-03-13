@@ -51,6 +51,7 @@
     }
     </script>
     <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
   </head>
   <body>
     <header class="hero">
@@ -61,6 +62,7 @@
         <a href="phrases.html" class="nav-link">Phrases</a>
         <a href="grammar.html" class="nav-link">Grammar</a>
         <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>
         <a href="info.html" class="nav-link">General Info</a>
         <a href="contribute.html" class="nav-link">Contribute</a>
         <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
@@ -68,27 +70,6 @@
     </header>
 
     <main class="container">
-      <section class="card controls">
-        <h2>Choose a variety</h2>
-        <label for="dialectSelect">Dialect / Variety</label>
-        <select id="dialectSelect" aria-label="Select dialect"></select>
-        <p class="muted" id="dialectNotes"></p>
-      </section>
-
-      <section class="card" id="dictionarySection">
-        <div class="section-title-row">
-          <h2>Words & Phrases</h2>
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="Search by English, Hanzi, POJ/TL..."
-            aria-label="Search dictionary"
-          />
-        </div>
-        <div id="dictionaryList" class="dictionary-list"></div>
-      </section>
-
-
       <section class="card" id="gameSection">
         <h2>Practice & Games</h2>
         <p class="muted">Interactive learning tools to reinforce your Hokkien skills</p>
@@ -134,8 +115,35 @@
             <div class="game-title">Tone Chart</div>
             <div class="game-desc">All 7 tones with pitch diagrams, diacritics &amp; sandhi rules</div>
           </a>
+          <a href="comparison.html" class="game-card active">
+            <div class="game-icon">🗺️</div>
+            <div class="game-title">Dialect Comparison</div>
+            <div class="game-desc">See how the same word differs across Taiwanese, Malaysian, Singaporean &amp; more</div>
+          </a>
         </div>
       </section>
+      <br>
+      <section class="card controls">
+        <h2>Choose a variety</h2>
+        <label for="dialectSelect">Dialect / Variety</label>
+        <select id="dialectSelect" aria-label="Select dialect"></select>
+        <p class="muted" id="dialectNotes"></p>
+      </section>
+      <section class="card" id="dictionarySection">
+        <div class="section-title-row">
+          <h2>Words & Phrases</h2>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search by English, Hanzi, POJ/TL..."
+            aria-label="Search dictionary"
+          />
+        </div>
+        <div id="dictionaryList" class="dictionary-list"></div>
+      </section>
+
+
+
     </main>
 
     <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>

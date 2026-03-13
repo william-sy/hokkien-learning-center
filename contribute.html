@@ -14,6 +14,8 @@
     <meta property="og:url" content="https://william-sy.github.io/hokkien-learning-center/contribute.html" />
     
     <link rel="stylesheet" href="styles.css" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
     <style>
       details { border-top: 1px solid var(--border, #333); margin-top: 0.75rem; }
       details + details { margin-top: 0; }
@@ -51,6 +53,7 @@
         <a href="phrases.html" class="nav-link">Phrases</a>
         <a href="grammar.html" class="nav-link">Grammar</a>
         <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>
         <a href="info.html" class="nav-link">General Info</a>
         <a href="contribute.html" class="nav-link active">Contribute</a>
         <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
@@ -58,6 +61,121 @@
     </header>
 
     <main class="container">
+
+      <!-- ── Live Entry Builder ─────────────────────────────────────────── -->
+      <section class="card" id="entryBuilder">
+        <h2>✏️ Entry Builder</h2>
+        <p class="muted">Fill in the fields below and get a ready-to-paste JSON entry. Copy it into <code>data/dictionary.json</code> and open a Pull Request.</p>
+
+        <div class="field-guide" id="builderForm">
+
+          <div class="field-item">
+            <label for="fb-dialectId"><strong>dialectId</strong> <span class="accent">*</span></label>
+            <select id="fb-dialectId">
+              <option value="shared">shared — Shared / Cross-dialect</option>
+              <option value="quanzhou">quanzhou — Quanzhou (泉州)</option>
+              <option value="zhangzhou">zhangzhou — Zhangzhou (漳州)</option>
+              <option value="xiamen">xiamen — Xiamen / Amoy (廈門)</option>
+              <option value="taiwanese" selected>taiwanese — Taiwanese</option>
+              <option value="sea_hokkien">sea_hokkien — Southeast Asian Hokkien</option>
+              <option value="malaysia_north">malaysia_north — Malaysian Hokkien (North)</option>
+              <option value="malaysia_central">malaysia_central — Malaysian Hokkien (Central)</option>
+              <option value="malaysia_south">malaysia_south — Malaysian Hokkien (South)</option>
+              <option value="singapore">singapore — Singaporean Hokkien</option>
+              <option value="philippine">philippine — Philippine Hokkien</option>
+              <option value="indonesian">indonesian — Indonesian Hokkien</option>
+              <option value="burmese">burmese — Burmese Hokkien</option>
+              <option value="thai">thai — Thai Hokkien</option>
+            </select>
+          </div>
+
+          <div class="field-item">
+            <label for="fb-english"><strong>english</strong> <span class="accent">*</span></label>
+            <input id="fb-english" type="text" placeholder="e.g. Thank you" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-hanzi"><strong>hanzi</strong></label>
+            <input id="fb-hanzi" type="text" placeholder="e.g. 多謝" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-poj"><strong>poj</strong> <span class="muted small">(Pe̍h-ōe-jī)</span></label>
+            <input id="fb-poj" type="text" placeholder="e.g. To-siā" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-tl"><strong>tl</strong> <span class="muted small">(Tâi-lô)</span></label>
+            <input id="fb-tl" type="text" placeholder="e.g. To-siā" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-tone"><strong>tone</strong> <span class="muted small">(digits per syllable)</span></label>
+            <input id="fb-tone" type="text" placeholder="e.g. 1-7" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-audioHint"><strong>audioHint</strong> <span class="muted small">(simple pronunciation)</span></label>
+            <input id="fb-audioHint" type="text" placeholder="e.g. to-sia" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-audioUrl"><strong>audioUrl</strong> <span class="muted small">(leave blank if unavailable)</span></label>
+            <input id="fb-audioUrl" type="text" placeholder="e.g. audio/to-sia.mp3" />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-example"><strong>example</strong></label>
+            <input id="fb-example" type="text" placeholder="e.g. To-siā lí ê pang-chān." />
+          </div>
+
+          <div class="field-item">
+            <label for="fb-tags"><strong>tags</strong> <span class="muted small">(comma-separated)</span></label>
+            <input id="fb-tags" type="text" placeholder="e.g. politeness, beginner" />
+          </div>
+
+          <!-- Variants -->
+          <div class="field-item" style="grid-column: 1 / -1;">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:0.5rem;margin-bottom:0.5rem;">
+              <label><strong>variants</strong> <span class="muted small">(dialect-specific pronunciations of the same word)</span></label>
+              <button id="fbAddVariant" class="btn btn-outline" style="font-size:0.82rem;padding:0.25rem 0.65rem;white-space:nowrap;">+ Add variant</button>
+            </div>
+            <div id="fbVariantList" style="display:flex;flex-direction:column;gap:0.5rem;"></div>
+            <p id="fbVariantEmpty" class="muted small" style="margin:0.25rem 0 0;">No variants yet — click "+ Add variant" to add a dialect-specific pronunciation.</p>
+          </div>
+
+        </div>
+
+        <!-- Single-entry live preview -->
+        <div style="margin-top:1.25rem;">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.4rem;">
+            <strong>Current entry preview</strong>
+            <div style="display:flex;gap:0.5rem;">
+              <button id="fbAddBatch" class="btn btn-outline" style="font-size:0.85rem;padding:0.3rem 0.75rem;">➕ Add to batch</button>
+              <button id="fbCopyBtn" class="btn btn-outline" style="font-size:0.85rem;padding:0.3rem 0.75rem;">📋 Copy</button>
+              <button id="fbResetBtn" class="btn btn-outline" style="font-size:0.85rem;padding:0.3rem 0.75rem;opacity:0.6;">🗑 Reset</button>
+            </div>
+          </div>
+          <pre id="fbPreview" style="margin:0;font-size:0.82rem;line-height:1.55;overflow-x:auto;"></pre>
+        </div>
+
+        <!-- Batch area — shown once at least one entry is added -->
+        <div id="fbBatchWrap" style="margin-top:1.5rem;display:none;">
+          <hr style="border:none;border-top:1px solid var(--border);margin-bottom:1rem;">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.6rem;">
+            <strong>Batch <span id="fbBatchCount" style="font-size:0.82rem;color:var(--muted);"></span></strong>
+            <div style="display:flex;gap:0.5rem;">
+              <button id="fbCopyBatch" class="btn btn-outline" style="font-size:0.85rem;padding:0.3rem 0.75rem;">📋 Copy batch</button>
+              <button id="fbClearBatch" class="btn btn-outline" style="font-size:0.85rem;padding:0.3rem 0.75rem;opacity:0.6;">🗑 Clear batch</button>
+            </div>
+          </div>
+          <!-- Variant pills -->
+          <div id="fbBatchList" style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.75rem;"></div>
+          <!-- Batch JSON preview -->
+          <pre id="fbBatchPreview" style="margin:0;font-size:0.82rem;line-height:1.55;overflow-x:auto;"></pre>
+        </div>
+      </section>
+
       <section class="card">
         <h2>Contribute & Keep It Alive</h2>
         <p>
@@ -264,7 +382,214 @@ python scripts/correct_poj.py --word sti # look up one word</code></pre>
 
     <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
     <script src="js/progress-manager.js" type="module"></script>
-
     <script src="js/contribute.js" type="module"></script>
+
+    <script>
+// ── Entry Builder (inline) ──────────────────────────────────────────────────
+(function () {
+  const IDS = ["dialectId","english","hanzi","poj","tl","tone","audioHint","audioUrl","example","tags"];
+  const fields = {};
+  IDS.forEach(id => { fields[id] = document.getElementById("fb-" + id); });
+
+  const preview       = document.getElementById("fbPreview");
+  const copyBtn       = document.getElementById("fbCopyBtn");
+  const resetBtn      = document.getElementById("fbResetBtn");
+  const addBatchBtn   = document.getElementById("fbAddBatch");
+  const batchWrap     = document.getElementById("fbBatchWrap");
+  const batchList     = document.getElementById("fbBatchList");
+  const batchPreview  = document.getElementById("fbBatchPreview");
+  const batchCount    = document.getElementById("fbBatchCount");
+  const copyBatchBtn  = document.getElementById("fbCopyBatch");
+  const clearBatchBtn = document.getElementById("fbClearBatch");
+
+  const addVariantBtn = document.getElementById("fbAddVariant");
+  const variantList    = document.getElementById("fbVariantList");
+  const variantEmpty   = document.getElementById("fbVariantEmpty");
+
+  const DIALECT_LABELS = {
+    shared:"Shared", quanzhou:"Quanzhou", zhangzhou:"Zhangzhou",
+    xiamen:"Xiamen", taiwanese:"Taiwanese", sea_hokkien:"SE Asian",
+    malaysia_north:"MY North", malaysia_central:"MY Central",
+    malaysia_south:"MY South", singapore:"Singapore",
+    philippine:"Philippine", indonesian:"Indonesian",
+    burmese:"Burmese", thai:"Thai",
+  };
+
+  const DIALECT_OPTIONS = Object.entries(DIALECT_LABELS)
+    .map(([v, l]) => `<option value="${v}">${v} — ${l}</option>`).join("");
+
+  let batch    = [];   // accumulated entries
+  let variants = [];   // variants for current entry
+
+  // ── build entry object from form ──────────────────────────────────────────
+  function buildEntry() {
+    const entry = {
+      dialectId: fields.dialectId.value,
+      english:   fields.english.value.trim(),
+      hanzi:     fields.hanzi.value.trim(),
+      poj:       fields.poj.value.trim(),
+      tl:        fields.tl.value.trim(),
+      tone:      fields.tone.value.trim(),
+      audioHint: fields.audioHint.value.trim(),
+      audioUrl:  fields.audioUrl.value.trim(),
+      example:   fields.example.value.trim(),
+      tags:      fields.tags.value
+                   .split(",")
+                   .map(t => t.trim().toLowerCase())
+                   .filter(Boolean),
+    };
+    if (variants.length) entry.variants = variants.map(v => ({ ...v }));
+    return entry;
+  }
+
+  // ── live single-entry preview ─────────────────────────────────────────────
+  function updatePreview() {
+    preview.textContent = JSON.stringify(buildEntry(), null, 2);
+  }
+
+  IDS.forEach(id => {
+    fields[id].addEventListener("input",  updatePreview);
+    fields[id].addEventListener("change", updatePreview);
+  });
+
+  // ── variants ──────────────────────────────────────────────────────────────
+  function addVariantRow(data) {
+    const idx = variants.length;
+    variants.push(data || { dialectId: "shared", poj: "", tl: "", tone: "" });
+
+    const row = document.createElement("div");
+    row.style.cssText = "display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:0.4rem;align-items:center;padding:0.5rem 0.65rem;border:1px solid var(--border);border-radius:6px;background:var(--panel);";
+    row.dataset.idx = idx;
+
+    row.innerHTML = `
+      <select class="v-dialectId">${DIALECT_OPTIONS}</select>
+      <input class="v-poj" type="text" placeholder="POJ" style="width:100%;" />
+      <input class="v-tl"  type="text" placeholder="TL"  style="width:100%;" />
+      <button class="v-remove btn btn-outline" title="Remove variant" style="padding:0.25rem 0.5rem;flex-shrink:0;">&times;</button>`;
+
+    const v = variants[idx];
+    row.querySelector(".v-dialectId").value = v.dialectId;
+    row.querySelector(".v-poj").value = v.poj;
+    row.querySelector(".v-tl").value  = v.tl;
+
+    // sync changes back to variants array
+    row.querySelector(".v-dialectId").addEventListener("change", e => { variants[idx].dialectId = e.target.value; updatePreview(); });
+    row.querySelector(".v-poj").addEventListener("input",  e => { variants[idx].poj = e.target.value.trim(); updatePreview(); });
+    row.querySelector(".v-tl").addEventListener("input",   e => { variants[idx].tl  = e.target.value.trim(); updatePreview(); });
+    row.querySelector(".v-remove").addEventListener("click", () => {
+      variants.splice(idx, 1);
+      rebuildVariantRows();
+      updatePreview();
+    });
+
+    variantList.appendChild(row);
+    syncVariantEmpty();
+  }
+
+  function rebuildVariantRows() {
+    variantList.innerHTML = "";
+    const saved = variants.slice();
+    variants = [];
+    saved.forEach(v => addVariantRow(v));
+    syncVariantEmpty();
+  }
+
+  function syncVariantEmpty() {
+    variantEmpty.style.display = variants.length ? "none" : "";
+  }
+
+  addVariantBtn.addEventListener("click", () => { addVariantRow(); updatePreview(); });
+
+  // ── copy single entry ─────────────────────────────────────────────────────
+  copyBtn.addEventListener("click", async () => {
+    await copyText(preview.textContent, copyBtn, "📋 Copy");
+  });
+
+  // ── reset form ────────────────────────────────────────────────────────────
+  resetBtn.addEventListener("click", () => {
+    ["english","hanzi","poj","tl","tone","audioHint","audioUrl","example","tags"]
+      .forEach(id => { fields[id].value = ""; });
+    fields.dialectId.value = "taiwanese";
+    variants = [];
+    variantList.innerHTML = "";
+    syncVariantEmpty();
+    updatePreview();
+  });
+
+  // ── add current entry to batch ────────────────────────────────────────────
+  addBatchBtn.addEventListener("click", () => {
+    const entry = buildEntry();
+    if (!entry.english) {
+      fields.english.focus();
+      fields.english.style.outline = "2px solid var(--accent)";
+      setTimeout(() => { fields.english.style.outline = ""; }, 1200);
+      return;
+    }
+    batch.push(entry);
+    renderBatch();
+    // Flash feedback
+    addBatchBtn.textContent = "✓ Added!";
+    setTimeout(() => { addBatchBtn.textContent = "➕ Add to batch"; }, 1200);
+    // Convenience: advance dialectId to the next option
+    const sel = fields.dialectId;
+    const next = sel.selectedIndex + 1;
+    if (next < sel.options.length) sel.selectedIndex = next;
+    updatePreview();
+  });
+
+  // ── render batch list + preview ───────────────────────────────────────────
+  function renderBatch() {
+    batchWrap.style.display = batch.length ? "" : "none";
+    batchCount.textContent  = `(${batch.length} entr${batch.length === 1 ? "y" : "ies"})`;
+
+    // Pill list
+    batchList.innerHTML = "";
+    batch.forEach((e, i) => {
+      const pill = document.createElement("span");
+      pill.style.cssText = "display:inline-flex;align-items:center;gap:0.3rem;padding:0.2rem 0.55rem;border:1px solid var(--border);border-radius:999px;font-size:0.78rem;background:var(--panel);";
+      pill.innerHTML = `<span style="color:var(--accent);font-weight:600;">${DIALECT_LABELS[e.dialectId] || e.dialectId}</span><span>${e.english || "(empty)"}</span>`;
+      const x = document.createElement("button");
+      x.textContent = "×";
+      x.title = "Remove this entry";
+      x.style.cssText = "background:none;border:none;cursor:pointer;color:var(--muted);font-size:1rem;padding:0 0.1rem;line-height:1;";
+      x.addEventListener("click", () => { batch.splice(i, 1); renderBatch(); });
+      pill.appendChild(x);
+      batchList.appendChild(pill);
+    });
+
+    batchPreview.textContent = JSON.stringify(batch, null, 2);
+  }
+
+  // ── copy batch ────────────────────────────────────────────────────────────
+  copyBatchBtn.addEventListener("click", async () => {
+    await copyText(batchPreview.textContent, copyBatchBtn, "📋 Copy batch");
+  });
+
+  // ── clear batch ───────────────────────────────────────────────────────────
+  clearBatchBtn.addEventListener("click", () => {
+    batch = [];
+    renderBatch();
+  });
+
+  // ── clipboard helper ──────────────────────────────────────────────────────
+  async function copyText(text, btn, originalLabel) {
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = "✓ Copied!";
+    } catch {
+      const range = document.createRange();
+      const el = btn === copyBtn ? preview : batchPreview;
+      range.selectNodeContents(el);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      btn.textContent = "✓ Selected!";
+    }
+    setTimeout(() => { btn.textContent = originalLabel; }, 1800);
+  }
+
+  // ── init ──────────────────────────────────────────────────────────────────
+  updatePreview();
+})();
+    </script>
   </body>
 </html>
