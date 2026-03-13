@@ -34,6 +34,42 @@ function exportProgress() {
   URL.revokeObjectURL(url);
 }
 
+async function exportAnki() {
+  let learnedSet;
+  try {
+    const raw = localStorage.getItem("hokkien_learned_words");
+    learnedSet = raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch (_) { learnedSet = new Set(); }
+
+  if (learnedSet.size === 0) {
+    return { error: "No \u2b50 learned words yet \u2014 mark words as learned in the Dictionary first." };
+  }
+
+  const res = await fetch("data/dictionary.json");
+  if (!res.ok) throw new Error("Could not load dictionary");
+  const dict = await res.json();
+
+  const rows = dict
+    .filter(e => learnedSet.has(e.english))
+    .map(e => {
+      const front = e.english;
+      const rom   = e.poj || e.tl || "";
+      const back  = [e.hanzi, rom, e.example].filter(Boolean).join(" \u2022 ");
+      const tags  = [...(e.tags || []), e.dialectId].filter(Boolean).join(" ");
+      return [front, back, tags].join("\t");
+    });
+
+  const tsv  = "#separator:tab\n#html:false\n#tags column:3\n" + rows.join("\n");
+  const blob = new Blob([tsv], { type: "text/plain;charset=utf-8" });
+  const url  = URL.createObjectURL(blob);
+  Object.assign(document.createElement("a"), {
+    href: url,
+    download: `hokkien-anki-${new Date().toISOString().slice(0, 10)}.txt`
+  }).click();
+  URL.revokeObjectURL(url);
+  return { count: rows.length };
+}
+
 function importProgress(file, onDone) {
   const reader = new FileReader();
   reader.onload = (e) => {
@@ -129,6 +165,11 @@ function createProgressUI() {
         <span>Export progress</span>
       </button>
 
+      <button class="pm-btn pm-anki" id="pmAnki">
+        <span class="pm-btn-icon">🃏</span>
+        <span>Export to Anki</span>
+      </button>
+
       <label class="pm-btn pm-import" tabindex="0" id="pmImportLabel"
              onkeydown="if(event.key==='Enter'||event.key===' ')this.querySelector('input').click()">
         <span class="pm-btn-icon">⬆️</span>
@@ -209,7 +250,18 @@ function createProgressUI() {
     exportProgress();
     showFeedback("✓ File downloaded — save it somewhere personal.");
   });
-
+  document.getElementById("pmAnki").addEventListener("click", async () => {
+    try {
+      const result = await exportAnki();
+      if (result.error) {
+        showFeedback(result.error, true);
+      } else {
+        showFeedback(`\u2713 Exported ${result.count} card${result.count !== 1 ? "s" : ""} \u2014 import the .txt file into Anki.`);
+      }
+    } catch (err) {
+      showFeedback("Export failed: " + err.message, true);
+    }
+  });
   document.getElementById("pmImportFile").addEventListener("change", (e) => {
     const file = e.target.files[0];
     if (!file) return;

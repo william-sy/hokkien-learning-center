@@ -1716,6 +1716,96 @@ h3:first-child {
 .pm-feedback.pm-success { color: #27ae60; }
 .pm-feedback.pm-error   { color: #e74c3c; }
 
+/* ─── Keyboard shortcut hints ─────────────────────────────────────────────── */
+
+.kbd-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.6rem;
+  opacity: 0.75;
+}
+
+kbd {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 0.82em;
+  font-family: monospace;
+  background: var(--panel);
+  box-shadow: 0 1px 0 var(--border);
+  line-height: 1.4;
+}
+
+/* ─── Anki export button ──────────────────────────────────────────────────── */
+.pm-anki:hover { border-color: #7c3aed; color: #7c3aed; }
+
+/* ─── Tone Chart ──────────────────────────────────────────────────────────── */
+
+.tones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0;
+}
+
+.tone-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  background: var(--panel);
+  text-align: center;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.tone-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(220,38,38,0.1); }
+
+.tone-num {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+.tone-name-zh { font-size: 1rem; font-weight: 600; margin: 0.25rem 0 0.1rem; }
+.tone-name-en { font-size: 0.8rem; color: var(--muted); }
+
+.tone-pitch-num {
+  display: inline-block;
+  background: var(--bg);
+  border-radius: 20px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.82rem;
+  font-family: monospace;
+  margin: 0.4rem 0;
+  letter-spacing: 0.05em;
+}
+
+.tone-mark {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0.5rem;
+  min-height: 1.8em;
+}
+
+.tone-example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+.te-hanzi { font-size: 1.6rem; line-height: 1.2; }
+.te-poj   { font-size: 0.9rem; color: var(--accent); font-style: italic; }
+.te-en    { font-size: 0.8rem; color: var(--muted); }
+
+.tone-sandhi-arrow {
+  font-size: 1.1rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
 /* ─── Grammar Page ────────────────────────────────────────────────── */
 
 .grammar-toc {

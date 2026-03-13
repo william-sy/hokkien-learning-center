@@ -173,6 +173,9 @@ function renderPronunciation() {
   const tipsWrap = byId("pronunciationTips");
   const tableWrap = byId("toneTableWrap");
 
+  // Section was removed from index.html in favour of tones.html — bail silently.
+  if (!tipsWrap || !tableWrap) return;
+
   const tips = state.content.pronunciationTips;
   const tones = state.content.toneCharts;
 

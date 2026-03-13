@@ -2,7 +2,8 @@ const COOKIE_KEYS = {
   selectedDialect: "hokkien_flashcard_dialect",
   mode: "hokkien_flashcard_mode",
   difficulty: "hokkien_flashcard_difficulty",
-  reviewLearnedOnly: "hokkien_flashcard_learned_only"
+  reviewLearnedOnly: "hokkien_flashcard_learned_only",
+  selectedTag: "hokkien_flashcard_tag"
 };
 
 const LS_LEARNED_KEY = "hokkien_learned_words";
@@ -17,7 +18,10 @@ const state = {
   mode: "english-to-hokkien",
   difficulty: "normal",
   reviewLearnedOnly: false,
+  selectedTag: "all",
   isFlipped: false,
+  sessionActive: false,  // keyboard shortcuts only fire during a live session
+  ratingVisible: false,  // true once card is flipped, false after rating
   dueSet: new Set(),   // words rated incorrect/partial last session
   stats: {
     correct: 0,
@@ -97,6 +101,10 @@ function filterDictionary() {
     return entry.dialectId === "shared";
   });
 
+  if (state.selectedTag !== "all") {
+    entries = entries.filter(e => Array.isArray(e.tags) && e.tags.includes(state.selectedTag));
+  }
+
   if (state.reviewLearnedOnly) {
     let learnedSet = new Set();
     try {
@@ -118,7 +126,25 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// ── Spaced Repetition helpers ─────────────────────────────────────────────────
+// ── Tag filter helpers ────────────────────────────────────────────────────
+
+function capitalise(s) {
+  return s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g, " ");
+}
+
+function initTagSelect() {
+  const tagSet = new Set();
+  state.dictionary.forEach(e => (e.tags || []).forEach(t => tagSet.add(t)));
+  const select = byId("flashcardTag");
+  select.innerHTML = '<option value="all">All topics</option>';
+  Array.from(tagSet).sort().forEach(tag => {
+    const opt = document.createElement("option");
+    opt.value = tag;
+    opt.textContent = capitalise(tag);
+    select.appendChild(opt);
+  });
+  select.value = state.selectedTag;
+}
 
 function loadDueSet() {
   try {
@@ -143,11 +169,13 @@ function startSession() {
   state.mode = byId("flashcardMode").value;
   state.difficulty = byId("flashcardDifficulty").value;
   state.reviewLearnedOnly = byId("reviewLearnedOnly").checked;
+  state.selectedTag = byId("flashcardTag").value;
   
   setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
   setCookie(COOKIE_KEYS.mode, state.mode);
   setCookie(COOKIE_KEYS.difficulty, state.difficulty);
   setCookie(COOKIE_KEYS.reviewLearnedOnly, state.reviewLearnedOnly ? "1" : "0");
+  setCookie(COOKIE_KEYS.selectedTag, state.selectedTag);
 
   const filtered = filterDictionary();
   
@@ -164,6 +192,8 @@ function startSession() {
   state.currentIndex = 0;
   state.isFlipped = false;
   state.stats = { correct: 0, partial: 0, incorrect: 0 };
+  state.sessionActive = true;
+  state.ratingVisible = false;
   // Clear due set at session start — rebuilt from ratings this session
   state.dueSet = new Set();
   saveDueSet();
@@ -177,6 +207,7 @@ function startSession() {
 function showCard() {
   const card = state.currentDeck[state.currentIndex];
   state.isFlipped = false;
+  state.ratingVisible = false;
 
   byId("flashcardFront").style.display = "block";
   byId("flashcardBack").style.display = "none";
@@ -209,11 +240,19 @@ function generateCardContent(entry) {
   const poj  = entry.poj || entry.tl || "-";
   const diff = state.difficulty;
 
-  // Easy hint: first syllable of POJ (always available, e.g. "chá-...")
-  const firstSyllable = poj.split(/[-\s]/)[0];
-  const pojHint    = diff === "easy"
-    ? `<p class="flashcard-hint">💡 Starts with: <strong>${firstSyllable}-</strong></p>` : "";
-  const toneHint   = diff === "easy" && entry.tone
+  // Easy hint: show number of syllables and first syllable only when > 1 syllable.
+  // For single-syllable words the first syllable IS the answer, so we show a
+  // count hint + tone instead.
+  const syllables = poj.split(/[-\s]/).filter(Boolean);
+  let pojHint = "";
+  if (diff === "easy") {
+    if (syllables.length === 1) {
+      pojHint = `<p class="flashcard-hint">💡 1 syllable${entry.tone ? " · Tone " + entry.tone : ""}</p>`;
+    } else {
+      pojHint = `<p class="flashcard-hint">💡 Starts with: <strong>${syllables[0]}-</strong> &nbsp;(${syllables.length} syllables)</p>`;
+    }
+  }
+  const toneHint   = diff === "easy" && entry.tone && syllables.length > 1
     ? `<p class="flashcard-hint">🎵 Tone: ${entry.tone}</p>` : "";
   const exHint     = diff === "easy" && entry.example
     ? `<p class="flashcard-hint">💬 ${entry.example}</p>` : "";
@@ -273,6 +312,7 @@ function generateCardContent(entry) {
 
 function showAnswer() {
   state.isFlipped = true;
+  state.ratingVisible = true;
   byId("flashcardFront").style.display = "none";
   byId("flashcardBack").style.display = "block";
   byId("flashcardActions").style.display = "none";
@@ -312,6 +352,7 @@ function updateProgress() {
 }
 
 function showResults() {
+  state.sessionActive = false;
   byId("flashcardSection").style.display = "none";
   byId("resultsSection").style.display = "block";
 
@@ -349,6 +390,7 @@ function hydrateStateFromCookies() {
   state.mode = getCookie(COOKIE_KEYS.mode) || "english-to-hokkien";
   state.difficulty = getCookie(COOKIE_KEYS.difficulty) || "normal";
   state.reviewLearnedOnly = getCookie(COOKIE_KEYS.reviewLearnedOnly) === "1";
+  state.selectedTag = getCookie(COOKIE_KEYS.selectedTag) || "all";
 }
 
 async function init() {
@@ -360,11 +402,13 @@ async function init() {
     state.dictionary = data.dictionary;
 
     initDialectSelect();
+    initTagSelect();
     loadDueSet();
     
     byId("flashcardMode").value = state.mode;
     byId("flashcardDifficulty").value = state.difficulty;
     byId("reviewLearnedOnly").checked = state.reviewLearnedOnly;
+    if (byId("flashcardTag")) byId("flashcardTag").value = state.selectedTag;
 
     byId("backBtn").addEventListener("click", () => window.location.href = "index.html");
     byId("startBtn").addEventListener("click", startSession);
@@ -375,6 +419,21 @@ async function init() {
 
     document.querySelectorAll(".rating-btn").forEach(btn => {
       btn.addEventListener("click", () => rateCard(btn.dataset.rating));
+    });
+
+    // ── Keyboard shortcuts ───────────────────────────────────────────────
+    document.addEventListener("keydown", (e) => {
+      if (!state.sessionActive) return;
+      if (["INPUT", "SELECT", "TEXTAREA", "BUTTON"].includes(e.target.tagName)) return;
+      if (e.key === " " || e.key === "Enter") {
+        if (!state.ratingVisible) { e.preventDefault(); showAnswer(); }
+      } else if (e.key === "1") {
+        if (state.ratingVisible) rateCard("correct");
+      } else if (e.key === "2") {
+        if (state.ratingVisible) rateCard("partial");
+      } else if (e.key === "3") {
+        if (state.ratingVisible) rateCard("incorrect");
+      }
     });
 
   } catch (error) {
