@@ -1,0 +1,12 @@
+{
+  "name": "Hokkien Learning Center",
+  "short_name": "Hokkien",
+  "description": "Learn Taiwanese, Malaysian, Singaporean and other Hokkien dialects with interactive games and dictionary.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a0a0a",
+  "theme_color": "#dc2626",
+  "lang": "en",
+  "categories": ["education"],
+  "icons": []
+}

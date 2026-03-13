@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
   --bg: #1a0a0a;
   --panel: #2a1515;
   --text: #f5e6e6;
@@ -12,6 +12,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    color-scheme: light;
     --bg: #fef2f2;
     --panel: #ffffff;
     --text: #1a0a0a;
@@ -25,6 +26,7 @@
 
 /* Manual theme overrides — applied instantly by js/theme-toggle.js */
 html[data-theme="dark"] {
+  color-scheme: dark;
   --bg: #1a0a0a;
   --panel: #2a1515;
   --text: #f5e6e6;
@@ -35,6 +37,7 @@ html[data-theme="dark"] {
   --highlight: #fecaca;
 }
 html[data-theme="light"] {
+  color-scheme: light;
   --bg: #fef2f2;
   --panel: #ffffff;
   --text: #1a0a0a;
@@ -193,8 +196,17 @@ input {
   width: 100%;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+  appearance: auto;
+  width: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
 select:focus,
-input:focus {
+input:not([type="checkbox"]):not([type="radio"]):focus {
   outline: none;
   border-color: var(--accent);
 }
@@ -1468,9 +1480,9 @@ h3:first-child {
 /* ── Print button ─────────────────────────────────────────────────────────── */
 
 .print-btn {
-  background: var(--card-bg, #1e1e1e);
-  border: 1px solid var(--accent, #c0392b);
-  color: var(--text, #eee);
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  color: var(--text);
   border-radius: 6px;
   padding: 0.35rem 0.9rem;
   cursor: pointer;
@@ -1720,7 +1732,6 @@ h3:first-child {
 
 .kbd-hint {
   font-size: 0.78rem;
-  color: var(--muted);
   text-align: center;
   margin-top: 0.6rem;
   opacity: 0.75;
@@ -1873,6 +1884,54 @@ kbd {
 /* Section heading anchors */
 .card h3 { scroll-margin-top: 1.5rem; }
 
+/* ── Cloze game ────────────────────────────────────────────────────────────── */
+.cloze-sentence {
+  font-size: clamp(1.15rem, 3vw, 1.5rem);
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.7;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--text);
+}
+
+.cloze-blank {
+  display: inline-block;
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--accent);
+  padding: 0 0.15em;
+}
+
+.cloze-hint {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+  min-height: 1.4em;
+}
+
+.cloze-choice {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.choice-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 4px;
+  background: var(--border);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
 /* ── Streak badge ──────────────────────────────────────────────────────────── */
 .streak-badge {
   display: inline-flex;
@@ -1982,4 +2041,3 @@ kbd {
   font-weight: 700;
   vertical-align: middle;
 }
-

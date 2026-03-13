@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill-in-the-Blank - Hokkien Learning Center</title>
+    <meta name="description" content="Practice Hokkien by filling in missing words from example sentences. Multiple-choice cloze game for all dialects." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://william-sy.github.io/hokkien-learning-center/cloze.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+    <script src="js/pwa.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+
+      <!-- ── Setup ──────────────────────────────────────────────────────── -->
+      <section class="card" id="setupSection">
+        <div class="game-header">
+          <h2>✍️ Fill in the Blank</h2>
+          <button class="back-btn secondary-btn">← Back to Learn</button>
+        </div>
+        <p class="muted">An example sentence appears with one word missing. Pick the correct POJ romanization from four choices.</p>
+
+        <div class="game-controls">
+          <div class="control-group">
+            <label for="clozeDialect">Dialect</label>
+            <select id="clozeDialect"></select>
+          </div>
+          <div class="control-group">
+            <label for="clozeCount">Questions</label>
+            <select id="clozeCount">
+              <option value="5">5 questions</option>
+              <option value="10" selected>10 questions</option>
+              <option value="15">15 questions</option>
+              <option value="20">20 questions</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label for="clozeDiff">Mode</label>
+            <select id="clozeDiff">
+              <option value="easy" selected>Easy — show hint</option>
+              <option value="hard">Hard — no hint</option>
+            </select>
+          </div>
+          <button id="clozeStartBtn" class="primary-btn">Start</button>
+        </div>
+      </section>
+
+      <!-- ── Game ───────────────────────────────────────────────────────── -->
+      <section class="card quiz-container" id="gameSection" style="display:none;">
+        <div class="quiz-stats">
+          <span id="clozeProgress">Q 1 / 10</span>
+          <span id="clozeScore">Score: 0 / 0</span>
+        </div>
+
+        <div class="quiz-question">
+          <p class="question-prompt" id="clozePrompt">Fill in the blank:</p>
+          <p class="cloze-sentence" id="clozeSentence"></p>
+          <p class="cloze-hint" id="clozeHint" style="display:none;"></p>
+
+          <div class="quiz-choices" id="clozeChoices"></div>
+
+          <div id="clozeFeedback" class="feedback" style="display:none;"></div>
+
+          <div style="margin-top:1.25rem;text-align:center;">
+            <button id="clozeNextBtn" class="primary-btn" style="display:none;">
+              Next →
+              <span class="kbd-hint" style="font-size:0.72rem;opacity:0.6;margin-left:0.5rem;">Space / Enter</span>
+            </button>
+          </div>
+        </div>
+
+        <div style="text-align:right;margin-top:1rem;">
+          <button class="back-btn secondary-btn" style="font-size:0.82rem;">← Quit</button>
+        </div>
+      </section>
+
+      <!-- ── Results ────────────────────────────────────────────────────── -->
+      <section class="card" id="resultsSection" style="display:none;">
+        <h2>Results</h2>
+        <div class="results-summary">
+          <div class="result-stat">
+            <div class="stat-value" id="totalQuestions">0</div>
+            <div class="stat-label">Questions</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value correct-color" id="correctAnswers">0</div>
+            <div class="stat-label">Correct</div>
+          </div>
+          <div class="result-stat">
+            <div class="stat-value" id="finalScore">0%</div>
+            <div class="stat-label">Score</div>
+          </div>
+        </div>
+
+        <div class="performance-message" id="performanceMessage"></div>
+
+        <div class="results-actions">
+          <button id="retryBtn" class="primary-btn">Try Again</button>
+          <button class="back-btn secondary-btn">Back to Learn</button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
+    <script src="js/cloze.js" type="module"></script>
+  </body>
+</html>
