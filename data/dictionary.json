@@ -3195,5 +3195,979 @@
       "adjective",
       "basic"
     ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "goodbye",
+    "hanzi": "再見",
+    "poj": "chài-kiàn",
+    "tl": "tsài-kiàn",
+    "tone": "3-3",
+    "audioHint": "tsai-kian",
+    "audioUrl": "",
+    "example": "Chài-kiàn! Koh-kái-chêng. (Goodbye! See you next time.)",
+    "tags": [
+      "greeting",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "good morning",
+    "hanzi": "早安",
+    "poj": "chá-an",
+    "tl": "tsá-an",
+    "tone": "2-1",
+    "audioHint": "tsa-an",
+    "audioUrl": "",
+    "example": "Chá-an! Lí chia̍h-pá bô? (Good morning! Have you eaten?)",
+    "tags": [
+      "greeting",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "good night",
+    "hanzi": "晚安",
+    "poj": "àm-an",
+    "tl": "àm-an",
+    "tone": "3-1",
+    "audioHint": "am-an",
+    "audioUrl": "",
+    "example": "Àm-an, khùn-hó! (Good night, sleep well!)",
+    "tags": [
+      "greeting",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how are you?",
+    "hanzi": "你好無？",
+    "poj": "Lí hó-bô?",
+    "tl": "Lí hó-bô?",
+    "tone": "2-2-5",
+    "audioHint": "li-ho-bo",
+    "audioUrl": "",
+    "example": "Lí hó-bô? — Hó, to-siā! (How are you? — Fine, thanks!)",
+    "tags": [
+      "greeting",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I'm fine",
+    "hanzi": "我真好",
+    "poj": "Góa chin-hó",
+    "tl": "Góa tsin-hó",
+    "tone": "2-1-2",
+    "audioHint": "goa-tsin-ho",
+    "audioUrl": "",
+    "example": "Góa chin-hó, to-siā. Lí leh? (I'm fine, thanks. And you?)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "have you eaten?",
+    "hanzi": "你食飽未？",
+    "poj": "Lí chia̍h-pá--bôe?",
+    "tl": "Lí tsia̍h-pá--buē?",
+    "tone": "2-8-2-5",
+    "audioHint": "li-tsiah-pa-bue",
+    "audioUrl": "",
+    "example": "Lí chia̍h-pá--bôe? — Chia̍h-pá ah! (Have you eaten? — Yes, I have!)",
+    "tags": [
+      "greeting",
+      "food",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "see you next time",
+    "hanzi": "後擺閣再",
+    "poj": "āu-pái koh-chài",
+    "tl": "āu-pái koh-tsài",
+    "tone": "7-2-4-3",
+    "audioHint": "au-pai-koh-tsai",
+    "audioUrl": "",
+    "example": "Āu-pái koh-chài! (See you next time!)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sorry / excuse me",
+    "hanzi": "歹勢",
+    "poj": "Pháiⁿ-sè",
+    "tl": "Pháinn-sè",
+    "tone": "2-3",
+    "audioHint": "phain-se",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa bô-ì-sù. (Sorry, I didn't mean it.)",
+    "tags": [
+      "politeness",
+      "social",
+      "greeting",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "what is your name?",
+    "hanzi": "你叫啥名？",
+    "poj": "Lí kiò siáⁿ miâ?",
+    "tl": "Lí kiò siáⁿ miâ?",
+    "tone": "2-3-2-5",
+    "audioHint": "li-kio-sian-mia",
+    "audioUrl": "",
+    "example": "Lí kiò siáⁿ miâ? Góa kiò Ah-míng. (What is your name? My name is Ah-Ming.)",
+    "tags": [
+      "intro",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "my name is...",
+    "hanzi": "我叫...",
+    "poj": "Góa kiò ...",
+    "tl": "Góa kiò ...",
+    "tone": "2-3",
+    "audioHint": "goa-kio",
+    "audioUrl": "",
+    "example": "Góa kiò William. (My name is William.)",
+    "tags": [
+      "intro",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "nice to meet you",
+    "hanzi": "歡喜認識你",
+    "poj": "Hòaⁿ-hí jīn-bat lí",
+    "tl": "Huann-hí jīn-bat lí",
+    "tone": "3-2-7-4-2",
+    "audioHint": "huan-hi-jin-bat-li",
+    "audioUrl": "",
+    "example": "Hòaⁿ-hí jīn-bat lí! (Nice to meet you!)",
+    "tags": [
+      "greeting",
+      "intro",
+      "social",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "you're welcome",
+    "hanzi": "毋免客氣",
+    "poj": "M̄-bián kheh-khì",
+    "tl": "M̄-bián kheh-khì",
+    "tone": "7-2-4-3",
+    "audioHint": "m-bian-kheh-khi",
+    "audioUrl": "",
+    "example": "To-siā! — M̄-bián kheh-khì! (Thank you! — You're welcome!)",
+    "tags": [
+      "politeness",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "yes",
+    "hanzi": "是",
+    "poj": "sī",
+    "tl": "sī",
+    "tone": "7",
+    "audioHint": "si",
+    "audioUrl": "",
+    "example": "Sī, góa ū. (Yes, I have/do.)",
+    "tags": [
+      "basic",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "no / not right",
+    "hanzi": "毋是",
+    "poj": "m̄-sī",
+    "tl": "m̄-sī",
+    "tone": "7-7",
+    "audioHint": "m-si",
+    "audioUrl": "",
+    "example": "M̄-sī, góa bô. (No, I don't.)",
+    "tags": [
+      "basic",
+      "negation",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "where are you from?",
+    "hanzi": "你佗位人？",
+    "poj": "Lí tó-uī lâng?",
+    "tl": "Lí tó-uī lâng?",
+    "tone": "2-2-5-5",
+    "audioHint": "li-to-ui-lang",
+    "audioUrl": "",
+    "example": "Lí tó-uī lâng? — Góa sī Tâi-uân lâng. (Where are you from? — I'm Taiwanese.)",
+    "tags": [
+      "intro",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I am from...",
+    "hanzi": "我是...人",
+    "poj": "Góa sī ... lâng",
+    "tl": "Góa sī ... lâng",
+    "tone": "2-7",
+    "audioHint": "goa-si-lang",
+    "audioUrl": "",
+    "example": "Góa sī Má-lâi-se-a lâng. (I am Malaysian.)",
+    "tags": [
+      "intro",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I don't understand",
+    "hanzi": "我聽無",
+    "poj": "Góa thiaⁿ-bô",
+    "tl": "Góa thiann-bô",
+    "tone": "2-1-5",
+    "audioHint": "goa-thian-bo",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa thiaⁿ-bô. (Sorry, I don't understand.)",
+    "tags": [
+      "communication",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I understand",
+    "hanzi": "我知影",
+    "poj": "Góa chai-iáⁿ",
+    "tl": "Góa tsai-iánn",
+    "tone": "2-1-2",
+    "audioHint": "goa-tsai-iann",
+    "audioUrl": "",
+    "example": "Góa chai-iáⁿ ah! (I understand now!)",
+    "tags": [
+      "communication",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please speak slowly",
+    "hanzi": "請講較慢",
+    "poj": "Chhiáⁿ kóng khah bān",
+    "tl": "Tshiánn kóng khah bān",
+    "tone": "2-2-4-7",
+    "audioHint": "tshian-kong-khah-ban",
+    "audioUrl": "",
+    "example": "Chhiáⁿ kóng khah bān! Góa thiaⁿ-bô. (Please speak slowly! I don't understand.)",
+    "tags": [
+      "communication",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please say that again",
+    "hanzi": "請擱講一遍",
+    "poj": "Chhiáⁿ koh kóng chit-pái",
+    "tl": "Tshiánn koh kóng tsit-pái",
+    "tone": "2-4-2-4-2",
+    "audioHint": "tshian-koh-kong-tsit-pai",
+    "audioUrl": "",
+    "example": "Chhiáⁿ koh kóng chit-pái, hó--bô? (Can you please say that again?)",
+    "tags": [
+      "communication",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I'm still learning Hokkien",
+    "hanzi": "我猶咧學河洛話",
+    "poj": "Góa iáu teh o̍h Hô-ló-uē",
+    "tl": "Góa iáu teh o̍h Hô-ló-uē",
+    "tone": "2-2-7-8-5-7-7",
+    "audioHint": "goa-iau-teh-oh-ho-lo-ue",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa iáu teh o̍h Hô-ló-uē. (Sorry, I'm still learning Hokkien.)",
+    "tags": [
+      "communication",
+      "intro",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "left (direction)",
+    "hanzi": "倒爿",
+    "poj": "tò-pêng",
+    "tl": "tò-pîng",
+    "tone": "3-5",
+    "audioHint": "to-ping",
+    "audioUrl": "",
+    "example": "Choán tò-pêng, jiân-āu tit-khì. (Turn left, then go straight.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "right (direction)",
+    "hanzi": "正爿",
+    "poj": "chiàⁿ-pêng",
+    "tl": "tsiànn-pîng",
+    "tone": "3-5",
+    "audioHint": "tsian-ping",
+    "audioUrl": "",
+    "example": "Choán chiàⁿ-pêng, jiân-āu tit-khì. (Turn right, then go straight.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "go straight",
+    "hanzi": "直直去",
+    "poj": "tit-khì",
+    "tl": "ti̍t-khì",
+    "tone": "8-3",
+    "audioHint": "tit-khi",
+    "audioUrl": "",
+    "example": "Tit-khì, jiân-āu choán chiàⁿ-pêng. (Go straight, then turn right.)",
+    "tags": [
+      "direction",
+      "movement",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "turn",
+    "hanzi": "轉",
+    "poj": "choán",
+    "tl": "tsuán",
+    "tone": "2",
+    "audioHint": "tsuan",
+    "audioUrl": "",
+    "example": "Tī chia choán tò-pêng. (Turn left here.)",
+    "tags": [
+      "direction",
+      "movement",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "in front / ahead",
+    "hanzi": "前面",
+    "poj": "chêng-bīn",
+    "tl": "tsîng-bīn",
+    "tone": "5-7",
+    "audioHint": "tsing-bin",
+    "audioUrl": "",
+    "example": "Tī chêng-bīn ū chi̍t-ê chhī-tiûⁿ. (There is a market ahead.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "behind / at the back",
+    "hanzi": "後面",
+    "poj": "āu-bīn",
+    "tl": "āu-bīn",
+    "tone": "7-7",
+    "audioHint": "au-bin",
+    "audioUrl": "",
+    "example": "Chhù tī āu-bīn. (The house is at the back.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how do I get to...?",
+    "hanzi": "欲按怎去...？",
+    "poj": "Beh án-choáⁿ khì ...?",
+    "tl": "Beh án-tsuánn khì ...?",
+    "tone": "4-3-2-3",
+    "audioHint": "beh-an-tsuan-khi",
+    "audioUrl": "",
+    "example": "Beh án-choáⁿ khì chhī-tiûⁿ? (How do I get to the market?)",
+    "tags": [
+      "direction",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I want / I would like",
+    "hanzi": "我欲",
+    "poj": "Góa beh",
+    "tl": "Góa beh",
+    "tone": "2-4",
+    "audioHint": "goa-beh",
+    "audioUrl": "",
+    "example": "Góa beh chit-pōe tê. (I would like one cup of tea.)",
+    "tags": [
+      "food",
+      "shopping",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how much does it cost?",
+    "hanzi": "偌濟錢？",
+    "poj": "Jōa-chōe chîⁿ?",
+    "tl": "Juā-tsē tsînn?",
+    "tone": "7-7-5",
+    "audioHint": "jua-tse-tsinn",
+    "audioUrl": "",
+    "example": "Chit-ê jōa-chōe chîⁿ? (How much does this cost?)",
+    "tags": [
+      "shopping",
+      "food",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "too expensive",
+    "hanzi": "傷貴",
+    "poj": "siuⁿ-kùi",
+    "tl": "siunn-kuì",
+    "tone": "1-3",
+    "audioHint": "siun-kui",
+    "audioUrl": "",
+    "example": "Siuⁿ-kùi ah! Ē-sái khah pêng--bô? (Too expensive! Can you make it cheaper?)",
+    "tags": [
+      "shopping",
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "can it be cheaper?",
+    "hanzi": "會使較平無？",
+    "poj": "Ē-sái khah pêng--bô?",
+    "tl": "Ē-sái khah pîng--bô?",
+    "tone": "7-2-4-5-5",
+    "audioHint": "e-sai-khah-ping-bo",
+    "audioUrl": "",
+    "example": "Ē-sái khah pêng--bô? Góa beh bóe nn̄g-ê. (Can it be cheaper? I'll buy two.)",
+    "tags": [
+      "shopping",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I'm hungry",
+    "hanzi": "我腹肚枵",
+    "poj": "Góa pak-tó͘ iau",
+    "tl": "Góa pak-tóo iau",
+    "tone": "2-4-2-1",
+    "audioHint": "goa-pak-too-iau",
+    "audioUrl": "",
+    "example": "Góa pak-tó͘ iau, beh khì chia̍h-pn̄g. (I'm hungry, I want to go eat.)",
+    "tags": [
+      "food",
+      "daily",
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I'm full",
+    "hanzi": "我食飽矣",
+    "poj": "Góa chia̍h-pá--a",
+    "tl": "Góa tsia̍h-pá--a",
+    "tone": "2-8-2",
+    "audioHint": "goa-tsiah-pa-a",
+    "audioUrl": "",
+    "example": "Góa chia̍h-pá--a, to-siā! (I'm full, thank you!)",
+    "tags": [
+      "food",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bill please",
+    "hanzi": "我欲算帳",
+    "poj": "Góa beh sǹg-siàu",
+    "tl": "Góa beh sǹg-siàu",
+    "tone": "2-4-3-3",
+    "audioHint": "goa-beh-sng-siau",
+    "audioUrl": "",
+    "example": "Góa beh sǹg-siàu. (Bill please.)",
+    "tags": [
+      "food",
+      "shopping",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "do you have...?",
+    "hanzi": "有...無？",
+    "poj": "Ū ... bô?",
+    "tl": "Ū ... bô?",
+    "tone": "7-5",
+    "audioHint": "u-bo",
+    "audioUrl": "",
+    "example": "Ū chúi--bô? (Do you have water?)",
+    "tags": [
+      "question",
+      "shopping",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "never mind / it's okay",
+    "hanzi": "無要緊",
+    "poj": "bô-iàu-kín",
+    "tl": "bô-iàu-kín",
+    "tone": "5-3-2",
+    "audioHint": "bo-iau-kin",
+    "audioUrl": "",
+    "example": "Bô-iàu-kín, bô-iàu-kín! (Never mind, never mind!)",
+    "tags": [
+      "social",
+      "politeness",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "wait a moment",
+    "hanzi": "等一下",
+    "poj": "tán chi̍t-ē",
+    "tl": "tán tsi̍t-ē",
+    "tone": "2-4-7",
+    "audioHint": "tan-tsit-e",
+    "audioUrl": "",
+    "example": "Tán chi̍t-ē! Góa beh khì bóe. (Wait a moment! I want to go buy something.)",
+    "tags": [
+      "daily",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "help!",
+    "hanzi": "救命！",
+    "poj": "Kiù-miā!",
+    "tl": "Kiù-miā!",
+    "tone": "3-7",
+    "audioHint": "kiu-mia",
+    "audioUrl": "",
+    "example": "Kiù-miā! (Help!)",
+    "tags": [
+      "emergency",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "call the police",
+    "hanzi": "叫警察",
+    "poj": "Kiò kéng-chhat",
+    "tl": "Kiò kíng-tshat",
+    "tone": "3-2-4",
+    "audioHint": "kio-king-tshat",
+    "audioUrl": "",
+    "example": "Kiò kéng-chhat lâi! (Call the police!)",
+    "tags": [
+      "emergency",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I need a doctor",
+    "hanzi": "我需要醫生",
+    "poj": "Góa beh chhōe i-seng",
+    "tl": "Góa beh tshuē i-sing",
+    "tone": "2-4-7-1-1",
+    "audioHint": "goa-beh-tshue-i-sing",
+    "audioUrl": "",
+    "example": "Góa beh chhōe i-seng. (I need to find a doctor.)",
+    "tags": [
+      "emergency",
+      "medical",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "zero",
+    "hanzi": "零",
+    "poj": "khòng",
+    "tl": "khòng",
+    "audioHint": "khong",
+    "audioUrl": "",
+    "example": "Sù-khòng-sù. (404 — zero in the middle.)",
+    "tags": ["number", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "thousand",
+    "hanzi": "千",
+    "poj": "chheng",
+    "tl": "tshing",
+    "audioHint": "tshing",
+    "audioUrl": "",
+    "example": "It-chheng kho͘. (One thousand dollars.)",
+    "tags": ["number", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "o'clock / hour",
+    "hanzi": "點",
+    "poj": "tiám",
+    "tl": "tiám",
+    "audioHint": "tiam",
+    "audioUrl": "",
+    "example": "Kin-á-jit kúi-tiám? (What time is it today?)",
+    "tags": ["time", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "what time is it?",
+    "hanzi": "幾點?",
+    "poj": "Kúi-tiám ah?",
+    "tl": "Kuí-tiám ah?",
+    "audioHint": "kui-tiam-ah",
+    "audioUrl": "",
+    "example": "Kúi-tiám ah? (What time is it?)",
+    "tags": ["time", "question", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sick / ill",
+    "hanzi": "病",
+    "poj": "pīⁿ",
+    "tl": "pīnn",
+    "audioHint": "pinn",
+    "audioUrl": "",
+    "example": "Góa pīⁿ-tio̍h. (I've fallen ill.)",
+    "tags": ["health", "emotion", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hot (weather / feeling)",
+    "hanzi": "熱",
+    "poj": "joa̍h",
+    "tl": "jua̍h",
+    "audioHint": "juah",
+    "audioUrl": "",
+    "example": "Kin-á-jit chin joa̍h. (Today is very hot.)",
+    "tags": ["weather", "emotion", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cold (weather / feeling)",
+    "hanzi": "寒",
+    "poj": "kôaⁿ",
+    "tl": "kuânn",
+    "audioHint": "kuann",
+    "audioUrl": "",
+    "example": "Góa chin kôaⁿ. (I'm very cold.)",
+    "tags": ["weather", "emotion", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "foot / leg",
+    "hanzi": "跤",
+    "poj": "kha",
+    "tl": "kha",
+    "audioHint": "kha",
+    "audioUrl": "",
+    "example": "Góa ê kha tio̍h-siong. (My leg is injured.)",
+    "tags": ["body", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "it hurts",
+    "hanzi": "會痛",
+    "poj": "ē-thiàⁿ",
+    "tl": "ē-thiànn",
+    "audioHint": "e-thiann",
+    "audioUrl": "",
+    "example": "Chia ē-thiàⁿ. (It hurts here.)",
+    "tags": ["body", "health", "medical", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "toilet / bathroom",
+    "hanzi": "便所",
+    "poj": "piān-só͘",
+    "tl": "piān-sóo",
+    "audioHint": "pian-soo",
+    "audioUrl": "",
+    "example": "Piān-só͘ tī tó-uī? (Where is the toilet?)",
+    "tags": ["accommodation", "basic", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hotel",
+    "hanzi": "旅館",
+    "poj": "lú-koán",
+    "tl": "lú-kuán",
+    "audioHint": "lu-kuan",
+    "audioUrl": "",
+    "example": "Lú-koán tī uī? (Where is the hotel?)",
+    "tags": ["accommodation", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "room",
+    "hanzi": "房間",
+    "poj": "pâng-king",
+    "tl": "pâng-king",
+    "audioHint": "pang-king",
+    "audioUrl": "",
+    "example": "Góa beh it-ê pâng-king. (I want one room.)",
+    "tags": ["accommodation", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "taxi",
+    "hanzi": "計程車",
+    "poj": "kè-thêng-chhia",
+    "tl": "kè-tîng-tshia",
+    "audioHint": "ke-ting-tshia",
+    "audioUrl": "",
+    "example": "Góa beh chē kè-thêng-chhia. (I want to take a taxi.)",
+    "tags": ["transport", "tourist", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bus",
+    "hanzi": "公車",
+    "poj": "kong-chhia",
+    "tl": "kong-tshia",
+    "audioHint": "kong-tshia",
+    "audioUrl": "",
+    "example": "Kong-chhia tī tó-uī thêng? (Where does the bus stop?)",
+    "tags": ["transport", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "train",
+    "hanzi": "火車",
+    "poj": "hóe-chhia",
+    "tl": "hé-tshia",
+    "audioHint": "he-tshia",
+    "audioUrl": "",
+    "example": "Hóe-chhia kúi-tiám khí? (What time does the train leave?)",
+    "tags": ["transport", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "station",
+    "hanzi": "車站",
+    "poj": "chhia-chām",
+    "tl": "tshia-tsām",
+    "audioHint": "tshia-tsam",
+    "audioUrl": "",
+    "example": "Chhia-chām tī tó-uī? (Where is the station?)",
+    "tags": ["transport", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "airport",
+    "hanzi": "飛機場",
+    "poj": "poe-ki-tiûⁿ",
+    "tl": "pue-ki-tiûnn",
+    "audioHint": "pue-ki-tiunn",
+    "audioUrl": "",
+    "example": "Poe-ki-tiûⁿ ū loán-bīn? (Does the airport have a lounge?)",
+    "tags": ["transport", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ticket",
+    "hanzi": "票",
+    "poj": "phiò",
+    "tl": "phiò",
+    "audioHint": "phio",
+    "audioUrl": "",
+    "example": "Chit-tiuⁿ phiò gōa-chōe? (How much is one ticket?)",
+    "tags": ["transport", "tourist", "shopping"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "temple",
+    "hanzi": "廟",
+    "poj": "biō",
+    "tl": "biō",
+    "audioHint": "bio",
+    "audioUrl": "",
+    "example": "Chit-ê biō chin súi. (This temple is very beautiful.)",
+    "tags": ["place", "culture", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "night market",
+    "hanzi": "夜市",
+    "poj": "iā-chhī",
+    "tl": "iā-tshī",
+    "audioHint": "ia-tshi",
+    "audioUrl": "",
+    "example": "Lán khì iā-chhī! (Let's go to the night market!)",
+    "tags": ["food", "place", "culture", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "vegetarian",
+    "hanzi": "素食",
+    "poj": "sò͘-si̍t",
+    "tl": "sòo-si̍t",
+    "audioHint": "soo-sit",
+    "audioUrl": "",
+    "example": "Góa chia̍h sò͘-si̍t. (I eat vegetarian.)",
+    "tags": ["food", "diet", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "not spicy",
+    "hanzi": "袂辣",
+    "poj": "bē-lah",
+    "tl": "buē-lah",
+    "audioHint": "bue-lah",
+    "audioUrl": "",
+    "example": "Chhiáⁿ bē-lah. (Please make it not spicy.)",
+    "tags": ["food", "order", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cheers! / bottoms up!",
+    "hanzi": "乾杯",
+    "poj": "kan-poe",
+    "tl": "kan-puê",
+    "audioHint": "kan-pue",
+    "audioUrl": "",
+    "example": "Lín-má! Kan-poe! (Cheers! Bottoms up!)",
+    "tags": ["social", "drink", "culture"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "I'm lost",
+    "hanzi": "我迷路",
+    "poj": "Góa bô-lō͘",
+    "tl": "Góa bô-lōo",
+    "audioHint": "goa-bo-loo",
+    "audioUrl": "",
+    "example": "Góa bô-lō͘. Ē-sái pang-chān góa bô? (I'm lost. Can you help me?)",
+    "tags": ["emergency", "directions", "tourist", "basic"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "water",
+    "hanzi": "水",
+    "poj": "chúi",
+    "tl": "tsuí",
+    "audioHint": "tsui",
+    "audioUrl": "",
+    "example": "Chhiáⁿ hō͘ góa chúi. (Please give me water.)",
+    "tags": ["drink", "food", "basic", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "pharmacy",
+    "hanzi": "藥房",
+    "poj": "io̍h-pâng",
+    "tl": "io̍h-pâng",
+    "audioHint": "ioh-pang",
+    "audioUrl": "",
+    "example": "Io̍h-pâng tī tó-uī? (Where is the pharmacy?)",
+    "tags": ["health", "place", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hospital",
+    "hanzi": "醫院",
+    "poj": "i-īⁿ",
+    "tl": "i-īnn",
+    "audioHint": "i-inn",
+    "audioUrl": "",
+    "example": "Chó͘ góa khì i-īⁿ. (Take me to the hospital.)",
+    "tags": ["health", "place", "emergency", "tourist"]
+  },
+  {
+    "dialectId": "shared",
+    "english": "month",
+    "hanzi": "月",
+    "poj": "goe̍h",
+    "tl": "gue̍h",
+    "audioHint": "gueh",
+    "audioUrl": "",
+    "example": "Chit-goe̍h sī saⁿ-goe̍h. (This month is March.)",
+    "tags": ["time", "basic"]
   }
 ]

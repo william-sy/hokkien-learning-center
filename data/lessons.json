@@ -1,0 +1,403 @@
+{
+  "lessons": [
+    {
+      "id": "greetings",
+      "order": 1,
+      "title": "Greetings",
+      "titleZh": "打招呼",
+      "icon": "👋",
+      "estimatedMinutes": 8,
+      "description": "Start every conversation right. These 8 phrases cover everything from hello to sorry — and will make locals smile the moment you use them.",
+      "wordKeys": [
+        "Hello",
+        "goodbye",
+        "good morning",
+        "good night",
+        "how are you?",
+        "I'm fine",
+        "have you eaten?",
+        "sorry / excuse me"
+      ],
+      "culturalNote": "\"Have you eaten yet?\" (Lí chia̍h-pá--bôe?) is one of the most common Hokkien greetings — even more so than 'Hello'. It reflects how central food and communal eating are in Hokkien culture. Answering \"chia̍h-pá ah!\" (eaten already!) is perfectly normal even as a casual acknowledgement.",
+      "etymologyNotes": [
+        {
+          "english": "sorry / excuse me",
+          "poj": "Pháiⁿ-sè",
+          "note": "Literally \"bad situation\" — 歹 (pháiⁿ) = bad/ugly, 勢 (sè) = situation/position. It conveys social awkwardness rather than deep guilt, making it ideal for minor apologies and bumping into people."
+        },
+        {
+          "english": "goodbye",
+          "poj": "chài-kiàn",
+          "note": "Shares characters with Mandarin 再見 (zàijiàn) — 再 = again, 見 = to see/meet. A cross-dialect phrase that highlights the shared written heritage of Chinese languages."
+        }
+      ],
+      "prerequisiteId": null
+    },
+    {
+      "id": "introductions",
+      "order": 2,
+      "title": "Introductions",
+      "titleZh": "自我介紹",
+      "icon": "🤝",
+      "estimatedMinutes": 9,
+      "description": "Tell people who you are, where you're from, and how to respond when they ask. The building blocks of every new friendship.",
+      "wordKeys": [
+        "what is your name?",
+        "my name is...",
+        "nice to meet you",
+        "you're welcome",
+        "yes",
+        "no / not right",
+        "where are you from?",
+        "I am from..."
+      ],
+      "culturalNote": "Hokkien speakers often greet strangers by asking where you're from (Lí tó-uī lâng?) — this is friendly curiosity, not intrusion. Knowing whether someone is Taiwanese, Penang Hokkien, or Singaporean tells you a lot about which words and tones they use.",
+      "etymologyNotes": [
+        {
+          "english": "you're welcome",
+          "poj": "M̄-bián kheh-khì",
+          "note": "Literally \"no need for guest air\" — 客氣 (kheh-khì) means formality or ceremony (lit. guest-spirit). Telling someone m̄-bián kheh-khì means \"relax, we're not strangers\"."
+        },
+        {
+          "english": "nice to meet you",
+          "poj": "Hòaⁿ-hí jīn-bat lí",
+          "note": "Hòaⁿ-hí (歡喜) = happy/joyful. Jīn-bat (認識) = to recognise + to know. Literally \"joyful to recognise you\" — a more layered phrase than it first appears."
+        }
+      ],
+      "prerequisiteId": "greetings"
+    },
+    {
+      "id": "communication",
+      "order": 3,
+      "title": "Communication",
+      "titleZh": "溝通",
+      "icon": "💬",
+      "estimatedMinutes": 6,
+      "description": "The most important toolkit for any learner — how to say you're confused, ask someone to slow down, and tell them you're still learning.",
+      "wordKeys": [
+        "I don't understand",
+        "I understand",
+        "please speak slowly",
+        "please say that again",
+        "I'm still learning Hokkien"
+      ],
+      "culturalNote": "Telling a native speaker \"góa iáu teh o̍h Hô-ló-uē\" (I'm still learning Hokkien) almost always gets a warm, encouraging reaction. Hokkien speakers deeply appreciate the effort — many never expect outsiders to know a single word.",
+      "etymologyNotes": [
+        {
+          "english": "I don't understand",
+          "poj": "Góa thiaⁿ-bô",
+          "note": "Thiaⁿ-bô literally means \"hear + nothing\" — the sound reaches you but nothing registers. Compare thiaⁿ-tio̍h (heard it successfully) or thiaⁿ-kàu (heard to completion)."
+        },
+        {
+          "english": "I understand",
+          "poj": "Góa chai-iáⁿ",
+          "note": "Chai-iáⁿ (知影) = know + shadow/image. To understand something is to have a mental image of it — a beautifully visual metaphor for comprehension unique to Min languages."
+        }
+      ],
+      "prerequisiteId": "introductions"
+    },
+    {
+      "id": "directions",
+      "order": 4,
+      "title": "Getting Around",
+      "titleZh": "問路",
+      "icon": "🗺️",
+      "estimatedMinutes": 9,
+      "description": "Navigate confidently — left, right, straight ahead, and how to ask for directions without pulling out your phone.",
+      "wordKeys": [
+        "left (direction)",
+        "right (direction)",
+        "go straight",
+        "turn",
+        "in front / ahead",
+        "behind / at the back",
+        "how do I get to...?"
+      ],
+      "culturalNote": "In older Hokkien-speaking communities, directions are sometimes given relative to natural features — \"towards the mountain\" or \"towards the sea\" — rather than left/right. In night markets and hawker centres, a pointed finger and \"chêng-bīn\" (ahead) does the job.",
+      "etymologyNotes": [
+        {
+          "english": "left (direction)",
+          "poj": "tò-pêng",
+          "note": "倒 (tò) means reversed or upside-down — the \"opposite\" side. In many Chinese dialects, left is the \"reverse\" direction, reflecting an ancient cultural preference for the right side."
+        },
+        {
+          "english": "right (direction)",
+          "poj": "chiàⁿ-pêng",
+          "note": "正 (chiàⁿ) means correct, upright, or proper — the right side is literally the \"correct\" side. This mirrors many world cultures where right = correct/righteous."
+        }
+      ],
+      "prerequisiteId": "communication"
+    },
+    {
+      "id": "food-shopping",
+      "order": 5,
+      "title": "Food & Shopping",
+      "titleZh": "食飯買物",
+      "icon": "🍜",
+      "estimatedMinutes": 9,
+      "description": "Order food, ask prices, haggle at the market, and tell your host you're stuffed. Hokkien food culture is legendary — these phrases unlock it.",
+      "wordKeys": [
+        "I want / I would like",
+        "how much does it cost?",
+        "too expensive",
+        "can it be cheaper?",
+        "I'm hungry",
+        "I'm full",
+        "bill please"
+      ],
+      "culturalNote": "Saying siuⁿ-kùi (too expensive) in a market is expected and not rude — it opens a negotiation. Sellers often wait for it. Pairing it with \"Góa beh bóe nn̄g-ê\" (I'll buy two) dramatically improves your chances.",
+      "etymologyNotes": [
+        {
+          "english": "too expensive",
+          "poj": "siuⁿ-kùi",
+          "note": "Siuⁿ (傷) literally means \"excessively\" or \"to excess\" — the same character used for injury. So siuⁿ-kùi = painfully expensive. A dramatic but extremely common intensifier in everyday Hokkien."
+        },
+        {
+          "english": "I'm hungry",
+          "poj": "Góa pak-tó͘ iau",
+          "note": "Pak-tó͘ (腹肚) = belly-stomach. Iau (枵) = hungry/hollow. Literally \"my belly is hollow\" — a vivid, physical expression unique to Hokkien and related Min languages."
+        }
+      ],
+      "prerequisiteId": "directions"
+    },
+    {
+      "id": "review-1",
+      "order": 6,
+      "title": "Review: Lessons 1–5",
+      "titleZh": "複習",
+      "icon": "🌟",
+      "type": "review",
+      "estimatedMinutes": 10,
+      "description": "Mix quiz across all five lessons you've completed. Spaced retrieval across a varied pool is proven to double long-term retention — this is your first big checkpoint.",
+      "reviewLessonIds": ["greetings", "introductions", "communication", "directions", "food-shopping"],
+      "culturalNote": "In Hokkien culture, repetition is respected — not seen as a sign of weakness. The saying 熟讀唐詩三百首 (practice until it flows like water) captures the attitude: fluency comes from cycling back, not just moving forward.",
+      "prerequisiteId": "food-shopping"
+    },
+    {
+      "id": "numbers",
+      "order": 6,
+      "title": "Numbers",
+      "titleZh": "數字",
+      "icon": "🔢",
+      "estimatedMinutes": 8,
+      "description": "Count from zero to a thousand. Numbers unlock prices, times, ages, and quantities — the backbone of any practical conversation.",
+      "wordKeys": [
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "hundred",
+        "thousand"
+      ],
+      "culturalNote": "Hokkien numbers are compound: 11 = cha̍p-it (ten-one), 21 = jī-cha̍p-it (two-ten-one). But watch out — 4 (sì) sounds like 死 (sí, death), so many buildings skip level 4. And the word for 8 (peh) sounds like 發 (hoat, prosperity), making it very auspicious for prices and phone numbers.",
+      "etymologyNotes": [
+        {
+          "english": "thousand",
+          "poj": "chheng",
+          "note": "千 (chheng) shares its root with Mandarin 千 (qiān). Notice the shift: Hokkien preserved the older ts-/ch- initial that Mandarin softened to q-. This phonological conservatism is a hallmark of Min languages."
+        },
+        {
+          "english": "one",
+          "poj": "chit",
+          "note": "Hokkien 'one' splits into two forms: chit (as a counter — chit-ê = one item) and it (in compounds like it-pah = one hundred). This tonal variation based on grammatical role is unique to Southern Min."
+        }
+      ],
+      "prerequisiteId": "review-1"
+    },
+
+    {
+      "id": "family",
+      "order": 7,
+      "title": "Family",
+      "titleZh": "家人",
+      "icon": "👨‍👩‍👧",
+      "estimatedMinutes": 9,
+      "description": "Family is everything in Hokkien culture. Master these terms and locals will light up when you use them — especially the rich system of grandparent and sibling words.",
+      "wordKeys": [
+        "father",
+        "mother",
+        "grandfather (paternal)",
+        "grandmother (paternal)",
+        "older brother",
+        "younger sister",
+        "child",
+        "friend"
+      ],
+      "culturalNote": "Hokkien has one of the most elaborate family term systems in the world — separate words for every relative by side of family, birth order, and generation. Just using a-kong (grandpa) and a-má (grandma) correctly will earn instant warmth from elders in any Hokkien community.",
+      "etymologyNotes": [
+        {
+          "english": "father",
+          "poj": "a-pa",
+          "note": "阿爸 uses 阿 (a-) as an affectionate prefix — the same particle you find in a-má, a-kong, a-chek, a-kó. It has no direct translation but marks kinship terms as warm and familiar rather than formal."
+        },
+        {
+          "english": "friend",
+          "poj": "pêng-iú",
+          "note": "朋友 (pêng-iú) is shared across Sinitic languages. But note: in Hokkien social settings, calling someone 朋友 is quite formal. The casual word for close friend or mate varies by region — in Penang you often hear 伙伴 (hóe-phōaⁿ)."
+        }
+      ],
+      "prerequisiteId": "numbers"
+    },
+
+    {
+      "id": "feelings",
+      "order": 8,
+      "title": "How Are You Feeling?",
+      "titleZh": "心情",
+      "icon": "😄",
+      "estimatedMinutes": 8,
+      "description": "Go beyond 'I'm fine'. Express happiness, tiredness, cold, heat, and illness — the real emotional vocabulary that makes conversations feel human.",
+      "wordKeys": [
+        "happy",
+        "sad",
+        "angry",
+        "tired",
+        "sick / ill",
+        "hot (weather / feeling)",
+        "cold (weather / feeling)",
+        "I'm hungry",
+        "I'm full"
+      ],
+      "culturalNote": "Hokkien emotional expression is often indirect — instead of saying 'I'm angry', people often describe the physical feeling (my heart is on fire, my stomach is upset). The word 歡喜 (hoaⁿ-hí, happy) is also used to mean 'pleased' and 'willing' — so 'I'm happy to do it' and 'I like it' use the same word.",
+      "etymologyNotes": [
+        {
+          "english": "happy",
+          "poj": "hoaⁿ-hí",
+          "note": "歡喜 = 歡 (hoaⁿ, joyful) + 喜 (hí, delighted). Two joy-characters stacked together. This word appears in the Buddhist phrase 歡喜心 (hoaⁿ-hí-sim) — 'joyful heart' — central to Hokkien religious culture."
+        },
+        {
+          "english": "angry",
+          "poj": "seⁿ-khì",
+          "note": "生氣 (seⁿ-khì) literally means 'grow air/energy'. In traditional Chinese medicine, anger causes qi (energy) to rise upward through the body — so being angry is described as producing excess qi. The same metaphor is used in Mandarin (shēngqì)."
+        }
+      ],
+      "prerequisiteId": "family"
+    },
+
+    {
+      "id": "time",
+      "order": 9,
+      "title": "Time & Days",
+      "titleZh": "時間",
+      "icon": "📅",
+      "estimatedMinutes": 8,
+      "description": "Talk about when — today, tomorrow, what time, morning and night. Essential for making plans, catching transport, and booking anything.",
+      "wordKeys": [
+        "today",
+        "tomorrow",
+        "yesterday",
+        "morning",
+        "now",
+        "day",
+        "week",
+        "month",
+        "year",
+        "what time is it?"
+      ],
+      "culturalNote": "Hokkien time expressions often stack naturally: kin-á-jit = today (this + day), bîn-á-chài = tomorrow (bright + morning + carry). Noticing these compound structures makes the whole system intuitive — you're not memorising separate words, you're learning a pattern.",
+      "etymologyNotes": [
+        {
+          "english": "tomorrow",
+          "poj": "bîn-á-chài",
+          "note": "明仔載 = 明 (bîn, bright/dawn) + 仔 (á, diminutive particle) + 載 (chài, carry/occasion). Literally 'the bright little occasion that's coming' — one of the most vivid time words in any dialect."
+        },
+        {
+          "english": "what time is it?",
+          "poj": "Kúi-tiám ah?",
+          "note": "幾點 = kúi (how many) + tiám (dots/points). Time in Hokkien is counted in 'dots' on a clock face — the same metaphor as in Mandarin (幾點 jǐ diǎn). The particle 'ah' softens it from a demand into a casual question."
+        }
+      ],
+      "prerequisiteId": "feelings"
+    },
+
+    {
+      "id": "body",
+      "order": 10,
+      "title": "The Body",
+      "titleZh": "身體",
+      "icon": "🫀",
+      "estimatedMinutes": 8,
+      "description": "Know your body parts in Hokkien — vital for describing pain, visiting a clinic, or just understanding the colourful idioms that reference body parts constantly.",
+      "wordKeys": [
+        "head",
+        "eye",
+        "ear",
+        "mouth",
+        "nose",
+        "hand",
+        "foot / leg",
+        "body",
+        "it hurts"
+      ],
+      "culturalNote": "Body-part idioms are everywhere in Hokkien. A thick-faced person (bīn phòng-phòng) is shameless. Someone with a hot hand (chhiú joa̍h) is on a lucky streak. Knowing the words unlocks a whole register of vivid everyday expressions.",
+      "etymologyNotes": [
+        {
+          "english": "it hurts",
+          "poj": "ē-thiàⁿ",
+          "note": "痛 (thiàⁿ) has two readings in Hokkien: thiàⁿ for physical pain (it hurts), and same character for emotional pain — 痛疼 (thiàⁿ-thàng, to love dearly/feel for someone). So the word for pain and the word for deep parental love share the same root."
+        },
+        {
+          "english": "foot / leg",
+          "poj": "kha",
+          "note": "跤 (kha) is a uniquely Southern Min character. Kha appears in dozens of everyday compounds: kha-chhiú (hands and feet = followers), chia̍h-kha (eating leg = the one who eats into the budget), thô͘-kha (ground-foot = floor/ground)."
+        }
+      ],
+      "prerequisiteId": "time"
+    },
+
+    {
+      "id": "review-2",
+      "order": 11,
+      "title": "Review: Lessons 6–10",
+      "titleZh": "複習",
+      "icon": "🏆",
+      "type": "review",
+      "estimatedMinutes": 12,
+      "description": "The second major checkpoint — a mixed quiz across numbers, family, feelings, time, and body. Completing this unlocks the Survival Pack bonus lesson.",
+      "reviewLessonIds": ["numbers", "family", "feelings", "time", "body"],
+      "culturalNote": "Reaching this point means you have the vocabulary for a real conversation. The Penang Hokkien community has a saying: 講話免驚錯 — Don't be afraid of making mistakes when you speak. Every error is remembered more than ten correct sentences.",
+      "prerequisiteId": "body"
+    },
+
+    {
+      "id": "survival",
+      "order": 12,
+      "title": "Survival Pack",
+      "titleZh": "救命包",
+      "icon": "🆘",
+      "estimatedMinutes": 7,
+      "description": "Eight phrases that could genuinely help you in an emergency or awkward situation. Learn these last — and hope you never need them.",
+      "wordKeys": [
+        "help!",
+        "call the police",
+        "I need a doctor",
+        "I'm lost",
+        "hospital",
+        "pharmacy",
+        "toilet / bathroom",
+        "water"
+      ],
+      "culturalNote": "In many Hokkien-speaking regions, shouting 救人啊! (Kiù-lâng--ah! — Save people!) is universally understood as a distress call. Locals will respond faster to this than to 'help' in English, especially in night markets, temples, and older neighbourhoods.",
+      "etymologyNotes": [
+        {
+          "english": "help!",
+          "poj": "Kiù-lâng--ah!",
+          "note": "救 (kiù) = to rescue/save. 人 (lâng) = person(s). --ah is a sentence-final particle that makes it urgent and exclamatory. Literally 'Save people!' — the same phrasing used in classical texts and modern emergencies alike."
+        },
+        {
+          "english": "toilet / bathroom",
+          "poj": "piān-só͘",
+          "note": "便所 = 便 (piān, convenience/ease) + 所 (só͘, place). Literally 'convenience place' — a formal and polite term. In casual Hokkien you might also hear 屎礐仔 (sái-hak-á, the excrement pit) — considerably less polite but widely understood."
+        }
+      ],
+      "prerequisiteId": "review-2"
+    }
+  ]
+}

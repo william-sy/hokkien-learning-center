@@ -203,6 +203,7 @@ input[type="radio"] {
   padding: 0;
   border: 0;
   background: transparent;
+  accent-color: var(--accent);
 }
 
 select:focus,
@@ -1498,6 +1499,31 @@ h3:first-child {
   color: white;
 }
 
+/* ── Generic btn / btn-outline ────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.3rem 0.75rem;
+}
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+
 /* ── Print flashcard layout ───────────────────────────────────────────────── */
 
 @media print {
@@ -2040,4 +2066,476 @@ kbd {
   font-size: 0.72rem;
   font-weight: 700;
   vertical-align: middle;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   Lessons
+   ═══════════════════════════════════════════════════════════════ */
+
+.lesson-dialect-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.9rem 0 0.25rem;
+  flex-wrap: wrap;
+}
+.lesson-dialect-row label {
+  font-size: 0.88rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* ── Lesson list grid ──────────────────────────────────────────── */
+.lesson-cards-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.lesson-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  background: var(--panel);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.lesson-card:not(.lesson-locked):hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+.lesson-card.lesson-done {
+  border-color: #10b981;
+  background: color-mix(in srgb, #10b981 6%, var(--panel));
+}
+.lesson-card.lesson-locked {
+  opacity: 0.55;
+}
+
+.lesson-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+}
+.lesson-card-icon {
+  font-size: 2rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+.lesson-card-info {
+  flex: 1;
+  min-width: 0;
+}
+.lesson-number {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+.lesson-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.lesson-titlezh {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.lesson-desc {
+  margin: 0.65rem 0 0.5rem;
+  font-size: 0.93rem;
+  color: var(--text);
+  line-height: 1.5;
+}
+.lesson-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+.lesson-meta-intro {
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+/* Status badges */
+.lesson-badge {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-left: auto;
+  align-self: flex-start;
+}
+.lesson-badge.done {
+  background: color-mix(in srgb, #10b981 18%, var(--panel));
+  color: #059669;
+  border: 1px solid #10b981;
+}
+.lesson-badge.locked {
+  background: var(--panel);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+.lesson-badge.available {
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+}
+.lesson-badge.review {
+  background: color-mix(in srgb, #f59e0b 18%, var(--panel));
+  color: #b45309;
+  border: 1px solid #f59e0b;
+}
+.lesson-badge.survival {
+  background: color-mix(in srgb, #ef4444 15%, var(--panel));
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+/* Review milestone card */
+.lesson-card.lesson-review {
+  border-color: #f59e0b;
+  background: color-mix(in srgb, #f59e0b 5%, var(--panel));
+}
+.lesson-card.lesson-review:not(.lesson-locked):hover {
+  border-color: #d97706;
+  box-shadow: 0 0 0 3px color-mix(in srgb, #f59e0b 20%, transparent);
+}
+
+/* Survival pack card */
+.lesson-card.lesson-survival {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 5%, var(--panel));
+}
+.lesson-card.lesson-survival:not(.lesson-locked):hover {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+/* Combo flash */
+.combo-flash {
+  display: inline-block;
+  margin-left: 0.6rem;
+  font-weight: 700;
+  color: #f59e0b;
+  animation: combo-pop 0.35s ease-out;
+}
+@keyframes combo-pop {
+  0%   { transform: scale(0.7); opacity: 0; }
+  60%  { transform: scale(1.25); }
+  100% { transform: scale(1);   opacity: 1; }
+}
+.combo-peak {
+  font-size: 0.92rem;
+  color: #f59e0b;
+  margin: 0.25rem 0 0.75rem;
+  text-align: center;
+}
+
+/* ── Lesson player card ────────────────────────────────────────── */
+.lesson-player-card {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* Phase tag */
+.phase-tag {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: color-mix(in srgb, var(--accent) 12%, var(--panel));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  margin-bottom: 1.25rem;
+}
+
+/* ── Intro phase ───────────────────────────────────────────────── */
+.lesson-hero-icon {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.lesson-hero-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+.lesson-hero-zh {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 0.4rem;
+}
+.lesson-intro-desc {
+  text-align: center;
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto 1rem;
+}
+.lesson-cultural-card {
+  background: color-mix(in srgb, var(--accent) 8%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+}
+.cultural-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.lesson-cultural-card p {
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* ── Present phase ─────────────────────────────────────────────── */
+.present-progress {
+  height: 5px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.present-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.present-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  text-align: center;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.present-english {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.present-hanzi {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--text);
+}
+.present-poj {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+.present-tl {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.present-audio-hint {
+  font-size: 0.88rem;
+  color: var(--muted);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  margin-top: 0.25rem;
+}
+.present-fallback-note {
+  font-size: 0.75rem;
+  color: var(--muted);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  margin-top: 0.15rem;
+  font-style: italic;
+}
+.present-example {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 0.6rem;
+  margin-top: 0.25rem;
+  max-width: 400px;
+  line-height: 1.5;
+}
+.present-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Recognise phase ───────────────────────────────────────────── */
+.question-prompt {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+.recognise-target {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.quiz-hanzi {
+  font-size: 1.75rem;
+  color: var(--text);
+  margin-top: 0.3rem;
+}
+.quiz-choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.quiz-next-row {
+  text-align: center;
+  min-height: 2.5rem;
+}
+
+/* ── Summary phase ─────────────────────────────────────────────── */
+.summary-score-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.summary-heading {
+  margin: 0;
+}
+.summary-score {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.sum-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+.sum-table {
+  width: 100%;
+  font-size: 0.9rem;
+}
+.sum-hanzi { font-size: 1.15rem; }
+.sum-poj   { font-weight: 600; color: var(--accent); }
+.sum-tl    { color: var(--muted); }
+.sum-en    { color: var(--text); }
+.print-btn {
+  margin: 0.75rem 0 1.5rem;
+}
+.etym-heading {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+.etym-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+.etym-card {
+  background: color-mix(in srgb, var(--accent) 6%, var(--panel));
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+}
+.etym-word {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+  flex-wrap: wrap;
+}
+.etym-poj {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--accent);
+}
+.etym-en {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.etym-note {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+/* ── Complete phase ────────────────────────────────────────────── */
+.complete-wrap {
+  text-align: center;
+  padding: 1rem 0;
+}
+.complete-emoji {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.complete-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 1.5rem 0;
+}
+.cstat { text-align: center; }
+.cstat-val {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.cstat-val.correct-color { color: #10b981; }
+.cstat-label {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.2rem;
+}
+.complete-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* ── Print styles for lesson summary ──────────────────────────── */
+@media print {
+  .hero, nav, .lesson-player-card > *:not(#phaseSummary),
+  .print-btn, .phase-tag, #lessonList { display: none !important; }
+  #phaseSummary { display: block !important; }
+  body { background: #fff; color: #000; }
+  .sum-table { border-collapse: collapse; width: 100%; }
+  .sum-table th, .sum-table td { border: 1px solid #ccc; padding: 0.4rem 0.6rem; }
+  .etym-card { border: 1px solid #ccc; break-inside: avoid; }
 }

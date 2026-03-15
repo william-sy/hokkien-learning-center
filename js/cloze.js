@@ -2,25 +2,6 @@
 // Fill-in-the-blank game.
 // For entries that have an example sentence, we blank the target POJ inside it.
 // For entries without a matching example, we ask "How do you say X?" directly.
-
-const DIALECTS = [
-  { id: "all",              name: "All dialects" },
-  { id: "shared",           name: "Shared / Cross-dialect" },
-  { id: "quanzhou",         name: "Quanzhou (泉州)" },
-  { id: "zhangzhou",        name: "Zhangzhou (漳州)" },
-  { id: "xiamen",           name: "Xiamen / Amoy (廈門)" },
-  { id: "taiwanese",        name: "Taiwanese" },
-  { id: "sea_hokkien",      name: "SE Asian Hokkien" },
-  { id: "malaysia_north",   name: "Malaysian – North" },
-  { id: "malaysia_central", name: "Malaysian – Central" },
-  { id: "malaysia_south",   name: "Malaysian – South" },
-  { id: "singapore",        name: "Singaporean" },
-  { id: "philippine",       name: "Philippine" },
-  { id: "indonesian",       name: "Indonesian" },
-  { id: "burmese",          name: "Burmese" },
-  { id: "thai",             name: "Thai" },
-];
-
 // ── DOM refs ──────────────────────────────────────────────────────────────────
 const setupSection    = document.getElementById("setupSection");
 const gameSection     = document.getElementById("gameSection");
@@ -37,6 +18,7 @@ const hintEl          = document.getElementById("clozeHint");
 const choicesEl       = document.getElementById("clozeChoices");
 const feedbackEl      = document.getElementById("clozeFeedback");
 const nextBtn         = document.getElementById("clozeNextBtn");
+const nextHint        = document.getElementById("clozeNextHint");
 const totalEl         = document.getElementById("totalQuestions");
 const correctEl       = document.getElementById("correctAnswers");
 const finalScoreEl    = document.getElementById("finalScore");
@@ -53,10 +35,24 @@ let total      = 0;
 let difficulty = "easy";
 let answered   = false;
 
-// ── populate dialect select ───────────────────────────────────────────────────
-dialectSelect.innerHTML = DIALECTS.map(d =>
-  `<option value="${d.id}"${d.id === "taiwanese" ? " selected" : ""}>${d.name}</option>`
-).join("");
+// ── populate dialect select from content.json ─────────────────────────────
+async function populateDialectSelect() {
+  try {
+    const res      = await fetch("data/content.json");
+    const content  = await res.json();
+    const dialects = content.dialects || [];
+    dialectSelect.innerHTML =
+      `<option value="all">All dialects</option>` +
+      `<option value="shared">Shared / Cross-dialect</option>` +
+      dialects.map(d =>
+        `<option value="${d.id}"${d.id === "taiwanese" ? " selected" : ""}>${d.name}</option>`
+      ).join("");
+  } catch {
+    // Fallback: leave the select empty so the game still works
+    dialectSelect.innerHTML = `<option value="all">All dialects</option>`;
+  }
+}
+populateDialectSelect();
 
 // ── data loading ──────────────────────────────────────────────────────────────
 async function ensureData() {
@@ -159,6 +155,7 @@ function showQuestion() {
   answered = false;
   feedbackEl.style.display = "none";
   nextBtn.style.display    = "none";
+  if (nextHint) nextHint.style.display = "none";
   choicesEl.innerHTML      = "";
 
   const q = queue[current];
@@ -210,6 +207,7 @@ function selectAnswer(chosen) {
   feedbackEl.className       = `feedback ${correct ? "correct" : "incorrect"}`;
   feedbackEl.style.display   = "";
   nextBtn.style.display      = "";
+  if (nextHint) nextHint.style.display = "";
   scoreEl.textContent        = `Score: ${score} / ${current + 1}`;
 }
 

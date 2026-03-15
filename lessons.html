@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lessons – Hokkien Learning Center</title>
+    <meta name="description" content="Structured Hokkien lessons with guided vocabulary, multiple-choice quizzes, and cultural notes. Learn greetings, introductions, directions, and more." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+    <script src="js/pwa.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>
+        <a href="lessons.html" class="nav-link active">Lessons</a>
+        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>
+        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+
+      <!-- ── Lesson List ────────────────────────────────────────── -->
+      <section id="lessonList">
+        <div class="card">
+          <h2>Structured Lessons</h2>
+          <p class="muted">
+            A guided course with vocabulary, quizzes, and cultural context.
+            Complete each lesson to unlock the next.
+          </p>
+          <div class="lesson-dialect-row">
+            <label for="lessonDialect">Variety to learn</label>
+            <select id="lessonDialect" aria-label="Select dialect">
+              <option value="shared">Shared / Cross-dialect</option>
+            </select>
+          </div>
+          <div id="lessonCards" class="lesson-cards-grid">
+            <p class="muted">Loading lessons…</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Lesson Player ──────────────────────────────────────── -->
+      <section id="lessonPlayer" style="display:none;">
+        <div class="card lesson-player-card">
+
+          <!-- Phase 0: Introduction -->
+          <div id="phaseIntro" style="display:none;"></div>
+
+          <!-- Phase 1: Present words -->
+          <div id="phasePresent" style="display:none;"></div>
+
+          <!-- Phase 2: Recognise (MCQ) -->
+          <div id="phaseRecognise" style="display:none;"></div>
+
+          <!-- Phase 3: Summary + Etymology -->
+          <div id="phaseSummary" style="display:none;"></div>
+
+          <!-- Phase 4: Complete -->
+          <div id="phaseComplete" style="display:none;"></div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <script src="js/lessons.js" type="module"></script>
+  </body>
+</html>
