@@ -148,8 +148,8 @@ def create_entry():
     return entry
 
 def load_dictionary():
-    """Load existing dictionary.json"""
-    dict_path = Path(__file__).parent.parent / "data" / "dictionary.json"
+    """Load existing shared dialect dictionary"""
+    dict_path = Path(__file__).parent.parent / "data" / "dialects" / "shared.json"
     
     if not dict_path.exists():
         print(f"⚠️  Dictionary file not found: {dict_path}")

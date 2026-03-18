@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spaced Repetition Review - Hokkien Learning Center</title>
+    <meta name="description" content="Review your learned Hokkien vocabulary with spaced repetition. Cards are scheduled based on how well you remember them." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://william-sy.github.io/hokkien-learning-center/review.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+    <script src="js/pwa.js"></script>
+    <style>
+      /* ── SRS Review styles ─────────────────────────────────────────────── */
+      .review-wrap {
+        max-width: 560px;
+        margin: 0 auto;
+      }
+
+      .review-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+
+      .review-progress-bar {
+        height: 6px;
+        background: var(--border);
+        border-radius: 3px;
+        margin-bottom: 1.5rem;
+        overflow: hidden;
+      }
+      .review-progress-fill {
+        height: 100%;
+        background: var(--accent);
+        border-radius: 3px;
+        transition: width 0.3s ease;
+      }
+
+      .review-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 2.5rem 2rem;
+        text-align: center;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      }
+
+      .review-card-front .card-english {
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: var(--text);
+      }
+
+      .review-card-back .card-hanzi {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+      .review-card-back .card-rom {
+        font-size: 1.15rem;
+        color: var(--accent);
+        font-weight: 500;
+      }
+      .review-card-back .card-dialect {
+        font-size: 0.78rem;
+        color: var(--muted);
+        margin-top: 0.15rem;
+      }
+      .review-card-back .card-example {
+        font-size: 0.86rem;
+        color: var(--muted);
+        font-style: italic;
+        max-width: 420px;
+        margin-top: 0.25rem;
+      }
+
+      .review-actions {
+        display: flex;
+        gap: 0.75rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .btn-show {
+        min-width: 160px;
+        padding: 0.7rem 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        background: var(--accent);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .btn-show:hover { opacity: 0.88; }
+
+      .btn-again { background: #e74c3c; color: #fff; }
+      .btn-hard  { background: #e67e22; color: #fff; }
+      .btn-easy  { background: #27ae60; color: #fff; }
+
+      .btn-rating {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        min-width: 100px;
+        transition: opacity 0.15s;
+      }
+      .btn-rating:hover { opacity: 0.85; }
+
+      .review-done {
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+      .review-done .done-icon { font-size: 3rem; margin-bottom: 0.5rem; }
+      .review-done h3 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+      .review-done p { color: var(--muted); margin-bottom: 1rem; }
+
+      .review-empty {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: var(--muted);
+      }
+      .review-empty .empty-icon { font-size: 3rem; margin-bottom: 0.75rem; }
+
+      .srs-stats {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+      }
+      .srs-stat {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.75rem 1.25rem;
+        text-align: center;
+        min-width: 90px;
+      }
+      .srs-stat-num { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+      .srs-stat-label { font-size: 0.75rem; color: var(--muted); }
+
+      .interval-hint {
+        font-size: 0.72rem;
+        color: var(--muted);
+        margin-top: 0.35rem;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card review-wrap">
+        <h2>📅 Spaced Repetition Review</h2>
+        <p class="muted">Cards are shown based on how well you remember them — easy cards come back less often, hard ones more often.</p>
+
+        <div id="reviewStats" class="srs-stats" style="display:none"></div>
+        <div id="reviewBody"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
+    <script src="js/review.js" type="module"></script>
+  </body>
+</html>

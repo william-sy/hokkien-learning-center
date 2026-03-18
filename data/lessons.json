@@ -398,6 +398,193 @@
         }
       ],
       "prerequisiteId": "review-2"
+    },
+    {
+      "id": "weather",
+      "order": 13,
+      "title": "Weather & Nature",
+      "titleZh": "天氣與大自然",
+      "icon": "🌤️",
+      "estimatedMinutes": 9,
+      "description": "Talk about the sky, the seasons, and the natural world around you. Essential vocabulary for daily small-talk in any Hokkien community.",
+      "wordKeys": [
+        "rain",
+        "wind",
+        "sun",
+        "moon",
+        "cloud",
+        "sky",
+        "tree",
+        "flower",
+        "bird",
+        "star"
+      ],
+      "culturalNote": "Weather is a cornerstone of Hokkien small-talk, especially in Malaysia and Singapore where rain can arrive suddenly and intensely. Commenting on the weather — 落雨了 (Lo̍h-hō͘--ah, it's raining!) — is a perfectly natural conversation opener with any elder or neighbour.",
+      "etymologyNotes": [
+        {
+          "english": "rain",
+          "poj": "hō͘",
+          "note": "雨 (hō͘) — the Hokkien reading of 雨 is hō͘ (tone 7), which differs from Mandarin yǔ. The same character in compounds: 落雨 (lo̍h-hō͘, to rain) and 雨傘 (hō͘-soaⁿ, umbrella)."
+        },
+        {
+          "english": "moon",
+          "poj": "goe̍h",
+          "note": "月 (goe̍h/ge̍h) — also means 'month', just like in Mandarin. 月光 (goe̍h-kng) = moonlight. The same character gives us 月餅 (goe̍h-piáⁿ, mooncake) central to the Mid-Autumn Festival."
+        }
+      ],
+      "prerequisiteId": "survival"
+    },
+    {
+      "id": "market",
+      "order": 14,
+      "title": "At the Market",
+      "titleZh": "在市場",
+      "icon": "🛒",
+      "estimatedMinutes": 10,
+      "description": "Bargain, ask prices, and shop confidently at any wet market, hawker centre, or pasar malam. These phrases will save you money and earn you respect.",
+      "wordKeys": [
+        "how much is this?",
+        "expensive",
+        "too expensive",
+        "can it be cheaper?",
+        "money",
+        "to buy",
+        "market",
+        "do you have...?",
+        "to pay",
+        "bill please"
+      ],
+      "culturalNote": "Bargaining (講價 kóng-kè) is expected and respected at wet markets throughout Southeast Asia. Opening with 'Jōa-chōe chîⁿ?' (How much?) followed by a polite counter-offer is a social skill as much as a financial one. Elderly vendors often light up when you speak Hokkien.",
+      "etymologyNotes": [
+        {
+          "english": "expensive",
+          "poj": "kùi",
+          "note": "貴 (kùi) — in Hokkien, 貴 covers both 'expensive' and 'honourable'. The same word in the polite question 'What is your honourable surname?' (Lí kùi-sìⁿ?) shows how price and status share the same ancient character."
+        },
+        {
+          "english": "market",
+          "poj": "chhī",
+          "note": "市 (chhī) — 菜市 (chhài-chhī, vegetable market), 夜市 (iā-chhī, night market). The wet market is the social centre of any traditional Hokkien neighbourhood — a place for news, gossip, and community connection as much as shopping."
+        }
+      ],
+      "prerequisiteId": "weather"
+    },
+    {
+      "id": "home-daily",
+      "order": 15,
+      "title": "Home & Daily Routines",
+      "titleZh": "居家日常",
+      "icon": "🏠",
+      "estimatedMinutes": 9,
+      "description": "The language of everyday home life — from waking up to locking the door. Perfect for talking with family or describing your daily routine.",
+      "wordKeys": [
+        "home / house",
+        "kitchen",
+        "bed",
+        "chair",
+        "door",
+        "key",
+        "ground / floor",
+        "to get up",
+        "to bathe",
+        "to close (door)"
+      ],
+      "culturalNote": "The traditional Hokkien home (厝 chhù) is more than a building — it reflects ancestral ties and family hierarchy. Many Hokkien families still use the same house terminology that would be understood by ancestors from Fujian hundreds of years ago.",
+      "etymologyNotes": [
+        {
+          "english": "home / house",
+          "poj": "chhù",
+          "note": "厝 (chhù) — a distinctly Southern Min character rarely used in standard Chinese. The ancestral home (祖厝 tsó͘-chhù) is sacred in Hokkien culture; many families return to the family 厝 for major festivals even generations after leaving."
+        },
+        {
+          "english": "to get up",
+          "poj": "khí-sin",
+          "note": "起身 (khí-sin) — literally 'rise body'. A gentle phrase used within the home. Compare with the more abrupt Mandarin 起床 (qǐchuáng). The softness of khí-sin reflects the relational warmth of Hokkien domestic language."
+        }
+      ],
+      "prerequisiteId": "market"
+    },
+    {
+      "id": "health",
+      "order": 16,
+      "title": "Health & Emergencies",
+      "titleZh": "健康與緊急",
+      "icon": "🏥",
+      "estimatedMinutes": 8,
+      "description": "The most important words you hope you never need — but must know. From minor ailments to emergencies, these phrases could make all the difference.",
+      "wordKeys": [
+        "sick / ill",
+        "it hurts",
+        "medicine",
+        "hospital",
+        "pharmacy",
+        "i need a doctor",
+        "blood"
+      ],
+      "culturalNote": "Traditional Hokkien communities often combine modern medicine with traditional remedies (草藥 chháu-io̍h). Before visiting a clinic, many elders will recommend herbal soups and rest. Knowing how to describe your symptoms in Hokkien helps bridge the gap with older family members and traditional practitioners.",
+      "etymologyNotes": [
+        {
+          "english": "medicine",
+          "poj": "io̍h",
+          "note": "藥 (io̍h) — used in both Western medicine (藥水 io̍h-chúi, liquid medicine) and traditional remedies (草藥 chháu-io̍h, herbal medicine). The character 藥 contains 草 (grass/herbs) at the top, a reminder of its botanical origins."
+        },
+        {
+          "english": "it hurts",
+          "poj": "thiàⁿ",
+          "note": "疼/痛 (thiàⁿ) — also means 'to love' or 'to cherish' in Hokkien. A parent saying 'Góa thiàⁿ lí' (我疼你) means 'I love you'. Pain and love share the same word — a poignant feature of the language."
+        }
+      ],
+      "prerequisiteId": "home-daily"
+    },
+    {
+      "id": "descriptions",
+      "order": 17,
+      "title": "Describing Things",
+      "titleZh": "形容詞",
+      "icon": "🎨",
+      "estimatedMinutes": 10,
+      "description": "Hokkien adjectives go straight after the noun they describe — no need for a verb 'to be'. Ten essential adjectives that unlock expressive, natural-sounding Hokkien.",
+      "wordKeys": [
+        "big",
+        "beautiful",
+        "good",
+        "bad",
+        "fast",
+        "cold (temperature)",
+        "dirty",
+        "different",
+        "heavy",
+        "hot (spicy)"
+      ],
+      "culturalNote": "In Hokkien, adjectives function as stative verbs — 'chit-ê lâng súi' (這個人媠, this person beautiful) is grammatically complete without a verb 'to be'. This is a key structural difference from English that makes Hokkien adjectives feel more vivid and direct.",
+      "etymologyNotes": [
+        {
+          "english": "beautiful",
+          "poj": "súi",
+          "note": "媠 (súi) — a character specific to Taiwanese Hokkien script, rarely found in standard Chinese dictionaries. In Malaysia it is also commonly written as 媠 or the borrowed character 美 (bí). It describes beauty in people, objects and scenery alike."
+        },
+        {
+          "english": "hot (spicy)",
+          "poj": "jia̍t",
+          "note": "辣 (hiam/la̍t) or 熱 (jia̍t) — Hokkien distinguishes clearly between spicy-hot (辣 hiam) and temperature-hot (熱 jia̍t). Knowing both is essential at any hawker stall: 'bē-hiam' (not spicy) vs 'ài-hiam' (want spicy) are phrases you will use every meal."
+        }
+      ],
+      "prerequisiteId": "health"
+    },
+    {
+      "id": "review-3",
+      "order": 18,
+      "type": "review",
+      "title": "Review: Lessons 13–17",
+      "titleZh": "複習：第13–17課",
+      "icon": "🔄",
+      "estimatedMinutes": 12,
+      "description": "Consolidate everything from the last five lessons: nature, the market, home life, health, and descriptions.",
+      "wordKeys": [],
+      "reviewLessonIds": ["weather", "market", "home-daily", "health", "descriptions"],
+      "culturalNote": null,
+      "etymologyNotes": [],
+      "prerequisiteId": "descriptions"
     }
   ]
 }

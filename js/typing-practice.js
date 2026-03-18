@@ -67,7 +67,7 @@ function getPOJ(entry) {
 async function loadData() {
   const urls = [
     fetch("data/content.json",    { cache: "no-store" }),
-    fetch("data/dictionary.json", { cache: "no-store" }),
+    fetch("data/dialects/shared.json", { cache: "no-store" }),
     fetch("data/phrases.json",    { cache: "no-store" })
   ];
   const [cRes, dRes, pRes] = await Promise.all(urls);

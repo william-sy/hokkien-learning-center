@@ -1,0 +1,6351 @@
+[
+  {
+    "dialectId": "shared",
+    "english": "afraid",
+    "hanzi": "驚",
+    "poj": "kiaⁿ",
+    "tl": "kiann",
+    "audioHint": "kiann",
+    "audioUrl": "",
+    "tags": [
+      "emotion",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "after",
+    "hanzi": "後來",
+    "poj": "āu-lâi",
+    "tl": "āu-lâi",
+    "audioHint": "au-lai",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "adverb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "afternoon",
+    "hanzi": "下晡",
+    "poj": "ē-po͘",
+    "tl": "ē-poo",
+    "audioHint": "e-poo",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ē-po·",
+        "tl": "ē-poo",
+        "audioHint": "e-po",
+        "example": "Tong3kim1 lark3 tiam4 ae33por1 liau4. (It's six o'clock in the evening now.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "again",
+    "hanzi": "閣",
+    "poj": "koh",
+    "tl": "koh",
+    "audioHint": "koh",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "adverb"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "koʔ",
+        "tl": "koh",
+        "audioHint": "ko",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "age (years old)",
+    "hanzi": "歲",
+    "poj": "hè",
+    "tl": "hè",
+    "audioHint": "he",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "noun"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hoe",
+        "tl": "huè",
+        "audioHint": "hoe",
+        "example": "Wah1-eh3 knia4 lark3 hoay3 liau4. (My child is six years old already.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "airport",
+    "hanzi": "飛機場",
+    "poj": "poe-ki-tiûⁿ",
+    "tl": "pue-ki-tiûnn",
+    "audioHint": "pue-ki-tiunn",
+    "audioUrl": "",
+    "example": "Poe-ki-tiûⁿ ū loán-bīn? (Does the airport have a lounge?)",
+    "tags": [
+      "transport",
+      "tourist"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "poe-ki-tiâuⁿ",
+        "tl": "pue-ki-tiâunn",
+        "audioHint": "poe-ki-tiau",
+        "example": "Ie1 cai3 wah4 khee3 poay3ki3tniau2. (He drives me to the airport.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "all",
+    "hanzi": "攏",
+    "poj": "lóng",
+    "tl": "lóng",
+    "audioHint": "long",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "adverb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "alone",
+    "hanzi": "家己",
+    "poj": "ka-kī",
+    "tl": "ka-kī",
+    "audioHint": "ka-ki",
+    "audioUrl": "",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "also",
+    "hanzi": "嘛",
+    "poj": "mā",
+    "tl": "mā",
+    "audioHint": "ma",
+    "audioUrl": "",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "angry",
+    "hanzi": "生氣",
+    "poj": "seⁿ-khì",
+    "tl": "senn-khì",
+    "audioHint": "senn-khi",
+    "audioUrl": "",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "apple",
+    "hanzi": "蘋果",
+    "poj": "phōng-kó",
+    "tl": "phōng-kó",
+    "audioHint": "phong-ko",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "fruit"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phêng-kó",
+        "tl": "phîng-kó",
+        "audioHint": "pheng-ko",
+        "example": "Wah1 boh3 ai1 ciak3 pheng3ko4. (I don't like to eat apples.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "archery; 2. to shoot arrows",
+    "hanzi": "射箭",
+    "poj": "siā-chí",
+    "tl": "siā-tsí",
+    "audioHint": "se-tsi",
+    "audioUrl": "",
+    "example": "Ie1 sae33cni3 tiok3 pae4. (He shoots arrows hitting the target.)",
+    "tags": [
+      "sport",
+      "verb",
+      "culture"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sɛ-tsĩ",
+        "tl": "sɛ-tsĩ",
+        "audioHint": "se-tsi",
+        "example": "Ie1 sae33cni3 tiok3 pae4. (He shoots arrows hitting the target.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sia-tsĩ",
+        "tl": "sia-tsĩ",
+        "audioHint": "sia-tsi",
+        "example": "Ie1 sia33cni3 tiok3 pae4. (He shoots arrows hitting the target.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "aunt (father's sister)",
+    "hanzi": "阿姑",
+    "poj": "a-kó",
+    "tl": "a-kó",
+    "audioHint": "a-ko",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "a-kɔ",
+        "tl": "a-kɔ",
+        "audioHint": "a-ko",
+        "example": "Wah1-eh3 Ah3 Kor1 uh33 cap3-jee33-leh3 knia4. (My auntie has twelve children.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "aunt (mother's sister)",
+    "hanzi": "阿姨",
+    "poj": "a-î",
+    "tl": "a-î",
+    "audioHint": "a-i",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "back (body)",
+    "hanzi": "背",
+    "poj": "pōe",
+    "tl": "puē",
+    "audioHint": "pue",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "back (of torso)",
+    "hanzi": "尻脊",
+    "poj": "ka-chhiah-āu",
+    "tl": "ka-tshia̍h-āu",
+    "audioHint": "ka-tsia-au",
+    "audioUrl": "",
+    "example": "Uh33 ha1mik1 mi3knia3 ti1 wah4-eh3 ka3ciak1au33? (What's on my back?)",
+    "tags": [
+      "body",
+      "direction"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ka-tsiaʔ-au",
+        "tl": "ka-tsiaʔ-au",
+        "audioHint": "ka-tsia-au",
+        "example": "Uh33 ha1mik1 mi3knia3 ti1 wah4-eh3 ka3ciak1au33? (What's on my back?)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ka-tsiaʔ",
+        "tl": "ka-tsiaʔ",
+        "audioHint": "ka-tsia",
+        "example": "Wah1-eh3 ka3ciak3 ga3tai4. (My back itches.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bad",
+    "hanzi": "歹",
+    "poj": "bái",
+    "tl": "bái",
+    "audioHint": "bai",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "adjective"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phãi",
+        "tl": "phãi",
+        "audioHint": "phai",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ball",
+    "hanzi": "球",
+    "poj": "kiû",
+    "tl": "kiû",
+    "audioHint": "kiu",
+    "audioUrl": "",
+    "tags": [
+      "object",
+      "sport"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Be careful",
+    "hanzi": "細膩",
+    "poj": "Sè-jī",
+    "tl": "Sè-jī",
+    "audioHint": "se-ji",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "warning",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "beautiful",
+    "hanzi": "媠",
+    "poj": "súi",
+    "tl": "súi",
+    "audioHint": "sui",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bed",
+    "hanzi": "眠床",
+    "poj": "bîn-chhn̂g",
+    "tl": "bîn-tshn̂g",
+    "audioHint": "bin-tshng",
+    "audioUrl": "",
+    "tags": [
+      "furniture",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "behind / at the back",
+    "hanzi": "後面",
+    "poj": "āu-bīn",
+    "tl": "āu-bīn",
+    "tone": "7-7",
+    "audioHint": "au-bin",
+    "audioUrl": "",
+    "example": "Chhù tī āu-bīn. (The house is at the back.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Better to teach a skill than give food",
+    "hanzi": "教人食魚不如教人釣魚",
+    "poj": "Kà lâng chia̍h hî put-jî kà lâng tiò hî",
+    "tl": "Kà lâng tsia̍h hî put-jî kà lâng tiò hî",
+    "audioHint": "ka-lang-tsiah-hi-put-ji-ka-lang-tio-hi",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "proverb",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "big",
+    "hanzi": "大",
+    "poj": "tōa",
+    "tl": "tuā",
+    "audioHint": "tua",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bill please",
+    "hanzi": "我欲算帳",
+    "poj": "Góa beh sǹg-siàu",
+    "tl": "Góa beh sǹg-siàu",
+    "tone": "2-4-3-3",
+    "audioHint": "goa-beh-sng-siau",
+    "audioUrl": "",
+    "example": "Góa beh sǹg-siàu. (Bill please.)",
+    "tags": [
+      "food",
+      "shopping",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bird",
+    "hanzi": "鳥仔",
+    "poj": "chiáu-á",
+    "tl": "tsiáu-á",
+    "audioHint": "tsiau-a",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bitter",
+    "hanzi": "苦",
+    "poj": "khó͘",
+    "tl": "khóo",
+    "audioHint": "khoo",
+    "audioUrl": "",
+    "tags": [
+      "taste",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "black",
+    "hanzi": "烏",
+    "poj": "o͘",
+    "tl": "oo",
+    "audioHint": "oo",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "blood",
+    "hanzi": "血",
+    "poj": "hoeh",
+    "tl": "hueh",
+    "audioHint": "hueh",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "body",
+    "hanzi": "身軀",
+    "poj": "sin-khu",
+    "tl": "sin-khu",
+    "audioHint": "sin-khu",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "book",
+    "hanzi": "冊",
+    "poj": "chheh",
+    "tl": "tsheh",
+    "audioHint": "tsheh",
+    "audioUrl": "",
+    "tags": [
+      "object",
+      "education"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "boss's wife",
+    "hanzi": "頭家嫂",
+    "poj": "thâu-ke-só",
+    "tl": "thâu-ke-só",
+    "audioHint": "thau-ke-so",
+    "audioUrl": "",
+    "example": "Kin3jit1 tau3ke3 soh4 hnua3 sin3 chia1 lai2. (Today the boss's wife came in a new car.)",
+    "tags": [
+      "family",
+      "grammar",
+      "profession"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thau-kɛ-so",
+        "tl": "thau-kɛ-so",
+        "audioHint": "thau-ke-so",
+        "example": "Kin3jit1 tau3ke3 soh4 hnua3 sin3 chia1 lai2. (Today the boss's wife came in a new car.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thâu-kee-só",
+        "tl": "thâu-kee-só",
+        "audioHint": "thau-ke-so",
+        "example": "Kin3jit1 tau3ke3 soh4 hnua3 sin3 chia1 lai2. (Today the boss's wife came in a new car.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "boss, chief, (also written as tow3kay1)",
+    "hanzi": "頭家",
+    "poj": "thâu-ke",
+    "tl": "thâu-ke",
+    "audioHint": "thau-ke",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lang2 si33 ie1-eh3 tau3ke1? (Who is his boss?)",
+    "tags": [
+      "profession"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thau-kɛ",
+        "tl": "thau-kɛ",
+        "audioHint": "thau-ke",
+        "example": "Cui33-cui33 lang2 si33 ie1-eh3 tau3ke1? (Who is his boss?)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thâu-kee",
+        "tl": "thâu-kee",
+        "audioHint": "thau-ke",
+        "example": "Cui33-cui33 lang2 si33 ie1-eh3 tau3ke1? (Who is his boss?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "brand, trademark",
+    "hanzi": "標頭",
+    "poj": "phiau-thau",
+    "tl": "phiau-thâu",
+    "audioHint": "phiau-thau",
+    "audioUrl": "",
+    "example": "Cit1-leh1 phiau3thau2-eh3 gu3leng3hoon4 cin3 kui3. (This brand of milk powder is very expensive.)",
+    "tags": [
+      "noun",
+      "shopping"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phiau-thau",
+        "tl": "phiau-thâu",
+        "audioHint": "phiau-thau",
+        "example": "Cit1-leh1 phiau3thau2-eh3 gu3leng3hoon4 cin3 kui3. (This brand of milk powder is very expensive.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "piau-thau",
+        "tl": "piau-thau",
+        "audioHint": "piau-thau",
+        "example": "Cit1-leh1 piau3thau2-eh3 gu3leng3hoon4 cin3 kui3. (This brand of milk powder is very expensive.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bread",
+    "hanzi": "麵包",
+    "poj": "mī-pau",
+    "tl": "mī-pau",
+    "audioHint": "mi-pau",
+    "audioUrl": "",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "breakfast",
+    "hanzi": "早飯",
+    "poj": "chá-pn̄g",
+    "tl": "tsá-pn̄g",
+    "audioHint": "tsa-png",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "meal"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "chá-tùiⁿ, chá-khí-tùiⁿ",
+        "tl": "tsá-tùinn, tsá-khí-tùinn",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "bus",
+    "hanzi": "公車",
+    "poj": "kong-chhia",
+    "tl": "kong-tshia",
+    "audioHint": "kong-tshia",
+    "audioUrl": "",
+    "example": "Kong-chhia tī tó-uī thêng? (Where does the bus stop?)",
+    "tags": [
+      "transport",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "busy",
+    "hanzi": "忙",
+    "poj": "bâng",
+    "tl": "bâng",
+    "audioHint": "bang",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "call the police",
+    "hanzi": "叫警察",
+    "poj": "Kiò kéng-chhat",
+    "tl": "Kiò kíng-tshat",
+    "tone": "3-2-4",
+    "audioHint": "kio-king-tshat",
+    "audioUrl": "",
+    "example": "Kiò kéng-chhat lâi! (Call the police!)",
+    "tags": [
+      "emergency",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "can it be cheaper?",
+    "hanzi": "會使較平無？",
+    "poj": "Ē-sái khah pêng--bô?",
+    "tl": "Ē-sái khah pîng--bô?",
+    "tone": "7-2-4-5-5",
+    "audioHint": "e-sai-khah-ping-bo",
+    "audioUrl": "",
+    "example": "Ē-sái khah pêng--bô? Góa beh bóe nn̄g-ê. (Can it be cheaper? I'll buy two.)",
+    "tags": [
+      "shopping",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Can you make it less spicy?",
+    "hanzi": "會使較無辣無？",
+    "poj": "Ē-sái khah bô-joa̍h--bô?",
+    "tl": "Ē-sái khah bô-lua̍h--bô?",
+    "audioHint": "e-sai-khah-bo-luah-bo",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "car",
+    "hanzi": "車",
+    "poj": "chhia",
+    "tl": "tshia",
+    "audioHint": "tshia",
+    "audioUrl": "",
+    "tags": [
+      "transport",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cat",
+    "hanzi": "貓仔",
+    "poj": "niau-á",
+    "tl": "niau-á",
+    "audioHint": "niau-a",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "chair",
+    "hanzi": "椅仔",
+    "poj": "í-á",
+    "tl": "í-á",
+    "audioHint": "i-a",
+    "audioUrl": "",
+    "tags": [
+      "furniture",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cheers! / bottoms up!",
+    "hanzi": "乾杯",
+    "poj": "kan-poe",
+    "tl": "kan-puê",
+    "audioHint": "kan-pue",
+    "audioUrl": "",
+    "example": "Lín-má! Kan-poe! (Cheers! Bottoms up!)",
+    "tags": [
+      "social",
+      "drink",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "chicken",
+    "hanzi": "雞",
+    "poj": "ke",
+    "tl": "ke",
+    "audioHint": "ke",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "food"
+    ],
+    "variants": [
+      {
+        "dialectId": "taiwanese",
+        "poj": "koe",
+        "tl": "kue",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "child",
+    "hanzi": "囡仔",
+    "poj": "gín-á",
+    "tl": "gín-á",
+    "audioHint": "gin-a",
+    "audioUrl": "",
+    "tags": [
+      "family",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "gin-na",
+        "tl": "gín-á",
+        "audioHint": "gin-na",
+        "example": "Cit1-leh1 gin1na4 si33 wah1-eh3 knia4. (This little boy is my child.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "chopsticks",
+    "hanzi": "箸",
+    "poj": "tī",
+    "tl": "tī",
+    "audioHint": "ti",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "utensil"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cloud",
+    "hanzi": "雲",
+    "poj": "hûn",
+    "tl": "hûn",
+    "audioHint": "hun",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cold (temperature)",
+    "hanzi": "冷",
+    "poj": "léng",
+    "tl": "léng",
+    "audioHint": "leng",
+    "audioUrl": "",
+    "tags": [
+      "temperature",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cold (weather / feeling)",
+    "hanzi": "寒",
+    "poj": "kôaⁿ",
+    "tl": "kuânn",
+    "audioHint": "kuann",
+    "audioUrl": "",
+    "example": "Góa chin kôaⁿ. (I'm very cold.)",
+    "tags": [
+      "weather",
+      "emotion",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "cold (weather)",
+    "hanzi": "寒",
+    "poj": "kôaⁿ",
+    "tl": "kuann",
+    "audioHint": "kuann",
+    "audioUrl": "",
+    "tags": [
+      "weather",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "dangerous",
+    "hanzi": "危險",
+    "poj": "guî-hiám",
+    "tl": "guî-hiám",
+    "audioHint": "gui-hiam",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "warning"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hui-hiam",
+        "tl": "guî-hiám",
+        "audioHint": "hui-hiam",
+        "example": "Heh1-peng2 si33 cin3 hui3hiam4-eh3 sor1cai3. (That is a very dangerous place.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "dark",
+    "hanzi": "暗",
+    "poj": "àm",
+    "tl": "àm",
+    "audioHint": "am",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "light"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "daughter",
+    "hanzi": "查某囝",
+    "poj": "cha-bó͘-kiáⁿ",
+    "tl": "tsa-bóo-kiánn",
+    "audioHint": "tsa-boo-kiann",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "day",
+    "hanzi": "日",
+    "poj": "ji̍t",
+    "tl": "ji̍t",
+    "audioHint": "jit",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Delicious",
+    "hanzi": "好食",
+    "poj": "Hó-chia̍h",
+    "tl": "Hó-tsia̍h",
+    "tone": "2-8",
+    "audioHint": "ho-tsiah",
+    "audioUrl": "",
+    "example": "Chit pún-mī hó-tsia̍h! (This noodle dish is delicious!)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "different",
+    "hanzi": "無仝",
+    "poj": "bô-kâng",
+    "tl": "bô-kâng",
+    "audioHint": "bo-kang",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "difficult",
+    "hanzi": "難",
+    "poj": "oh",
+    "tl": "oh",
+    "audioHint": "oh",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "dirty",
+    "hanzi": "垃圾",
+    "poj": "lâ-sap",
+    "tl": "lâ-sap",
+    "audioHint": "la-sap",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "dissatisfied, discontented",
+    "hanzi": "毋甘願",
+    "poj": "m-kam-buan",
+    "tl": "m-kam-buan",
+    "audioHint": "m-kam-buan",
+    "audioUrl": "",
+    "example": "Ie1 mm33kam3buan33 ka1 wah4. (He is dissatisfied with me.)",
+    "tags": [
+      "emotion"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "m-kam-buan",
+        "tl": "m-kam-buan",
+        "audioHint": "m-kam-buan",
+        "example": "Ie1 mm33kam3buan33 ka1 wah4. (He is dissatisfied with me.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "m-kam-guan",
+        "tl": "m-kam-guan",
+        "audioHint": "m-kam-guan",
+        "example": "Ie1 mm33kam3guan33 ka1 wah4. (He is dissatisfied with me.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "do you have...?",
+    "hanzi": "有...無？",
+    "poj": "Ū ... bô?",
+    "tl": "Ū ... bô?",
+    "tone": "7-5",
+    "audioHint": "u-bo",
+    "audioUrl": "",
+    "example": "Ū chúi--bô? (Do you have water?)",
+    "tags": [
+      "question",
+      "shopping",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Do you speak Hokkien?",
+    "hanzi": "你會曉講福建話無？",
+    "poj": "Lí ē-hiáu kóng Hok-kiàn-uē bô?",
+    "tl": "Lí ē-hiáu kóng Hok-kiàn-uē bô?",
+    "audioHint": "li-e-hiau-kong-hok-kian-ue-bo",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "language",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "dog",
+    "hanzi": "狗",
+    "poj": "káu",
+    "tl": "káu",
+    "audioHint": "kau",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "door",
+    "hanzi": "門",
+    "poj": "mn̂g",
+    "tl": "mn̂g",
+    "audioHint": "mng",
+    "audioUrl": "",
+    "tags": [
+      "home",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "mûi",
+        "tl": "mûi",
+        "audioHint": "mui",
+        "example": "Cit1-leh1 mui2 cin3cnia1 ku33 liau4. (This is a very old door.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ear",
+    "hanzi": "耳仔",
+    "poj": "hīⁿ-á",
+    "tl": "hīnn-á",
+    "audioHint": "hinn-a",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hī-á",
+        "tl": "hī-á",
+        "audioHint": "hi-ja",
+        "example": "Ie1 kham3 ie1-eh3 hee33ya4. (He shuts his ears.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "early",
+    "hanzi": "早",
+    "poj": "chá",
+    "tl": "tsá",
+    "audioHint": "tsa",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "adverb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Eat full, nothing to do (busybody)",
+    "hanzi": "食飽無代誌",
+    "poj": "Chia̍h-pá bô tāi-chì",
+    "tl": "Tsia̍h-pá bô tāi-tsì",
+    "audioHint": "tsiah-pa-bo-tai-tsi",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "proverb",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "egg",
+    "hanzi": "卵",
+    "poj": "nn̄g",
+    "tl": "nn̄g",
+    "audioHint": "nng",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "nūi",
+        "tl": "nūi",
+        "audioHint": "nui",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "eight",
+    "hanzi": "八",
+    "poj": "peh",
+    "tl": "peh",
+    "audioHint": "peh",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Europe",
+    "hanzi": "歐洲",
+    "poj": "Au-chiu",
+    "tl": "au-tsiu",
+    "audioHint": "au-tsiu",
+    "audioUrl": "",
+    "tags": [
+      "geography"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "Au-chiu",
+        "tl": "au-tsiu",
+        "audioHint": "au-tsiu",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ou-tso",
+        "tl": "ou-tso",
+        "audioHint": "ou-tso",
+        "example": "Wah1lang2 boek1 khee3 Ou1 Ciu1 ciak1hong1. (We are going to Europe for holidays.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "even though, although",
+    "hanzi": "雖然",
+    "poj": "sui-jiân",
+    "tl": "sui-liân",
+    "audioHint": "sui-dien",
+    "audioUrl": "",
+    "example": "Sui3jien2 ie1 ho1giak1, ie1 boh3 hnua3hee4. (Although he is rich, he isn't happy.)",
+    "tags": [
+      "grammar"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sui-dʒiɛn",
+        "tl": "sui-dʒiɛn",
+        "audioHint": "sui-dien",
+        "example": "Sui3jien2 ie1 ho1giak1, ie1 boh3 hnua3hee4. (Although he is rich, he isn't happy.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sui-liân",
+        "tl": "sui-liân",
+        "audioHint": "sui-lien",
+        "example": "Sui3lien2 ie1 ho1giak1, ie1 boh3 hnua3hee4. (Although he is rich, he isn't happy.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "evening",
+    "hanzi": "暗時",
+    "poj": "àm-sî",
+    "tl": "àm-sî",
+    "audioHint": "am-si",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "expensive",
+    "hanzi": "貴",
+    "poj": "kùi",
+    "tl": "kùi",
+    "audioHint": "kui",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "eye",
+    "hanzi": "目睭",
+    "poj": "ba̍k-chiu",
+    "tl": "ba̍k-tsiu",
+    "audioHint": "bak-tsiu",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bat-tsiu",
+        "tl": "bat-tsiu",
+        "audioHint": "bat-tsiu",
+        "example": "Wah1-eh3 bat3ciu1 ceng4. (My eyes are swollen.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "face",
+    "hanzi": "面",
+    "poj": "bīn",
+    "tl": "bīn",
+    "audioHint": "bin",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "far",
+    "hanzi": "遠",
+    "poj": "hn̄g",
+    "tl": "hn̄g",
+    "audioHint": "hng",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "distance"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hūiⁿ",
+        "tl": "huīnn",
+        "audioHint": "hui",
+        "example": "Ie1-eh3 chu3 cin3 hnui33. (His house is very far.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "fast",
+    "hanzi": "緊",
+    "poj": "kín",
+    "tl": "kín",
+    "audioHint": "kin",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "adverb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "father",
+    "hanzi": "阿爸",
+    "poj": "a-pa",
+    "tl": "a-pa",
+    "audioHint": "a-pa",
+    "audioUrl": "",
+    "tags": [
+      "family",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "fish",
+    "hanzi": "魚",
+    "poj": "hî",
+    "tl": "hî",
+    "audioHint": "hi",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "animal"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hû",
+        "tl": "hû",
+        "audioHint": "hu",
+        "example": "Wah1-eh3 Ma3 Ma1 cien3 hu2. (My mother is frying fish.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "five",
+    "hanzi": "五",
+    "poj": "gō͘",
+    "tl": "gōo",
+    "audioHint": "goo",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "flower",
+    "hanzi": "花",
+    "poj": "hoe",
+    "tl": "hue",
+    "audioHint": "hue",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hoa",
+        "tl": "hua",
+        "audioHint": "hua",
+        "example": "Cit1-lui1 hua1 cin3 tua33 lui4. (This flower is very big.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "foot / leg",
+    "hanzi": "跤",
+    "poj": "kha",
+    "tl": "kha",
+    "audioHint": "kha",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "four",
+    "hanzi": "四",
+    "poj": "sì",
+    "tl": "sì",
+    "audioHint": "si",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "friend",
+    "hanzi": "朋友",
+    "poj": "pêng-iú",
+    "tl": "pîng-iú",
+    "audioHint": "ping-iu",
+    "audioUrl": "",
+    "tags": [
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "funny",
+    "hanzi": "好笑",
+    "poj": "hó-chhiò",
+    "tl": "hó-tshiò",
+    "audioHint": "ho-tshio",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "emotion"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ho-tshio",
+        "tl": "ho-tshio",
+        "audioHint": "ho-tshio",
+        "example": "Cit1-leh1 hee3 cin3 ho1chio3. (This show is very comical.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "go straight",
+    "hanzi": "直直去",
+    "poj": "tit-khì",
+    "tl": "ti̍t-khì",
+    "tone": "8-3",
+    "audioHint": "tit-khi",
+    "audioUrl": "",
+    "example": "Tit-khì, jiân-āu choán chiàⁿ-pêng. (Go straight, then turn right.)",
+    "tags": [
+      "direction",
+      "movement",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Go straight ahead",
+    "hanzi": "直直行",
+    "poj": "Ti̍t-ti̍t kiâⁿ",
+    "tl": "Ti̍t-ti̍t kiânn",
+    "audioHint": "tit-tit-kiann",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "good",
+    "hanzi": "好",
+    "poj": "hó",
+    "tl": "hó",
+    "audioHint": "ho",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "good morning",
+    "hanzi": "早安",
+    "poj": "chá-an",
+    "tl": "tsá-an",
+    "tone": "2-1",
+    "audioHint": "tsa-an",
+    "audioUrl": "",
+    "example": "Chá-an! Lí chia̍h-pá bô? (Good morning! Have you eaten?)",
+    "tags": [
+      "greeting",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Good morning",
+    "hanzi": "早",
+    "poj": "Chá",
+    "tl": "Tsá",
+    "tone": "2",
+    "audioHint": "tsa",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Tsá! Lí ū tsia̍h-pá--bē? (Good morning! Have you eaten?)",
+    "tags": [
+      "greeting",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "good night",
+    "hanzi": "晚安",
+    "poj": "àm-an",
+    "tl": "àm-an",
+    "tone": "3-1",
+    "audioHint": "am-an",
+    "audioUrl": "",
+    "example": "Àm-an, khùn-hó! (Good night, sleep well!)",
+    "tags": [
+      "greeting",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "goodbye",
+    "hanzi": "再見",
+    "poj": "chài-kiàn",
+    "tl": "tsài-kiàn",
+    "tone": "3-3",
+    "audioHint": "tsai-kian",
+    "audioUrl": "",
+    "example": "Chài-kiàn! Koh-kái-chêng. (Goodbye! See you next time.)",
+    "tags": [
+      "greeting",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Goodbye",
+    "hanzi": "再會",
+    "poj": "Chài-hōe",
+    "tl": "Tsài-huē",
+    "tone": "3-7",
+    "audioHint": "tsai-hue",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Tsài-huē! Tshing-tsài koh lâi. (Goodbye! Please come again.)",
+    "tags": [
+      "greeting"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "grandfather (paternal)",
+    "hanzi": "阿公",
+    "poj": "a-kong",
+    "tl": "a-kong",
+    "audioHint": "a-kong",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "grandmother (paternal)",
+    "hanzi": "阿媽",
+    "poj": "a-má",
+    "tl": "a-má",
+    "audioHint": "a-ma",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "a-mak",
+        "tl": "a-mak",
+        "audioHint": "a-mak",
+        "example": "Ah3 Mak3 ciak3pa4 boey3? (Mum, have you eaten?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "green",
+    "hanzi": "青",
+    "poj": "chheⁿ",
+    "tl": "tshenn",
+    "audioHint": "tshenn",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ground / floor",
+    "hanzi": "塗跤",
+    "poj": "thô͘-kha",
+    "tl": "thôo-kha",
+    "audioHint": "thoo-kha",
+    "audioUrl": "",
+    "tags": [
+      "home",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thɔ-kha",
+        "tl": "thôo-kha-tshù",
+        "audioHint": "tho-kha",
+        "example": "Thor3kha1 la3sam2 liau4. (The floor is dirty.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "guest",
+    "hanzi": "客人",
+    "poj": "kheh-lâng",
+    "tl": "kheh-lâng",
+    "audioHint": "kheh-lang",
+    "audioUrl": "",
+    "tags": [
+      "social",
+      "noun"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khɛʔ-laŋ",
+        "tl": "khɛʔ-laŋ",
+        "audioHint": "khe-lang",
+        "example": "Cin3cnia1 ce33 Khek1 Lang2 tua3 ti1 Pu3 Lor2. (There are many Hakka people living in Balik Pulau.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hand",
+    "hanzi": "手",
+    "poj": "chhiú",
+    "tl": "tshiú",
+    "audioHint": "tshiu",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "happy",
+    "hanzi": "歡喜",
+    "poj": "hoaⁿ-hí",
+    "tl": "huann-hí",
+    "audioHint": "huann-hi",
+    "audioUrl": "",
+    "tags": [
+      "emotion",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Happy birthday",
+    "hanzi": "生日快樂",
+    "poj": "Seⁿ-ji̍t khoài-lo̍k",
+    "tl": "Senn-ji̍t khuài-lo̍k",
+    "audioHint": "senn-jit-khuai-lok",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "celebration"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hard / difficult",
+    "hanzi": "難",
+    "poj": "oh",
+    "tl": "oh",
+    "audioHint": "oh",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "have you eaten?",
+    "hanzi": "你食飽未？",
+    "poj": "Lí chia̍h-pá--bôe?",
+    "tl": "Lí tsia̍h-pá--buē?",
+    "tone": "2-8-2-5",
+    "audioHint": "li-tsiah-pa-bue",
+    "audioUrl": "",
+    "example": "Lí chia̍h-pá--bôe? — Chia̍h-pá ah! (Have you eaten? — Yes, I have!)",
+    "tags": [
+      "greeting",
+      "food",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "head",
+    "hanzi": "頭",
+    "poj": "thâu",
+    "tl": "thâu",
+    "audioHint": "thau",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "heart",
+    "hanzi": "心肝",
+    "poj": "sim-koaⁿ",
+    "tl": "sim-kuann",
+    "audioHint": "sim-kuann",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "emotion"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sim-kuã",
+        "tl": "sim-kuã",
+        "audioHint": "sim-kua",
+        "example": "Mm33thang3 ka1liau4 siu1 ti1 sim3knua1. (Don't keepn everything in the heart.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "heavy",
+    "hanzi": "重",
+    "poj": "tāng",
+    "tl": "tāng",
+    "audioHint": "tang",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Hello",
+    "hanzi": "你好",
+    "poj": "Lí-hó",
+    "tl": "Lí-hó",
+    "tone": "2-2",
+    "audioHint": "li-ho",
+    "audioUrl": "",
+    "example": "Lí-hó! Góa sī sin-lâng. (Hello! I am new here.)",
+    "tags": [
+      "greeting",
+      "beginner",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "help!",
+    "hanzi": "救命！",
+    "poj": "Kiù-miā!",
+    "tl": "Kiù-miā!",
+    "tone": "3-7",
+    "audioHint": "kiu-mia",
+    "audioUrl": "",
+    "example": "Kiù-miā! (Help!)",
+    "tags": [
+      "emergency",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "here",
+    "hanzi": "遮",
+    "poj": "chia",
+    "tl": "tsia",
+    "audioHint": "tsia",
+    "audioUrl": "",
+    "tags": [
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "home / house",
+    "hanzi": "厝",
+    "poj": "chhù",
+    "tl": "tshù",
+    "audioHint": "tshu",
+    "audioUrl": "",
+    "tags": [
+      "home",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshu",
+        "tl": "tshù",
+        "audioHint": "tshu",
+        "example": "Ie1 beh1 sin3 chu3. (He bought a new house.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hospital",
+    "hanzi": "醫院",
+    "poj": "i-īⁿ",
+    "tl": "i-īnn",
+    "audioHint": "i-inn",
+    "audioUrl": "",
+    "example": "Chó͘ góa khì i-īⁿ. (Take me to the hospital.)",
+    "tags": [
+      "medical",
+      "place",
+      "emergency",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hot (spicy)",
+    "hanzi": "辣",
+    "poj": "joa̍h",
+    "tl": "lua̍h",
+    "audioHint": "luah",
+    "audioUrl": "",
+    "tags": [
+      "taste",
+      "adjective"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "luaʔ",
+        "tl": "lua̍h",
+        "audioHint": "lua",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hot (temperature)",
+    "hanzi": "燒",
+    "poj": "sio",
+    "tl": "sio",
+    "audioHint": "sio",
+    "audioUrl": "",
+    "tags": [
+      "temperature",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hot (weather / feeling)",
+    "hanzi": "熱",
+    "poj": "joa̍h",
+    "tl": "jua̍h",
+    "audioHint": "juah",
+    "audioUrl": "",
+    "example": "Kin-á-jit chin joa̍h. (Today is very hot.)",
+    "tags": [
+      "weather",
+      "emotion",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "dʒuaʔ",
+        "tl": "jua̍h",
+        "audioHint": "dua",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hotel",
+    "hanzi": "旅館",
+    "poj": "lú-koán",
+    "tl": "lú-kuán",
+    "audioHint": "lu-kuan",
+    "audioUrl": "",
+    "example": "Lú-koán tī uī? (Where is the hotel?)",
+    "tags": [
+      "place",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how",
+    "hanzi": "按怎",
+    "poj": "án-choáⁿ",
+    "tl": "án-tsuánn",
+    "audioHint": "an-tsuann",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "án-chóaⁿ",
+        "tl": "án-tsuánn",
+        "audioHint": "an-tsua",
+        "example": "Lu1-eh3 chu3 an1cnua1 khee3? (How do we go to your house?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how are you?",
+    "hanzi": "你好無？",
+    "poj": "Lí hó-bô?",
+    "tl": "Lí hó-bô?",
+    "tone": "2-2-5",
+    "audioHint": "li-ho-bo",
+    "audioUrl": "",
+    "example": "Lí hó-bô? — Hó, to-siā! (How are you? — Fine, thanks!)",
+    "tags": [
+      "greeting",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how do I get to...?",
+    "hanzi": "欲按怎去...？",
+    "poj": "Beh án-choáⁿ khì ...?",
+    "tl": "Beh án-tsuánn khì ...?",
+    "tone": "4-3-2-3",
+    "audioHint": "beh-an-tsuan-khi",
+    "audioUrl": "",
+    "example": "Beh án-choáⁿ khì chhī-tiûⁿ? (How do I get to the market?)",
+    "tags": [
+      "direction",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "how much does it cost?",
+    "hanzi": "偌濟錢？",
+    "poj": "Jōa-chōe chîⁿ?",
+    "tl": "Juā-tsē tsînn?",
+    "tone": "7-7-5",
+    "audioHint": "jua-tse-tsinn",
+    "audioUrl": "",
+    "example": "Chit-ê jōa-chōe chîⁿ? (How much does this cost?)",
+    "tags": [
+      "shopping",
+      "food",
+      "question",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "taiwanese",
+        "poj": "Jōa-chē chîⁿ?",
+        "tl": "Juā-tsē tsînn?",
+        "audioHint": "jua-tse-tsinn",
+        "example": "Chit-ê juā-tsē tsînn? (How much is this?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "How much is this?",
+    "hanzi": "這個偌濟錢？",
+    "poj": "Chit-ê jōa-chē chîⁿ?",
+    "tl": "Tsit-ê juā-tsē tsînn?",
+    "audioHint": "tsit-e-jua-tse-tsinn",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "shopping",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "How old are you?",
+    "hanzi": "你幾歲？",
+    "poj": "Lí kúi-hè?",
+    "tl": "Lí kuí-hè?",
+    "audioHint": "li-kui-he",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "question",
+      "greeting"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hundred",
+    "hanzi": "百",
+    "poj": "pah",
+    "tl": "pah",
+    "audioHint": "pah",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "hungry",
+    "hanzi": "枵",
+    "poj": "iau",
+    "tl": "iau",
+    "audioHint": "iau",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "emotion",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i / me",
+    "hanzi": "我",
+    "poj": "góa",
+    "tl": "guá",
+    "audioHint": "gua",
+    "audioUrl": "",
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "óa",
+        "tl": "uá",
+        "audioHint": "wa",
+        "example": "Wah4 tua3 cit1-peng2. (I live here.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i am from...",
+    "hanzi": "我是...人",
+    "poj": "Góa sī ... lâng",
+    "tl": "Góa sī ... lâng",
+    "tone": "2-7",
+    "audioHint": "goa-si-lang",
+    "audioUrl": "",
+    "example": "Góa sī Má-lâi-se-a lâng. (I am Malaysian.)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i am full",
+    "hanzi": "我食飽矣",
+    "poj": "Góa chia̍h-pá--ah",
+    "tl": "Guá tsia̍h-pá--ah",
+    "audioHint": "gua-tsiah-pa-ah",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i am hungry",
+    "hanzi": "我枵",
+    "poj": "Góa iau",
+    "tl": "Guá iau",
+    "audioHint": "gua-iau",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i don't understand",
+    "hanzi": "我聽無",
+    "poj": "Góa thiaⁿ-bô",
+    "tl": "Góa thiann-bô",
+    "tone": "2-1-5",
+    "audioHint": "goa-thian-bo",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa thiaⁿ-bô. (Sorry, I don't understand.)",
+    "tags": [
+      "communication",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i love you",
+    "hanzi": "我愛你",
+    "poj": "Góa ài lí",
+    "tl": "Guá ài lí",
+    "audioHint": "gua-ai-li",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "emotion",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i miss you",
+    "hanzi": "我想你",
+    "poj": "Góa siūⁿ lí",
+    "tl": "Guá siūnn lí",
+    "audioHint": "gua-siuenn-li",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i need a doctor",
+    "hanzi": "我需要醫生",
+    "poj": "Góa beh chhōe i-seng",
+    "tl": "Góa beh tshuē i-sing",
+    "tone": "2-4-7-1-1",
+    "audioHint": "goa-beh-tshue-i-sing",
+    "audioUrl": "",
+    "example": "Góa beh chhōe i-seng. (I need to find a doctor.)",
+    "tags": [
+      "emergency",
+      "medical",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i understand",
+    "hanzi": "我知影",
+    "poj": "Góa chai-iáⁿ",
+    "tl": "Góa tsai-iánn",
+    "tone": "2-1-2",
+    "audioHint": "goa-tsai-iann",
+    "audioUrl": "",
+    "example": "Góa chai-iáⁿ ah! (I understand now!)",
+    "tags": [
+      "communication",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i want / I would like",
+    "hanzi": "我欲",
+    "poj": "Góa beh",
+    "tl": "Góa beh",
+    "tone": "2-4",
+    "audioHint": "goa-beh",
+    "audioUrl": "",
+    "example": "Góa beh chit-pōe tê. (I would like one cup of tea.)",
+    "tags": [
+      "food",
+      "shopping",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i'm fine",
+    "hanzi": "我真好",
+    "poj": "Góa chin-hó",
+    "tl": "Góa tsin-hó",
+    "tone": "2-1-2",
+    "audioHint": "goa-tsin-ho",
+    "audioUrl": "",
+    "example": "Góa chin-hó, to-siā. Lí leh? (I'm fine, thanks. And you?)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i'm full",
+    "hanzi": "我食飽矣",
+    "poj": "Góa chia̍h-pá--a",
+    "tl": "Góa tsia̍h-pá--a",
+    "tone": "2-8-2",
+    "audioHint": "goa-tsiah-pa-a",
+    "audioUrl": "",
+    "example": "Góa chia̍h-pá--a, to-siā! (I'm full, thank you!)",
+    "tags": [
+      "food",
+      "daily",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i'm hungry",
+    "hanzi": "我腹肚枵",
+    "poj": "Góa pak-tó͘ iau",
+    "tl": "Góa pak-tóo iau",
+    "tone": "2-4-2-1",
+    "audioHint": "goa-pak-too-iau",
+    "audioUrl": "",
+    "example": "Góa pak-tó͘ iau, beh khì chia̍h-pn̄g. (I'm hungry, I want to go eat.)",
+    "tags": [
+      "food",
+      "daily",
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i'm lost",
+    "hanzi": "我迷路",
+    "poj": "Góa bô-lō͘",
+    "tl": "Góa bô-lōo",
+    "audioHint": "goa-bo-loo",
+    "audioUrl": "",
+    "example": "Góa bô-lō͘. Ē-sái pang-chān góa bô? (I'm lost. Can you help me?)",
+    "tags": [
+      "emergency",
+      "direction",
+      "tourist",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "i'm still learning Hokkien",
+    "hanzi": "我猶咧學河洛話",
+    "poj": "Góa iáu teh o̍h Hô-ló-uē",
+    "tl": "Góa iáu teh o̍h Hô-ló-uē",
+    "tone": "2-2-7-8-5-7-7",
+    "audioHint": "goa-iau-teh-oh-ho-lo-ue",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa iáu teh o̍h Hô-ló-uē. (Sorry, I'm still learning Hokkien.)",
+    "tags": [
+      "communication",
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ice",
+    "hanzi": "冰",
+    "poj": "peng",
+    "tl": "ping",
+    "audioHint": "ping",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "drink",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "peŋ",
+        "tl": "peŋ",
+        "audioHint": "peng",
+        "example": "Ie1 kio1 teh3 peng1. (he ordered iced tea.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "in front / ahead",
+    "hanzi": "前面",
+    "poj": "chêng-bīn",
+    "tl": "tsîng-bīn",
+    "tone": "5-7",
+    "audioHint": "tsing-bin",
+    "audioUrl": "",
+    "example": "Tī chêng-bīn ū chi̍t-ê chhī-tiûⁿ. (There is a market ahead.)",
+    "tags": [
+      "direction",
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "inside",
+    "hanzi": "內底",
+    "poj": "lāi-té",
+    "tl": "lāi-tué",
+    "audioHint": "lai-tue",
+    "audioUrl": "",
+    "tags": [
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "interesting",
+    "hanzi": "有趣",
+    "poj": "ū-chhù",
+    "tl": "ū-tshù",
+    "audioHint": "u-tshu",
+    "audioUrl": "",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Is it far from here?",
+    "hanzi": "離遮遠無？",
+    "poj": "Lī chia hn̄g--bô?",
+    "tl": "Lī tsia hn̄g--bô?",
+    "audioHint": "li-tsia-hng-bo",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "island",
+    "hanzi": "島",
+    "poj": "tao",
+    "tl": "tao",
+    "audioHint": "tao",
+    "audioUrl": "",
+    "example": "Bali si33 cit3-leh3 tao3. (Bali is an island.)",
+    "tags": [
+      "grammar",
+      "nature",
+      "place"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tao",
+        "tl": "tao",
+        "audioHint": "tao",
+        "example": "Bali si33 cit3-leh3 tao3. (Bali is an island.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tó",
+        "tl": "tó",
+        "audioHint": "to",
+        "example": "Hor3 Lor3 Su33 si33 cit3-leh3 se1-liap3 toh4. (Pulau Kendi is a small island.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "it hurts",
+    "hanzi": "會痛",
+    "poj": "ē-thiàⁿ",
+    "tl": "ē-thiànn",
+    "audioHint": "e-thiann",
+    "audioUrl": "",
+    "example": "Chia ē-thiàⁿ. (It hurts here.)",
+    "tags": [
+      "body",
+      "medical",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "It is three o'clock",
+    "hanzi": "三點矣",
+    "poj": "Saⁿ-tiám--ah",
+    "tl": "Sann-tiám--ah",
+    "audioHint": "sann-tiam-ah",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Jelutong",
+    "hanzi": "日落洞",
+    "poj": "Ji̍t-lo̍h-tōng",
+    "tl": "Ji̍t-lo̍h-tōng",
+    "audioHint": "de-lo-tong",
+    "audioUrl": "",
+    "tags": [
+      "place",
+      "geography"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "dʒə-lɔ-tɔŋ",
+        "tl": "dʒə-lɔ-tɔŋ",
+        "audioHint": "de-lo-tong",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "dʒit-lɔ-tɔŋ",
+        "tl": "Jit-lo̍h-tōng",
+        "audioHint": "dit-lo-tong",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "just now",
+    "hanzi": "頭先",
+    "poj": "thâu-seng",
+    "tl": "thâu-sing",
+    "audioHint": "thau-sing",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "adverb"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thau-seŋ",
+        "tl": "thâu-sing",
+        "audioHint": "thau-seng",
+        "example": "Lu4 ciak1 thau3seng1. (You eat first.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "key",
+    "hanzi": "鎖匙",
+    "poj": "só-sî",
+    "tl": "só-sî",
+    "audioHint": "so-si",
+    "audioUrl": "",
+    "tags": [
+      "object",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "kitchen",
+    "hanzi": "灶跤",
+    "poj": "chàu-kha",
+    "tl": "tsàu-kha",
+    "audioHint": "tsau-kha",
+    "audioUrl": "",
+    "tags": [
+      "home",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "last night",
+    "hanzi": "昨暝",
+    "poj": "chaⁿ-mêe",
+    "tl": "tsann-mêe",
+    "audioHint": "tsa-me",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lai3 choay3 wah4 ca3meh2? (Who came to see me last night?)",
+    "tags": [
+      "time"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "chaⁿ-mêe",
+        "tl": "tsann-mêe",
+        "audioHint": "tsa-me",
+        "example": "Cui33-cui33 lai3 choay3 wah4 ca3meh2? (Who came to see me last night?)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tsã-mɛ",
+        "tl": "tsã-mɛ",
+        "audioHint": "tsa-me",
+        "example": "Cui33-cui33 lai3 choay3 wah4 cna33meh2? (Who came to see me last night?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "left (direction)",
+    "hanzi": "倒爿",
+    "poj": "tò-pêng",
+    "tl": "tò-pîng",
+    "audioHint": "to-ping",
+    "audioUrl": "",
+    "tags": [
+      "direction",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Let's eat",
+    "hanzi": "來食飯",
+    "poj": "Lâi chia̍h-pn̄g",
+    "tl": "Lâi tsia̍h-pn̄g",
+    "audioHint": "lai-tsiah-png",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "food",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "light (brightness)",
+    "hanzi": "光",
+    "poj": "kng",
+    "tl": "kng",
+    "audioHint": "kng",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kuĩ",
+        "tl": "kuĩ",
+        "audioHint": "kui",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "light (not heavy)",
+    "hanzi": "輕",
+    "poj": "khin",
+    "tl": "khin",
+    "audioHint": "khin",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khiŋ-khɔŋ-khiau",
+        "tl": "khin",
+        "audioHint": "khing-khong-khiau",
+        "example": "Mm33thang3 co3 heh1-leh1 pnua2 khing3khong3khiau3. (Don't overturn the plate.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "like this, as, so",
+    "hanzi": "按呢",
+    "poj": "án-ne",
+    "tl": "án-ne",
+    "audioHint": "a-ne",
+    "audioUrl": "",
+    "example": "Heh1-leh1 niau1 paek1 cang2 kau3 ka1 ah1nae1 kuan2. (The cat climbed the tree until so high.)",
+    "tags": [
+      "grammar",
+      "adverb"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "a-nɛ",
+        "tl": "a-nɛ",
+        "audioHint": "a-ne",
+        "example": "Heh1-leh1 niau1 paek1 cang2 kau3 ka1 ah1nae1 kuan2. (The cat climbed the tree until so high.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "án-nee",
+        "tl": "án-ne",
+        "audioHint": "an-ne",
+        "example": "Heh1-leh1 niau1 paek1 cang2 kau3 ka1 an1nae1 kuan2. (The cat climbed the tree until so high.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "long",
+    "hanzi": "長",
+    "poj": "tn̂g",
+    "tl": "tn̂g",
+    "audioHint": "tng",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "many / much",
+    "hanzi": "濟",
+    "poj": "chē",
+    "tl": "tsē",
+    "audioHint": "tse",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tse",
+        "tl": "tsē",
+        "audioHint": "tse",
+        "example": "Wah1-eh3 lui1 boh3 ce33. (My money isn't much.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "market",
+    "hanzi": "市場",
+    "poj": "chhī-tiûⁿ",
+    "tl": "tshī-tiûnn",
+    "audioHint": "tshi-tiunn",
+    "audioUrl": "",
+    "tags": [
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "meat",
+    "hanzi": "肉",
+    "poj": "bah",
+    "tl": "bah",
+    "audioHint": "bah",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "colloquial: bah",
+        "tl": "colloquial: bah",
+        "audioHint": "ba",
+        "example": "Lu4 uh33 ciak3 bak3 boh2? (Do you eat meat?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "medicine",
+    "hanzi": "藥",
+    "poj": "io̍h",
+    "tl": "io̍h",
+    "audioHint": "ioh",
+    "audioUrl": "",
+    "tags": [
+      "medical",
+      "noun"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ioʔ",
+        "tl": "ioʔ",
+        "audioHint": "io",
+        "example": "Ha1mik1 su33 lu1 ciak3 iok1? (Why are you taking medicine?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "money",
+    "hanzi": "錢",
+    "poj": "chîⁿ",
+    "tl": "tsînn",
+    "audioHint": "tsinn",
+    "audioUrl": "",
+    "tags": [
+      "noun",
+      "shopping",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "month",
+    "hanzi": "月",
+    "poj": "goe̍h",
+    "tl": "gue̍h",
+    "audioHint": "gueh",
+    "audioUrl": "",
+    "example": "Chit-goe̍h sī saⁿ-goe̍h. (This month is March.)",
+    "tags": [
+      "time",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "gueʔ",
+        "tl": "gue̍h",
+        "audioHint": "gue",
+        "example": "Kin3meh2-eh3 guek1 cin3 knui1. (The moon tonight is very bright.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "moon",
+    "hanzi": "月",
+    "poj": "goe̍h",
+    "tl": "gue̍h",
+    "audioHint": "gueh",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "time"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "gueʔ",
+        "tl": "gue̍h",
+        "audioHint": "gue",
+        "example": "Kin3meh2-eh3 guek1 cin3 knui1. (The moon tonight is very bright.)"
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "morning",
+    "hanzi": "早起",
+    "poj": "chá-khí",
+    "tl": "tsá-khí",
+    "audioHint": "tsa-khi",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "moss",
+    "hanzi": "苔",
+    "poj": "chheⁿ-thî",
+    "tl": "tshenn-thî",
+    "audioHint": "tshe-thi",
+    "audioUrl": "",
+    "example": "Lu1-eh3 long3kau1 snaeh3 chnae3thi2 liau4. (Your drain is growing moss already.)",
+    "tags": [
+      "plant"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshɛ̃-thi",
+        "tl": "tshɛ̃-thi",
+        "audioHint": "tshe-thi",
+        "example": "Lu1-eh3 long3kau1 snaeh3 chnae3thi2 liau4. (Your drain is growing moss already.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshɛ̃-ti",
+        "tl": "tshɛ̃-ti",
+        "audioHint": "tshe-ti",
+        "example": "Lu1-eh3 long3kau1 snaeh3 chnae3ti2 liau4. (Your drain is growing moss already.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thî",
+        "tl": "thî",
+        "audioHint": "thi",
+        "example": "Lu1-eh3 long3kau1 snaeh3 thi2 liau4. (Your drain is growing moss already.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ti",
+        "tl": "ti",
+        "audioHint": "ti",
+        "example": "Lu1-eh3 long3kau1 snaeh3 ti2 liau4. (Your drain is growing moss already.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "mother",
+    "hanzi": "阿母",
+    "poj": "a-bú",
+    "tl": "a-bú",
+    "audioHint": "a-bu",
+    "audioUrl": "",
+    "tags": [
+      "family",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "mouth",
+    "hanzi": "嘴",
+    "poj": "chhùi",
+    "tl": "tshuì",
+    "audioHint": "tshui",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "my name is...",
+    "hanzi": "我叫...",
+    "poj": "Góa kiò ...",
+    "tl": "Góa kiò ...",
+    "tone": "2-3",
+    "audioHint": "goa-kio",
+    "audioUrl": "",
+    "example": "Góa kiò William. (My name is William.)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "name",
+    "hanzi": "名",
+    "poj": "miâ",
+    "tl": "miâ",
+    "audioHint": "mia",
+    "audioUrl": "",
+    "tags": [
+      "noun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "near",
+    "hanzi": "近",
+    "poj": "kīn",
+    "tl": "kīn",
+    "audioHint": "kin",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "distance"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Never mind",
+    "hanzi": "無要緊",
+    "poj": "Bô iàu-kín",
+    "tl": "Bô iàu-kín",
+    "audioHint": "bo-iau-kin",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "basic",
+      "politeness"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bo-jau-kin",
+        "tl": "Taiwanese Romanisation: bô-iàu-kín",
+        "audioHint": "bo-jau-kin",
+        "example": "Ie1 boh3yau1kin4 ie1 than3-eh3 sa3man3. (He ignored the fine that he received.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "never mind / it's okay",
+    "hanzi": "無要緊",
+    "poj": "bô-iàu-kín",
+    "tl": "bô-iàu-kín",
+    "tone": "5-3-2",
+    "audioHint": "bo-iau-kin",
+    "audioUrl": "",
+    "example": "Bô-iàu-kín, bô-iàu-kín! (Never mind, never mind!)",
+    "tags": [
+      "social",
+      "politeness",
+      "daily",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bo-jau-kin",
+        "tl": "Taiwanese Romanisation: bô-iàu-kín",
+        "audioHint": "bo-jau-kin",
+        "example": "Ie1 boh3yau1kin4 ie1 than3-eh3 sa3man3. (He ignored the fine that he received.)"
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "new",
+    "hanzi": "新",
+    "poj": "sin",
+    "tl": "sin",
+    "audioHint": "sin",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "next day",
+    "hanzi": "隔日",
+    "poj": "keh-ji̍t",
+    "tl": "keh-ji̍t",
+    "audioHint": "ke-jit",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kɛʔ-jit",
+        "tl": "keh-jit",
+        "audioHint": "ke-jit",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kɛ̃-dʒit",
+        "tl": "kɛ̃-dʒit",
+        "audioHint": "ke-dit",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "nice to meet you",
+    "hanzi": "歡喜認識你",
+    "poj": "Hòaⁿ-hí jīn-bat lí",
+    "tl": "Huann-hí jīn-bat lí",
+    "tone": "3-2-7-4-2",
+    "audioHint": "huan-hi-jin-bat-li",
+    "audioUrl": "",
+    "example": "Hòaⁿ-hí jīn-bat lí! (Nice to meet you!)",
+    "tags": [
+      "greeting",
+      "social",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "night",
+    "hanzi": "暗暝",
+    "poj": "àm-mê",
+    "tl": "àm-mê",
+    "audioHint": "am-me",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "night market",
+    "hanzi": "夜市",
+    "poj": "iā-chhī",
+    "tl": "iā-tshī",
+    "audioHint": "ia-tshi",
+    "audioUrl": "",
+    "example": "Lán khì iā-chhī! (Let's go to the night market!)",
+    "tags": [
+      "food",
+      "place",
+      "culture",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "nine",
+    "hanzi": "九",
+    "poj": "káu",
+    "tl": "káu",
+    "audioHint": "kau",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "no / not",
+    "hanzi": "無",
+    "poj": "bô",
+    "tl": "bô",
+    "audioHint": "bo",
+    "audioUrl": "",
+    "tags": [
+      "negation",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bô-siāng",
+        "tl": "bo-siaŋ",
+        "audioHint": "bo-siang",
+        "example": "Cit1-leh1 boh3 siang33 ka1 heh1-leh1. (This is not the same as that.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "no / not right",
+    "hanzi": "毋是",
+    "poj": "m̄-sī",
+    "tl": "m̄-sī",
+    "tone": "7-7",
+    "audioHint": "m-si",
+    "audioUrl": "",
+    "example": "M̄-sī, góa bô. (No, I don't.)",
+    "tags": [
+      "basic",
+      "negation",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "No money, no talk",
+    "hanzi": "無錢免講",
+    "poj": "Bô chîⁿ bián kóng",
+    "tl": "Bô tsînn bián kóng",
+    "audioHint": "bo-tsinn-bian-kong",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "proverb",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "No problem",
+    "hanzi": "無問題",
+    "poj": "Bô būn-tê",
+    "tl": "Bô būn-tê",
+    "audioHint": "bo-bun-te",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "basic",
+      "reassurance"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "nose",
+    "hanzi": "鼻",
+    "poj": "phīⁿ",
+    "tl": "phīnn",
+    "audioHint": "phinn",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "not satisfied, not contented, not happy",
+    "hanzi": "無甘願",
+    "poj": "bo-kam-buan",
+    "tl": "bo-kam-buan",
+    "audioHint": "bo-kam-buan",
+    "audioUrl": "",
+    "example": "Boh3kam3buan33 ka1 wah4, ie1 tim3 ha1kark1 wah1-eh3 chaek3. (Not happy with me, he threw away my book.)",
+    "tags": [
+      "emotion",
+      "negation"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bo-kam-buan",
+        "tl": "bo-kam-buan",
+        "audioHint": "bo-kam-buan",
+        "example": "Boh3kam3buan33 ka1 wah4, ie1 tim3 ha1kark1 wah1-eh3 chaek3. (Not happy with me, he threw away my book.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bo-kam-guan",
+        "tl": "bo-kam-guan",
+        "audioHint": "bo-kam-guan",
+        "example": "Boh3kam3buan33 ka1 wah4, ie1 tim3 ha1kark1 wah1-eh3 chaek3. (Not happy with me, he threw away my book.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "bo-kam-muan",
+        "tl": "bo-kam-muan",
+        "audioHint": "bo-kam-muan",
+        "example": "Boh3kam3guan33 ka1 wah4, ie1 tim3 ha1kark1 wah1-eh3 chaek3. (Not happy with me, he threw away my book.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "not spicy",
+    "hanzi": "袂辣",
+    "poj": "bē-lah",
+    "tl": "buē-lah",
+    "audioHint": "bue-lah",
+    "audioUrl": "",
+    "example": "Chhiáⁿ bē-lah. (Please make it not spicy.)",
+    "tags": [
+      "food",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "now",
+    "hanzi": "這陣",
+    "poj": "chit-chūn",
+    "tl": "tsit-tsūn",
+    "audioHint": "tsit-tsun",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "o'clock / hour",
+    "hanzi": "點",
+    "poj": "tiám",
+    "tl": "tiám",
+    "audioHint": "tiam",
+    "audioUrl": "",
+    "example": "Kin-á-jit kúi-tiám? (What time is it today?)",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "old (age)",
+    "hanzi": "老",
+    "poj": "lāu",
+    "tl": "lāu",
+    "audioHint": "lau",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "old (object)",
+    "hanzi": "舊",
+    "poj": "kū",
+    "tl": "kū",
+    "audioHint": "ku",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "older brother",
+    "hanzi": "阿兄",
+    "poj": "a-hiaⁿ",
+    "tl": "a-hiann",
+    "audioHint": "a-hiann",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "older sister",
+    "hanzi": "阿姊",
+    "poj": "a-chí",
+    "tl": "a-tsí",
+    "audioHint": "a-tsi",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "one",
+    "hanzi": "一",
+    "poj": "chit",
+    "tl": "tsit",
+    "audioHint": "tsit",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "it",
+        "tl": "it",
+        "audioHint": "it",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "One hand cannot clap alone (need cooperation)",
+    "hanzi": "一支手拍袂響",
+    "poj": "Chit-ki chhiú phah bōe hiáng",
+    "tl": "Tsit-ki tshiú phah buē hiáng",
+    "audioHint": "tsit-ki-tshiu-phah-bue-hiang",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "proverb",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "oneself, alone",
+    "hanzi": "家己",
+    "poj": "ka-kī",
+    "tl": "ka-tī",
+    "audioHint": "ka-ki",
+    "audioUrl": "",
+    "example": "Wah4 ka3ki33 khee1 khnua1 hee3. (I went to see the show by myself.)",
+    "tags": [
+      "pronoun",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ka-kī",
+        "tl": "ka-tī",
+        "audioHint": "ka-ki",
+        "example": "Wah4 ka3ki33 khee1 khnua1 hee3. (I went to see the show by myself.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ka-kī",
+        "tl": "ka-kī",
+        "audioHint": "ka-ki",
+        "example": "Wah4 ka3ki33 khee1 khnua1 hee3. (I went to see the show by myself.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "outside",
+    "hanzi": "外口",
+    "poj": "gōa-kháu",
+    "tl": "guā-kháu",
+    "audioHint": "gua-khau",
+    "audioUrl": "",
+    "tags": [
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "person / people",
+    "hanzi": "人",
+    "poj": "lâng",
+    "tl": "lâng",
+    "audioHint": "lang",
+    "audioUrl": "",
+    "tags": [
+      "noun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "pharmacy",
+    "hanzi": "藥房",
+    "poj": "io̍h-pâng",
+    "tl": "io̍h-pâng",
+    "audioHint": "ioh-pang",
+    "audioUrl": "",
+    "example": "Io̍h-pâng tī tó-uī? (Where is the pharmacy?)",
+    "tags": [
+      "medical",
+      "place",
+      "tourist"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ioʔ-paŋ",
+        "tl": "ioʔ-paŋ",
+        "audioHint": "io-pang",
+        "example": "Cit1-leh1 iok3pang2 beh33-eh3 iok1 khah1 ho4. (The medicine sold by this pharmacy is better.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "pig",
+    "hanzi": "豬",
+    "poj": "ti",
+    "tl": "ti",
+    "audioHint": "ti",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "food"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tu",
+        "tl": "tu",
+        "audioHint": "tu",
+        "example": "Wah1-eh3 kong1 chie3 too1. (My grandfather rears pigs.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "plain water",
+    "hanzi": "白水",
+    "poj": "pê-chúi",
+    "tl": "pê-tsuí",
+    "audioHint": "pe-tshui",
+    "audioUrl": "",
+    "example": "Wah1 ai1 lim3 paek3cui4. (I like to drink plain water.)",
+    "tags": [
+      "drink"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pɛ-tshui",
+        "tl": "pɛ-tshui",
+        "audioHint": "pe-tshui",
+        "example": "Wah1 ai1 lim3 paek3cui4. (I like to drink plain water.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pɛ-tsui",
+        "tl": "pɛ-tsui",
+        "audioHint": "pe-tsui",
+        "example": "Hor33 wah4 tam3pok3 paek3cui4. (Give me some plain water.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "plate / bowl",
+    "hanzi": "碟仔",
+    "poj": "tih-á",
+    "tl": "tih-á",
+    "audioHint": "tih-a",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "utensil"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please",
+    "hanzi": "請",
+    "poj": "chhiáⁿ",
+    "tl": "tshiánn",
+    "audioHint": "tshiann",
+    "audioUrl": "",
+    "tags": [
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please say that again",
+    "hanzi": "請擱講一遍",
+    "poj": "Chhiáⁿ koh kóng chit-pái",
+    "tl": "Tshiánn koh kóng tsit-pái",
+    "tone": "2-4-2-4-2",
+    "audioHint": "tshian-koh-kong-tsit-pai",
+    "audioUrl": "",
+    "example": "Chhiáⁿ koh kóng chit-pái, hó--bô? (Can you please say that again?)",
+    "tags": [
+      "communication",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please speak slowly",
+    "hanzi": "請講較慢",
+    "poj": "Chhiáⁿ kóng khah bān",
+    "tl": "Tshiánn kóng khah bān",
+    "tone": "2-2-4-7",
+    "audioHint": "tshian-kong-khah-ban",
+    "audioUrl": "",
+    "example": "Chhiáⁿ kóng khah bān! Góa thiaⁿ-bô. (Please speak slowly! I don't understand.)",
+    "tags": [
+      "communication",
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "please speak slowly",
+    "hanzi": "請講較慢咧",
+    "poj": "Chhiáⁿ kóng khah bān--leh",
+    "tl": "Tshiánn kóng khah bān--leh",
+    "audioHint": "tshiann-kong-khah-ban-leh",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "learning",
+      "conversation"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "pork",
+    "hanzi": "豬肉",
+    "poj": "ti-bah",
+    "tl": "ti-bah",
+    "audioHint": "ti-bah",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "meat"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tu-baʔ",
+        "tl": "tu-baʔ",
+        "audioHint": "tu-ba",
+        "example": "They don't eat pork.",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "proprietress, lady boss",
+    "hanzi": "頭家娘",
+    "poj": "thâu-ke-niâu",
+    "tl": "thâu-ke-niâu",
+    "audioHint": "thau-ke-niau",
+    "audioUrl": "",
+    "example": "Ee1 si33 tau3ke3 niau2 (She is the proprietress)",
+    "tags": [
+      "profession"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thau-kɛ-niau",
+        "tl": "thau-kɛ-niau",
+        "audioHint": "thau-ke-niau",
+        "example": "Ee1 si33 tau3ke3 niau2 (She is the proprietress)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thâu-kee-niâu",
+        "tl": "thâu-kee-niâu",
+        "audioHint": "thau-ke-niau",
+        "example": "Ee1 si33 tau3ke3 niau2 (She is the proprietress)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "quickly",
+    "hanzi": "緊緊",
+    "poj": "kín-kín",
+    "tl": "kín-kín",
+    "audioHint": "kin-kin",
+    "audioUrl": "",
+    "tags": [
+      "adverb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "quiet",
+    "hanzi": "靜",
+    "poj": "chēng",
+    "tl": "tsēng",
+    "audioHint": "tseng",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "rain",
+    "hanzi": "雨",
+    "poj": "hō͘",
+    "tl": "hōo",
+    "audioHint": "hoo",
+    "audioUrl": "",
+    "tags": [
+      "weather",
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "red",
+    "hanzi": "紅",
+    "poj": "âng",
+    "tl": "âng",
+    "audioHint": "ang",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "rice (cooked)",
+    "hanzi": "飯",
+    "poj": "pn̄g",
+    "tl": "pn̄g",
+    "audioHint": "png",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pūiⁿ",
+        "tl": "puīnn",
+        "audioHint": "pui",
+        "example": "Pnui33 cu4 seik1 liau4 boey3? (Is the rice cooked?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "rice (uncooked)",
+    "hanzi": "米",
+    "poj": "bí",
+    "tl": "bí",
+    "audioHint": "bi",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "right (direction)",
+    "hanzi": "正爿",
+    "poj": "chiàⁿ-pêng",
+    "tl": "tsiànn-pîng",
+    "audioHint": "tsiann-ping",
+    "audioUrl": "",
+    "tags": [
+      "direction",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "room",
+    "hanzi": "房間",
+    "poj": "pâng-king",
+    "tl": "pâng-king",
+    "audioHint": "pang-king",
+    "audioUrl": "",
+    "example": "Góa beh it-ê pâng-king. (I want one room.)",
+    "tags": [
+      "place",
+      "tourist"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pâng-keng",
+        "tl": "pâng-king",
+        "audioHint": "pang-keng",
+        "example": "Cit1-keng3 chu3 uh33 snar3-leh3 pang3keng1. (This house has three bedrooms.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "rubbish, trash",
+    "hanzi": "垃圾",
+    "poj": "lah-sap",
+    "tl": "lah-sap",
+    "audioHint": "lap-sap",
+    "audioUrl": "",
+    "tags": [
+      "medical"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "lah-sap",
+        "tl": "lah-sap",
+        "audioHint": "lap-sap",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "lak-sap",
+        "tl": "lak-sap",
+        "audioHint": "lak-sap",
+        "example": "Cit1-leh1 kae33lor33 cin3 ce33 lark1sap3. (There is a lot of trash on this road.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sad",
+    "hanzi": "傷心",
+    "poj": "siong-sim",
+    "tl": "siong-sim",
+    "audioHint": "siong-sim",
+    "audioUrl": "",
+    "tags": [
+      "emotion",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "salt",
+    "hanzi": "鹽",
+    "poj": "iâm",
+    "tl": "iâm",
+    "audioHint": "iam",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "satisfied, fulfilled; also pronounced kam3buan33 and kam3guan33",
+    "hanzi": "甘願",
+    "poj": "kam-moān",
+    "tl": "kam-muān",
+    "audioHint": "kam-guan",
+    "audioUrl": "",
+    "example": "Lu1 kam3muan33 liau4 boey3? (Are you satisfied?)",
+    "tags": [
+      "grammar",
+      "medical"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kam-moān",
+        "tl": "kam-muān",
+        "audioHint": "kam-guan",
+        "example": "Lu1 kam3muan33 liau4 boey3? (Are you satisfied?)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kam-muan",
+        "tl": "kam-guān",
+        "audioHint": "kam-muan",
+        "example": "Lu1 kam3muan33 liau4 boey3? (Are you satisfied?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "school",
+    "hanzi": "學校",
+    "poj": "ha̍k-hāu",
+    "tl": "ha̍k-hāu",
+    "audioHint": "hak-hau",
+    "audioUrl": "",
+    "tags": [
+      "education",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "see you next time",
+    "hanzi": "後擺閣再",
+    "poj": "āu-pái koh-chài",
+    "tl": "āu-pái koh-tsài",
+    "tone": "7-2-4-3",
+    "audioHint": "au-pai-koh-tsai",
+    "audioUrl": "",
+    "example": "Āu-pái koh-chài! (See you next time!)",
+    "tags": [
+      "greeting",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "See you tomorrow",
+    "hanzi": "明仔再再見",
+    "poj": "Bîn-á-chài chài-hōe",
+    "tl": "Bîn-á-tsài tsài-huē",
+    "audioHint": "bin-a-tsai-tsai-hue",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "greeting",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "seed",
+    "hanzi": "子",
+    "poj": "chí",
+    "tl": "tsí",
+    "audioHint": "tsi",
+    "audioUrl": "",
+    "example": "Cit1-leh1 cang2-eh3 chee4 cin3 se1 liap1. (The seeds of this tree is very small.)",
+    "tags": [
+      "nature",
+      "basic",
+      "noun"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tsi",
+        "tl": "tsi",
+        "audioHint": "tsi",
+        "example": "Cit1-leh1 cang2-eh3 chee4 cin3 se1 liap1. (The seeds of this tree is very small.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "chí",
+        "tl": "tsí",
+        "audioHint": "tsi",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "seven",
+    "hanzi": "七",
+    "poj": "chhit",
+    "tl": "tshit",
+    "audioHint": "tshit",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sick / ill",
+    "hanzi": "病",
+    "poj": "pīⁿ",
+    "tl": "pīnn",
+    "audioHint": "pinn",
+    "audioUrl": "",
+    "example": "Góa pīⁿ-tio̍h. (I've fallen ill.)",
+    "tags": [
+      "medical",
+      "emotion",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pɛ̃",
+        "tl": "pɛ̃",
+        "audioHint": "pe",
+        "example": "Ie1 tiok3 ha1mik1 pnae33? (What disease did he get?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "six",
+    "hanzi": "六",
+    "poj": "la̍k",
+    "tl": "la̍k",
+    "audioHint": "lak",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sky",
+    "hanzi": "天",
+    "poj": "thiⁿ",
+    "tl": "thinn",
+    "audioHint": "thinn",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "slow",
+    "hanzi": "慢",
+    "poj": "bān",
+    "tl": "bān",
+    "audioHint": "ban",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "adverb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "small",
+    "hanzi": "細",
+    "poj": "sè",
+    "tl": "sè",
+    "audioHint": "se",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "so, therefore",
+    "hanzi": "所以",
+    "poj": "só͘-í",
+    "tl": "sóo-í",
+    "audioHint": "so-yi",
+    "audioUrl": "",
+    "example": "Ie1 boh3 kau1 lui1, sor1i4 ie1 be33 beh4 heh1-leh1 mi3knia1. (He doesn't have enough money, so he couldn't buy the thing.)",
+    "tags": [
+      "direction",
+      "grammar"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sɔ-yi",
+        "tl": "sóo-í",
+        "audioHint": "so-yi",
+        "example": "Ie1 boh3 kau1 lui1, sor1i4 ie1 be33 beh4 heh1-leh1 mi3knia1. (He doesn't have enough money, so he couldn't buy the thing.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "sɔ-yi",
+        "tl": "sɔ-yi",
+        "audioHint": "so-yi",
+        "example": "Ie1 boh3 kau1 lui1, sor1yee4 ie1 be33 beh4 heh1-leh1 mi3knia1. (He doesn't have enough money, so he couldn't buy the thing.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "son",
+    "hanzi": "查某囝",
+    "poj": "cha-po͘-kiáⁿ",
+    "tl": "tsa-poo-kiánn",
+    "audioHint": "tsa-poo-kiann",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sorry / excuse me",
+    "hanzi": "歹勢",
+    "poj": "Pháiⁿ-sè",
+    "tl": "Pháinn-sè",
+    "tone": "2-3",
+    "audioHint": "phain-se",
+    "audioUrl": "",
+    "example": "Pháiⁿ-sè, góa bô-ì-sù. (Sorry, I didn't mean it.)",
+    "tags": [
+      "politeness",
+      "social",
+      "greeting",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phãi-se",
+        "tl": "pháinn-sè",
+        "audioHint": "phai-se",
+        "example": "Cit1-khien1 lang2 be33hiau1 phnai1seh3. (This person doesn't know how to be embarrassed.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "soup",
+    "hanzi": "湯",
+    "poj": "thng",
+    "tl": "thng",
+    "audioHint": "thng",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sour",
+    "hanzi": "酸",
+    "poj": "sng",
+    "tl": "sng",
+    "audioHint": "sng",
+    "audioUrl": "",
+    "tags": [
+      "taste",
+      "adjective"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "suĩ",
+        "tl": "sng",
+        "audioHint": "sui",
+        "example": "Ie1-eh3 bin33 cin3 snui1. (His face looks very unhappy.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "star",
+    "hanzi": "星",
+    "poj": "chhiⁿ",
+    "tl": "tshinn",
+    "audioHint": "tshinn",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "station",
+    "hanzi": "車站",
+    "poj": "chhia-chām",
+    "tl": "tshia-tsām",
+    "audioHint": "tshia-tsam",
+    "audioUrl": "",
+    "example": "Chhia-chām tī tó-uī? (Where is the station?)",
+    "tags": [
+      "transport",
+      "tourist"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshia-tsam",
+        "tl": "tshia-tsam",
+        "audioHint": "tshia-tsam",
+        "example": "Chia3cam33 ti1 ta1lok1? (Where is the bus stop?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "stepfather",
+    "hanzi": "後爸",
+    "poj": "au-pa",
+    "tl": "au-pa",
+    "audioHint": "au-pa",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "au-pa",
+        "tl": "au-pa",
+        "audioHint": "au-pa",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "au-pɛ",
+        "tl": "au-pɛ",
+        "audioHint": "au-pe",
+        "example": "Ie1-eh3 au33pae33 cin3 ho1 sim1. (His stepfather is very good-hearted.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "stomach",
+    "hanzi": "腹肚",
+    "poj": "pak-tó͘",
+    "tl": "pak-tóo",
+    "audioHint": "pak-too",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pɔ-tɔ",
+        "tl": "pɔ-tɔ",
+        "audioHint": "po-to",
+        "example": "Lu1-eh3 por1tor4 cin3 tua33 leh2 liau4. (Your belly is very big already.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "student",
+    "hanzi": "學生",
+    "poj": "ha̍k-seng",
+    "tl": "ha̍k-sing",
+    "audioHint": "hap-seng",
+    "audioUrl": "",
+    "example": "Cit1-leh1 ok3tng2-eh3 hap3seng1 khah1 ce33 tak1 mo1to4 lai2. (Most of the students of this school come by motorcycle.)",
+    "tags": [
+      "education"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hap-seŋ",
+        "tl": "ha̍k-sing",
+        "audioHint": "hap-seng",
+        "example": "Cit1-leh1 ok3tng2-eh3 hap3seng1 khah1 ce33 tak1 mo1to4 lai2. (Most of the students of this school come by motorcycle.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ha̍k-seng (all variants except Quanzhou",
+        "tl": "ha̍k-sing (all variants except Quanzhou",
+        "audioHint": "hak-seng",
+        "example": "Cit1-leh1 ok3tng2-eh3 hap3seng1 khah1 ce33 tak1 mo1to4 lai2. (Most of the students of this school come by motorcycle.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sugar",
+    "hanzi": "糖",
+    "poj": "thn̂g",
+    "tl": "thn̂g",
+    "audioHint": "thng",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thŋ",
+        "tl": "thn̂g",
+        "audioHint": "thng",
+        "example": "Ie1 gau3 ciak3 thng2. (He likes to eat sweet things/He has a sweet tooth.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sun",
+    "hanzi": "日頭",
+    "poj": "ji̍t-thâu",
+    "tl": "ji̍t-thâu",
+    "audioHint": "jit-thau",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "sweet",
+    "hanzi": "甜",
+    "poj": "tiⁿ",
+    "tl": "tinn",
+    "audioHint": "tinn",
+    "audioUrl": "",
+    "tags": [
+      "taste",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "taxi",
+    "hanzi": "計程車",
+    "poj": "kè-thêng-chhia",
+    "tl": "kè-tîng-tshia",
+    "audioHint": "ke-ting-tshia",
+    "audioUrl": "",
+    "example": "Góa beh chē kè-thêng-chhia. (I want to take a taxi.)",
+    "tags": [
+      "transport",
+      "tourist",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tea",
+    "hanzi": "茶",
+    "poj": "tê",
+    "tl": "tê",
+    "audioHint": "te",
+    "audioUrl": "",
+    "tags": [
+      "drink",
+      "food"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "têe",
+        "tl": "têe",
+        "audioHint": "te",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "temple",
+    "hanzi": "廟",
+    "poj": "biō",
+    "tl": "biō",
+    "audioHint": "bio",
+    "audioUrl": "",
+    "example": "Chit-ê biō chin súi. (This temple is very beautiful.)",
+    "tags": [
+      "place",
+      "culture",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ten",
+    "hanzi": "十",
+    "poj": "cha̍p",
+    "tl": "tsa̍p",
+    "audioHint": "tsap",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tsa̍p",
+        "tl": "tsa̍p",
+        "audioHint": "tsap",
+        "example": "Tha1na1 cap3 tiam4 liau4. (It is now ten o'clock.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Thank you",
+    "hanzi": "多謝",
+    "poj": "To-siā",
+    "tl": "To-siā",
+    "tone": "1-7",
+    "audioHint": "to-sia",
+    "audioUrl": "",
+    "example": "To-siā lí ê pang-chān. (Thank you for your help.)",
+    "tags": [
+      "politeness",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "that",
+    "hanzi": "彼个",
+    "poj": "ha-le",
+    "tl": "ha-le",
+    "audioHint": "ha-le",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "clothing",
+      "pronoun"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ha-le",
+        "tl": "ha-le",
+        "audioHint": "ha-le",
+        "example": "",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hi-le",
+        "tl": "hi-le",
+        "audioHint": "hi-le",
+        "example": "Hi1-leh1 kui1 lui1? (How much is that?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "there",
+    "hanzi": "遐",
+    "poj": "hia",
+    "tl": "hia",
+    "audioHint": "hia",
+    "audioUrl": "",
+    "tags": [
+      "location",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "they / them",
+    "hanzi": "𪜶",
+    "poj": "in",
+    "tl": "in",
+    "audioHint": "in",
+    "audioUrl": "",
+    "tags": [
+      "pronoun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "thing / object",
+    "hanzi": "物件",
+    "poj": "mi̍h-kiāⁿ",
+    "tl": "mi̍h-kiānn",
+    "audioHint": "mih-kiann",
+    "audioUrl": "",
+    "tags": [
+      "noun",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "mi-niã",
+        "tl": "mi̍h-kiānn",
+        "audioHint": "mi-nia",
+        "example": "Cit1-leh1 si33 ha1mik1 mi3knia3 lai2? (What is this thing?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "thousand",
+    "hanzi": "千",
+    "poj": "chheng",
+    "tl": "tshing",
+    "audioHint": "tshing",
+    "audioUrl": "",
+    "example": "It-chheng kho͘. (One thousand dollars.)",
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tsheŋ",
+        "tl": "tshian",
+        "audioHint": "tsheng",
+        "example": "Ie1-eh3 chia1 tatt1 cit3-pak1-cheng1. (His car is worth a hundred thousand.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "three",
+    "hanzi": "三",
+    "poj": "saⁿ",
+    "tl": "sann",
+    "audioHint": "sann",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "ticket",
+    "hanzi": "票",
+    "poj": "phiò",
+    "tl": "phiò",
+    "audioHint": "phio",
+    "audioUrl": "",
+    "example": "Chit-tiuⁿ phiò gōa-chōe? (How much is one ticket?)",
+    "tags": [
+      "transport",
+      "tourist",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tired",
+    "hanzi": "疲勞",
+    "poj": "phî-lô",
+    "tl": "phî-lô",
+    "audioHint": "phi-lo",
+    "audioUrl": "",
+    "tags": [
+      "emotion",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to abate",
+    "poj": "siau",
+    "audioUrl": ""
+  },
+  {
+    "dialectId": "shared",
+    "english": "to answer",
+    "hanzi": "應",
+    "poj": "ìn",
+    "tl": "ìn",
+    "audioHint": "in",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to arrive",
+    "hanzi": "到",
+    "poj": "kàu",
+    "tl": "kàu",
+    "audioHint": "kau",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to ask",
+    "hanzi": "問",
+    "poj": "mn̄g",
+    "tl": "mn̄g",
+    "audioHint": "mng",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "mûi",
+        "tl": "mûi",
+        "audioHint": "mui",
+        "example": "A33si33 be33hiau4, mui33. (If you don't know, ask.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to bathe",
+    "hanzi": "洗身",
+    "poj": "sé-sin",
+    "tl": "sé-sin",
+    "audioHint": "se-sin",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to be",
+    "hanzi": "是",
+    "poj": "sī",
+    "tl": "sī",
+    "audioHint": "si",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to buy",
+    "hanzi": "買",
+    "poj": "bé",
+    "tl": "bé",
+    "audioHint": "be",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "shopping"
+    ],
+    "variants": [
+      {
+        "dialectId": "taiwanese",
+        "poj": "bóe",
+        "tl": "bué"
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to carry (in arms)",
+    "hanzi": "抱",
+    "poj": "phōng",
+    "tl": "phōng",
+    "audioHint": "phong",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phō",
+        "tl": "phō",
+        "audioHint": "pho",
+        "example": "Ie1 pho33 ie1-eh3 knia4. (He carried his baby.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to close (door)",
+    "hanzi": "關",
+    "poj": "koaiⁿ",
+    "tl": "kuainn",
+    "audioHint": "kuainn",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "home"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kuan",
+        "tl": "kuan",
+        "audioHint": "kuan",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to come",
+    "hanzi": "來",
+    "poj": "lâi",
+    "tl": "lâi",
+    "audioHint": "lai",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to cook",
+    "hanzi": "煮",
+    "poj": "chú",
+    "tl": "tsú",
+    "audioHint": "tsu",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to count",
+    "hanzi": "算",
+    "poj": "sǹg",
+    "tl": "sǹg",
+    "audioHint": "sng",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "number"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to cry",
+    "hanzi": "哭",
+    "poj": "háu",
+    "tl": "háu",
+    "audioHint": "hau",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to cut",
+    "hanzi": "切",
+    "poj": "chhiat",
+    "tl": "tshiat",
+    "audioHint": "tshiat",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to die",
+    "hanzi": "死",
+    "poj": "sí",
+    "tl": "sí",
+    "audioHint": "si",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to drink",
+    "hanzi": "啉",
+    "poj": "lim",
+    "tl": "lim",
+    "audioHint": "lim",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to drive (a car)",
+    "hanzi": "駛車",
+    "poj": "sái-chhia",
+    "tl": "sái-tshia",
+    "audioHint": "sai-tshia",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to eat",
+    "hanzi": "食",
+    "poj": "chia̍h",
+    "tl": "tsia̍h",
+    "audioHint": "tsiah",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to forget",
+    "hanzi": "袂記得",
+    "poj": "bōe kì-tit",
+    "tl": "buē kì-tit",
+    "audioHint": "bue-ki-tit",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to get up",
+    "hanzi": "起床",
+    "poj": "khí-khùn",
+    "tl": "khí-khùn",
+    "audioHint": "khi-khun",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to give",
+    "hanzi": "予",
+    "poj": "hō͘",
+    "tl": "hōo",
+    "audioHint": "hoo",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to go",
+    "hanzi": "去",
+    "poj": "khì",
+    "tl": "khì",
+    "audioHint": "khi",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to have",
+    "hanzi": "有",
+    "poj": "ū",
+    "tl": "ū",
+    "audioHint": "u",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to hear / listen",
+    "hanzi": "聽",
+    "poj": "thiaⁿ",
+    "tl": "thiann",
+    "audioHint": "thiann",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "thiã",
+        "tl": "thiann",
+        "audioHint": "thia",
+        "example": "Wah1 thnia1-tiok3 lang3 cheeo1 kua1. (I can hear people singing.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to hurry",
+    "hanzi": "緊",
+    "poj": "kín-kín",
+    "tl": "kín-kín",
+    "audioHint": "kin-kin",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "adverb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to jump",
+    "hanzi": "跳",
+    "poj": "thiàu",
+    "tl": "thiàu",
+    "audioHint": "thiau",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to keep",
+    "hanzi": "留",
+    "poj": "lâu",
+    "tl": "lâu",
+    "audioHint": "lau",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to kill",
+    "hanzi": "刣",
+    "poj": "thâi",
+    "tl": "thâi",
+    "audioHint": "thai",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to know (a fact)",
+    "hanzi": "知",
+    "poj": "chai",
+    "tl": "tsai",
+    "audioHint": "tsai",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to know (a person)",
+    "hanzi": "認識",
+    "poj": "jīn-bat",
+    "tl": "jīn-bat",
+    "audioHint": "jin-bat",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to laugh",
+    "hanzi": "笑",
+    "poj": "chhiò",
+    "tl": "tshiò",
+    "audioHint": "tshio",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to learn",
+    "hanzi": "學",
+    "poj": "o̍h",
+    "tl": "o̍h",
+    "audioHint": "oh",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "education"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "oʔ",
+        "tl": "o̍h",
+        "audioHint": "o",
+        "example": "Ee1 ok3 Ji3pun1na1 wa33. (She is learning Japanese.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to like",
+    "hanzi": "喜歡",
+    "poj": "hí-hoan",
+    "tl": "hí-huan",
+    "audioHint": "hi-huan",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to live (reside)",
+    "hanzi": "住",
+    "poj": "tòa",
+    "tl": "tuà",
+    "audioHint": "tua",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to look / see",
+    "hanzi": "看",
+    "poj": "khòaⁿ",
+    "tl": "khuànn",
+    "audioHint": "khuann",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khuã",
+        "tl": "khuànn",
+        "audioHint": "khua",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to love",
+    "hanzi": "愛",
+    "poj": "ài",
+    "tl": "ài",
+    "audioHint": "ai",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to meet",
+    "hanzi": "會著",
+    "poj": "ōe-tio̍h",
+    "tl": "uē-tio̍h",
+    "audioHint": "ue-tioh",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to open",
+    "hanzi": "開",
+    "poj": "khui",
+    "tl": "khui",
+    "audioHint": "khui",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khai",
+        "tl": "khai",
+        "audioHint": "khai",
+        "example": "Wah1 khai1 kau3 ka1 wah1 pok1kai1. (I spend until I am penniless.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to pay",
+    "hanzi": "付錢",
+    "poj": "hù-chîⁿ",
+    "tl": "hù-tsînn",
+    "audioHint": "hu-tsinn",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to play",
+    "hanzi": "耍",
+    "poj": "sńg",
+    "tl": "sńg",
+    "audioHint": "sng",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "leisure"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to put",
+    "hanzi": "放",
+    "poj": "pàng",
+    "tl": "pàng",
+    "audioHint": "pang",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to read",
+    "hanzi": "讀",
+    "poj": "tha̍k",
+    "tl": "tha̍k",
+    "audioHint": "thak",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "education"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to run",
+    "hanzi": "走",
+    "poj": "cháu",
+    "tl": "tsáu",
+    "audioHint": "tsau",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to say / speak",
+    "hanzi": "講",
+    "poj": "kóng",
+    "tl": "kóng",
+    "audioHint": "kong",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kɔŋ",
+        "tl": "kóng",
+        "audioHint": "kong",
+        "example": "Wah1 ka3 ie1 kong4. (I told him.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to sing",
+    "hanzi": "唱歌",
+    "poj": "chhiò-koa",
+    "tl": "tshiò-kua",
+    "audioHint": "tshio-kua",
+    "audioUrl": "",
+    "example": "Ie1 be33 cheeo1kua1 in3ui33 na3au2 thnia3. (He can't sing because of sore throat.)",
+    "tags": [
+      "verb"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshio-kua",
+        "tl": "tshio-kua",
+        "audioHint": "tshio-kua",
+        "example": "Ie1 be33 cheeo1kua1 in3ui33 na3au2 thnia3. (He can't sing because of sore throat.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshiãu-kua",
+        "tl": "tshiãu-kua",
+        "audioHint": "tshiau-kua",
+        "example": "Wah1 e33 thnia1-tiok3 ie1 chniau1kua1. (I can hear him singing.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to sleep",
+    "hanzi": "睏",
+    "poj": "khùn",
+    "tl": "khùn",
+    "audioHint": "khun",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to smell",
+    "hanzi": "鼻",
+    "poj": "phīⁿ",
+    "tl": "phīnn",
+    "audioHint": "phinn",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "sense"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "phĩ",
+        "tl": "phīnn",
+        "audioHint": "phi",
+        "example": "Wah1 lau3 phni3. (I have a runny nose.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to stand",
+    "hanzi": "徛",
+    "poj": "khiā",
+    "tl": "khiā",
+    "audioHint": "khia",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "posture"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to take / fetch",
+    "hanzi": "提",
+    "poj": "the̍h",
+    "tl": "the̍h",
+    "audioHint": "theh",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "theʔ",
+        "tl": "thê",
+        "audioHint": "the",
+        "example": "Lu1 thek1 wah1-eh3 mi3knia3. (You took my stuff.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to talk",
+    "hanzi": "講話",
+    "poj": "kóng-uē",
+    "tl": "kóng-uē",
+    "audioHint": "kong-ue",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "social"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kɔŋ-ua",
+        "tl": "kóng-uē",
+        "audioHint": "kong-ua",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to understand",
+    "hanzi": "知影",
+    "poj": "chai-iáⁿ",
+    "tl": "tsai-iánn",
+    "audioHint": "tsai-iann",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to use",
+    "hanzi": "用",
+    "poj": "ēng",
+    "tl": "īng",
+    "audioHint": "ing",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "jɔŋ",
+        "tl": "iōng",
+        "audioHint": "jong",
+        "example": "Ie1 khi4 Seng3 Ki3 Snua1 yong1 snua3lor33. (He went up Penang Hill using the hill road.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to wait",
+    "hanzi": "等",
+    "poj": "tán",
+    "tl": "tán",
+    "audioHint": "tan",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to walk",
+    "hanzi": "行",
+    "poj": "kiâⁿ",
+    "tl": "kiânn",
+    "audioHint": "kiann",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "movement",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "huã",
+        "tl": "huã",
+        "audioHint": "hua",
+        "example": "Ie1 na1 hnua33 na1 kin4. (He drove faster and faster.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to want",
+    "hanzi": "要",
+    "poj": "beh",
+    "tl": "beh",
+    "audioHint": "beh",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to welcome",
+    "hanzi": "歡迎",
+    "poj": "hoan-gêng",
+    "tl": "huan-gîng",
+    "audioHint": "huan-eng",
+    "audioUrl": "",
+    "example": "Ie1 huan3eng2 wah1lang2 jip1 lai2. (He welcomed us in.)",
+    "tags": [
+      "politeness",
+      "social",
+      "verb"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "huan-eŋ",
+        "tl": "huan-gîng",
+        "audioHint": "huan-eng",
+        "example": "Ie1 huan3eng2 wah1lang2 jip1 lai2. (He welcomed us in.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hoan-êng",
+        "tl": "huan-îng",
+        "audioHint": "huan-ging",
+        "example": "Boh3lang3 huan3ging2 wah1lang2. (Nobody welcomed us.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to work",
+    "hanzi": "做工",
+    "poj": "chò-kang",
+    "tl": "tsò-kang",
+    "audioHint": "tso-kang",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "to write",
+    "hanzi": "寫",
+    "poj": "siá",
+    "tl": "siá",
+    "audioHint": "sia",
+    "audioUrl": "",
+    "tags": [
+      "verb",
+      "education"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "today",
+    "hanzi": "今日",
+    "poj": "kin-ji̍t",
+    "tl": "kin-ji̍t",
+    "audioHint": "kin-jit",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "together",
+    "hanzi": "做伙",
+    "poj": "chò-hóe",
+    "tl": "tsò-hué",
+    "audioHint": "tso-hue",
+    "audioUrl": "",
+    "tags": [
+      "adverb",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "toilet / bathroom",
+    "hanzi": "便所",
+    "poj": "piān-só͘",
+    "tl": "piān-sóo",
+    "audioHint": "pian-soo",
+    "audioUrl": "",
+    "example": "Piān-só͘ tī tó-uī? (Where is the toilet?)",
+    "tags": [
+      "place",
+      "basic",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tomorrow",
+    "hanzi": "明仔再",
+    "poj": "bîn-á-chài",
+    "tl": "bîn-á-tsài",
+    "audioHint": "bin-a-tsai",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tonight",
+    "hanzi": "今暝 (TW)",
+    "poj": "kim-mîn",
+    "tl": "kim-mî",
+    "audioHint": "ki-me",
+    "audioUrl": "",
+    "example": "Kee3meh2 wah1 lai3 choay3 lu4. (I come to see you tonight.)",
+    "tags": [
+      "time"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kim-mîn",
+        "tl": "ki-mɛ",
+        "audioHint": "ki-me",
+        "example": "Kee3meh2 wah1 lai3 choay3 lu4. (I come to see you tonight.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "kim-mîn",
+        "tl": "kin-mɛ",
+        "audioHint": "kin-me",
+        "example": "Kim3meh2 wang1 ciak3chnia4. (Tonight we attend a dinner.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "too expensive",
+    "hanzi": "傷貴",
+    "poj": "siuⁿ-kùi",
+    "tl": "siunn-kuì",
+    "tone": "1-3",
+    "audioHint": "siun-kui",
+    "audioUrl": "",
+    "example": "Siuⁿ-kùi ah! Ē-sái khah pêng--bô? (Too expensive! Can you make it cheaper?)",
+    "tags": [
+      "shopping",
+      "adjective",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tooth / teeth",
+    "hanzi": "喙齒",
+    "poj": "chhùi-khí",
+    "tl": "tshuì-khí",
+    "audioHint": "tshui-khi",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tshui-khi",
+        "tl": "tshuì-khí",
+        "audioHint": "tshui-khi",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "train",
+    "hanzi": "火車",
+    "poj": "hóe-chhia",
+    "tl": "hé-tshia",
+    "audioHint": "he-tshia",
+    "audioUrl": "",
+    "example": "Hóe-chhia kúi-tiám khí? (What time does the train leave?)",
+    "tags": [
+      "transport",
+      "tourist"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hoe-tshia",
+        "tl": "hué-tshia",
+        "audioHint": "hoe-tshia",
+        "example": "Wah1 mm33bat1 ceh33 hoay1chia1. (I have never taken a train before.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "tree",
+    "hanzi": "樹仔",
+    "poj": "chhiū-á",
+    "tl": "tshiū-á",
+    "audioHint": "tshiu-a",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "turn",
+    "hanzi": "轉",
+    "poj": "choán",
+    "tl": "tsuán",
+    "tone": "2",
+    "audioHint": "tsuan",
+    "audioUrl": "",
+    "example": "Tī chia choán tò-pêng. (Turn left here.)",
+    "tags": [
+      "direction",
+      "movement",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tuĩ",
+        "tl": "tńg",
+        "audioHint": "tui",
+        "example": "Ie1 tnui4 liau4. (He has gone home.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Turn left",
+    "hanzi": "倒轉",
+    "poj": "Tò-tńg",
+    "tl": "Tò-tńg",
+    "audioHint": "to-tng",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Turn right",
+    "hanzi": "正轉",
+    "poj": "Chiàⁿ-tńg",
+    "tl": "Tsiànn-tńg",
+    "audioHint": "tsiann-tng",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "two",
+    "hanzi": "兩",
+    "poj": "nn̄g",
+    "tl": "nn̄g",
+    "audioHint": "nng",
+    "audioUrl": "",
+    "tags": [
+      "number",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "nō͘",
+        "tl": "nɔ",
+        "audioHint": "no",
+        "example": "Ie1 lai2 nor33 leh1pai3. (He comes for two weeks.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "umbrella",
+    "hanzi": "雨傘",
+    "poj": "hō͘-sòaⁿ",
+    "tl": "hōo-suànn",
+    "audioHint": "hoo-suann",
+    "audioUrl": "",
+    "tags": [
+      "object",
+      "weather"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hɔ-suã",
+        "tl": "hōo-suànnEe1 ya3 hor33snua3 in3ui33 lok3 tua33 hor33. She carries an umbrella because it was raining heavily.",
+        "audioHint": "ho-sua",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "uncle (father's older brother)",
+    "hanzi": "阿伯",
+    "poj": "a-peh",
+    "tl": "a-peh",
+    "audioHint": "a-peh",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "a-pɛʔ",
+        "tl": "a-pɛʔ",
+        "audioHint": "a-pe",
+        "example": "Cit1-leh1 Ah3 Pek3 si33 lu1-eh3 cui33-cui33? (How is this elderly man related to you?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "uncle (father's younger brother)",
+    "hanzi": "阿叔",
+    "poj": "a-chek",
+    "tl": "a-tsik",
+    "audioHint": "a-tsik",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "vegetable",
+    "hanzi": "菜",
+    "poj": "chhài",
+    "tl": "tshài",
+    "audioHint": "tshai",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "vegetarian",
+    "hanzi": "素食",
+    "poj": "sò͘-si̍t",
+    "tl": "sòo-si̍t",
+    "audioHint": "soo-sit",
+    "audioUrl": "",
+    "example": "Góa chia̍h sò͘-si̍t. (I eat vegetarian.)",
+    "tags": [
+      "food",
+      "diet",
+      "tourist"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "very",
+    "hanzi": "真",
+    "poj": "chin",
+    "tl": "tsin",
+    "audioHint": "tsin",
+    "audioUrl": "",
+    "tags": [
+      "adverb",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "tsin",
+        "tl": "tsin",
+        "audioHint": "tsin",
+        "example": "Kin3jit1 cin3 juak1. (Today is very hot.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "very pitiful",
+    "hanzi": "可憐代",
+    "poj": "khó-liân-tāi",
+    "tl": "khó-liân-tāi",
+    "audioHint": "kho-lien-tai3",
+    "audioUrl": "",
+    "example": "Heh1-leh1 lau33 lang2 cin3 kho1lien3tai3. (That old man is very pitiful.)",
+    "tags": [
+      "grammar"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khó-liân-tāi",
+        "tl": "khó-liân-tāi",
+        "audioHint": "kho-lien-tai3",
+        "example": "Heh1-leh1 lau33 lang2 cin3 kho1lien3tai3. (That old man is very pitiful.)",
+        "tags": []
+      },
+      {
+        "dialectId": "malaysia_north",
+        "poj": "khó-liân-tāi",
+        "tl": "khɔ-liɛn-tāi",
+        "audioHint": "kho-lien-tai3",
+        "example": "",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "village",
+    "hanzi": "庄",
+    "poj": "chng",
+    "tl": "tsng",
+    "audioHint": "tsng",
+    "audioUrl": "",
+    "tags": [
+      "place",
+      "noun"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "wait a moment",
+    "hanzi": "等一下",
+    "poj": "tán chi̍t-ē",
+    "tl": "tán tsi̍t-ē",
+    "tone": "2-4-7",
+    "audioHint": "tan-tsit-e",
+    "audioUrl": "",
+    "example": "Tán chi̍t-ē! Góa beh khì bóe. (Wait a moment! I want to go buy something.)",
+    "tags": [
+      "daily",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "warm",
+    "hanzi": "暖",
+    "poj": "lún",
+    "tl": "lún",
+    "audioHint": "lun",
+    "audioUrl": "",
+    "tags": [
+      "temperature",
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "water",
+    "hanzi": "水",
+    "poj": "chúi",
+    "tl": "tsuí",
+    "tone": "2",
+    "audioHint": "tsui",
+    "audioUrl": "",
+    "example": "Ū chúi--bô? (Do you have water?)",
+    "tags": [
+      "drink",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "we / us",
+    "hanzi": "阮",
+    "poj": "goán",
+    "tl": "guán",
+    "audioHint": "guan",
+    "audioUrl": "",
+    "tags": [
+      "pronoun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "week",
+    "hanzi": "禮拜",
+    "poj": "lé-pài",
+    "tl": "lé-pài",
+    "audioHint": "le-pai",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "what",
+    "hanzi": "啥",
+    "poj": "siáⁿ",
+    "tl": "siánn",
+    "audioHint": "siann",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "what is your name?",
+    "hanzi": "你叫啥名？",
+    "poj": "Lí kiò siáⁿ-miâ?",
+    "tl": "Lí kiò siánn-miâ?",
+    "tone": "2-3-2-5",
+    "audioHint": "li-kio-sian-mia",
+    "audioUrl": "",
+    "example": "Lí kiò siáⁿ miâ? Góa kiò Ah-míng. (What is your name? My name is Ah-Ming.)",
+    "tags": [
+      "greeting",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "What time is it now?",
+    "hanzi": "現時幾點？",
+    "poj": "Hiān-sî kuí-tiám?",
+    "tl": "Hiān-sî kuí-tiám?",
+    "audioHint": "hian-si-kui-tiam",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "time",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "what time is it?",
+    "hanzi": "幾點?",
+    "poj": "Kúi-tiám ah?",
+    "tl": "Kuí-tiám ah?",
+    "audioHint": "kui-tiam-ah",
+    "audioUrl": "",
+    "example": "Kúi-tiám ah? (What time is it?)",
+    "tags": [
+      "time",
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "when",
+    "hanzi": "當時",
+    "poj": "tang-sî",
+    "tl": "tang-sî",
+    "audioHint": "tang-si",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "where",
+    "hanzi": "佗位",
+    "poj": "tó-uī",
+    "tl": "tó-uī",
+    "audioHint": "to-ui",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "location"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "where are you from?",
+    "hanzi": "你佗位人？",
+    "poj": "Lí tó-uī lâng?",
+    "tl": "Lí tó-uī lâng?",
+    "tone": "2-2-5-5",
+    "audioHint": "li-to-ui-lang",
+    "audioUrl": "",
+    "example": "Lí tó-uī lâng? — Góa sī Tâi-uân lâng. (Where are you from? — I'm Taiwanese.)",
+    "tags": [
+      "greeting",
+      "question",
+      "social",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Where are you going?",
+    "hanzi": "汝欲去佗位？",
+    "poj": "Lí beh khì tó-uī?",
+    "tl": "Lí beh khì tó-uī?",
+    "tone": "2-4-3-2-7",
+    "audioHint": "li beh khi to-ui",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Lí beh khì tó-uī? Góa beh tńg-khì. (Where are you going? I'm heading back.)",
+    "tags": [
+      "question",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Where do you live?",
+    "hanzi": "你住佗位？",
+    "poj": "Lí tòa tó-uī?",
+    "tl": "Lí tuà tó-uī?",
+    "audioHint": "li-tua-to-ui",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "question",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "Where is the toilet?",
+    "hanzi": "廁所佇佗位？",
+    "poj": "Chhì-só tī tó-uī?",
+    "tl": "Tshì-só tī tó-uī?",
+    "audioHint": "tshi-so-ti-to-ui",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "daily"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "white",
+    "hanzi": "白",
+    "poj": "pe̍h",
+    "tl": "pe̍h",
+    "audioHint": "peh",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "pɛʔ",
+        "tl": "pe̍h",
+        "audioHint": "pe",
+        "example": "Ie1 su3kak1 cheng33 paek3 sna1. (He likes to wear white shirt.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "who",
+    "hanzi": "佗個",
+    "poj": "siáⁿ-lâng",
+    "tl": "siánn-lâng",
+    "audioHint": "siann-lang",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "why",
+    "hanzi": "為啥",
+    "poj": "ūi-siáⁿ",
+    "tl": "uī-siánn",
+    "audioHint": "ui-siann",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "wind",
+    "hanzi": "風",
+    "poj": "hong",
+    "tl": "hong",
+    "audioHint": "hong",
+    "audioUrl": "",
+    "tags": [
+      "weather",
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "woman",
+    "hanzi": "查某",
+    "poj": "cha-bó͘",
+    "tl": "tsa-bóo",
+    "audioHint": "tsa-boo",
+    "audioUrl": "",
+    "tags": [
+      "noun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "wrong",
+    "hanzi": "毋著",
+    "poj": "m̄-tio̍h",
+    "tl": "m̄-tio̍h",
+    "audioHint": "m-tioh",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "m-tioʔ",
+        "tl": "m-tioʔ",
+        "audioHint": "m-tio",
+        "example": "All your answers are wrong.",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "year",
+    "hanzi": "年",
+    "poj": "nî",
+    "tl": "nî",
+    "audioHint": "ni",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "yellow",
+    "hanzi": "黃",
+    "poj": "n̂g",
+    "tl": "n̂g",
+    "audioHint": "ng",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "ûiⁿ",
+        "tl": "ûinn",
+        "audioHint": "ui",
+        "example": "Lu1 beh4-eh3 sna1 ang2 a33si33 ooi2? (The shirt that you bought is red or yellow?)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "yes",
+    "hanzi": "是",
+    "poj": "sī",
+    "tl": "sī",
+    "tone": "7",
+    "audioHint": "si",
+    "audioUrl": "",
+    "example": "Sī, góa ū. (Yes, I have/do.)",
+    "tags": [
+      "basic",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "yes / correct",
+    "hanzi": "著",
+    "poj": "tio̍h",
+    "tl": "tio̍h",
+    "audioHint": "tioh",
+    "audioUrl": "",
+    "tags": [
+      "basic",
+      "particle"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "yesterday",
+    "hanzi": "昨日",
+    "poj": "cha-hng",
+    "tl": "tsa-hng",
+    "audioHint": "tsa-hng",
+    "audioUrl": "",
+    "tags": [
+      "time",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "you (plural)",
+    "hanzi": "恁",
+    "poj": "lín",
+    "tl": "lín",
+    "audioHint": "lin",
+    "audioUrl": "",
+    "tags": [
+      "pronoun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "you (singular)",
+    "hanzi": "你",
+    "poj": "lí",
+    "tl": "lí",
+    "audioHint": "li",
+    "audioUrl": "",
+    "tags": [
+      "pronoun",
+      "basic"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "you're welcome",
+    "hanzi": "毋免客氣",
+    "poj": "M̄-bián kheh-khì",
+    "tl": "M̄-bián kheh-khì",
+    "tone": "7-2-4-3",
+    "audioHint": "m-bian-kheh-khi",
+    "audioUrl": "",
+    "example": "To-siā! — M̄-bián kheh-khì! (Thank you! — You're welcome!)",
+    "tags": [
+      "politeness",
+      "social",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "miɛn-khɛ-khi",
+        "tl": "m̄-bián kheh-khì",
+        "audioHint": "mien-khe-khi",
+        "example": "Mm33mien1 khaek1khi3, lai3 ciak1 pnae3-pnae2. (Don't be shy, let's eat together.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "young",
+    "hanzi": "後生",
+    "poj": "hāu-seⁿ",
+    "tl": "hāu-senn",
+    "audioHint": "hau-senn",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "basic"
+    ],
+    "variants": [
+      {
+        "dialectId": "malaysia_north",
+        "poj": "hau-sɛ̃",
+        "tl": "hāu-senn",
+        "audioHint": "hau-se",
+        "example": "Lo1kun1 hor33 ie1 cai1 kong4 ie1 than3 hau33snaeh1. (The doctor told him that he got a son.)",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "younger brother",
+    "hanzi": "小弟",
+    "poj": "sió-tī",
+    "tl": "sió-tī",
+    "audioHint": "sio-ti",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "younger sister",
+    "hanzi": "小妹",
+    "poj": "sió-mōe",
+    "tl": "sió-muē",
+    "audioHint": "sio-mue",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "shared",
+    "english": "zero",
+    "hanzi": "零",
+    "poj": "khòng",
+    "tl": "khòng",
+    "audioHint": "khong",
+    "audioUrl": "",
+    "example": "Sù-khòng-sù. (404 — zero in the middle.)",
+    "tags": [
+      "number",
+      "basic"
+    ]
+  }
+]

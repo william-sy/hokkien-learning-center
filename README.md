@@ -31,7 +31,8 @@ Free online platform for learning Hokkien dialects including Taiwanese, Malaysia
 ## Edit Content
 
 Update data in:
-- `data/dictionary.json` — Dictionary entries (245+ words)
+- `data/dialects/shared.json` — Shared dictionary entries (368 words, multi-dialect with variants)
+- `data/dialects/malaysia_north/` — Malaysia North dialect entries (split across a-e, f-j, k-o, p-t, u-z)
 - `data/phrases.json` — Phrases (40+ entries, categorised)
 - `data/content.json` — Metadata, dialects, resources, tone charts
 

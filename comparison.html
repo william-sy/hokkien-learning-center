@@ -17,14 +17,11 @@
     <header class="hero">
       <h1><a href="index.html">Hokkien Learning Center</a></h1>
       <nav class="nav">
-        <a href="index.html" class="nav-link">Learn</a>
-        <a href="lessons.html" class="nav-link">Lessons</a>
-        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="index.html" class="nav-link">Learn</a>        <a href="dictionary.html" class="nav-link">Dictionary</a>
         <a href="phrases.html" class="nav-link">Phrases</a>
         <a href="grammar.html" class="nav-link">Grammar</a>
         <a href="tones.html" class="nav-link">Tones</a>
-        <a href="comparison.html" class="nav-link active">Comparison</a>
-        <a href="info.html" class="nav-link">General Info</a>
+        <a href="comparison.html" class="nav-link active">Comparison</a>        <a href="info.html" class="nav-link">General Info</a>
         <a href="contribute.html" class="nav-link">Contribute</a>
         <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
       </nav>
@@ -96,34 +93,71 @@ const resultCount  = document.getElementById("compResultCount");
 
 // ── load data ────────────────────────────────────────────────────────────────
 async function loadDictionary() {
-  try {
-    const res  = await fetch("data/dictionary.json");
-    allEntries = await res.json();
-  } catch (e) {
-    console.error("Could not load dictionary.json:", e);
-    allEntries = [];
+  // Load shared + standalone dialect files in parallel
+  const sources = [
+    "data/dialects/shared.json",
+    "data/dialects/taiwanese.json",
+    "data/dialects/singapore.json",
+    "data/dialects/xiamen.json",
+    "data/dialects/malaysia_north/a-e.json",
+    "data/dialects/malaysia_north/f-j.json",
+    "data/dialects/malaysia_north/k-o.json",
+    "data/dialects/malaysia_north/p-t.json",
+    "data/dialects/malaysia_north/u-z.json",
+  ];
+  const results = await Promise.allSettled(
+    sources.map(url => fetch(url).then(r => r.ok ? r.json() : []))
+  );
+
+  const base = [];
+  for (const r of results) {
+    if (r.status === "fulfilled" && Array.isArray(r.value)) base.push(...r.value);
   }
 
-  // Build word map grouped by english key (lower-cased for grouping)
+  // Expand variants from shared.json entries into standalone rows for comparison
+  const expanded = [];
+  for (const entry of base) {
+    expanded.push(entry);
+    if (Array.isArray(entry.variants)) {
+      for (const v of entry.variants) {
+        expanded.push({
+          english:  entry.english,
+          hanzi:    v.hanzi    || entry.hanzi || "",
+          poj:      v.poj      || "",
+          tl:       v.tl       || "",
+          tone:     v.tone     || "",
+          example:  v.example  || "",
+          dialectId: v.dialectId,
+          tags:     v.tags     || entry.tags || [],
+        });
+      }
+    }
+  }
+  allEntries = expanded;
+
+  // Build word map: english → entries[], deduplicated per dialectId
   for (const entry of allEntries) {
     const key = (entry.english || "").trim();
     if (!key) continue;
     if (!wordMap.has(key)) wordMap.set(key, []);
-    wordMap.get(key).push(entry);
+    const bucket = wordMap.get(key);
+    if (!bucket.some(e => e.dialectId === entry.dialectId)) {
+      bucket.push(entry);
+    }
   }
 
-  // Find words that appear in 3+ distinct dialects
+  // Popular words: ≥ 2 distinct non-shared dialects
   popularWords = [];
   for (const [word, entries] of wordMap) {
-    const dialects = new Set(entries.map(e => e.dialectId).filter(Boolean));
-    if (dialects.size >= 3) popularWords.push({ word, count: dialects.size });
+    const dialects = new Set(entries.map(e => e.dialectId).filter(d => d && d !== "shared"));
+    if (dialects.size >= 2) popularWords.push({ word, count: dialects.size });
   }
   // Sort by variant count desc, then alpha
   popularWords.sort((a, b) => b.count - a.count || a.word.localeCompare(b.word));
 
   renderChips(popularWords.slice(0, 40));
   placeholder.textContent = popularWords.length
-    ? "Search for a word above, or pick one of the popular words below."
+    ? "Search for a word above, or pick one of the highlighted words below."
     : "Search for a word above.";
 }
 

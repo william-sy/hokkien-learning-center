@@ -50,14 +50,11 @@
     <header class="hero">
       <h1><a href="index.html">Hokkien Learning Center</a></h1>
       <nav class="nav">
-        <a href="index.html" class="nav-link">Learn</a>
-        <a href="lessons.html" class="nav-link">Lessons</a>
-        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="index.html" class="nav-link">Learn</a>        <a href="dictionary.html" class="nav-link">Dictionary</a>
         <a href="phrases.html" class="nav-link">Phrases</a>
         <a href="grammar.html" class="nav-link">Grammar</a>
         <a href="tones.html" class="nav-link">Tones</a>
-        <a href="comparison.html" class="nav-link">Comparison</a>
-        <a href="info.html" class="nav-link">General Info</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>        <a href="info.html" class="nav-link">General Info</a>
         <a href="contribute.html" class="nav-link active">Contribute</a>
         <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
       </nav>
@@ -68,7 +65,7 @@
       <!-- ── Live Entry Builder ─────────────────────────────────────────── -->
       <section class="card" id="entryBuilder">
         <h2>✏️ Entry Builder</h2>
-        <p class="muted">Fill in the fields below and get a ready-to-paste JSON entry. Copy it into <code>data/dictionary.json</code> and open a Pull Request.</p>
+        <p class="muted">Fill in the fields below and get a ready-to-paste JSON entry. Copy it into <code>data/dialects/shared.json</code> (or the relevant dialect file) and open a Pull Request.</p>
 
         <div class="field-guide" id="builderForm">
 
@@ -186,7 +183,7 @@
           lightweight and beginner-friendly.
         </p>
         <ol>
-          <li>Add entries to <strong>data/dictionary.json</strong></li>
+          <li>Add entries to <strong>data/dialects/shared.json</strong> (or the relevant dialect file)</li>
           <li>Submit a Pull Request on GitHub</li>
           <li>Get listed in community credits</li>
         </ol>
@@ -231,7 +228,7 @@
         <details>
           <summary>JSON Structure Guide</summary>
           <div class="details-body">
-        <p>Dictionary entries are stored in <code>data/dictionary.json</code> as a simple array. Metadata (dialects, resources, tone charts) stays in <code>data/content.json</code>.</p>
+        <p>Dictionary entries are stored in <code>data/dialects/shared.json</code> (shared vocabulary) and dialect-specific files under <code>data/dialects/</code> as simple arrays. Metadata (dialects, resources, tone charts) stays in <code>data/content.json</code>.</p>
 
         <details>
           <summary>Field Reference</summary>
@@ -349,7 +346,7 @@
         <div class="field-guide">
           <div class="field-item">
             <h4><code>scripts/add_entry.py</code></h4>
-            <p>Interactive CLI to add new words or phrases to <code>data/dictionary.json</code> with guided prompts.</p>
+            <p>Interactive CLI to add new words or phrases to <code>data/dialects/shared.json</code> with guided prompts.</p>
             <pre><code>python scripts/add_entry.py</code></pre>
           </div>
 

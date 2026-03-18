@@ -10,7 +10,7 @@ const PROGRESS_KEY  = "hokkien_lesson_progress";
 const DIALECT_KEY   = "hokkien_lesson_dialect";
 
 let lessonsData    = null;   // from data/lessons.json
-let dictData       = null;   // from data/dictionary.json
+let dictData       = null;   // from data/dialects/shared.json
 let dictPojPool    = [];     // all unique POJ strings for distractors
 let selectedDialect = localStorage.getItem(DIALECT_KEY) || "shared";
 
@@ -64,7 +64,7 @@ async function populateDialectSelect() {
 async function loadData() {
   [lessonsData, dictData] = await Promise.all([
     fetch("data/lessons.json").then(r => r.json()),
-    fetch("data/dictionary.json").then(r => r.json()),
+    fetch("data/dialects/shared.json").then(r => r.json()),
   ]);
   dictPojPool = [...new Set(dictData.filter(e => e.poj).map(e => e.poj.trim()))];
 }

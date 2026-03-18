@@ -33,11 +33,11 @@ function byId(id) {
 async function loadContent() {
   const [contentResponse, dictionaryResponse] = await Promise.all([
     fetch("data/content.json", { cache: "no-store" }),
-    fetch("data/dictionary.json", { cache: "no-store" })
+    fetch("data/dialects/shared.json", { cache: "no-store" })
   ]);
   
   if (!contentResponse.ok) throw new Error("Could not load data/content.json");
-  if (!dictionaryResponse.ok) throw new Error("Could not load data/dictionary.json");
+  if (!dictionaryResponse.ok) throw new Error("Could not load data/dialects/shared.json");
   
   const content = await contentResponse.json();
   const dictionary = await dictionaryResponse.json();

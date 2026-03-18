@@ -64,9 +64,9 @@ function toggleLearned(key, article, btn) {
 function updateLearnedBar() {
   const bar = byId("dictLearnedBar");
   if (!bar) return;
-  const total = state.dictionary.filter(e => !isPhrase(e)).length;
+  const total = state.dictionary.length;
   const count = [...state.learnedSet].filter(k =>
-    state.dictionary.some(e => e.english === k && !isPhrase(e))
+    state.dictionary.some(e => e.english === k)
   ).length;
   const pct = total > 0 ? Math.round((count / total) * 100) : 0;
   bar.innerHTML =
@@ -74,15 +74,26 @@ function updateLearnedBar() {
     `<div class="learned-progress"><div class="learned-progress-fill" style="width:${pct}%"></div></div>`;
 }
 
+const MN_FILES = [
+  "data/dialects/malaysia_north/a-e.json",
+  "data/dialects/malaysia_north/f-j.json",
+  "data/dialects/malaysia_north/k-o.json",
+  "data/dialects/malaysia_north/p-t.json",
+  "data/dialects/malaysia_north/u-z.json",
+];
+
 async function loadContent() {
-  const [contentResponse, dictionaryResponse] = await Promise.all([
+  const [contentResponse, dictionaryResponse, ...mnResults] = await Promise.all([
     fetch("data/content.json", { cache: "no-store" }),
-    fetch("data/dictionary.json", { cache: "no-store" })
+    fetch("data/dialects/shared.json", { cache: "no-store" }),
+    ...MN_FILES.map(u => fetch(u, { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []))
   ]);
   if (!contentResponse.ok) throw new Error("Could not load data/content.json");
-  if (!dictionaryResponse.ok) throw new Error("Could not load data/dictionary.json");
+  if (!dictionaryResponse.ok) throw new Error("Could not load data/dialects/shared.json");
   const content = await contentResponse.json();
-  const dictionary = await dictionaryResponse.json();
+  const shared = await dictionaryResponse.json();
+  const mnEntries = mnResults.flat();
+  const dictionary = [...shared, ...mnEntries];
   return { content, dictionary };
 }
 
@@ -295,14 +306,12 @@ function renderEntry(entry) {
 
 function renderDictionary() {
   const filtered = filterEntries(state.dictionary);
-  const words = sortByEnglish(filtered.filter(e => !isPhrase(e)));
-  const phrases = sortByEnglish(filtered.filter(e => isPhrase(e)));
-  
-  // Render words only (phrases are on phrases.html)
+  const words = sortByEnglish(filtered);
+
   const wordsList = byId("wordsList");
   const wordsCount = byId("wordsCount");
   wordsList.innerHTML = "";
-  wordsCount.textContent = `${words.length} word${words.length !== 1 ? "s" : ""} found`;
+  wordsCount.textContent = `${words.length} entr${words.length !== 1 ? "ies" : "y"} found`;
 
   if (words.length === 0) {
     wordsList.innerHTML = '<p class="muted">No words match your filters.</p>';

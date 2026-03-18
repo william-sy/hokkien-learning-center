@@ -45,8 +45,8 @@ async function exportAnki() {
     return { error: "No \u2b50 learned words yet \u2014 mark words as learned in the Dictionary first." };
   }
 
-  const res = await fetch("data/dictionary.json");
-  if (!res.ok) throw new Error("Could not load dictionary");
+  const res = await fetch("data/dialects/shared.json");
+  if (!res.ok) throw new Error("Could not load data/dialects/shared.json");
   const dict = await res.json();
 
   const rows = dict
@@ -270,6 +270,8 @@ function createProgressUI() {
       if (err) {
         showFeedback("Import failed: " + err, true);
       } else {
+        // Remove stale streak badge immediately so it reflects imported data after reload
+        document.getElementById("streakBadge")?.remove();
         updateStats();
         showFeedback(`✓ Imported ${count} item${count !== 1 ? "s" : ""}. Reloading…`);
         setTimeout(() => location.reload(), 1600);
@@ -285,6 +287,10 @@ function createProgressUI() {
     }
     if (!confirm(`Reset all progress?\n\n• ${words} word${words !== 1 ? "s" : ""} learned\n• ${phrases} phrase${phrases !== 1 ? "s" : ""} learned\n\nThis cannot be undone.`)) return;
     resetProgress((count) => {
+      // Prevent recordVisit() from re-creating a streak of 1 on the next page load
+      localStorage.setItem("hokkien_streak_skip", "1");
+      // Remove stale streak badge immediately
+      document.getElementById("streakBadge")?.remove();
       updateStats();
       showFeedback(`✓ Progress cleared (${count} item${count !== 1 ? "s" : ""}). Reloading…`);
       setTimeout(() => location.reload(), 1600);

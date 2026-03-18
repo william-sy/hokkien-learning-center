@@ -2,7 +2,7 @@
 // Cache-first strategy. All static assets are pre-cached on install.
 // New resources fetched at runtime are also cached for future offline use.
 
-const CACHE = "hokkien-v1";
+const CACHE = "hokkien-v10";
 
 const ASSETS = [
   "./",
@@ -21,9 +21,21 @@ const ASSETS = [
   "./phrase-builder.html",
   "./cloze.html",
   "./lessons.html",
+  "./review.html",
+  "./writing.html",
   "./styles.css",
   "./manifest.json",
-  "./data/dictionary.json",
+  "./data/dialects/shared.json",
+  "./data/dialects/taiwanese.json",
+  "./data/dialects/singapore.json",
+  "./data/dialects/xiamen.json",
+  "./data/phrases.json",
+  // Malaysia North — not pre-cached (large); fetched and runtime-cached on first visit
+  // "./data/dialects/malaysia_north/a-e.json",  // 1824 entries
+  // "./data/dialects/malaysia_north/f-j.json",  // 1053 entries
+  // "./data/dialects/malaysia_north/k-o.json",  // 874 entries
+  // "./data/dialects/malaysia_north/p-t.json",  // 1789 entries
+  // "./data/dialects/malaysia_north/u-z.json",  // 414 entries
   "./data/content.json",
   "./data/lessons.json",
   "./js/theme-toggle.js",
@@ -42,6 +54,8 @@ const ASSETS = [
   "./js/typing-practice.js",
   "./js/phrase-builder.js",
   "./js/cloze.js",
+  "./js/review.js",
+  "./js/writing.js",
 ];
 
 // Pre-cache everything on install
@@ -65,6 +79,13 @@ self.addEventListener("activate", e => {
 // Cache-first: serve from cache, fall back to network and cache the result
 self.addEventListener("fetch", e => {
   if (e.request.method !== "GET") return;
+
+  // Let no-store requests (JS modules etc.) always go to network
+  if (e.request.cache === "no-store") {
+    e.respondWith(fetch(e.request));
+    return;
+  }
+
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
@@ -74,7 +95,7 @@ self.addEventListener("fetch", e => {
           caches.open(CACHE).then(cache => cache.put(e.request, clone));
         }
         return response;
-      }).catch(() => cached); // if network fails, return cache (may be undefined)
+      }).catch(() => cached);
     })
   );
 });

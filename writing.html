@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanzi Writing Practice - Hokkien Learning Center</title>
+    <meta name="description" content="Practice writing Chinese characters (Hanzi) used in Hokkien vocabulary with stroke-order animations and guided tracing." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://william-sy.github.io/hokkien-learning-center/writing.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+    <script src="js/pwa.js"></script>
+    <style>
+      .writing-layout {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1.5rem;
+        align-items: start;
+      }
+      @media (max-width: 700px) {
+        .writing-layout { grid-template-columns: 1fr; }
+      }
+
+      /* word list */
+      .writing-wordlist {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        max-height: 560px;
+        overflow-y: auto;
+      }
+      .writing-word-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        padding: 0.55rem 0.8rem;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: var(--card-bg);
+        cursor: pointer;
+        text-align: left;
+        transition: border-color 0.15s, background 0.15s;
+        font-size: 0.9rem;
+        color: var(--text);
+      }
+      .writing-word-btn:hover { border-color: var(--accent); }
+      .writing-word-btn.active {
+        border-color: var(--accent);
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
+      }
+      .writing-word-btn .ww-hanzi {
+        font-size: 1.4rem;
+        line-height: 1;
+        min-width: 1.6rem;
+        text-align: center;
+      }
+      .writing-word-btn .ww-english {
+        font-size: 0.82rem;
+        color: var(--muted);
+        margin-top: 0.1rem;
+      }
+
+      /* canvas area */
+      .writing-canvas-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .writing-char-info {
+        text-align: center;
+      }
+      .writing-char-info .wci-hanzi {
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 1.1;
+      }
+      .writing-char-info .wci-rom {
+        font-size: 1rem;
+        color: var(--accent);
+        margin-top: 0.25rem;
+      }
+      .writing-char-info .wci-english {
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      #hwTarget {
+        background-color: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        display: block;
+      }
+
+      .writing-controls {
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .wc-btn {
+        padding: 0.5rem 1rem;
+        border: 1px solid var(--border);
+        border-radius: 7px;
+        background: var(--card-bg);
+        cursor: pointer;
+        font-size: 0.88rem;
+        color: var(--text);
+        transition: border-color 0.15s, background 0.15s;
+      }
+      .wc-btn:hover { border-color: var(--accent); }
+      .wc-btn.primary {
+        background: var(--accent);
+        color: #fff;
+        border-color: var(--accent);
+      }
+      .wc-btn.primary:hover { opacity: 0.88; }
+
+      .char-nav {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+      .char-nav-btn {
+        padding: 0.3rem 0.7rem;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--card-bg);
+        cursor: pointer;
+        font-size: 1rem;
+        color: var(--text);
+      }
+      .char-nav-btn:disabled { opacity: 0.3; cursor: default; }
+
+      .writing-feedback {
+        font-size: 0.9rem;
+        font-weight: 600;
+        min-height: 1.4em;
+        text-align: center;
+      }
+      .wf-correct { color: #27ae60; }
+      .wf-wrong   { color: #e74c3c; }
+
+      .stroke-count {
+        font-size: 0.78rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .writing-empty {
+        text-align: center;
+        padding: 3rem 1rem;
+        color: var(--muted);
+      }
+
+      .mode-tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+        flex-wrap: wrap;
+      }
+      .mode-tab {
+        padding: 0.35rem 0.9rem;
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        background: var(--card-bg);
+        cursor: pointer;
+        font-size: 0.83rem;
+        color: var(--text);
+        transition: all 0.15s;
+      }
+      .mode-tab.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>        <a href="dictionary.html" class="nav-link">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>✍️ Hanzi Writing Practice</h2>
+        <p class="muted">Learn to write the Chinese characters used in Hokkien vocabulary. Watch the stroke animation, then trace it yourself.</p>
+
+        <div class="mode-tabs" id="modeTabs">
+          <button class="mode-tab active" data-mode="animate">👁 Animate</button>
+          <button class="mode-tab" data-mode="quiz">✏️ Quiz me</button>
+        </div>
+
+        <div class="writing-layout">
+
+          <!-- Word list panel -->
+          <div>
+            <p class="muted small" style="margin-bottom:0.5rem">Pick a character:</p>
+            <div class="writing-wordlist" id="wordList">
+              <p class="muted small">Loading…</p>
+            </div>
+          </div>
+
+          <!-- Canvas panel -->
+          <div class="writing-canvas-area" id="canvasArea">
+            <div class="writing-empty">
+              <p>Select a character from the list to begin.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
+    <!-- hanzi-writer CDN (MIT licence) -->
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+    <script type="module" src="js/writing.js"></script>
+  </body>
+</html>

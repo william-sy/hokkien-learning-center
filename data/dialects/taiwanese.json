@@ -1,0 +1,153 @@
+[
+  {
+    "dialectId": "taiwanese",
+    "english": "to buy",
+    "hanzi": "買",
+    "poj": "bóe",
+    "tl": "bué",
+    "audioHint": "bue",
+    "audioUrl": "",
+    "tags": ["verb", "shopping"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "to sell",
+    "hanzi": "賣",
+    "poj": "bōe",
+    "tl": "buē",
+    "audioHint": "bue",
+    "audioUrl": "",
+    "tags": ["verb", "shopping"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "rice (cooked)",
+    "hanzi": "飯",
+    "poj": "pn̄g",
+    "tl": "png",
+    "audioHint": "png",
+    "audioUrl": "",
+    "tags": ["food", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "older brother",
+    "hanzi": "兄",
+    "poj": "hiaⁿ",
+    "tl": "hiann",
+    "audioHint": "hiann",
+    "audioUrl": "",
+    "tags": ["family"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "older sister",
+    "hanzi": "姊",
+    "poj": "chí",
+    "tl": "tsí",
+    "audioHint": "tsi",
+    "audioUrl": "",
+    "tags": ["family"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "mother",
+    "hanzi": "媽媽",
+    "poj": "má-ma",
+    "tl": "má-ma",
+    "audioHint": "ma-ma",
+    "audioUrl": "",
+    "tags": ["family", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "father",
+    "hanzi": "爸爸",
+    "poj": "pa-pa",
+    "tl": "pa-pa",
+    "audioHint": "pa-pa",
+    "audioUrl": "",
+    "tags": ["family", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "not",
+    "hanzi": "無",
+    "poj": "bô",
+    "tl": "bô",
+    "audioHint": "bo",
+    "audioUrl": "",
+    "tags": ["basic", "negation"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "pretty / beautiful",
+    "hanzi": "媠",
+    "poj": "súi",
+    "tl": "suí",
+    "audioHint": "sui",
+    "audioUrl": "",
+    "tags": ["adjective", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "I / me",
+    "hanzi": "我",
+    "poj": "góa",
+    "tl": "guá",
+    "audioHint": "gua",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "you",
+    "hanzi": "你",
+    "poj": "lí",
+    "tl": "lí",
+    "audioHint": "li",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "he / she",
+    "hanzi": "伊",
+    "poj": "i",
+    "tl": "i",
+    "audioHint": "i",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "very",
+    "hanzi": "足",
+    "poj": "chiok",
+    "tl": "tsiok",
+    "audioHint": "tsiok",
+    "audioUrl": "",
+    "example": "Chiok súi! (Very pretty!)",
+    "tags": ["adverb", "basic"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "Taiwan",
+    "hanzi": "台灣",
+    "poj": "Tâi-oân",
+    "tl": "Tâi-uân",
+    "audioHint": "tai-uan",
+    "audioUrl": "",
+    "tags": ["place", "proper noun"]
+  },
+  {
+    "dialectId": "taiwanese",
+    "english": "night market",
+    "hanzi": "夜市",
+    "poj": "iā-chhī",
+    "tl": "iā-tshī",
+    "audioHint": "ia-tshi",
+    "audioUrl": "",
+    "tags": ["food", "place", "culture"]
+  }
+]

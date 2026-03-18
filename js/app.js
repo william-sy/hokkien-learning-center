@@ -27,18 +27,29 @@ function byId(id) {
   return document.getElementById(id);
 }
 
+const MN_FILES = [
+  "data/dialects/malaysia_north/a-e.json",
+  "data/dialects/malaysia_north/f-j.json",
+  "data/dialects/malaysia_north/k-o.json",
+  "data/dialects/malaysia_north/p-t.json",
+  "data/dialects/malaysia_north/u-z.json",
+];
+
 async function loadContent() {
-  const [contentResponse, dictionaryResponse] = await Promise.all([
+  const [contentResponse, dictionaryResponse, ...mnResults] = await Promise.all([
     fetch("data/content.json", { cache: "no-store" }),
-    fetch("data/dictionary.json", { cache: "no-store" })
+    fetch("data/dialects/shared.json", { cache: "no-store" }),
+    ...MN_FILES.map(u => fetch(u, { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []))
   ]);
-  
+
   if (!contentResponse.ok) throw new Error("Could not load data/content.json");
-  if (!dictionaryResponse.ok) throw new Error("Could not load data/dictionary.json");
-  
+  if (!dictionaryResponse.ok) throw new Error("Could not load data/dialects/shared.json");
+
   const content = await contentResponse.json();
-  const dictionary = await dictionaryResponse.json();
-  
+  const shared = await dictionaryResponse.json();
+  const mnEntries = mnResults.flat();
+  const dictionary = [...shared, ...mnEntries];
+
   return { ...content, dictionary };
 }
 

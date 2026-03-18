@@ -1,0 +1,123 @@
+[
+  {
+    "dialectId": "singapore",
+    "english": "Understand?",
+    "hanzi": "知影無?",
+    "poj": "chai-iáⁿ bô?",
+    "tl": "tsai-iánn bô?",
+    "audioHint": "tsai-iann bo",
+    "audioUrl": "",
+    "tags": ["question", "basic"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "Let's go!",
+    "hanzi": "走啦!",
+    "poj": "kiâⁿ-lah!",
+    "tl": "kiânn-lah!",
+    "audioHint": "kiann-lah",
+    "audioUrl": "",
+    "tags": ["expression", "basic"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "Singapore",
+    "hanzi": "新加坡",
+    "poj": "Sin-ka-pho",
+    "tl": "Sin-ka-pho",
+    "audioHint": "sin-ka-pho",
+    "audioUrl": "",
+    "tags": ["place", "proper noun"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "hawker centre",
+    "hanzi": "熟食中心",
+    "poj": "si̍k-si̍t tiong-sim",
+    "tl": "si̍k-si̍t tiong-sim",
+    "audioHint": "sik-sit tiong-sim",
+    "audioUrl": "",
+    "tags": ["food", "place", "hawker", "culture"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "coffee shop",
+    "hanzi": "咖啡店",
+    "poj": "ko-pi-tiàm",
+    "tl": "ko-pi-tiàm",
+    "audioHint": "ko-pi-tiam",
+    "audioUrl": "",
+    "tags": ["food", "place", "hawker"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "coffee (local style)",
+    "hanzi": "咖啡",
+    "poj": "ko-pi",
+    "tl": "ko-pi",
+    "audioHint": "ko-pi",
+    "audioUrl": "",
+    "tags": ["food", "drink", "hawker"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "never mind / it's OK",
+    "hanzi": "無要緊",
+    "poj": "bô-iàu-kín",
+    "tl": "bô-iàu-kín",
+    "audioHint": "bo-iau-kin",
+    "audioUrl": "",
+    "tags": ["expression", "politeness", "basic"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "don't want",
+    "hanzi": "毋要",
+    "poj": "m̄-beh",
+    "tl": "m̄-beh",
+    "audioHint": "m-beh",
+    "audioUrl": "",
+    "tags": ["basic", "negation"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "how much?",
+    "hanzi": "偌濟錢?",
+    "poj": "jōa-chōe chîⁿ?",
+    "tl": "juā-tsē tsînn?",
+    "audioHint": "jua-tse tsinn",
+    "audioUrl": "",
+    "tags": ["question", "shopping", "money"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "friend",
+    "hanzi": "朋友",
+    "poj": "pêng-iú",
+    "tl": "pîng-iú",
+    "audioHint": "ping-iu",
+    "audioUrl": "",
+    "tags": ["social", "basic"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "eat already (have you eaten?)",
+    "hanzi": "食飽未?",
+    "poj": "chia̍h-pá bōe?",
+    "tl": "tsia̍h-pá buē?",
+    "audioHint": "tsiah-pa bue",
+    "audioUrl": "",
+    "example": "Standard Singaporean greeting equivalent to 'Have you eaten?'",
+    "tags": ["greeting", "question", "culture"]
+  },
+  {
+    "dialectId": "singapore",
+    "english": "later",
+    "hanzi": "待會",
+    "poj": "tán-chit-ē",
+    "tl": "tán-tsit-ē",
+    "audioHint": "tan-tsit-e",
+    "audioUrl": "",
+    "tags": ["time", "basic"]
+  }
+]

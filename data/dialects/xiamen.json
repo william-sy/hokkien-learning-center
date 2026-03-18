@@ -1,0 +1,152 @@
+[
+  {
+    "dialectId": "xiamen",
+    "english": "Xiamen / Amoy",
+    "hanzi": "廈門",
+    "poj": "Ē-mn̂g",
+    "tl": "Ē-mn̂g",
+    "audioHint": "e-mng",
+    "audioUrl": "",
+    "tags": ["place", "proper noun"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "Hello",
+    "hanzi": "你好",
+    "poj": "Lí-hó",
+    "tl": "Lí-hó",
+    "audioHint": "li-ho",
+    "audioUrl": "",
+    "tags": ["greeting", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "Thank you",
+    "hanzi": "多謝",
+    "poj": "To-siā",
+    "tl": "To-siā",
+    "audioHint": "to-sia",
+    "audioUrl": "",
+    "tags": ["politeness", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "I / me",
+    "hanzi": "我",
+    "poj": "góa",
+    "tl": "guá",
+    "audioHint": "gua",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "you",
+    "hanzi": "你",
+    "poj": "lí",
+    "tl": "lí",
+    "audioHint": "li",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "he / she",
+    "hanzi": "伊",
+    "poj": "i",
+    "tl": "i",
+    "audioHint": "i",
+    "audioUrl": "",
+    "tags": ["pronoun", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "good",
+    "hanzi": "好",
+    "poj": "hó",
+    "tl": "hó",
+    "audioHint": "ho",
+    "audioUrl": "",
+    "tags": ["adjective", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "not good",
+    "hanzi": "毋好",
+    "poj": "m̄-hó",
+    "tl": "m̄-hó",
+    "audioHint": "m-ho",
+    "audioUrl": "",
+    "tags": ["adjective", "negation"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "eat",
+    "hanzi": "食",
+    "poj": "chia̍h",
+    "tl": "tsia̍h",
+    "audioHint": "tsiah",
+    "audioUrl": "",
+    "tags": ["verb", "food", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "drink",
+    "hanzi": "飲",
+    "poj": "lim",
+    "tl": "lim",
+    "audioHint": "lim",
+    "audioUrl": "",
+    "tags": ["verb", "food", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "water",
+    "hanzi": "水",
+    "poj": "chúi",
+    "tl": "tsuí",
+    "audioHint": "tsui",
+    "audioUrl": "",
+    "tags": ["basic", "food"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "money",
+    "hanzi": "錢",
+    "poj": "chîⁿ",
+    "tl": "tsînn",
+    "audioHint": "tsinn",
+    "audioUrl": "",
+    "tags": ["basic", "money"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "house / home",
+    "hanzi": "厝",
+    "poj": "chhù",
+    "tl": "tshù",
+    "audioHint": "tshu",
+    "audioUrl": "",
+    "tags": ["home", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "Goodbye",
+    "hanzi": "再會",
+    "poj": "Chài-hōe",
+    "tl": "Tsài-huē",
+    "audioHint": "tsai-hue",
+    "audioUrl": "",
+    "tags": ["greeting", "farewell", "basic"]
+  },
+  {
+    "dialectId": "xiamen",
+    "english": "What is your name?",
+    "hanzi": "你叫什麼名?",
+    "poj": "Lí kiò siáⁿ-miâ?",
+    "tl": "Lí kiò siánn-miâ?",
+    "audioHint": "li kio siann-mia",
+    "audioUrl": "",
+    "tags": ["question", "greeting", "basic"]
+  }
+]

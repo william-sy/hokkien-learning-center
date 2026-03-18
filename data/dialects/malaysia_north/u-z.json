@@ -1,0 +1,5506 @@
+[
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger brother (Malay loanword)",
+    "poj": "a-deʔ",
+    "tl": "a-deʔ",
+    "audioHint": "a-de",
+    "audioUrl": "",
+    "example": "Cit1-leh1 si33 wah4-eh3 a3dek1. (This is my younger brother.)",
+    "tags": [
+      "adjective",
+      "family",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Xiamen (formerly known as Amoy)",
+    "hanzi": "廈門",
+    "poj": "ē-mn̂g",
+    "tl": "ɛ-mui",
+    "audioHint": "e-mui",
+    "audioUrl": "",
+    "example": "Ae33mui2 si33 mm33 si33 ti1 Teong3 Kork3? (Isn't Xiamen in China?)",
+    "tags": [
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wave hand",
+    "hanzi": "逸手, 擛手",
+    "poj": "ia̍t-chhiú",
+    "tl": "iat-tshiú",
+    "audioHint": "et-tshiu",
+    "audioUrl": "",
+    "example": "Cui33-cui33 aet3 chiu4 ka1 lu4? (Who is waving at you? Dia melambaikan tangannya kepada saya.)",
+    "tags": [
+      "body",
+      "grammar",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young man, addressing youths younger than yourself",
+    "hanzi": "阿峇",
+    "poj": "a-ba",
+    "tl": "a-ba",
+    "audioHint": "a-ba",
+    "audioUrl": "",
+    "example": "Ah3 Ba2, lu1-eh3 Pa1 mia3 ha1mik1? (Boy, what's your father's name?)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncle, form of address for men in their fifties and above",
+    "hanzi": "阿叔",
+    "poj": "a-chek",
+    "tl": "a-tsik",
+    "audioHint": "a-tsek",
+    "audioUrl": "",
+    "example": "Wah1-eh3 Ah3 Cek3 hnua3 lor3li4. (My uncle drives lorry.)",
+    "tags": [
+      "culture",
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncle's wife, husband's younger brother's wife",
+    "hanzi": "阿嬸",
+    "poj": "a-chím",
+    "tl": "a-tsím",
+    "audioHint": "a-tsim",
+    "audioUrl": "",
+    "example": "Cit1-keng3 ok3tng2-eh3 hau3tniau4 si33 wah1-eh3 ah3 cim4 (The headmistress of this school is my uncle's wife.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncle, form of address for older men. Father's elder brother.",
+    "hanzi": "阿伯",
+    "poj": "a-pɛʔ",
+    "tl": "a-pɛʔ",
+    "audioHint": "a-pe",
+    "audioUrl": "",
+    "example": "Cit1-leh1 Ah3 Pek3 si33 lu1-eh3 cui33-cui33? (How is this elderly man related to you?)",
+    "tags": [
+      "culture",
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncle",
+    "hanzi": "阿丈",
+    "poj": "a-tiãu",
+    "tl": "a-tiãu",
+    "audioHint": "a-tiau",
+    "audioUrl": "",
+    "example": "Wah1 beh4 du3rian2 hor33 wah1-eh3 Ah3 Tniau33. (I bought durians for my uncle.)",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vain, excessively proud of or concerned about one's own appearance",
+    "hanzi": "愛面",
+    "poj": "ài-bīn",
+    "tl": "ài-bīn",
+    "audioHint": "ai-bin",
+    "audioUrl": "",
+    "example": "Boh3lang3 su3kak3 ee1 eng3goay33 ee1 cin3 ai1bin33. (Nobody likes her because she is very vain.)",
+    "tags": [
+      "adjective",
+      "body",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to want, to need (literally: to want it around)",
+    "hanzi": "愛纏",
+    "poj": "ài-tîⁿ",
+    "tl": "ài-tînn",
+    "audioHint": "ai-ti",
+    "audioUrl": "",
+    "example": "Cit1-pun1 chaek3 wah4 ai1tni2 eh2. (I need this book.)",
+    "tags": [
+      "animal",
+      "time",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to want, to desire",
+    "hanzi": "愛",
+    "poj": "ài",
+    "tl": "ài",
+    "audioHint": "ai",
+    "audioUrl": "",
+    "example": "Wah1 ai3 cit1-leh1 mi3knia3. (I want this item.)",
+    "tags": [
+      "emotion",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Westerner",
+    "hanzi": "紅毛",
+    "poj": "aŋ-mɔ",
+    "tl": "aŋ-mɔ",
+    "audioHint": "ang-mo",
+    "audioUrl": "",
+    "example": "Uh3 cit3-khien1 ang3mor2 lai3 choay3 lu4. (There's a Westerner who came to look for you.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Western medicine",
+    "hanzi": "紅毛藥",
+    "poj": "aŋ-mɔ-ioʔ",
+    "tl": "aŋ-mɔ-ioʔ",
+    "audioHint": "ang-mo-io",
+    "audioUrl": "",
+    "example": "Ang3mor3 iok1 khah1 eng3 ciak1. (It is easier to take Western medicine.)",
+    "tags": [
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vernacular term to mean Westerner, Caucasian, white person",
+    "hanzi": "紅毛猴",
+    "poj": "aŋ-mɔ-kau",
+    "tl": "Âng-môo-kâu",
+    "audioHint": "ang-mo-kau",
+    "audioUrl": "",
+    "example": "Ee1 kau3in2 Ang3mor3 kau2. (She married a Westerner.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Western-style bungalow, Literally: Westerner's building; 2. (figurative) bump on the head, especially after accidentally knocking oneself",
+    "hanzi": "紅毛樓",
+    "poj": "a-mɔ-lau",
+    "tl": "a-mɔ-lau",
+    "audioHint": "a-mo-lau",
+    "audioUrl": "",
+    "example": "Ie1-eh3 thau3khak3 kong33tiok3 piak3 liau3 snaeh3 ang3mor3lau2. (His head has a bump after accidentally hitting the wall.)",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Worcestershire sauce",
+    "hanzi": "紅毛豆油",
+    "poj": "a-mɔ-tau-iu-hoe",
+    "tl": "a-mɔ-tau-iu-hoe",
+    "audioHint": "a-mo-tau-iu-hoe",
+    "audioUrl": "",
+    "example": "Haeh33 tam3pok3 ang3mor3tau33iu2 khah1 ho1ciak1. (Put a bit of Worcestershire sauce to make it taste better.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unbearable, irritable, messy",
+    "hanzi": "齷齪",
+    "poj": "ak-tshak",
+    "tl": "ak-tshak",
+    "audioHint": "ak-tshak",
+    "audioUrl": "",
+    "example": "Cit1-leh1 su33 pien1 cin3 ark1chak3. (This issue has become very messy.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to water",
+    "hanzi": "沃水",
+    "poj": "ak-tsui",
+    "tl": "ak-tsuí",
+    "audioHint": "ak-tsui",
+    "audioUrl": "",
+    "example": "Ie1-eh3 cang2 si4 in3ui33 ie1 be33ki1 ark1 cui4. (His plants died because he forgot to water them.)",
+    "tags": [
+      "plant",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to water (short for ark1 cui4)",
+    "hanzi": "沃",
+    "poj": "ak",
+    "tl": "ak ak",
+    "audioHint": "ak",
+    "audioUrl": "",
+    "example": "To3long3 chut3 khee1 ark1 cang2. (Please go out to water the plants.)",
+    "tags": [
+      "plant",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unreasonable, obstinate, stubbornly adhering to one's opinion",
+    "hanzi": "拗蠻",
+    "poj": "au-ban",
+    "tl": "au-ban",
+    "audioHint": "au-ban",
+    "audioUrl": "",
+    "example": "Ie1-eh3 hau3snaeh1 cin3 au1ban2. (His son is very obstinate.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to vomit blood",
+    "poj": "au-ho3ʔ",
+    "tl": "au-ho3ʔ",
+    "audioHint": "au-ho3",
+    "audioUrl": "",
+    "example": "Ie au1hoek4 eng3goay33 am1seong1. (He vomitted blood due to internal injury.)",
+    "tags": [
+      "body",
+      "medical",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vomit and diarrhoea",
+    "poj": "au-lau",
+    "tl": "au-lau",
+    "audioHint": "au-lau",
+    "audioUrl": "",
+    "example": "Ie1 khee1 khnua1 lo1kun1 eng3goay33 ie1 au1lau3. (He went to see the doctor because he has diarrhoea.)",
+    "tags": [
+      "grammar",
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unbelievable, absurd",
+    "poj": "au-ta",
+    "tl": "au-ta",
+    "audioHint": "au-ta",
+    "audioUrl": "",
+    "example": "Lu1 kong1 wa33 au1ta4 eh2. (Your words are absurd.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to vomit",
+    "hanzi": "嘔",
+    "poj": "au",
+    "tl": "au",
+    "audioHint": "au",
+    "audioUrl": "",
+    "example": "Wah1-eh3 knia4 au4 eng3goay33 ie1 boh3 ho1si3. (My child vomitted because he wasn't feeling well.)",
+    "tags": [
+      "medical",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "youth, lad, as in Ah3 Ba2",
+    "hanzi": "峇",
+    "poj": "ba",
+    "tl": "ba",
+    "audioHint": "ba",
+    "audioUrl": "",
+    "example": "Heh1-leh1 siau1lien3 ba2 si33 cui33-cui33 lai2? (Who is that young man.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yard",
+    "hanzi": "碼 (MAN)",
+    "poj": "ba",
+    "tl": "ba",
+    "audioHint": "ba",
+    "audioUrl": "",
+    "example": "Ee1 beh1 por3 snar3 ba33. (She bought three yards of cloth.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "welt, swelling caused by mosquito bite",
+    "poj": "ba",
+    "tl": "ba",
+    "audioHint": "ba",
+    "audioUrl": "",
+    "example": "Bang4 ka33 wah4 nor33 ba33. (I have two mosquite bites on me.)",
+    "tags": [
+      "animal",
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wallop",
+    "hanzi": "万山",
+    "poj": "ban-tai",
+    "tl": "ban-tai",
+    "audioHint": "ban-tai",
+    "audioUrl": "",
+    "example": "Ie1 ban1tai4 ie1-eh3 knia4 in3ui33 thau3thek1 ie1-eh3 lui1. (He walloped his son for stealing his money.)",
+    "tags": [
+      "home",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "website",
+    "hanzi": "網站",
+    "poj": "baŋ-tsam",
+    "tl": "baŋ-tsam",
+    "audioHint": "bang-tsam",
+    "audioUrl": "",
+    "example": "Ie1 co3 cit3-leh3 bang3cam3 beh33 mi3knia3. (He built a website to sell things.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "webpage",
+    "hanzi": "網頁",
+    "poj": "baŋ-iaʔ",
+    "tl": "baŋ-iaʔ",
+    "audioHint": "bang-ia",
+    "audioUrl": "",
+    "example": "Cit1-leh1 bang33cam33 uh33 kae1-koay3 nor33-cheng3-leh3 bang33yak1. (This website has over two thousand pages.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unreliable",
+    "poj": "be-ha-rap",
+    "tl": "be-ha-rap",
+    "audioHint": "be-ha-rap",
+    "audioUrl": "",
+    "example": "Wah4 mai1 kio33 ie1 co1 mi3knia3 in3ui33 ie1 be33 ha3rap3 eh2. (I won't ask him to do anything as he cannot be relied on.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "United States of America",
+    "poj": "bi-kɔk",
+    "tl": "bi-kɔk",
+    "audioHint": "bi-kok",
+    "audioUrl": "",
+    "example": "Ie1 thark3chaek3 ti1 Bee1 Kork3. (He studied in the United States.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "virtue, behaviour of a high moral standard, noble attribute",
+    "hanzi": "美德",
+    "poj": "bí-tiak",
+    "tl": "bí-tiak",
+    "audioHint": "bi-tek",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "colour",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncooked rice",
+    "hanzi": "米",
+    "poj": "bí",
+    "tl": "bí",
+    "audioHint": "bi",
+    "audioUrl": "",
+    "example": "Today we eat Siamese rice.",
+    "tags": [
+      "food",
+      "profession"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to understand",
+    "hanzi": "明白",
+    "poj": "bêng-pe̍h",
+    "tl": "bîng-pi̍k",
+    "audioHint": "beng-pek",
+    "audioUrl": "",
+    "example": "Wah1 boh3 beng3peik1 cit1-leh1 boon3tay2. (I don't understand this problem.)",
+    "tags": [
+      "colour",
+      "grammar",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "want, will",
+    "hanzi": "欲",
+    "poj": "beh",
+    "tl": "beh",
+    "audioHint": "boe",
+    "audioUrl": "",
+    "example": "Lu1 boek3 ha1mik1? (What do you want?)",
+    "tags": [
+      "animal",
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "ungrateful",
+    "poj": "bo-tseŋ",
+    "tl": "bo-tseŋ",
+    "audioHint": "bo-tseng",
+    "audioUrl": "",
+    "example": "Ie1 boh3 ceng2-eh3 lang2. (He is an ungrateful person.)",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unaffected",
+    "hanzi": "無礙著",
+    "poj": "bo-gai-tioʔ",
+    "tl": "bô-gāi-tio̍h",
+    "audioHint": "bo-gai-tio",
+    "audioUrl": "",
+    "example": "Ie1-eh3 chia1 tiok3 long3 ta3pi1 ho1cai4 ie1 boh3 gai33 tiok1.",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unlikely, improbable",
+    "hanzi": "無可能",
+    "poj": "bo-kho-leŋ",
+    "tl": "bo-kho-leŋ",
+    "audioHint": "bo-kho-leng",
+    "audioUrl": "",
+    "example": "Boh3 kho1leng2 an1nae1 en3tau2-eh3 ta3por1 kokh1 boh3 ca3bor1 peng3iu4. (It is so improbable that such a handsome guy has no girlfriend.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unfamiliar, unaccustomed",
+    "poj": "bo-kuan-si",
+    "tl": "bo-kuan-si",
+    "audioHint": "bo-kuan-si",
+    "audioUrl": "",
+    "example": "Wah1 boh3 kuan1si3 ciak3 cit1-leh1. (I am not familiar with eating this.)",
+    "tags": [
+      "culture",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncertain, indefinite, unstable",
+    "hanzi": "無定著",
+    "poj": "bo-tiã-tioʔ",
+    "tl": "bô-tiānn-tio̍h",
+    "audioHint": "bo-tia-tio",
+    "audioUrl": "",
+    "example": "Boh3 tnia3tiok1 gok3 ma1cai3 ie1 uh33 lai2 boh2. (It's still uncertain whether he would come tomorrow.)",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "useless, good for nothing",
+    "hanzi": "無路用",
+    "poj": "bo-lɔ-jɔŋ",
+    "tl": "bo-lɔ-jɔŋ",
+    "audioHint": "bo-lo-jong",
+    "audioUrl": "",
+    "example": "Lu4 kao1giak3 boh3lor33yong3, a1nae1 kan1tan1 pun1 be3hiau1 co3. (You are really useless, so easy also cannot do.)",
+    "tags": [
+      "adjective",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "untrue",
+    "hanzi": "無影",
+    "poj": "bo-ĩa",
+    "tl": "bo-ĩa",
+    "audioHint": "bo-ia",
+    "audioUrl": "",
+    "example": "Ie1 boh3nya4 kah3win2. (He didn't actually get married./It's untrue that he got married.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "without stopping, continuously, unceasingly",
+    "poj": "bo-theŋ-bo-theŋ",
+    "tl": "bo-theŋ-bo-theŋ",
+    "audioHint": "bo-theng-bo-theng",
+    "audioUrl": "",
+    "example": "Ie1 e33 kong1wa33 boh3theng3-boh3theng2. (He can talk without stopping.)",
+    "tags": [
+      "negation"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "useless, futile, vain",
+    "hanzi": "無用",
+    "poj": "bo-iɔŋ",
+    "tl": "bo-iɔŋ",
+    "audioHint": "bo-iong",
+    "audioUrl": "",
+    "example": "Lu4 mm33thang3 an1nae1 boh3yong3. (Don't be so useless.)",
+    "tags": [
+      "adjective",
+      "emotion",
+      "home",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wallop",
+    "poj": "but",
+    "tl": "but",
+    "audioHint": "but",
+    "audioUrl": "",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife",
+    "hanzi": "某",
+    "poj": "bó͘",
+    "tl": "bóo",
+    "audioHint": "bo",
+    "audioUrl": "",
+    "example": "Lu1-eh3 bor4 co1kang1 ta1lok1? (Where does your wife work?)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wood fungus, cloud ear fungus (Auricularia polytricha)",
+    "hanzi": "木耳",
+    "poj": "bɔk-ni",
+    "tl": "bɔk-ni",
+    "audioHint": "bok-ni",
+    "audioUrl": "",
+    "example": "Cit1-leh1 thng1 uh33 haeh33 bork3nee4. (This soup has wood fungus.)",
+    "tags": [
+      "body",
+      "home",
+      "nature",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wushu",
+    "poj": "bu-sut",
+    "tl": "bu-sut",
+    "audioHint": "bu-sut",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "writing, literary language",
+    "hanzi": "文",
+    "poj": "bûn",
+    "tl": "bûn",
+    "audioHint": "bun",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yesterday",
+    "hanzi": "昨昏",
+    "poj": "cha-huiⁿ",
+    "tl": "tsa-huinn",
+    "audioHint": "tsa-hui",
+    "audioUrl": "",
+    "example": "Wah1 ca33hnui1 tnui4 lai2. (I came back yesterday.)",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife, missus",
+    "hanzi": "查某儂",
+    "poj": "tsabɔ laŋ",
+    "tl": "tsabɔ laŋ",
+    "audioHint": "tsabo lang",
+    "audioUrl": "",
+    "example": "Wah1 ka1 wah1-eh3 ca3bor1lang2 cham3seong2 liau4, wah1 ka1 ka3 lu1 kong4. (After I have discussed with my wife, I will let you know.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(mythology) god of wealth, (figuratively) very wealthy man, treasurer",
+    "hanzi": "財神爺",
+    "poj": "châi-sîn-iâ",
+    "tl": "tsâi-sîn-iâ",
+    "audioHint": "tsai-sin-ia",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "warehouse, godown",
+    "poj": "tsaŋ-keŋ",
+    "tl": "tsaŋ-keŋ",
+    "audioHint": "tsang-keng",
+    "audioUrl": "",
+    "example": "Cit1-leh1 can1keng1 si33 yong33 lai3 siu3 bee4. (This warehouse is used to store rice.)",
+    "tags": [
+      "culture",
+      "direction",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(Chinese legend) Eighteen Levels of Hell",
+    "poj": "tsap-peʔ-te-gek",
+    "tl": "tsap-peʔ-te-gek",
+    "audioHint": "tsap-pe-te-gek",
+    "audioUrl": "",
+    "example": "Wah1 boh3 siang3sin3 Cap3-Pek1 Tay3gaik1. (I don't believe in the Eighteen Levels of Hell.)",
+    "tags": [
+      "body",
+      "number"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yesterday",
+    "poj": "tsau-huĩ",
+    "tl": "tsau-huĩ",
+    "audioHint": "tsau-hui",
+    "audioUrl": "",
+    "example": "Cit1-leh1 si33 cau33hnui1-eh3 po1cua4. (This is yesterday's newspaper.)",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetarian diet (often adopted for religious reasons)",
+    "hanzi": "齋",
+    "poj": "che",
+    "tl": "tse",
+    "audioHint": "tse",
+    "audioUrl": "",
+    "tags": [
+      "family",
+      "food",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very much",
+    "hanzi": "濟濟",
+    "poj": "tse-tse",
+    "tl": "tsè-tsè",
+    "audioHint": "tse-tse",
+    "audioUrl": "",
+    "example": "Ta33-ta33 jit1 ie1 than3-tiok3 ce33-ce33 lui1. (Everyday he earns a lot of money.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Zhangzhou, a prefecture-level city in Fujian Province, China. As of 2010, it has a population of 4.8 million people. It is the site of the former seat of the Imperial Chinese Zhang Prefecture. It is located on the Jiulong River about 56km (35 miles) from central Xiamen. The dialect of Hokkien spoken in Zhangzhou is noted for being the base dialect for Penang Hokkien.",
+    "hanzi": "漳州",
+    "poj": "Chiang-chiu",
+    "tl": "Tsiang-tsiu",
+    "audioHint": "tsiang-tsiu",
+    "audioUrl": "",
+    "example": "Ie1-eh3 cor1kong1 Cheang3chew1 lai2 eh2. (His ancestors came from Zhangzhou.)",
+    "tags": [
+      "animal",
+      "body",
+      "clothing",
+      "culture",
+      "education",
+      "food",
+      "medical",
+      "nature",
+      "number",
+      "penang",
+      "place",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uncles",
+    "hanzi": "叔伯兄弟",
+    "poj": "tsek-pɛʔ-hiã-ti",
+    "tl": "tsik-peh-hiann-tī",
+    "audioHint": "tsek-pe-hia-ti",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wooden clogs",
+    "poj": "tsha-kiak",
+    "tl": "tsha-kiak",
+    "audioHint": "tsha-kiak",
+    "audioUrl": "",
+    "example": "Ee1 cheng33 cha3kiak1. (She wears wooden clogs.)",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to visit",
+    "hanzi": "參觀",
+    "poj": "chham-koan",
+    "tl": "tsham-kuan",
+    "audioHint": "tsham-kuan",
+    "audioUrl": "",
+    "example": "Wah1lang2 cham3kuan1 cit3-leh3 chniau4. (We made a tour of a factory.)",
+    "tags": [
+      "social",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "15th night of Chinese New Year, regarded as Chinese Valentine's Day",
+    "hanzi": "十五暝",
+    "poj": "tshap-gɔ-mɛ",
+    "tl": "tshap-gɔ-mɛ",
+    "audioHint": "tshap-go-me",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "culture",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wipe",
+    "hanzi": "拭",
+    "poj": "tshit",
+    "tl": "tshit",
+    "audioHint": "tshit",
+    "audioUrl": "",
+    "example": "To3long3 cheet1 tok1teng3. (Please wipe the table.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wear",
+    "hanzi": "穿",
+    "poj": "chhēng",
+    "tl": "tshīng",
+    "audioHint": "tsheng",
+    "audioUrl": "",
+    "example": "Sin3 Cnia1 wah1lang2 cheng33 sin3 sna1. (We wear new clothes during Chinese New Year.)",
+    "tags": [
+      "body",
+      "clothing",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(plants) thorn; 2. fish bone, spike",
+    "hanzi": "刺",
+    "poj": "chhì",
+    "tl": "tshì",
+    "audioHint": "tshi",
+    "audioUrl": "",
+    "example": "Cit1-khuan4-eh3 hu3 cin3 ce33 chi3. (This type of fish has a lot of fish bones.)",
+    "tags": [
+      "animal",
+      "body",
+      "food",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wheel of the car",
+    "hanzi": "車輪",
+    "poj": "tshia-liɛn",
+    "tl": "tshia-liɛn",
+    "audioHint": "tshia-lien",
+    "audioUrl": "",
+    "example": "Chia3lien4 tiok3boek1 uh33 ta1yar4 ba3lu1 e33 knia1. (The wheel of the car needs a tayar to go on the road.)",
+    "tags": [
+      "animal",
+      "food",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to weigh",
+    "hanzi": "秤",
+    "poj": "tshin",
+    "tl": "tshin",
+    "audioHint": "tshin",
+    "audioUrl": "",
+    "example": "Mee3hoon4 chin3 liau4 boey3? (Have you weighed the flour?)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "an unrefined term to mean useless, hopeless; 2. pistol; 3. masturbation (slang, figurative)",
+    "hanzi": "手銃",
+    "poj": "chhiú-chhèng",
+    "tl": "tshiú-tshìng",
+    "audioHint": "tshiu-tsheng",
+    "audioUrl": "",
+    "example": "A33si33 hor33 ie1 phak3, tnia3tiok1 be33 tiok1 eh2, in3ui33 ie1 chiu1cheng3. (If you let him shoot, for sure he will miss the target.)",
+    "tags": [
+      "animal",
+      "loanword",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wristwatch",
+    "hanzi": "手錶",
+    "poj": "chhiú-pio",
+    "tl": "tshiú-pió-á",
+    "audioHint": "tshiu-pio",
+    "audioUrl": "",
+    "example": "Ie1 beh4 hor33 ie1-eh3 bor4 cit3-tiau3 kim1-eh3 chiu1pio1. (He bought for his wife a gold watch.)",
+    "tags": [
+      "body",
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wake up",
+    "hanzi": "醒",
+    "poj": "chhín",
+    "tl": "tshénn",
+    "audioHint": "tshe",
+    "audioUrl": "",
+    "example": "Ie1 a1boey33 chnae4 gok3. (He hasn't woke up yet.)",
+    "tags": [
+      "direction",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding dinner",
+    "poj": "tshiã-ka-win-toʔ",
+    "tl": "tshiã-ka-win-toʔ",
+    "audioHint": "tshia-ka-win-to",
+    "audioUrl": "",
+    "example": "Ti3 si2 lu1 boek1 chnia1 kah3win3 tok3? (When are you going to have your wedding dinner?)",
+    "tags": [
+      "food",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unhusked, unshucked, unpolished (of rice)",
+    "hanzi": "糙",
+    "poj": "chhò",
+    "tl": "tshò",
+    "audioHint": "tsho",
+    "audioUrl": "",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to utter (expletives), to swear, to curse, to hurl abuse",
+    "hanzi": "𧮙",
+    "poj": "chhoh",
+    "tl": "tshoh",
+    "audioHint": "tshok",
+    "audioUrl": "",
+    "example": "Mm33thang3 chok1 chor3wa33 ti1 cit1-peng2. (Do not utter expletives here.)",
+    "tags": [
+      "body",
+      "clothing",
+      "exclamation",
+      "transport",
+      "verb",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "village",
+    "hanzi": "村",
+    "poj": "tshun",
+    "tl": "tshun",
+    "audioHint": "tshun",
+    "audioUrl": "",
+    "tags": [
+      "medical",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vinegar",
+    "hanzi": "醋",
+    "poj": "tshɔ",
+    "tl": "tshòo",
+    "audioHint": "tsho",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unruly person, a person of indelicate nature, labourer, blue-collar worker",
+    "hanzi": "粗人",
+    "poj": "tshɔ-kaŋ",
+    "tl": "tshɔ-kaŋ",
+    "audioHint": "tsho-kang",
+    "audioUrl": "",
+    "example": "Chor3lang2 ai1 yong33 chor3wa33. (Rough people like to use profanity.)",
+    "tags": [
+      "animal",
+      "clothing",
+      "colour",
+      "family",
+      "profession"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to underlay",
+    "hanzi": "除",
+    "poj": "chhû",
+    "tl": "tshû",
+    "audioHint": "tshu",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "up to you, whatever, as you wish",
+    "poj": "tshut-tsai",
+    "tl": "tshut-tsai",
+    "audioHint": "tshut-tsai",
+    "audioUrl": "",
+    "example": "Lu1 ai1 ciak3 ha1mik1, chut1cai3 lu1 keng4. (Whatever you want to eat, it's up to you to choose.)",
+    "tags": [
+      "clothing",
+      "direction",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to vent one's anger",
+    "poj": "tshut-khi",
+    "tl": "tshut-khi",
+    "audioHint": "tshut-khi",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well-known",
+    "hanzi": "出名",
+    "poj": "tshut-mia",
+    "tl": "tshut-mia",
+    "audioHint": "tshut-mia",
+    "audioUrl": "",
+    "example": "Cit1-leh1 ko3seng1 cin3 chut1mia2. (This artiste is very famous.)",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetable garden",
+    "poj": "tshai-huĩ",
+    "tl": "tshai-huĩ",
+    "audioHint": "tshai-hui",
+    "audioUrl": "",
+    "example": "Ti1 Penang khan1khor1 khnua3 tiok3 chye1hnui2 liau4. (It's hard to find a vegetable garden in Penang.)",
+    "tags": [
+      "food",
+      "home",
+      "place",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetable oil",
+    "poj": "tshai-iu",
+    "tl": "tshai-iu",
+    "audioHint": "tshai-iu",
+    "audioUrl": "",
+    "example": "Lu1 yong33 ha1mik1 phiau1-eh3 chye1iu2? (What brand of vegetable oil do you use?)",
+    "tags": [
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetarian nun",
+    "hanzi": "菜姑",
+    "poj": "tshai-kɔ",
+    "tl": "tshai-kɔ",
+    "audioHint": "tshai-ko",
+    "audioUrl": "",
+    "example": "Wah1 uh33 cit3-khien1 peng3iu4 co1 chye1kor1. (I have a friend who is a vegetarian nun.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetable basket",
+    "hanzi": "菜籃",
+    "poj": "tshai-na",
+    "tl": "tshài-nâ",
+    "audioHint": "tshai-na",
+    "audioUrl": "",
+    "example": "Cit1-leh1 si33 cui33-cui33 lang2-eh3 chye1nah2? (Whose vegetable basket is this?)",
+    "tags": [
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetable knife",
+    "hanzi": "菜刀",
+    "poj": "tshai-to",
+    "tl": "tshài-to",
+    "audioHint": "tshai-to",
+    "audioUrl": "",
+    "example": "Yong33 chye1to1 lai3 chiet1 chye1. (Use a vegetable knife to cut the vegetables.)",
+    "tags": [
+      "food",
+      "grammar",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetables",
+    "hanzi": "菜",
+    "poj": "chhài",
+    "tl": "tshài",
+    "audioHint": "tshai",
+    "audioUrl": "",
+    "example": "Ee1-eh3 knia4 mai1 ciak3 chye3. (Her child does not want to eat vegetables.)",
+    "tags": [
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "who, whom, whoever (alternative form of cui3cui3)",
+    "poj": "tsi-tsui",
+    "tl": "tsi-tsui",
+    "audioHint": "tsi-tsui",
+    "audioUrl": "",
+    "tags": [
+      "question",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very, really",
+    "hanzi": "真正",
+    "poj": "tsin-tsiã",
+    "tl": "tsin-tsiànn",
+    "audioHint": "tsin-tsia",
+    "audioUrl": "",
+    "example": "Ie1-eh3 chu3 cin3cnia1 tua33 keng1. (His house is very large.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "undecided, hesitant",
+    "poj": "tsit-sim-nɔ-i",
+    "tl": "tsit-sim-nɔ-i",
+    "audioHint": "tsit-sim-no-i",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "the whole life, forever",
+    "hanzi": "這世人",
+    "poj": "tsit-si-laŋ",
+    "tl": "tsit-sì-lâng",
+    "audioHint": "tsit-si-lang",
+    "audioUrl": "",
+    "example": "Ie1 cit3si1lang2 mm3bat1 ceh33 poay3ki1. (He has never taken the plane his whole life.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wine glass, goblet",
+    "hanzi": "酒甌",
+    "poj": "tsiu-au",
+    "tl": "tsiu-au",
+    "audioHint": "tsiu-au",
+    "audioUrl": "",
+    "example": "Heh1-leh1 ciu1 au1 cin3cnia1 swee4. (That wine glass is very beautiful.)",
+    "tags": [
+      "drink",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yeast cake",
+    "poj": "tsiu-piã",
+    "tl": "tsiu-piã",
+    "audioHint": "tsiu-pia",
+    "audioUrl": "",
+    "example": "Wah1-eh3 bor4 yong33 ciu1pneah4 co3 huat1 kuah4. (My wife uses yeast cake to make huat kuih.)",
+    "tags": [
+      "direction",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wine, liquor",
+    "hanzi": "酒",
+    "poj": "chiú",
+    "tl": "tsiú",
+    "audioHint": "tsiu",
+    "audioUrl": "",
+    "example": "Wah1 boh3 ciak3 ciu4. (I don't drink alcohol.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well water",
+    "hanzi": "井水",
+    "poj": "tsɛ̃-tsui",
+    "tl": "tsénn-tsuí",
+    "audioHint": "tse-tsui",
+    "audioUrl": "",
+    "example": "Cnae1cui4 cin3 leng4. (Well water is very cold.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well (bored hole for obtaining water)",
+    "hanzi": "井",
+    "poj": "chéⁿ",
+    "tl": "tsénn",
+    "audioHint": "tse",
+    "audioUrl": "",
+    "example": "Tua3 ie1-eh3 chu3-eh3 au33boey4 uh33 cit3-leh3 cnae4. (Behind his house is a well.)",
+    "tags": [
+      "colour",
+      "drink",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very",
+    "hanzi": "誠",
+    "poj": "tsiã",
+    "tl": "tsiânn",
+    "audioHint": "tsia",
+    "audioUrl": "",
+    "example": "Cit1-tiau3 lor33 cnia1 tng2. (This road is very long.)",
+    "tags": [
+      "adverb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "what's up?",
+    "poj": "tso-ha-mik-kui",
+    "tl": "tso-ha-mik-kui",
+    "audioHint": "tso-ha-mik-kui",
+    "audioUrl": "",
+    "example": "Lu1 co1 ha1mik1 kui4 ti1 cit1-peng2? (What are you doing here?)",
+    "tags": [
+      "clothing",
+      "direction",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worker, servant",
+    "hanzi": "做工人",
+    "poj": "tso-kaŋ-laŋ",
+    "tl": "tsò-kang-lâng",
+    "audioHint": "tso-kang-lang",
+    "audioUrl": "",
+    "example": "Ha1mik1 su33 lu1-eh3 co1kang3lang2 kin3jit1 boh3 lai2? (Why doesn't your worker come today?)",
+    "tags": [
+      "animal",
+      "profession",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "why",
+    "poj": "tso-mik-su",
+    "tl": "tso-mik-su",
+    "audioHint": "tso-mik-su",
+    "audioUrl": "",
+    "example": "Co1mik1 su33 lu4 mai1 lai2. (Why do you not want to come?)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water barrel",
+    "hanzi": "水甕",
+    "poj": "tsui-aŋ",
+    "tl": "tsuí-àng",
+    "audioHint": "tsui-ang",
+    "audioUrl": "",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "waterwheel",
+    "hanzi": "水車",
+    "poj": "tsui-tshia",
+    "tl": "tsui-tshia",
+    "audioHint": "tsui-tshia",
+    "audioUrl": "",
+    "example": "Wah1 mm33bat1 khnua3 koay3 cui1chia1. (I have never seen a waterwheel.)",
+    "tags": [
+      "animal",
+      "drink",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "waterfall",
+    "hanzi": "水沖",
+    "poj": "tsui-tshiaŋ",
+    "tl": "tsui-tshiaŋ",
+    "audioHint": "tsui-tshiang",
+    "audioUrl": "",
+    "example": "Lu1 bat1 khee3 Ang3mor3 hua3hnui2-eh3 cui1chiang2 boh2? (Have you been to the Penang Botanic Gardens waterfall?)",
+    "tags": [
+      "drink",
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water bed",
+    "hanzi": "水床",
+    "poj": "tsui-tshəŋ",
+    "tl": "tsui-tshəŋ",
+    "audioHint": "tsui-tsheng",
+    "audioUrl": "",
+    "example": "Tha1na1 boh3 ce33 lang2 uh33 cui1chng2 liau4. (Nowadays not many people have waterbeds.)",
+    "tags": [
+      "drink",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water quality",
+    "hanzi": "水質",
+    "poj": "tsui-tsit",
+    "tl": "tsui-tsit",
+    "audioHint": "tsui-tsit",
+    "audioUrl": "",
+    "example": "Cit1-peng2-eh3 cui1cit3 boh3 a1nae1 ho4. (The water quality here is not that good.)",
+    "tags": [
+      "drink",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water buffalo",
+    "hanzi": "水牛",
+    "poj": "chúi-gû",
+    "tl": "tsuí-gû",
+    "audioHint": "tsui-gu",
+    "audioUrl": "",
+    "example": "Wah1 hien33tiok3 nor33-ciak1 cui1gu2 ti1 chan2. (I saw two water buffaloes in the paddy field.)",
+    "tags": [
+      "animal",
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water source, spring",
+    "poj": "tsui-guan-thau",
+    "tl": "tsui-guan-thau",
+    "audioHint": "tsui-guan-thau",
+    "audioUrl": "",
+    "example": "Ie1 choay33 cit1-leh1 kang4-eh3 cui1guan3thau2. (He is looking for the source of this river.)",
+    "tags": [
+      "clothing",
+      "drink",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water pump",
+    "hanzi": "水拹仔",
+    "poj": "tsui-hiap-a",
+    "tl": "tsuí-hia̍p-á",
+    "audioHint": "tsui-hiap-a",
+    "audioUrl": "",
+    "example": "Lang3 yong33 cui1hiap3a4 lai3 pam4 thor3kha1-eh3 cui4. (People use a water pump to pam ground water.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water paip",
+    "hanzi": "水管",
+    "poj": "tsui-kɔŋ",
+    "tl": "tsui-kɔŋ",
+    "audioHint": "tsui-kong",
+    "audioUrl": "",
+    "example": "Cit1-khien1 kang3lang2 lai3 siu3li4 wah1-eh3 cui1kong4. (This workman came to fix my water pipe.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water barrel, water tank",
+    "hanzi": "水櫃",
+    "poj": "tsui-kui",
+    "tl": "tsui-kui",
+    "audioHint": "tsui-kui",
+    "audioUrl": "",
+    "example": "Lu1-eh3 por1tor4 tua33 siang3ka1 cui1kooi3! (Your stomach is as big as a water barrel.)",
+    "tags": [
+      "colour",
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water gate, sluice gate; see also cui1cak1",
+    "hanzi": "水門",
+    "poj": "tsui-mui",
+    "tl": "tsui-mui",
+    "audioHint": "tsui-mui",
+    "audioUrl": "",
+    "example": "Cit1-leh1 kang4 uh33 cui1mui2 hor33 cun2 e33 koay3. (This river has a water gate for ships to pass through.)",
+    "tags": [
+      "drink",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water hyacinth",
+    "hanzi": "水芋仔",
+    "poj": "tsui-ɔ-a",
+    "tl": "tsui-ɔ-a",
+    "audioHint": "tsui-o-a",
+    "audioUrl": "",
+    "example": "Tua3 cit1-leh1 kang4 uh33 cin3 ce33 cui1or33wa4. (There are many water hyacinths on this river.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water tax",
+    "hanzi": "水稅",
+    "poj": "tsui-se",
+    "tl": "tsuí-suè",
+    "audioHint": "tsui-se",
+    "audioUrl": "",
+    "tags": [
+      "drink",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water authority",
+    "poj": "tsui-se-kuan",
+    "tl": "tsui-se-kuan",
+    "audioHint": "tsui-se-kuan",
+    "audioUrl": "",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "underwater",
+    "hanzi": "水底",
+    "poj": "tsui-te",
+    "tl": "tsui-te",
+    "audioHint": "tsui-te",
+    "audioUrl": "",
+    "example": "Ie1 e33 tua3 cui1te4 ku1-ku4. (He can stay underwater for a long time.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water bill",
+    "hanzi": "水單",
+    "poj": "tsui-tuã",
+    "tl": "tsuí-tuann",
+    "audioHint": "tsui-tua",
+    "audioUrl": "",
+    "tags": [
+      "drink",
+      "medical",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water temperature",
+    "hanzi": "水溫",
+    "poj": "tsui-un",
+    "tl": "tsui-un",
+    "audioHint": "tsui-un",
+    "audioUrl": "",
+    "example": "Cit1-peng2-eh3 cui1un1 si33 cor33ce33? (What's the water temperature here?)",
+    "tags": [
+      "animal",
+      "drink",
+      "time",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "who, whoever",
+    "hanzi": "誰誰",
+    "poj": "tsui-tsui",
+    "tl": "tsuî-tsuî",
+    "audioHint": "tsui-tsui",
+    "audioUrl": "",
+    "example": "Cui33-cui33 a1boey33 ciak3pnui33 gok3? (Who hasn't eaten yet?)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "who, whoever",
+    "hanzi": "誰誰儂",
+    "poj": "tsui-tsui-laŋ",
+    "tl": "tsuî-tsuî-lâng",
+    "audioHint": "tsui-tsui-lang",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lang2 tua3 cit1-peng2? (Who lives here?)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wrestle",
+    "hanzi": "揠 (AD)",
+    "poj": "ién",
+    "tl": "ɛn",
+    "audioHint": "en",
+    "audioUrl": "",
+    "example": "Ie1 cheng33 nor33 en2-eh3 sna1. (He wears two layers of clothing.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water convolvulus",
+    "hanzi": "蕹菜",
+    "poj": "eŋ-tshai",
+    "tl": "eŋ-tshai",
+    "audioHint": "eng-tshai",
+    "audioUrl": "",
+    "example": "I love to eat water convolvulus fried with sambal.",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wave",
+    "hanzi": "湧",
+    "poj": "eŋ",
+    "tl": "eŋ",
+    "audioHint": "eng",
+    "audioUrl": "",
+    "example": "kin3jit1-eh3 hai4 boh3 eng4. (Today the sea is calm (has no waves).)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wasteful, prodigal",
+    "hanzi": "𠢕損",
+    "poj": "gau-sŋ",
+    "tl": "gâu-sńg",
+    "audioHint": "gau-sng",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young servant maid",
+    "hanzi": "囡仔工",
+    "poj": "gin-na-kaŋ",
+    "tl": "gín-á-kang",
+    "audioHint": "gin-na-kang",
+    "audioUrl": "",
+    "example": "Wah1 se1han3-eh3 si2, wah1-eh3 ma3ma1 uh33 chnia3 cit3-khien1 gin1na1kang1. (When I was small, my mother hired a young servant maid)",
+    "tags": [
+      "adjective",
+      "animal",
+      "profession",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "youngster, children",
+    "hanzi": "囡仔儂",
+    "poj": "gin-na-laŋ",
+    "tl": "gín-á-lâng",
+    "audioHint": "gin-na-lang",
+    "audioUrl": "",
+    "example": "Gin1na1lang2 uh33 hee33 boh3 chui3. (Children are to listen, not to talk back. (Children have ears, not mouths.))",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yet, some more",
+    "poj": "gok",
+    "tl": "gok",
+    "audioHint": "gok",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very stupid",
+    "hanzi": "戇大呆",
+    "poj": "goŋ-tua-tai",
+    "tl": "gōng-tuā-tai",
+    "audioHint": "gong-tua-tai",
+    "audioUrl": "",
+    "example": "Heh1-leh1 gong33tua33tai1 co3 phnai4 wah1-eh3 mi3knia3. (That stupid fella broke my thing.)",
+    "tags": [
+      "adjective",
+      "direction",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water caltrop (Trapa natans)",
+    "poj": "gu-kak",
+    "tl": "gu-kak",
+    "audioHint": "gu-kak",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Yuan Dynasty",
+    "hanzi": "元朝",
+    "poj": "Goân-tiâu",
+    "tl": "Guân-tiâu",
+    "audioHint": "guan-tiau",
+    "audioUrl": "",
+    "example": "Beng3 Tiau2 si33 1368 ni2 kau3 ka1 1644 ni2. (The Ming Dynasty is from 1368 until 1644.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wish, desire",
+    "hanzi": "願望",
+    "poj": "guan-bɔŋ",
+    "tl": "guan-bɔŋ",
+    "audioHint": "guan-bong",
+    "audioUrl": "",
+    "example": "Ha1mik1 si33 lu4-eh3 guan33bong33? (What is your wish?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to yawn",
+    "hanzi": "哈唏",
+    "poj": "ha-hi",
+    "tl": "hah-hì",
+    "audioHint": "ha-hi",
+    "audioUrl": "",
+    "example": "Wah1 ha1hee3 in3ui33 wah1 ai1khoon3 liau4. (I yawn because I am sleepy already.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "what",
+    "hanzi": "啥物, 哈乜",
+    "poj": "ha-mik",
+    "tl": "siánn-mih",
+    "audioHint": "ha-mik",
+    "audioUrl": "",
+    "tags": [
+      "clothing",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "why, how come; 2. what's the matter",
+    "hanzi": "啥物事",
+    "poj": "ha-mik-su",
+    "tl": "ha-mik-su",
+    "audioHint": "ha-mik-su",
+    "audioUrl": "",
+    "example": "Ha1mik1 su33 lu1 lai2? (Why do you come?)",
+    "tags": [
+      "clothing",
+      "home",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "walrus",
+    "hanzi": "海象",
+    "poj": "hái-chhiūⁿ",
+    "tl": "hái-tshiūnn",
+    "audioHint": "hai-tshiau",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wave",
+    "hanzi": "海湧",
+    "poj": "hai-eŋ",
+    "tl": "hai-eŋ",
+    "audioHint": "hai-eng",
+    "audioUrl": "",
+    "example": "Kin3jit1-eh3 hai1eng4 cin3cnia1 kuan2. (The waves today are very tall.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to unite, to cooperate",
+    "hanzi": "合作",
+    "poj": "hap-tsɔk",
+    "tl": "ha̍p-tsok",
+    "audioHint": "hap-tsok",
+    "audioUrl": "",
+    "example": "Ka1liau1 lang2 tiok3boek1 hap3cork3. (Everybody must unite.)",
+    "tags": [
+      "animal",
+      "culture",
+      "time",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "untrustworthy, unreliable, undependable, good for nothing, bullshit",
+    "hanzi": "嘐六",
+    "poj": "hau-la̍k",
+    "tl": "hau-la̍k",
+    "audioHint": "hau-lak",
+    "audioUrl": "",
+    "example": "Wah1 mai1 kio33 ie1 co3 mi3knia3 ho33 wah4 in3ui33 ie1 hau3lark1 eh2. (I won't ask him to do anything for me because he is undependable.)",
+    "tags": [
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yes, yea, aye, right",
+    "hanzi": "諾",
+    "poj": "hàⁿ",
+    "tl": "hànn",
+    "audioHint": "ha",
+    "audioUrl": "",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(Chinese) shiitake mushroom",
+    "hanzi": "香菇",
+    "poj": "hiãu-kɔ",
+    "tl": "hiãu-kɔ",
+    "audioHint": "hiau-ko",
+    "audioUrl": "",
+    "example": "Wah1 su3kak1 ciak3 hniau3kor1. (I like to eat Chinese shittake mushrooms.)",
+    "tags": [
+      "body",
+      "food",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well, carefully, properly",
+    "hanzi": "好好",
+    "poj": "ho-ho",
+    "tl": "ho-ho",
+    "audioHint": "ho-ho",
+    "audioUrl": "",
+    "example": "Knia2 ho1-ho4. (Walk carefully.)",
+    "tags": [
+      "food",
+      "home",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well (health)",
+    "hanzi": "好適",
+    "poj": "ho-si",
+    "tl": "hó-sì",
+    "audioHint": "ho-si",
+    "audioUrl": "",
+    "example": "Lu1 ho1si3 boh2? (Are you okay?)",
+    "tags": [
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "useful",
+    "hanzi": "好用",
+    "poj": "ho-jɔŋ",
+    "tl": "ho-jɔŋ",
+    "audioHint": "ho-jong",
+    "audioUrl": "",
+    "example": "Cit1-ki3 to1 cin3 ho1yong33. (This knife is very useful.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "why bother",
+    "hanzi": "何苦",
+    "poj": "ho-khɔ",
+    "tl": "hô-khóo",
+    "audioHint": "ho-kho",
+    "audioUrl": "",
+    "example": "Ho3khor4 tan4 ie1. Ie1 boh3 lai2 eh2. (Why bother waiting for him. He is not likely to come.)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worthwhile, good value",
+    "poj": "ho-puã",
+    "tl": "ho-puã",
+    "audioHint": "ho-pua",
+    "audioUrl": "",
+    "example": "Cit1-pnua2-eh3 Hokkien Char4 boh3 ho3pnua2. (This plate of Hokkien Char is not good value for money.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "volcano",
+    "hanzi": "火山",
+    "poj": "hóe-soaⁿ",
+    "tl": "hué-suann",
+    "audioHint": "hoe-sua",
+    "audioUrl": "",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "welfare",
+    "hanzi": "福利",
+    "poj": "hɔk-li",
+    "tl": "hɔk-li",
+    "audioHint": "hok-li",
+    "audioUrl": "",
+    "example": "Ho4-eh3 ceng1hu4 kor3 paeh1snaeh3-eh3 hock1li33. (Good government looks after the welfare of the people.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "welfare department",
+    "hanzi": "福利部",
+    "poj": "hɔk-li",
+    "tl": "hɔk-li",
+    "audioHint": "hok-li",
+    "audioUrl": "",
+    "example": "Hock1li33por33 kor1 boh3lui3lang2. (The welfare department looks after the poor.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "windmill",
+    "hanzi": "風車",
+    "poj": "hɔŋ-tshia",
+    "tl": "hɔŋ-tshia",
+    "audioHint": "hong-tshia",
+    "audioUrl": "",
+    "example": "Ti1 Penang boh3 hong3chia1 liau4. (There are no windmills in Penang anymore.)",
+    "tags": [
+      "medical",
+      "nature",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Yunnan",
+    "hanzi": "雲南",
+    "poj": "hun-lam",
+    "tl": "hun-lam",
+    "audioHint": "hun-lam",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wealth",
+    "hanzi": "富貴",
+    "poj": "hu-kui",
+    "tl": "hu-kui",
+    "audioHint": "hu-kui",
+    "audioUrl": "",
+    "example": "Ha1mik1 khah1 yau1kin4, hu1kui3 a33si33 kien3khong1? (What is more important, wealth or health?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vase",
+    "hanzi": "花矸",
+    "poj": "hoa-kan",
+    "tl": "hua-kan",
+    "audioHint": "hua-kan",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wreath",
+    "hanzi": "花箍",
+    "poj": "hoa-kho͘",
+    "tl": "hua-khoo",
+    "audioHint": "hua-kho",
+    "audioUrl": "",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to yell, to bawl, to howl; 2. to call out, to state",
+    "hanzi": "喝",
+    "poj": "huaʔ",
+    "tl": "huaʔ",
+    "audioHint": "hua",
+    "audioUrl": "",
+    "example": "Ie1 luan33-luan33 huak1 kae1cni2. (He wildly quoted the prices.)",
+    "tags": [
+      "animal",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to worry",
+    "hanzi": "煩惱",
+    "poj": "huan-lo",
+    "tl": "huân-ló",
+    "audioHint": "huan-lo",
+    "audioUrl": "",
+    "example": "Ha1mik1 su33 lu1 huan3lo4? (Why are you worried?)",
+    "tags": [
+      "emotion",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to whine",
+    "poj": "huan-suan",
+    "tl": "huan-suan",
+    "audioHint": "huan-suan",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "war, revolt, oppose (huan4 is the literary reading for peng4)",
+    "hanzi": "反",
+    "poj": "hoán",
+    "tl": "huán",
+    "audioHint": "huan",
+    "audioUrl": "",
+    "tags": [
+      "education",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yeast, baking powder",
+    "hanzi": "發粉",
+    "poj": "huat-hun",
+    "tl": "huat-hún",
+    "audioHint": "huat-hun",
+    "audioUrl": "",
+    "example": "Cit1-leh1 kuih4 boh3 haeh33 huat1hoon4 eh2. (This kuih doesn't require baking powder.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "waist",
+    "hanzi": "腰",
+    "poj": "io",
+    "tl": "io",
+    "audioHint": "io",
+    "audioUrl": "",
+    "example": "Wah1-eh3 io1 snui1. (My waist aches.)",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vegetable in oil",
+    "hanzi": "油菜",
+    "poj": "iu-tshai",
+    "tl": "iû-tshài",
+    "audioHint": "iu-tshai",
+    "audioUrl": "",
+    "example": "Wah1 su3kak1 ciak3 iu3chye3. (I like to eat vegetable in oil.)",
+    "tags": [
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wool, see also ni2",
+    "poj": "dʒiɔŋ",
+    "tl": "dʒiɔŋ",
+    "audioHint": "diong",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "word, (alphabet) letter, character (especially a Chinese character)",
+    "hanzi": "字",
+    "poj": "jī",
+    "tl": "jī",
+    "audioHint": "di",
+    "audioUrl": "",
+    "example": "Cit1-tniau3 phe1 uh33 koay1 nor33-cheng3 ji33. (This letter has over two thousand words.)",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yolk",
+    "hanzi": "仁",
+    "poj": "dʒin",
+    "tl": "dʒin",
+    "audioHint": "din",
+    "audioUrl": "",
+    "example": "Cit1-liap3 nui33 uh33 nor33-liap3 jin2. (This egg has two yolks.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "urine",
+    "hanzi": "尿",
+    "poj": "dʒio",
+    "tl": "jiō",
+    "audioHint": "dio",
+    "audioUrl": "",
+    "example": "Ha1mik1 su33 cit1-peng2 uh33 cit3-bu2-eh3 jio33? (Why is there a puddle of urine here?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "urination pipe",
+    "hanzi": "尿道",
+    "poj": "dʒio-tɔ",
+    "tl": "dʒio-tɔ",
+    "audioHint": "dio-to",
+    "audioUrl": "",
+    "example": "Lo1kun1 giam3 khnua3 uh33 ha1mik1 boon3tay2 ka1 ie1-eh3 jio33tor3. (The doctor examined to see if there is any issue with his urination pipe.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(stomach) to become bloated; (fried food) to have lost its freshness",
+    "hanzi": "入風",
+    "poj": "dʒip-hɔŋ",
+    "tl": "ji̍p-hong",
+    "audioHint": "dip-hong",
+    "audioUrl": "",
+    "example": "Wah1-eh3 por1tor4 jip3 hong1 liau4. (My stomach is bloated.)",
+    "tags": [
+      "body",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wipe",
+    "hanzi": "揉",
+    "poj": "Taiwanese Romanisation: jiû",
+    "tl": "jiû",
+    "audioHint": "diu",
+    "audioUrl": "",
+    "example": "Lu1-eh3 thang3na4 cor33 ku4 boh3 jiu2 liau4? (How long have you not washed your windows?)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wool",
+    "poj": "jɔŋ",
+    "tl": "jɔŋ",
+    "audioHint": "jong",
+    "audioUrl": "",
+    "example": "Ee1-eh3 sna1 co3 ka1 yong2 eh2. (Her dress is made of wool.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unrefined word to denote a person who is problematic, difficult and troublesome",
+    "hanzi": "挐潲",
+    "poj": "dʒu",
+    "tl": "jû-siâu",
+    "audioHint": "du",
+    "audioUrl": "",
+    "example": "Wah4 mai1 kau3 peng3iu4 ka1 ie1 in3ui33 ie1 cin3 ju3siau2. (I do not want to befriend him as he is problematic.)",
+    "tags": [
+      "family",
+      "grammar",
+      "home",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "with, until, short for kau3 ka1",
+    "hanzi": "E2487",
+    "poj": "ka",
+    "tl": "ka",
+    "audioHint": "ka",
+    "audioUrl": "",
+    "example": "Wah1 ka3 lu4 khee3. (I go with you.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to upbring, to educate, to imbue with good manners, to raise a child",
+    "hanzi": "教示",
+    "poj": "ka-si",
+    "tl": "ka-si",
+    "audioHint": "ka-si",
+    "audioUrl": "",
+    "example": "Cit1-khien1 gin1na4 ka1liau1 lang2 o3lo4 gau3 ka1si33. (This boy is praised by everybody for being well raised.)",
+    "tags": [
+      "animal",
+      "clothing",
+      "direction",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "with",
+    "hanzi": "共",
+    "poj": "ka",
+    "tl": "kā",
+    "audioHint": "ka",
+    "audioUrl": "",
+    "example": "Mm33thang3 ka33 wah4 sio3meh3. (Don't argue with me.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "winged bean (Psophocarpus tetragonolobus, vegetable)",
+    "poj": "ka-tsaŋ-bɔ-tɔl",
+    "tl": "ka-tsaŋ-bɔ-tɔl",
+    "audioHint": "ka-tsang-bo-tol",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "home",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife",
+    "poj": "kɛ-au",
+    "tl": "kɛ-au",
+    "audioHint": "ke-au",
+    "audioUrl": "",
+    "example": "Heh1-khien1 ca3bor4 tok33si33 ie1-eh3 kae3au3. (That woman is his wife.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wasted effort, futile job",
+    "hanzi": "加工",
+    "poj": "kɛ-kaŋ",
+    "tl": "kɛ-kaŋ",
+    "audioHint": "ke-kang",
+    "audioUrl": "",
+    "example": "Mm33thang3 co1 kae3kang1. (Don't waste effort.)",
+    "tags": [
+      "home",
+      "profession"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "within the family, family members",
+    "poj": "kɛ-lai",
+    "tl": "kɛ-lai",
+    "audioHint": "ke-lai",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding ring",
+    "poj": "kau-in-tshiu-tsi",
+    "tl": "kau-in-tshiu-tsi",
+    "audioHint": "kau-in-tshiu-tsi",
+    "audioUrl": "",
+    "tags": [
+      "clothing",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding invitation card",
+    "poj": "kau-in-thiap",
+    "tl": "kau-in-thiap",
+    "audioHint": "kau-in-thiap",
+    "audioUrl": "",
+    "tags": [
+      "social",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "village (MYL)",
+    "poj": "kam-poŋ",
+    "tl": "kam-poŋ",
+    "audioHint": "kam-pong",
+    "audioUrl": "",
+    "tags": [
+      "loanword",
+      "medical",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worms in the stomach (disease)",
+    "poj": "kam-tsek",
+    "tl": "kam-tsek",
+    "audioHint": "kam-tsek",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "body",
+      "medical",
+      "nature"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very cunning, devilish, diabolical, treacherous, hypocritic, sly",
+    "hanzi": "奸臣",
+    "poj": "kan-sîn",
+    "tl": "kan-sîn",
+    "audioHint": "kan-sin",
+    "audioUrl": "",
+    "example": "Ie1 hor33 wah4 kan3sin2-eh3 chio3. (He gave me a devilish laugh.)",
+    "tags": [
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "work",
+    "hanzi": "工",
+    "poj": "kaŋ",
+    "tl": "kaŋ",
+    "audioHint": "kang",
+    "audioUrl": "",
+    "example": "Lu1 co1 ha1mik1 kang1? (What's your occupation?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wages",
+    "hanzi": "工錢",
+    "poj": "kang tsîn",
+    "tl": "kang-tsînn",
+    "audioHint": "kang-tsi",
+    "audioUrl": "",
+    "example": "Ee1 mai1 co3 cit1-leh1 kang1 in3ui33 kang3cni2 thai1 kae33. (She doesn't want to do this job because the wages are too low.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "work",
+    "hanzi": "工作",
+    "poj": "kang-chok",
+    "tl": "kang-tsok",
+    "audioHint": "kang-tsok",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "when the time comes",
+    "hanzi": "到時",
+    "poj": "kau-si",
+    "tl": "kau-si",
+    "audioHint": "kau-si",
+    "audioUrl": "",
+    "example": "Kau1si2 lu3 ka1 hor33 ie1 cai1. (When the time comes, then you tell him.)",
+    "tags": [
+      "animal",
+      "grammar",
+      "question",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "until",
+    "hanzi": "到甲",
+    "poj": "kau-ka",
+    "tl": "kau-ka",
+    "audioHint": "kau-ka",
+    "audioUrl": "",
+    "example": "Wah1 thark1 kau3 ka1 cit1-peng2. (I read up to here.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "when (alternative form; see also canonical form ti3 si2)",
+    "poj": "ki-si",
+    "tl": "ki-si",
+    "audioHint": "ki-si",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "grammar",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wish",
+    "poj": "kiɔŋ-tsiɔk",
+    "tl": "kiɔŋ-tsiɔk",
+    "audioHint": "kiong-tsiok",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worthwhile",
+    "poj": "kha",
+    "tl": "kha",
+    "audioHint": "kha",
+    "audioUrl": "",
+    "example": "Cit1-teng1 chia1 boh3 kha4 beh4. (This car is not worth buying.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "work, job, duty",
+    "hanzi": "工課",
+    "poj": "khaŋ-khoe",
+    "tl": "khang-khuè",
+    "audioHint": "khang-khoe",
+    "audioUrl": "",
+    "example": "Ie1 cin3 boh3eng2 co3 ie1-eh3 khang3khoay3. (He is very busy doing his work.)",
+    "tags": [
+      "profession"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to woo, to court, to flirt",
+    "poj": "khau",
+    "tl": "khau",
+    "audioHint": "khau",
+    "audioUrl": "",
+    "example": "Ie1 gau3 khau3 ca3bor4. (He's good at flirting with women.)",
+    "tags": [
+      "social",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whale",
+    "hanzi": "鯨魚",
+    "poj": "khêng-hû",
+    "tl": "khîng-hû",
+    "audioHint": "kheng-hu",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "upwards of, from",
+    "hanzi": "起碼",
+    "poj": "khi-bɛ",
+    "tl": "khi-bɛ",
+    "audioHint": "khi-be",
+    "audioUrl": "",
+    "example": "Lan4 e33 tnia3 bas1 a33si33 lan4 uh33 jee33-cap3 lang2 khi1bae4. (We can hire a bus if we have upwards of twenty people.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "ugly, disfigured, (see also mor3peng1)",
+    "hanzi": "㾀勢",
+    "poj": "khiap-si",
+    "tl": "khiap-sì",
+    "audioHint": "khiap-si",
+    "audioUrl": "",
+    "example": "Ie1 an1nae1 khiap1si3 pun1 choay1 than3 ca3bor1 peng3iu4. (Though he is so ugly, he was able to find a girlfriend.)",
+    "tags": [
+      "adjective",
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to underestimate",
+    "hanzi": "看太輕",
+    "poj": "khuã-thai-khin",
+    "tl": "khuã-thai-khin",
+    "audioHint": "khua-thai-khin",
+    "audioUrl": "",
+    "example": "Ie1 khnua1 thai1 khin1 heh1-leh1 gin1na4-eh3 lat1. (He underestimated the child's strength.)",
+    "tags": [
+      "home",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding date selection",
+    "hanzi": "看日",
+    "poj": "khuã-dʒit",
+    "tl": "khuã-dʒit",
+    "audioHint": "khua-dit",
+    "audioUrl": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to worry",
+    "hanzi": "掛心",
+    "poj": "khua-sim",
+    "tl": "khuá-sim",
+    "audioHint": "khua-sim",
+    "audioUrl": "",
+    "example": "Mm33thang3 khua1sim1, ie1 tien3tiok1 tnui4 lai2. (Don't worry, he will surely come back.)",
+    "tags": [
+      "emotion",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wide",
+    "poj": "khua",
+    "tl": "khua",
+    "audioHint": "khua",
+    "audioUrl": "",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "when",
+    "hanzi": "幾時",
+    "poj": "ki-si",
+    "tl": "ki-sî",
+    "audioHint": "ki-si",
+    "audioUrl": "",
+    "example": "Ki3si2 lu1 boek1 lai3 choay3 wah4? (When are you coming to visit me?)",
+    "tags": [
+      "animal",
+      "grammar",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to walk",
+    "hanzi": "行路",
+    "poj": "kiâⁿ-lō͘",
+    "tl": "kiânn-lōo",
+    "audioHint": "kia-lo",
+    "audioUrl": "",
+    "example": "Wah4 knia3lor33 lai2. (I walked over here.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wrap around, to wind",
+    "poj": "kuĩ",
+    "tl": "kuĩ",
+    "audioHint": "kui",
+    "audioUrl": "",
+    "tags": [
+      "nature",
+      "verb",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife's brother, brother-in-law",
+    "hanzi": "舅仔",
+    "poj": "ku-wa",
+    "tl": "ku-wa",
+    "audioHint": "ku-wa",
+    "audioUrl": "",
+    "example": "Wah1 chnia4 wah1-eh3 koo3wa4 lai3 ciak3 teh2. (I invited my brother-in-law to tea.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whole life",
+    "hanzi": "歸世儂",
+    "poj": "kui-si-laŋ",
+    "tl": "kui-si-laŋ",
+    "audioHint": "kui-si-lang",
+    "audioUrl": "",
+    "example": "Wah4 kui3si1lang2 mm3bat1 khee3 Padang Besar. (I have never been to Padang Besar my whole life.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wash the mouth, to rinse the mouth, to gargle (MYL)",
+    "poj": "ku-mɔʔ",
+    "tl": "ku-mɔʔ",
+    "audioHint": "ku-mo",
+    "audioUrl": "",
+    "example": "Bin1 chui1khee3 liau4, ie1 ku3mork1. (After brushing his teeth, he gargled.)",
+    "tags": [
+      "body",
+      "loanword",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well-behaved",
+    "hanzi": "乖",
+    "poj": "kuai",
+    "tl": "kuai",
+    "audioHint": "kuai",
+    "audioUrl": "",
+    "example": "Ie1-eh3 hau3snaeh1 cin3 kuai1. (His son is very well-behaved.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well-behaved",
+    "hanzi": "乖人",
+    "poj": "kuai",
+    "tl": "kuai-lâŋ",
+    "audioHint": "kuai",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "what time",
+    "poj": "kui-tiam",
+    "tl": "kui-tiam",
+    "audioHint": "kui-tiam",
+    "audioUrl": "",
+    "tags": [
+      "clothing",
+      "question",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whole, entire",
+    "poj": "kui",
+    "tl": "kui",
+    "audioHint": "kui",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whole body, short for kui3sin3ku1",
+    "hanzi": "規身",
+    "poj": "kui-sin",
+    "tl": "kui-sin",
+    "audioHint": "kui-sin",
+    "audioUrl": "",
+    "example": "Ee1 cheng33 ang2 kui3sin1. (She wore red throughout.)",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whole body",
+    "hanzi": "規身軀",
+    "poj": "kui-sin-ku",
+    "tl": "kui-sin-ku",
+    "audioHint": "kui-sin-ku",
+    "audioUrl": "",
+    "example": "Lok3ho33 co3 wah4 kui3sin3ku1 tam2. (The rain made my whole body wet.)",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wither",
+    "poj": "la-ju",
+    "tl": "la-ju",
+    "audioHint": "la-ju",
+    "audioUrl": "",
+    "example": "Lu1-eh3 hua3cang2 la3yu1 liau4. (Your flowering plant has withered.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "underpants",
+    "hanzi": "內面褲",
+    "poj": "lai-bin-khɔ",
+    "tl": "lāi-bīn-khòo",
+    "audioHint": "lai-bin-kho",
+    "audioUrl": "",
+    "example": "Cit1-keng3 tiam3-eh3 lai33bin33khor3 kiam1kae3. (There is a sale of underpants at this store.)",
+    "tags": [
+      "animal",
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "undergarment, underwear, brassiere",
+    "hanzi": "內面衫",
+    "poj": "lai-bin-sã",
+    "tl": "lāi-bīn-sann",
+    "audioHint": "lai-bin-sa",
+    "audioUrl": "",
+    "example": "Ee1 say4 ee1 ka3ki1-eh3 lai33bin33sna1. (She washed her own undergarments.)",
+    "tags": [
+      "body",
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wax",
+    "hanzi": "臘",
+    "poj": "laʔ",
+    "tl": "la̍h",
+    "audioHint": "la",
+    "audioUrl": "",
+    "example": "Lak1 tiok3 hoay4 tok33 nyau2 khee3 liau4. (Wax, when it gets near fire, will melt.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "weak paddy field",
+    "hanzi": "荏田",
+    "poj": "lam-tshan",
+    "tl": "lam-tshan",
+    "audioHint": "lam-tshan",
+    "audioUrl": "",
+    "example": "Lam1chan2 sok1 cui4. (Weak paddy field consumes a lot of water.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "weak",
+    "hanzi": "荏",
+    "poj": "lam",
+    "tl": "lam",
+    "audioHint": "lam",
+    "audioUrl": "",
+    "example": "Wah1-eh3 sin3ku1 cin3 lam4. (My body is very weak.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "we (including you, not including them)",
+    "poj": "lan-laŋ",
+    "tl": "lan-laŋ",
+    "audioHint": "lan-lang",
+    "audioUrl": "",
+    "tags": [
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(expletive) arrogant, very boastful (Cantonese derivative)",
+    "poj": "lan-si",
+    "tl": "lan-si",
+    "audioHint": "lan-si",
+    "audioUrl": "",
+    "example": "Wah1 be33 ta1han3 ie1 in3ui33 ie1 cin3 lan1si2. (I can't stand him because he is too arrogant.)",
+    "tags": [
+      "animal",
+      "exclamation",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "we, inclusive you",
+    "hanzi": "咱",
+    "poj": "lán",
+    "tl": "lán nán",
+    "audioHint": "lan",
+    "audioUrl": "",
+    "example": "Lan4-eh3 kork1ka1 cin3 peng3aun1. (Our country is very peaceful.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "we (inclusive you)",
+    "poj": "laŋ",
+    "tl": "laŋ",
+    "audioHint": "lang",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "1 to collapse; 2 dilapidated, run down",
+    "hanzi": "塌",
+    "poj": "lap",
+    "tl": "lap",
+    "audioHint": "lap",
+    "audioUrl": "",
+    "example": "Heh1-leh1 chu1teng4 boek1 lap3 liau4. (The roof is about to collapse.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "veteran",
+    "hanzi": "老鳥",
+    "poj": "lau-tsiau",
+    "tl": "lau-tsiau",
+    "audioHint": "lau-tsiau",
+    "audioUrl": "",
+    "example": "Cit1-leh1 beng3seng1 si33 lau33ciau4 liau4. (This entertainer is a veteran.)",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "upstairs",
+    "hanzi": "樓頂",
+    "poj": "lau-teŋ",
+    "tl": "lâu-tíng",
+    "audioHint": "lau-teng",
+    "audioUrl": "",
+    "example": "Ie1 co1 mi3knia3 ti1 lau3teng4. (he is doing something upstairs.)",
+    "tags": [
+      "direction",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding eve",
+    "poj": "lau-thiã-mɛ",
+    "tl": "lau-thiã-mɛ",
+    "audioHint": "lau-thia-me",
+    "audioUrl": "",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water caltrop",
+    "hanzi": "菱角",
+    "poj": "lêng-kak",
+    "tl": "lîng-kak",
+    "audioHint": "leng-kak",
+    "audioUrl": "",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to understand, to comprehend",
+    "hanzi": "了解",
+    "poj": "liau-kai",
+    "tl": "liáu-kái",
+    "audioHint": "liau-kai",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "colour",
+      "grammar",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wade",
+    "hanzi": "蹽",
+    "poj": "liâu",
+    "tl": "liâu",
+    "audioHint": "liau",
+    "audioUrl": "",
+    "example": "Wah4 liau4 koay3 heh1-leh1 kang4. (I wade across the river.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to weigh train",
+    "hanzi": "練力",
+    "poj": "liɛn-lat",
+    "tl": "liān-la̍t",
+    "audioHint": "lien-lat",
+    "audioUrl": "",
+    "example": "Ie1 ta33-ta33 jit1 lien33lat1. (He exercises every day.)",
+    "tags": [
+      "nature",
+      "transport",
+      "verb",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wheel",
+    "hanzi": "輪",
+    "poj": "liɛn",
+    "tl": "lián",
+    "audioHint": "lien",
+    "audioUrl": "",
+    "example": "Cit1-leh1 lor3li4 uh33 kui1-liap3 lien4? (How many wheels does this lorry have?)",
+    "tags": [
+      "animal",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wooded area, forest. Lim2 is the literary pronunciation of 林 which is otherwise pronounced as na2.",
+    "hanzi": "林",
+    "poj": "lim",
+    "tl": "lim",
+    "audioHint": "lim",
+    "audioUrl": "",
+    "tags": [
+      "grammar",
+      "home",
+      "nature",
+      "place",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "zero (CLR)",
+    "poj": "liŋ",
+    "tl": "liŋ",
+    "audioHint": "ling",
+    "audioUrl": "",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wolf",
+    "hanzi": "狼",
+    "poj": "lông",
+    "tl": "lông",
+    "audioHint": "long",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wolf, German shepherd, Alsation dog",
+    "hanzi": "狼狗",
+    "poj": "lɔŋ-kau",
+    "tl": "lông-káu",
+    "audioHint": "long-kau",
+    "audioUrl": "",
+    "example": "Wah1 e33 thnia1-tiok3 long3kao4 pun3le2. (I can hear a wolf howling.)",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "workshop, gallery",
+    "hanzi": "廊",
+    "poj": "lóng",
+    "tl": "lóng",
+    "audioHint": "long",
+    "audioUrl": "",
+    "tags": [
+      "education",
+      "place",
+      "shopping",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "you (second person plural)",
+    "hanzi": "恁侬 and 恁人",
+    "poj": "lu-laŋ",
+    "tl": "lu-laŋ",
+    "audioHint": "lu-lang",
+    "audioUrl": "",
+    "tags": [
+      "family",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "you (second person singular)",
+    "poj": "ní",
+    "tl": "ní",
+    "audioHint": "lu",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lang2 kio33 lu4? (Who called you?)",
+    "tags": [
+      "family",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wild pepper (from daun kaduk, MYL)",
+    "poj": "lun-ka-lok",
+    "tl": "lun-ka-lok",
+    "audioHint": "lun-ka-lok",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "loanword",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wheelchair",
+    "hanzi": "輪椅",
+    "poj": "lun-i",
+    "tl": "lûn-í",
+    "audioHint": "lun-i",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "body",
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "where (MYL)",
+    "poj": "ma-na",
+    "tl": "ma-na",
+    "audioHint": "ma-na",
+    "audioUrl": "",
+    "tags": [
+      "direction",
+      "loanword",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water chestnut (Eleocharis dulcis)",
+    "poj": "ma-thai",
+    "tl": "ma-thai",
+    "audioHint": "ma-thai",
+    "audioUrl": "",
+    "example": "Heh1-leh1 thnua1 beh33 ma1thai2. (That stall sells water chestnut.)",
+    "tags": [
+      "body",
+      "colour",
+      "drink",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "a while",
+    "poj": "ma-nia",
+    "tl": "ma-nia",
+    "audioHint": "ma-nia",
+    "audioUrl": "",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wheat flour",
+    "hanzi": "麵粉",
+    "poj": "mi-hun",
+    "tl": "mī-hún",
+    "audioHint": "mi-hun",
+    "audioUrl": "",
+    "example": "A33si33 boek1 co1 kek1, tiok3boek1 uh33 mee33hoon4. (If you want to make a cake, you need flour.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vermicelli, often spelled mee33suah3 in hawker stalls",
+    "hanzi": "麵線",
+    "poj": "mi-suã",
+    "tl": "mī-suànn",
+    "audioHint": "mi-sua",
+    "audioUrl": "",
+    "example": "Ai1 ciak3 char1 mee33suah3 boh2? (Do you have to have some fried vermicelli?)",
+    "tags": [
+      "animal",
+      "culture",
+      "food",
+      "profession",
+      "shopping",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vermicelli, alternative spelling for mee3snua3",
+    "poj": "mi-suã",
+    "tl": "mi-suã",
+    "audioHint": "mi-sua",
+    "audioUrl": "",
+    "example": "Lu1 ai1 ciak3 mee3suah3 boh2? (Do you want to eat vermicelli?)",
+    "tags": [
+      "food",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wrong, incorrect",
+    "hanzi": "毋著",
+    "poj": "m-tioʔ",
+    "tl": "m-tioʔ",
+    "audioHint": "m-tio",
+    "audioUrl": "",
+    "example": "All your answers are wrong.",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unexpectedly, coincidentally",
+    "hanzi": "毋拄好",
+    "poj": "m-tu-ho",
+    "tl": "m-tu-ho",
+    "audioHint": "m-tu-ho",
+    "audioUrl": "",
+    "example": "Mm33tu1ho4 ie1 khee1 ciak3hong1 siang33 sor1cai3 ka1 wah4. (Coincidentally he went on holiday to the same place as me.)",
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(body) hair",
+    "hanzi": "毛",
+    "poj": "mô͘ (Zhangzhou",
+    "tl": "môo (Zhangzhou",
+    "audioHint": "mo",
+    "audioUrl": "",
+    "example": "Heh1-leh1 kao4-eh3 mor2 cin3 swee4. (That dog's hair is very beautiful.)",
+    "tags": [
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "writing brush",
+    "hanzi": "毛筆",
+    "poj": "mɔ-pit",
+    "tl": "mɔ-pit",
+    "audioHint": "mo-pit",
+    "audioUrl": "",
+    "example": "Wah1-eh3 mor3pit3 phnai4 liau4. (My writing brush is damaged.)",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to walk on tiptoe",
+    "hanzi": "躡",
+    "poj": "neeh",
+    "tl": "neeh",
+    "audioHint": "ne",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wool, woolen, see also jeong2",
+    "poj": "ni",
+    "tl": "ni",
+    "audioHint": "ni",
+    "audioUrl": "",
+    "example": "Cit1-leh1 sna1 si33 yong33 ni2 co3-eh2 nia2? (Is this shirt made of wool?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "woolen clothing",
+    "poj": "ni-sã",
+    "tl": "ni-sã",
+    "audioHint": "ni-sa",
+    "audioUrl": "",
+    "example": "Ee1 cheng33 ni3sna1 in3ui33 kin3jit1 leng4. (She wears woolen clothes because it is cold today.)",
+    "tags": [
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to yield, to give way, to allow, to let",
+    "hanzi": "讓",
+    "poj": "niau",
+    "tl": "niau",
+    "audioHint": "niau",
+    "audioUrl": "",
+    "example": "Ie1 niau33 wah4 koay3. (He let me pass.)",
+    "tags": [
+      "direction",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "uric acid (MDL), often used to refer to gout",
+    "hanzi": "尿酸",
+    "poj": "niau-suan",
+    "tl": "niau-suan",
+    "audioHint": "niau-suan",
+    "audioUrl": "",
+    "example": "Ie1-eh3 kha1 thnia3 in3ui33 niau4suan1. (His leg hurts due to gout (uric acid).)",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wink, to blink",
+    "hanzi": "𥍉目()",
+    "poj": "nih-ba̍k",
+    "tl": "nih-ba̍k",
+    "audioHint": "ni-bak",
+    "audioUrl": "",
+    "example": "Ha1mik1 su33 lu1 nik1bark1 ka33 wah4? (Why are you winking at me?)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to win",
+    "hanzi": "贏",
+    "poj": "iã",
+    "tl": "iã",
+    "audioHint": "ia",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lang2 nya2? (Who won?)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yellowtail scad",
+    "poj": "uĩ-boe",
+    "tl": "uĩ-boe",
+    "audioHint": "ui-boe",
+    "audioUrl": "",
+    "example": "Ooi3boey4 si33 hu2 a33si33 haeh2? (Ooi boey is a fish or a prawn?)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wrap around",
+    "hanzi": "䘼",
+    "poj": "uĩ",
+    "tl": "uĩ",
+    "audioHint": "ui",
+    "audioUrl": "",
+    "example": "Uh33 cit3-ciak1 cua2 ooi4 ti1 cang3ki1. (There is a snake wrapped around the branch.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very black",
+    "poj": "ɔ-khɛʔ-khɛʔ",
+    "tl": "ɔ-khɛʔ-khɛʔ",
+    "audioHint": "o-khe-khe",
+    "audioUrl": "",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yam cake (in fact, made of taro)",
+    "hanzi": "芋粿",
+    "poj": "ɔ-koe",
+    "tl": "ōo-kué",
+    "audioHint": "o-koe",
+    "audioUrl": "",
+    "example": "Ta1lok1-eh3 or33kuih4 ho1ciak1? (Where can we find good yam cake?)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yam paste",
+    "hanzi": "芋泥",
+    "poj": "ɔ-ni",
+    "tl": "ɔ-ni",
+    "audioHint": "o-ni",
+    "audioUrl": "",
+    "example": "Wah3-eh3 bor4 gau3 co1 or33ni2. (My wife is good at making or ni.)",
+    "tags": [
+      "food",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "yam rice",
+    "hanzi": "芋飯",
+    "poj": "ɔ-puĩ",
+    "tl": "ɔ-puĩ",
+    "audioHint": "o-pui",
+    "audioUrl": "",
+    "example": "Cit1-peng2-eh3 or33pnui33 cin3 ho1ciak1. (The yam rice here is very nice.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white; colloquial",
+    "hanzi": "白",
+    "poj": "pɛʔ",
+    "tl": "pe̍h",
+    "audioHint": "pe",
+    "audioUrl": "",
+    "example": "Ie1 su3kak1 cheng33 paek3 sna1. (He likes to wear white shirt.)",
+    "tags": [
+      "colour",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white fungus",
+    "hanzi": "白木耳",
+    "poj": "pɛʔ-bɔk-ni",
+    "tl": "pɛʔ-bɔk-ni",
+    "audioHint": "pe-bok-ni",
+    "audioUrl": "",
+    "example": "Ee1 cu1 thng3cui4 haeh33 paek3bork3nee4. (She makes sugar dessert with white fungus.)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white pomfret",
+    "poj": "pɛ-tshiãu",
+    "tl": "pɛ-tshiãu",
+    "audioHint": "pe-tshiau",
+    "audioUrl": "",
+    "example": "Ie1 ciak3 nor33-boey1 paek3chniau1. (He eats two white pomfrets.)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white radish, daikon",
+    "hanzi": "白菜",
+    "poj": "pɛ-tshai-thau",
+    "tl": "pe̍h-tshài",
+    "audioHint": "pe-tshai-thau",
+    "audioUrl": "",
+    "example": "Wah1 su3kak1 ciak3 paek3chye1thau2. (I love to eat white radish.)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white-collar thief",
+    "poj": "pɛʔ-nia-tshat",
+    "tl": "pɛʔ-nia-tshat",
+    "audioHint": "pe-nia-tshat",
+    "audioUrl": "",
+    "example": "Paek3nia1chat1 yong33 tien33nau4 thau3thek3 lui1. (White collar burglar uses the computer to steal money.)",
+    "tags": [
+      "clothing",
+      "colour",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whiteboard",
+    "poj": "pɛʔ-pan",
+    "tl": "pɛʔ-pan",
+    "audioHint": "pe-pan",
+    "audioUrl": "",
+    "example": "Tha1na1-eh3 ok3tng2 ka1liau4 yong33 paek3pan4. (All schools nowadays use whiteboards.)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white rice",
+    "hanzi": "白飯",
+    "poj": "pɛʔ-puĩ",
+    "tl": "pe̍h-pn̄g",
+    "audioHint": "pe-pui",
+    "audioUrl": "",
+    "example": "Lu1 boek3 paek3pnui33 a33si33 or33pnui33? (Do you want white rice or yam rice?)",
+    "tags": [
+      "colour",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unfortunate matters, unfortunate incident",
+    "hanzi": "白事",
+    "poj": "pɛʔ-su",
+    "tl": "pɛʔ-su",
+    "audioHint": "pe-su",
+    "audioUrl": "",
+    "example": "Ie1 kha1 tien33wa33 lai2 kong4 uh33 cit3-leh3 paek3su33 huat1seng1. (He telephoned to inform that an unfortunate incident has happened.)",
+    "tags": [
+      "food",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "white sugar",
+    "hanzi": "白糖",
+    "poj": "pɛʔ-thŋ",
+    "tl": "pɛʔ-thŋ",
+    "audioHint": "pe-thng",
+    "audioUrl": "",
+    "example": "Mm33thang3 ciak3 sniau3 ce33 paek3thng2. (Don't take too much white sugar.)",
+    "tags": [
+      "colour",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to worship Taoist deities, to worship at a Chinese temple",
+    "hanzi": "拜尫公 (REF 1)",
+    "poj": "pai-aŋ-kɔŋ",
+    "tl": "pai-aŋ-kɔŋ",
+    "audioHint": "pai-ang-kong",
+    "audioUrl": "",
+    "example": "Ie1 ceh33 bas1 khee1 pai1ang3kong1. (He took the bus to worship at the temple.)",
+    "tags": [
+      "body",
+      "clothing",
+      "culture",
+      "place",
+      "social",
+      "transport",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to visit relatives or friends on festive days, to make visitations",
+    "hanzi": "拜正",
+    "poj": "pài-chiaⁿ",
+    "tl": "pài-tsiann",
+    "audioHint": "pai-tsia",
+    "audioUrl": "",
+    "example": "Lu4 uh33 khee1 pai1cnia1 boh2? (Do you do visitations?)",
+    "tags": [
+      "family",
+      "social",
+      "time",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to visit relatives or friends on festive days, to make visitations",
+    "hanzi": "拜年",
+    "poj": "pài-nî",
+    "tl": "pài-nî",
+    "audioHint": "pai1-ni2",
+    "audioUrl": "",
+    "example": "Lu4 uh33 khee1 pai1ni2 boh2? (Do you do visitations?)",
+    "tags": [
+      "family",
+      "social",
+      "time",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Wednesday",
+    "poj": "pai-sã",
+    "tl": "pai-sã",
+    "audioHint": "pai-sa",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to worship",
+    "hanzi": "拜 (REF 1)",
+    "poj": "pai",
+    "tl": "pai",
+    "audioHint": "pai",
+    "audioUrl": "",
+    "example": "Ie1 ha1mik1 pun1 pai3. (He worships everything.)",
+    "tags": [
+      "body",
+      "culture",
+      "social",
+      "transport",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wanton",
+    "hanzi": "扁食",
+    "poj": "pán-si̍t",
+    "tl": "pán-si̍t",
+    "audioHint": "pan-sit",
+    "audioUrl": "",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wheat/flour noodle",
+    "hanzi": "板麺",
+    "poj": "pan-mi",
+    "tl": "pan-mi",
+    "audioHint": "pan-mi",
+    "audioUrl": "",
+    "example": "Cit1-leh1 thnua1 beh33 pan2 mee3. (This stall sells pan mee.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to urinate, to pee",
+    "hanzi": "放尿",
+    "poj": "paŋ-dʒio",
+    "tl": "pàng-jiō",
+    "audioHint": "pang-dio",
+    "audioUrl": "",
+    "example": "Heh1-leh1 gin1na4 pang1jio33 ti1 kae33lor33pni1. (The little boy is urinating by the roadside.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wrap",
+    "poj": "pau",
+    "tl": "pau",
+    "audioHint": "pau",
+    "audioUrl": "",
+    "example": "Wah1 pau1 heh1-leh1 mi3knia3 khee4 lai2. (I wrapped up the item.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wear a scarf or headgear",
+    "poj": "pau-thau",
+    "tl": "pau-thau",
+    "audioHint": "pau-thau",
+    "audioUrl": "",
+    "example": "Heh1-leh1 pau3thau2-eh3 Huan3na1 ca3bor4 hnua33 chia1. (The Malay lady wears a headscarf is driving.)",
+    "tags": [
+      "body",
+      "clothing",
+      "transport",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to view with crossed eye",
+    "hanzi": "拍鳥",
+    "poj": "phaʔ-tsiau",
+    "tl": "phaʔ-tsiau",
+    "audioHint": "pha-tsiau",
+    "audioUrl": "",
+    "example": "Ie1-eh3 knia4-eh3 bat3ciu1 phak1ciau4. (His son's eyes are crossed.)",
+    "tags": [
+      "body",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to work diligently, to strive, to work hard",
+    "hanzi": "拍拚",
+    "poj": "phah-piàⁿ",
+    "tl": "phah-piànn",
+    "audioHint": "pha-pia",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "undercoat paint",
+    "poj": "phaʔ-te-tshat",
+    "tl": "phaʔ-te-tshat",
+    "audioHint": "pha-te-tshat",
+    "audioUrl": "",
+    "example": "Haeh33 cit3 nor33 en2-eh3 phak1tay1chat3. (Apply one or two layers of undercoat paint.)",
+    "tags": [
+      "clothing",
+      "food",
+      "home",
+      "medical"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to undercoat",
+    "poj": "phaʔ-te",
+    "tl": "phaʔ-te",
+    "audioHint": "pha-te",
+    "audioUrl": "",
+    "example": "Cit1-leh1 cha2 tiok3boek1 phak1tay4 cit3 en2-eh3 chat3. (This wood needs to be undercoated with a layer of paint.)",
+    "tags": [
+      "clothing",
+      "food",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to vanquish, to defeat",
+    "poj": "phaʔ-to",
+    "tl": "phaʔ-to",
+    "audioHint": "pha-to",
+    "audioUrl": "",
+    "example": "Ie1 au1boey4 pun1 tiok3 phak3to4. (In the end he was also defeated.)",
+    "tags": [
+      "food",
+      "transport",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "usual, ordinary, regular, routine",
+    "hanzi": "平常",
+    "poj": "pêng-siông",
+    "tl": "pîng-siông",
+    "audioHint": "pheng-siong",
+    "audioUrl": "",
+    "example": "Ie1 pheng3seong2 khi4 ca1-ca4. (He usually wakes up early.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "usually",
+    "hanzi": "平常時",
+    "poj": "pheŋ-siɔŋ-si",
+    "tl": "pîng-siông-sî",
+    "audioHint": "pheng-siong-si",
+    "audioUrl": "",
+    "example": "Pheng3seong3si2 wah1lang2 boh3 lai3 cit1-peng2 ciak1 eh2. (We usually don't come here for meals.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "ugly",
+    "hanzi": "歹看",
+    "poj": "phãi-khuã",
+    "tl": "pháinn-khuànn",
+    "audioHint": "phai-khua",
+    "audioUrl": "",
+    "example": "Ie1-eh3 bin33 cin3 phnai1khnua3. (His face is so ugly.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unpleasant to hear",
+    "hanzi": "歹聽",
+    "poj": "phãi-thiã",
+    "tl": "phãi-thiã",
+    "audioHint": "phai-thia",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "body"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wholesaler",
+    "hanzi": "批發商",
+    "poj": "phoe-huat-siɔŋ",
+    "tl": "phoe-huat-siɔŋ",
+    "audioHint": "phoe-huat-siong",
+    "audioUrl": "",
+    "example": "Ie1 co1 sna1-eh3 phoay1huat1seong1. (He is a clothing wholesaler.)",
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wholesale",
+    "hanzi": "批發",
+    "poj": "phoe-huat",
+    "tl": "phue-huat",
+    "audioHint": "phoe-huat",
+    "audioUrl": "",
+    "example": "Cit1-peng2-eh3 tiam3 ka1liau4 si33 co3 phoay1huat3-eh3 seng3li4. (The shops here do wholesale business.)",
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wine",
+    "hanzi": "葡萄酒",
+    "poj": "pho-to-tsiu",
+    "tl": "pho-to-tsiu",
+    "audioHint": "pho-to-tsiu",
+    "audioUrl": "",
+    "example": "Ie1 ta33-ta33 jit1 uh33 lim3 cit3-au1-eh3 phu3to3 ciu4. (He drinks a cup of wine every day.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wasteful",
+    "hanzi": "破格",
+    "poj": "phua-kɛʔ",
+    "tl": "phua-kɛʔ",
+    "audioHint": "phua-ke",
+    "audioUrl": "",
+    "example": "Phua1kaek3-eh3 lang2 gau3 sng4. Wasteful people waste a lot.",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wall cupboard",
+    "poj": "piaʔ-tu",
+    "tl": "piaʔ-tu",
+    "audioHint": "pia-tu",
+    "audioUrl": "",
+    "tags": [
+      "direction",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wall",
+    "hanzi": "壁",
+    "poj": "piaʔ",
+    "tl": "piah",
+    "audioHint": "pia",
+    "audioUrl": "",
+    "tags": [
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger maternal female cousin",
+    "hanzi": "表妹",
+    "poj": "piau-moi",
+    "tl": "piáu-muē",
+    "audioHint": "piau-moi",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger cousin",
+    "hanzi": "表小弟",
+    "poj": "piau-sio-tī",
+    "tl": "piáu-sió-tī",
+    "audioHint": "piau-sio-ti",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger maternal male cousin",
+    "hanzi": "表弟",
+    "poj": "piau-ko",
+    "tl": "piáu-tī",
+    "audioHint": "piau-ko",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "waist (MYL)",
+    "poj": "pin-ŋaŋ",
+    "tl": "pin-ŋaŋ",
+    "audioHint": "pin-ngang",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whistle",
+    "poj": "pit-pit",
+    "tl": "pit-pit",
+    "audioHint": "pit-pit",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "village centre, small town (from pekan, MYL)",
+    "poj": "po-kan",
+    "tl": "po-kan",
+    "audioHint": "po-kan",
+    "audioUrl": "",
+    "example": "Ba3 Le3pai4-eh3 po1kan1 cin3 se3. (The town centre of Bayan Lepas is very small.)",
+    "tags": [
+      "loanword",
+      "medical",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "valuable, precious, valued",
+    "hanzi": "寶貴",
+    "poj": "pó-kùi",
+    "tl": "pó-kuì",
+    "audioHint": "po-kui",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wet springroll",
+    "hanzi": "薄餅",
+    "poj": "po-piã",
+    "tl": "po-piã",
+    "audioHint": "po-pia",
+    "audioUrl": "",
+    "example": "Kin3jit1 wah1-eh3 ma3ma1 co3 po3piah4. (Today my mother makes popiah.)",
+    "tags": [
+      "adjective",
+      "clothing",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to whistle",
+    "hanzi": "歕喙",
+    "poj": "pun-tshui",
+    "tl": "pûn-tshuì",
+    "audioHint": "pun-tshui",
+    "audioUrl": "",
+    "example": "Wah1 be33hiau1 pun3 chui3. (I don't know how to whistle.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unfilial, ungrateful",
+    "poj": "put-hau",
+    "tl": "put-hau",
+    "audioHint": "put-hau",
+    "audioUrl": "",
+    "example": "Boh3 tatt1 chie33 put1hau3-eh3 knia4. (Not worth raising unfilial children.)",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wrong, guilty (MYL)",
+    "poj": "sa-lah",
+    "tl": "sa-lah",
+    "audioHint": "sa-lah",
+    "audioUrl": "",
+    "example": "Ie1 tiok3 or3kong1 in3ui33 co1 sa3lah3. (He was fined for wrong doing.)",
+    "tags": [
+      "emotion",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "west (CLR, see also si1)",
+    "hanzi": "西",
+    "poj": "sai",
+    "tl": "sai",
+    "audioHint": "sai",
+    "audioUrl": "",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "watercress (Nasturtium officinale)",
+    "hanzi": "西洋菜",
+    "poj": "sai-jɔŋ-tshai",
+    "tl": "sai-jɔŋ-tshai",
+    "audioHint": "sai-jong-tshai",
+    "audioUrl": "",
+    "example": "Kin3jit1 wah1lang2 co3 sai1yong3 chye3-eh3 thng1. (Today we made watercress soup.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wolf herring",
+    "poj": "sai-to",
+    "tl": "sai-to",
+    "audioHint": "sai-to",
+    "audioUrl": "",
+    "example": "Uh33 cin3 ce33 sai1to1 ti1 cit1-peng2-eh3 hai4. (There are many wolf herrings in the sea here.)",
+    "tags": [
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "witness",
+    "poj": "sak-si",
+    "tl": "sak-si",
+    "audioHint": "sak-si",
+    "audioUrl": "",
+    "example": "Ie1 tiok3 phak1chniau4 boh3lang3 boek1 co3 ie1-eh3 sak1si3. (Nobody wanted to be the witness to his robbery.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "until (MYL)",
+    "poj": "sam-pai",
+    "tl": "sam-pai",
+    "audioHint": "sam-pai",
+    "audioUrl": "",
+    "example": "Lu1 boek1 kor3 ie1 sam3pai1 ti3si2? (How long do you want to continue taking care of him?)",
+    "tags": [
+      "grammar",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wash spoons",
+    "poj": "se-thau-kiɔŋ",
+    "tl": "se-thau-kiɔŋ",
+    "audioHint": "se-thau-kiong",
+    "audioUrl": "",
+    "example": "Ciak3 pnui33 liau4 ie1 say1 thau3keong1. (Having eating, he washed his spoon.)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "washing machine",
+    "hanzi": "洗衫機",
+    "poj": "sé-saⁿ-ki",
+    "tl": "sé-sann-ki",
+    "audioHint": "se-sa-ki",
+    "audioUrl": "",
+    "example": "Wah1lang2-eh3 say1sna3ki1 phnai4. (Our washing machine broke down.)",
+    "tags": [
+      "body",
+      "clothing",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "(figurative, colloquial) to scrub, to give a dressing down, to rebuke",
+    "poj": "se",
+    "tl": "se",
+    "audioHint": "se",
+    "audioUrl": "",
+    "example": "Ie1 hor33 tau3ke1 say4. (He was scolded by the boss.)",
+    "tags": [
+      "animal",
+      "clothing",
+      "direction",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "youngest child",
+    "hanzi": "細漢囝",
+    "poj": "sè-hàn-kiáⁿ",
+    "tl": "sè-hàn-kiánn",
+    "audioHint": "se-han-kia",
+    "audioUrl": "",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger aunt; mother's younger sisters",
+    "poj": "se-han-i",
+    "tl": "se-han-i",
+    "audioHint": "se-han-i",
+    "audioUrl": "",
+    "example": "Wah1-eh3 se1han1ee2 ba3lu1 kah3win2. (My mother's youngest sister has just gotten married.)",
+    "tags": [
+      "adjective",
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young",
+    "hanzi": "細漢",
+    "poj": "sè-hàn",
+    "tl": "sè-hàn",
+    "audioHint": "se-han",
+    "audioUrl": "",
+    "example": "Wah1-eh3 knia4 se1han3 gok3. (My son is still small.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "world",
+    "hanzi": "世界",
+    "poj": "se-kai",
+    "tl": "sè-kài",
+    "audioHint": "se-kai",
+    "audioUrl": "",
+    "example": "Ie1 si33 mm33 si33 se1kai3 te33-it1 ho1giak1-eh3 lang2? (Isn't he the world richest man?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "world heritage",
+    "poj": "se-kai-ui-san",
+    "tl": "se-kai-ui-san",
+    "audioHint": "se-kai-ui-san",
+    "audioUrl": "",
+    "example": "George Town si33 cit3-leh3 se1kai3 ui3san4. (George Town is a World Heritage site.)",
+    "tags": [
+      "culture"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "winged bean",
+    "hanzi": "四角豆",
+    "poj": "si-kak-tau",
+    "tl": "si-kak-tau",
+    "audioHint": "si-kak-tau",
+    "audioUrl": "",
+    "example": "Ee1 co3 see1kark1tau33 char1 sam3bai1. (She makes winged bean stir-fried in sambal.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wedge, to insert, to slip under or in between",
+    "hanzi": "楔",
+    "poj": "seh",
+    "tl": "seh",
+    "audioHint": "se",
+    "audioUrl": "",
+    "example": "Wah1 sek3 cit3-tniau3 cua4 jip3 wah1-eh3 te3ya4. (I slip a piece of paper into my pocket.)",
+    "tags": [
+      "body",
+      "direction",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wasteful, extravagant, spendthrift",
+    "hanzi": "傷重",
+    "poj": "siɔŋ-tiɔŋ",
+    "tl": "siɔŋ-tiɔŋ",
+    "audioHint": "siong-tiong",
+    "audioUrl": "",
+    "example": "Ceng1hu4 mai1 lang3 seong3teong33 yong33 cui4. (The government does not want people to waste water.)",
+    "tags": [
+      "animal",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "west (LTR, see also sai1)",
+    "poj": "si",
+    "tl": "si",
+    "audioHint": "si",
+    "audioUrl": "",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "watermelon",
+    "hanzi": "西瓜",
+    "poj": "si-koa",
+    "tl": "si-kua",
+    "audioHint": "si-kua",
+    "audioUrl": "",
+    "tags": [
+      "drink",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "western part",
+    "hanzi": "西部",
+    "poj": "si-pɔ",
+    "tl": "se-pōo",
+    "audioHint": "si-po",
+    "audioUrl": "",
+    "example": "Langkawi ti1 Malaysia-eh3 si3por33. (Langkawi is on the western part of Malaysia.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "writing system",
+    "hanzi": "書寫系統",
+    "poj": "si-siá hē-thóng",
+    "tl": "si-siá hē-thóng",
+    "audioHint": "si-sia-he-thong",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to write; 2. to do desk work, to hold a clerical position",
+    "hanzi": "寫字",
+    "poj": "sia-dʒi",
+    "tl": "siá-jī",
+    "audioHint": "sia-di",
+    "audioUrl": "",
+    "example": "Ie1 co1 sia1ji33-eh3 kang1. (He holds a clerical job.)",
+    "tags": [
+      "education",
+      "home",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young",
+    "hanzi": "少年",
+    "poj": "siau-liɛn",
+    "tl": "siàu-liân",
+    "audioHint": "siau-lien",
+    "audioUrl": "",
+    "example": "Heh1-leh1 beng3seng1 siau1lien2-eh3 si2 cin3 en3tau2. (That movie star was very handsome when he was young.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young man, (regional colloquial) bloke, bugger",
+    "hanzi": "少年家",
+    "poj": "siau-liɛn-ke",
+    "tl": "siàu-liân-ke",
+    "audioHint": "siau-lien-ke",
+    "audioUrl": "",
+    "example": "Siau1lien3kay1 tha1na1 te3ya4 pa1cat1. (Youngsters nowadays are quite loaded.)",
+    "tags": [
+      "adjective",
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Xinning, former name of Taishan",
+    "hanzi": "新寧",
+    "poj": "sin-leŋ",
+    "tl": "sin-leŋ",
+    "audioHint": "sin-leng",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wedding car",
+    "poj": "sin-niau-tshia",
+    "tl": "sin-niau-tshia",
+    "audioHint": "sin-niau-tshia",
+    "audioUrl": "",
+    "example": "Cui33-cui33 lang2 cng1 hor33 lu4 lu1-eh3 sin3niau3chia1? (Who decorated for you your wedding car?)",
+    "tags": [
+      "social",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "with one another",
+    "hanzi": "相",
+    "poj": "sio",
+    "tl": "sio",
+    "audioHint": "sio",
+    "audioUrl": "",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "youngest child",
+    "poj": "sio-boe",
+    "tl": "sio-boe",
+    "audioHint": "sio-boe",
+    "audioUrl": "",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young lady, Miss",
+    "hanzi": "小姐",
+    "poj": "sió-chiá",
+    "tl": "sió-tsiá",
+    "audioHint": "sio-tsia",
+    "audioUrl": "",
+    "example": "Uh33 cit3-leh3 sio1cia4 boek1 choay33 lu4. (There's a young lady looking for you.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wrestle",
+    "poj": "sio-ɛn",
+    "tl": "sio-ɛn",
+    "audioHint": "sio-en",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "water seepage",
+    "hanzi": "洩水",
+    "poj": "sip-tsui",
+    "tl": "sip-tsui",
+    "audioHint": "sip-tsui",
+    "audioUrl": "",
+    "example": "Cit1-peng2-eh3 piak3 sip1cui4. (The walls here show water seepage.)",
+    "tags": [
+      "drink"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wing",
+    "hanzi": "翼",
+    "poj": "sit",
+    "tl": "sit",
+    "audioHint": "sit",
+    "audioUrl": "",
+    "example": "Niau1 uh33 sit1 boh2? (Do cats have wings?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "warehousing; 2. to receive goods or inventory",
+    "poj": "siu-hoe",
+    "tl": "siu-hoe",
+    "audioHint": "siu-hoe",
+    "audioUrl": "",
+    "tags": [
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wardrobe, cupboard for clothes",
+    "hanzi": "衫櫥",
+    "poj": "sã-tu",
+    "tl": "sã-tu",
+    "audioHint": "sa-tu",
+    "audioUrl": "",
+    "example": "Lu4-eh3 sna3tu2 cin3 cat1 liau4. (Your wardrobe is very full.)",
+    "tags": [
+      "clothing",
+      "direction",
+      "home"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Zodiac sign, see also sniau3",
+    "hanzi": "生相",
+    "poj": "sɛ̃-siã",
+    "tl": "sɛ̃-siã",
+    "audioHint": "se-sia",
+    "audioUrl": "",
+    "example": "Ha1mik1 si33 lu1-eh3 snaeh3sniau3? (What is your Zodiac sign?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to waste water",
+    "hanzi": "損水",
+    "poj": "sŋ-tshui",
+    "tl": "sńg-tsúi",
+    "audioHint": "sng-tshui",
+    "audioUrl": "",
+    "example": "Mm33thang3 ka3nia33 lim3 sng3cui4. (Don't keep on drinking iced water.)",
+    "tags": [
+      "drink",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to waste",
+    "hanzi": "損",
+    "poj": "sŋ",
+    "tl": "sńg",
+    "audioHint": "sng",
+    "audioUrl": "",
+    "example": "Mm33thang3 sng1 cua4. (Don't waste paper)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to whisper",
+    "hanzi": "聲聲句句",
+    "poj": "siã-siã-ku-ku",
+    "tl": "siann-siann-kù-kù",
+    "audioHint": "sia-sia-ku-ku",
+    "audioUrl": "",
+    "example": "Ie1 sniah3-sniah1 ku1-ku3 kong4 ha1mik1? (What does he whisper?)",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wild boar",
+    "hanzi": "山豬",
+    "poj": "soaⁿ-tu",
+    "tl": "suann-tu",
+    "audioHint": "sua-tu",
+    "audioUrl": "",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "youngest, last",
+    "poj": "so-boe",
+    "tl": "so-boe",
+    "audioHint": "so-boe",
+    "audioUrl": "",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unfortunate, cursed",
+    "hanzi": "衰",
+    "poj": "soe",
+    "tl": "sue",
+    "audioHint": "soe",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unfortunate, unlucky",
+    "hanzi": "衰潲",
+    "poj": "soe-siau",
+    "tl": "sue-siâu",
+    "audioHint": "soe-siau",
+    "audioUrl": "",
+    "example": "Wah1 kin3 ni2 cin3 soay3siau2. (I am so unlucky this year.)",
+    "tags": [
+      "culture",
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vacuum cleaner",
+    "poj": "soʔ-hɔŋ-ki",
+    "tl": "soʔ-hɔŋ-ki",
+    "audioHint": "so-hong-ki",
+    "audioUrl": "",
+    "tags": [
+      "profession"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to vote",
+    "hanzi": "選",
+    "poj": "soán",
+    "tl": "suán",
+    "audioHint": "suan",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to whip, to cane",
+    "hanzi": "捽",
+    "poj": "sut",
+    "tl": "sut",
+    "audioHint": "sut",
+    "audioUrl": "",
+    "example": "Heh1-leh1 phnai1si4-eh3 gina1na4 hor33 ie1-eh3 pa3pa1 sut3. (The naughty boy was caned by his father.)",
+    "tags": [
+      "body",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "where",
+    "hanzi": "佗落",
+    "poj": "tá-lo̍h",
+    "tl": "tá-lo̍h",
+    "audioHint": "ta-lok",
+    "audioUrl": "",
+    "example": "Lu1 tua3 ta1lok1? (Where do you live?)",
+    "tags": [
+      "direction",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "young, small, little boy",
+    "poj": "ta-pɔ-kiã",
+    "tl": "ta-pɔ-kiã",
+    "audioHint": "ta-po-kia",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wear a hat (LTR for ti3)",
+    "poj": "tai",
+    "tl": "tai",
+    "audioHint": "tai",
+    "audioUrl": "",
+    "tags": [
+      "body",
+      "clothing",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whitish shoot within old coconut (MYL)",
+    "poj": "tam-bɔŋ",
+    "tl": "tam-bɔŋ",
+    "audioHint": "tam-bong",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "loanword",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worried",
+    "poj": "tam-sim",
+    "tl": "tam-sim",
+    "audioHint": "tam-sim",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wet",
+    "hanzi": "澹",
+    "poj": "tam",
+    "tl": "tâm",
+    "audioHint": "tam",
+    "audioUrl": "",
+    "example": "Cit1-leh1 tua3la1 tam2. (This towel is wet.)",
+    "tags": [
+      "adjective"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "winter solstice",
+    "hanzi": "冬節",
+    "poj": "tang-cheh",
+    "tl": "tang-tseh",
+    "audioHint": "tang-tsek",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "winter solstice",
+    "hanzi": "冬至",
+    "poj": "tang-chì",
+    "tl": "tang-tsì",
+    "audioHint": "tang-tsi",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wintermelon (Benincasa hispida)",
+    "hanzi": "冬瓜",
+    "poj": "taŋ-kua",
+    "tl": "tang-kue",
+    "audioHint": "tang-kua",
+    "audioUrl": "",
+    "tags": [
+      "plant",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife's sisters' husband; brothers-in-law",
+    "hanzi": "同門",
+    "poj": "tâng-mûi",
+    "tl": "tâng-mûi",
+    "audioHint": "tang-mui",
+    "audioUrl": "",
+    "example": "Wah1 kio33 wah1-eh3 sio1moi3-eh3 ang1 co1 tang3mui2. (I call my younger sister's husband as tang3mui2.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "winter",
+    "hanzi": "冬天",
+    "poj": "taŋ-thĩ",
+    "tl": "taŋ-thĩ",
+    "audioHint": "tang-thi",
+    "audioUrl": "",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worth, worthwhile",
+    "hanzi": "值",
+    "poj": "ta̍t",
+    "tl": "ta̍t",
+    "audioHint": "tat",
+    "audioUrl": "",
+    "example": "Cit1-leh1 chia1 boh3 tat1 beh4. (This car is not worthwhile buying.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "underpants, underwear",
+    "poj": "te-khɔ",
+    "tl": "te-khɔ",
+    "audioHint": "te-kho",
+    "audioUrl": "",
+    "example": "Heh1-leh1 gin1na1knia4 boh3 cheng3 te1khor1. (The little boy was not wearing underpants.)",
+    "tags": [
+      "animal",
+      "body",
+      "clothing"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger brother's wife; husband's younger brother's wife; sister-in-law",
+    "hanzi": "弟婦",
+    "poj": "ti-hu",
+    "tl": "tē-hū",
+    "audioHint": "ti-hu",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "virtue, morality, ethics, favor, benevolence, kindness",
+    "hanzi": "德",
+    "poj": "tek",
+    "tl": "tik",
+    "audioHint": "tek",
+    "audioUrl": "",
+    "example": "Ie1-eh3 tau3ke1 ho1 teik3-eh3 lang2. (His boss is a person of good conduct.)",
+    "tags": [
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worm, insect",
+    "poj": "thaŋ",
+    "tl": "thaŋ",
+    "audioHint": "thang",
+    "audioUrl": "",
+    "tags": [
+      "animal"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger paternal female cousin",
+    "hanzi": "堂妹",
+    "poj": "thaŋ-moi",
+    "tl": "n.a.",
+    "audioHint": "thang-moi",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "window",
+    "hanzi": "窗仔",
+    "poj": "thaŋ-ŋa",
+    "tl": "thang-á",
+    "audioHint": "thang-nga",
+    "audioUrl": "",
+    "tags": [
+      "home",
+      "nature",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "younger paternal male cousin",
+    "hanzi": "堂弟",
+    "poj": "thaŋ-ko",
+    "tl": "n.a.",
+    "audioHint": "thang-ko",
+    "audioUrl": "",
+    "tags": [
+      "adjective",
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to walk off with, to steal away, to make away with; to run away, to flee",
+    "hanzi": "偷走",
+    "poj": "thau-cháu",
+    "tl": "thau-tsáu",
+    "audioHint": "thau-tsau",
+    "audioUrl": "",
+    "tags": [
+      "colour",
+      "direction",
+      "drink",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "veil worn by bride",
+    "poj": "thau-kin",
+    "tl": "thau-kin",
+    "audioHint": "thau-kin",
+    "audioUrl": "",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to worsen",
+    "hanzi": "退步",
+    "poj": "thei-pɔ",
+    "tl": "thè-pōo",
+    "audioHint": "thei-po",
+    "audioUrl": "",
+    "tags": [
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wire",
+    "poj": "thiʔ-suã",
+    "tl": "thiʔ-suã",
+    "audioHint": "thi-sua",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "weather",
+    "poj": "thĩ-si",
+    "tl": "thĩ-si",
+    "audioHint": "thi-si",
+    "audioUrl": "",
+    "tags": [
+      "food",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "world",
+    "hanzi": "天地",
+    "poj": "thĩ-te",
+    "tl": "thĩ-te",
+    "audioHint": "thi-te",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "waste, useless consumption",
+    "hanzi": "討債",
+    "poj": "thɔ-tsɛ",
+    "tl": "thó-tsè",
+    "audioHint": "tho-tse",
+    "audioUrl": "",
+    "tags": [
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wear hat (homophone for tee3, CLR of tai3)",
+    "hanzi": "戴",
+    "poj": "ti",
+    "tl": "ti",
+    "audioHint": "ti",
+    "audioUrl": "",
+    "example": "Wah1 ti3 ie1 hor33 wah4-eh3 bo3. (I'm wearing the hat that he gave me.)",
+    "tags": [
+      "body",
+      "clothing",
+      "home",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "when, at what time",
+    "hanzi": "底時",
+    "poj": "ti-si",
+    "tl": "tī-sî",
+    "audioHint": "ti-si",
+    "audioUrl": "",
+    "example": "Lu1 ti3si2 pang1kae4? (When are you having your school holidays?)",
+    "tags": [
+      "animal",
+      "clothing",
+      "grammar",
+      "question",
+      "time"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to unknowingly offended a deity or wandering spirit and is thus punished with some form of illness.",
+    "hanzi": "著犯",
+    "poj": "tioʔ-huan",
+    "tl": "tioʔ-huan",
+    "audioHint": "tio-huan",
+    "audioUrl": "",
+    "tags": [
+      "clothing",
+      "culture",
+      "grammar",
+      "medical",
+      "time",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "under duress",
+    "hanzi": "著逼",
+    "poj": "tioh-pek",
+    "tl": "tio̍h pik",
+    "audioHint": "tioh-pek",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wok",
+    "hanzi": "鼎",
+    "poj": "tiáⁿ",
+    "tl": "tiánn",
+    "audioHint": "tia",
+    "audioUrl": "",
+    "example": "Wah1 beh4 sin3 tnia4 ti1 cap3hoay1tiam4. (I bought a new wok from the sundry shop.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife's father; father-in-law",
+    "hanzi": "丈人",
+    "poj": "tiãu-laŋ",
+    "tl": "tiãu-laŋ",
+    "audioHint": "tiau-lang",
+    "audioUrl": "",
+    "example": "Wah1-eh3 tniau33lang2 boh3 co1kang1 liau4. (My father-in-law is no longer working.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wife's mother; mother-in-law",
+    "hanzi": "丈姆",
+    "poj": "tiãu-m",
+    "tl": "tiãu-m",
+    "audioHint": "tiau-m",
+    "audioUrl": "",
+    "example": "Ie1-eh3 tniau33mm4 gau3 co1 lak1sa4. (His mother-in-law is good at preparing laksa.)",
+    "tags": [
+      "family",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "upside down",
+    "hanzi": "倒吊",
+    "poj": "to-tiau",
+    "tl": "tò-tiàu",
+    "audioHint": "to-tiau",
+    "audioUrl": "",
+    "example": "Ka1liau4-eh3 mi3knia1 ti1 ie1-eh3 pang3keng1 to1tiau3. (Everything in his room is upside down.)",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "verb",
+    "hanzi": "動詞",
+    "poj": "tōng-sû",
+    "tl": "tōng-sû",
+    "audioHint": "tong-su",
+    "audioUrl": "",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "zoological garden",
+    "hanzi": "動物園",
+    "poj": "tɔŋ-but-huĩ",
+    "tl": "tɔŋ-but-huĩ",
+    "audioHint": "tong-but-hui",
+    "audioUrl": "",
+    "example": "Taiping uh33 cit3-leh3 tong3boot3hnui2. (Taiping has a zoo.)",
+    "tags": [
+      "place",
+      "plant"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "walking stick (MYL)",
+    "poj": "tɔŋ-kat",
+    "tl": "tɔŋ-kat",
+    "audioHint": "tong-kat",
+    "audioUrl": "",
+    "tags": [
+      "loanword"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Zhu Bajie, the pig in Journey to the West",
+    "hanzi": "豬八戒",
+    "poj": "tu-pat-kai",
+    "tl": "tu-pat-kai",
+    "audioHint": "tu-pat-kai",
+    "audioUrl": "",
+    "example": "Too3 Pat1 Kai3 cin3 tham3ciak1. (Too3 Pat1 Kai3 is very greedy.)",
+    "tags": [
+      "animal",
+      "direction",
+      "transport"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "upper case, big letters",
+    "poj": "tua-khai",
+    "tl": "tua-khai",
+    "audioHint": "tua-khai",
+    "audioUrl": "",
+    "tags": [
+      "direction"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "VIP (very important person)",
+    "hanzi": "大粒",
+    "poj": "tua-liap-laŋ",
+    "tl": "tua-liap-laŋ",
+    "audioHint": "tua-liap-lang",
+    "audioUrl": "",
+    "example": "Ie1-eh3 pa1 si33 tua33liap3lang2. (His father is a VIP.)",
+    "tags": [
+      "animal",
+      "colour",
+      "family",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "university",
+    "hanzi": "大學",
+    "poj": "tua-oʔ",
+    "tl": "tāi-ha̍k",
+    "audioHint": "tua-o",
+    "audioUrl": "",
+    "example": "Ie1-eh3 ca3bor1knia4 thark3 tua33ok1. (His daughter studies in the university.)",
+    "tags": [
+      "education"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "unrestrained, elegant",
+    "hanzi": "大範",
+    "poj": "tua-pan",
+    "tl": "tuā-pān",
+    "audioHint": "tua-pan",
+    "audioUrl": "",
+    "tags": [
+      "animal",
+      "body",
+      "nature",
+      "transport",
+      "weather"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "well-mannered",
+    "hanzi": "有禮貌",
+    "poj": "u-le-mau",
+    "tl": "u-le-mau",
+    "audioHint": "u-le-mau",
+    "audioUrl": "",
+    "example": "Ee1-eh3 hau3snaeh1 cin3 uh33 lay1mau3. (Her son is very well-mannered.)",
+    "tags": [
+      "colour"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worthwhile",
+    "hanzi": "有值",
+    "poj": "u-tat",
+    "tl": "u-tat",
+    "audioHint": "u-tat",
+    "audioUrl": "",
+    "example": "Beh4 cit1-keng3 chu3 cin3cnia1 uh33 tat1. (Buying this house is very worthwhile.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "worth the price",
+    "hanzi": "有值價",
+    "poj": "u-tat-kɛ",
+    "tl": "u-tat-kɛ",
+    "audioHint": "u-tat-ke",
+    "audioUrl": "",
+    "example": "Cit1-leh1 ku33 chia1 kokh1 uh33 tat3 kae3 gok3. (This old car is still worth something.)",
+    "tags": [
+      "food",
+      "shopping"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wealthy, rich",
+    "hanzi": "有鐳",
+    "poj": "u-lui",
+    "tl": "u-lui",
+    "audioHint": "u-lui",
+    "audioUrl": "",
+    "example": "Cit1-khien1 lang3 cin3cnia1 uh33lui1. (This man is very wealthy.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "useful",
+    "hanzi": "有用",
+    "poj": "u-jɔŋ",
+    "tl": "u-jɔŋ",
+    "audioHint": "u-jong",
+    "audioUrl": "",
+    "example": "Cit1-leh1 mi3knia3 lu1 beh4 eh2 uh33yong33 boh2? (This thing that you buy, is it useful?)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "we (first person plural)",
+    "hanzi": "我侬 and 我人",
+    "poj": "wa-laŋ",
+    "tl": "wa-laŋ",
+    "audioHint": "wa-lang",
+    "audioUrl": "",
+    "tags": [
+      "family"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "wonton dumplings",
+    "hanzi": "雲吞",
+    "poj": "wan-than",
+    "tl": "wan-than",
+    "audioHint": "wan-than",
+    "audioUrl": "",
+    "example": "Ee1 boek1 kah3 wah4 co1 wan3than1. (She wants to teach me to make wonton.)",
+    "tags": [
+      "food"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Vietnam",
+    "hanzi": "越南",
+    "poj": "wat-lam",
+    "tl": "Ua̍t-lâm",
+    "audioHint": "wat-lam",
+    "audioUrl": "",
+    "example": "Ie1 uh33 seng3li4 ti1 Wat3lam2 (He has business in Vietnam.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whatever",
+    "hanzi": "碗糕",
+    "poj": "wã-ko",
+    "tl": "uánn-ko",
+    "audioHint": "wa-ko",
+    "audioUrl": "",
+    "example": "Wah1 boh3 beng3peik1 ie1 kong4 ha1mik1 wna1ko1. (I don't understand whatever he is talking about.)",
+    "tags": [
+      "clothing",
+      "emotion"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "urgent, important",
+    "hanzi": "要緊",
+    "poj": "jau-kin",
+    "tl": "iàu-kín",
+    "audioHint": "jau-kin",
+    "audioUrl": "",
+    "example": "Cin3cnia1 yau1kin4 cai3 ie1 khee33 i3seng3kuan4. (It's very urgent to send him to the hospital.)",
+    "tags": [
+      "animal",
+      "colour",
+      "place"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to wander the streets",
+    "hanzi": "遊低路",
+    "poj": "jiu-kɛ-lɔ",
+    "tl": "jiu-kɛ-lɔ",
+    "audioHint": "jiu-ke-lo",
+    "audioUrl": "",
+    "example": "Heh1-leh1 khit1ciak3a4 kui3jit1 yiu3 kae33lor33. (The beggar wanders the streets the whole day.)",
+    "tags": [
+      "direction",
+      "grammar",
+      "nature",
+      "place",
+      "plant",
+      "verb"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "woolen",
+    "poj": "jɔŋ",
+    "tl": "jɔŋ",
+    "audioHint": "jong",
+    "audioUrl": "",
+    "example": "Ee1 cheng33 yong3 sna1. (She wears a woolen dress.)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "useless, good for nothing",
+    "hanzi": "飼了米",
+    "poj": "tshi-liau-bi",
+    "tl": "tshī-liáu-bí",
+    "audioHint": "tshi-liau-bi",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Cit1-leh1 gin1na4, chie3 ie1 leow1 bee4! (This child, feeding him is a waste of rice!)",
+    "tags": [
+      "adjective",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to utter bad words, to utter expletives",
+    "poj": "tshok-tshau-ua",
+    "tl": "tshok-tshau-ua",
+    "audioHint": "tshok-tshau-ua",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "exclamation",
+      "verb",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "to utter bad words, to utter expletives",
+    "hanzi": "𧮙粗話",
+    "poj": "chhoh chho·-ōa",
+    "tl": "tshoh tshoo-uā",
+    "audioHint": "tshok-tsho-ua",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "exclamation",
+      "verb",
+      "vulgar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "vast different",
+    "poj": "tsuaʔ-thĩ-ka-tsuaʔ-te",
+    "tl": "tsuaʔ-thĩ-ka-tsuaʔ-te",
+    "audioHint": "tsua-thi-ka-tsua-te",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Wah1-eh3 hoon3sor3 kah1 ie1-eh3 hoon3sor3 cuak3 thni1 kah1 cuak3 tay3. (There is a vast difference between the marks I received and what he received.)",
+    "tags": [
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "whatever; What the heck?",
+    "hanzi": "啥物碗糕",
+    "poj": "ha-mik-uã-ko",
+    "tl": "siánn-mih uánn-ko",
+    "audioHint": "ha-mik-ua-ko",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "clothing",
+      "emotion",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "Yup, concur, agree",
+    "poj": "ha-na",
+    "tl": "ha-na",
+    "audioHint": "ha-na",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "exclamation"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "very, extremely",
+    "hanzi": "甲欲死",
+    "poj": "ka-boeʔ-si",
+    "tl": "ka-boeʔ-si",
+    "audioHint": "ka-boe-si",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Wah1-eh3 por1tor4 thnia3 ka1 boek1 si4. (My stomach is aching badly)",
+    "tags": [
+      "misc"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "until finish",
+    "poj": "ka-liau",
+    "tl": "ka-liau",
+    "audioHint": "ka-liau",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "adverb",
+      "grammar"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "where got (?)",
+    "poj": "ma-na-u",
+    "tl": "ma-na-u",
+    "audioHint": "ma-na-u",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "direction",
+      "question"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "you're welcome (in response to 'thank you'), don't worry about it, don't stand on ceremony",
+    "hanzi": "毋通客氣",
+    "poj": "m-thaŋ-khɛʔ-khi",
+    "tl": "m-thaŋ-khɛʔ-khi",
+    "audioHint": "m-thang-khe-khi",
+    "audioUrl": "",
+    "category": "phrase",
+    "tags": [
+      "colour",
+      "culture",
+      "emotion",
+      "grammar",
+      "politeness",
+      "social"
+    ]
+  },
+  {
+    "dialectId": "malaysia_north",
+    "english": "which one?",
+    "hanzi": "佗一个",
+    "poj": "toʔ-tsit-le",
+    "tl": "toʔ-tsit-le",
+    "audioHint": "to-tsit-le",
+    "audioUrl": "",
+    "category": "phrase",
+    "example": "Lu1 boek3 tok1 cit3-leh2? (Which one do you want?)",
+    "tags": [
+      "question"
+    ]
+  }
+]

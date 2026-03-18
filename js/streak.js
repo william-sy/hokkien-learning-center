@@ -23,6 +23,13 @@ export function getStreak() {
 }
 
 function recordVisit() {
+  // Check for a skip flag set by reset/import — clear it and render 0
+  if (localStorage.getItem("hokkien_streak_skip") === "1") {
+    localStorage.removeItem("hokkien_streak_skip");
+    renderBadge(0);
+    return 0;
+  }
+
   const today     = todayISO();
   const yesterday = yesterdayISO();
   const { lastDate, count } = getStreak();

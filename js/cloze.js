@@ -57,7 +57,7 @@ populateDialectSelect();
 // ── data loading ──────────────────────────────────────────────────────────────
 async function ensureData() {
   if (allData) return;
-  const res = await fetch("data/dictionary.json");
+  const res = await fetch("data/dialects/shared.json");
   allData   = await res.json();
   pojPool   = [...new Set(allData.filter(e => e.poj).map(e => e.poj.trim()))];
 }

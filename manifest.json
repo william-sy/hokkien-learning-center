@@ -8,5 +8,11 @@
   "theme_color": "#dc2626",
   "lang": "en",
   "categories": ["education"],
+  "shortcuts": [
+    { "name": "Dictionary",  "url": "./dictionary.html",  "description": "Browse the Hokkien dictionary" },
+    { "name": "Lessons",     "url": "./lessons.html",     "description": "Structured vocabulary lessons" },
+    { "name": "Flashcards",  "url": "./flashcards.html",  "description": "Spaced repetition flashcards" },
+    { "name": "Review",      "url": "./review.html",      "description": "SRS review of learned words" }
+  ],
   "icons": []
 }
