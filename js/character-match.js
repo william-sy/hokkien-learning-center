@@ -3,9 +3,19 @@ const COOKIE_KEYS = {
   mode: "hokkien_match_mode"
 };
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
 const state = {
   content: null,
   dictionary: [],
+  twEnLoaded: false,
   cards: [],
   flippedCards: [],
   matchedPairs: 0,
@@ -48,6 +58,15 @@ async function loadContent() {
   return { content, dictionary };
 }
 
+async function loadTwEnEntries() {
+  if (state.twEnLoaded) return;
+  const results = await Promise.all(TW_EN_FILES.map(url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => [])));
+  for (const entries of results) {
+    state.dictionary.push(...entries);
+  }
+  state.twEnLoaded = true;
+}
+
 function initDialectSelect() {
   const select = byId("matchDialect");
   const { dialects } = state.content;
@@ -70,6 +89,7 @@ function initDialectSelect() {
     const groupEl = document.createElement("optgroup");
     groupEl.label = groupName;
     for (const dialect of items) {
+      if (dialect.dictionaryOnly) continue;
       const option = document.createElement("option");
       option.value = dialect.id;
       option.textContent = dialect.name;
@@ -83,9 +103,10 @@ function initDialectSelect() {
 
 function filterDictionary() {
   return state.dictionary.filter((entry) => {
-    // Need different fields based on mode
-    const hasRequiredFields = entry.hanzi && (entry.poj || entry.tl) && entry.english;
+    const hasRequiredFields = entry.hanzi && (entry.poj || entry.tl);
     if (!hasRequiredFields) return false;
+    // For modes that show English, require an english field
+    if ((state.mode === "hanzi-to-english" || state.mode === "english-to-hanzi") && !entry.english) return false;
     
     if (state.selectedDialect === "all") return true;
     if (entry.dialectId === state.selectedDialect) return true;
@@ -136,12 +157,24 @@ function generateCards(entries) {
   return shuffleArray(pairs);
 }
 
-function startGame() {
+async function startGame() {
   state.selectedDialect = byId("matchDialect").value;
   state.mode = byId("matchMode").value;
   
   setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
   setCookie(COOKIE_KEYS.mode, state.mode);
+
+  if (state.selectedDialect === "taiwanese_en" && !state.twEnLoaded) {
+    const btn = byId("startBtn");
+    btn.disabled = true;
+    btn.textContent = "Loading…";
+    try {
+      await loadTwEnEntries();
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Start Game";
+    }
+  }
 
   const filtered = filterDictionary();
   
@@ -306,6 +339,11 @@ async function init() {
     initDialectSelect();
     
     byId("matchMode").value = state.mode;
+
+    // Pre-load en entries in the background if the user had it selected last time
+    if (state.selectedDialect === "taiwanese_en") {
+      loadTwEnEntries();
+    }
 
     byId("backBtn").addEventListener("click", () => window.location.href = "index.html");
     byId("startBtn").addEventListener("click", startGame);

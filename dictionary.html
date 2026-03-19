@@ -36,11 +36,17 @@
     <main class="container">
       <section class="card">
         <h2>📖 Dictionary</h2>
-        
+
+        <div class="dict-tabs">
+          <a href="dictionary.html" class="dict-tab active">📖 English Dictionary</a>
+          <a href="dictionary_chinese.html" class="dict-tab">🀄 Chinese Reference (MoE)</a>
+        </div>
+
         <div class="dictionary-controls">
           <div class="control-group">
             <label for="dictDialect">Dialect Filter</label>
             <select id="dictDialect"></select>
+            <div id="twEnPreloadPanel" style="display:none;margin-top:0.4rem"></div>
           </div>
           
           <div class="control-group">

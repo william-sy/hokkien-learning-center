@@ -2,19 +2,33 @@
  * writing.js — Hanzi stroke-order practice page
  * Uses hanzi-writer (MIT, CDN) for SVG stroke animation / quiz mode.
  * Data from data/dialects/shared.json – entries that have a "hanzi" field.
+ * Also supports lazy-loading the full Taiwanese (English) dataset.
  */
 
 const SHARED_URL = "data/dialects/shared.json";
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
 const CANVAS_SIZE = 280;
 
-let allChars = [];       // { hanzi, poj, english }
+let sharedData = [];     // raw entries from shared.json
+let twEnData   = [];     // raw entries from taiwanese_en/*.json
+let twEnLoaded = false;
+
+let allChars = [];       // { hanzi, rom, english } built from active source
 let currentIdx = 0;
 let currentMode = "animate"; // "animate" | "quiz"
 
 // ── DOM refs (resolved after DOMContentLoaded via defer / module semantics) ──
-const wordListEl = document.getElementById("wordList");
-const canvasArea = document.getElementById("canvasArea");
-const modeTabs   = document.getElementById("modeTabs");
+const wordListEl    = document.getElementById("wordList");
+const canvasArea    = document.getElementById("canvasArea");
+const modeTabs      = document.getElementById("modeTabs");
+const sourceSelect  = document.getElementById("writingSource");
 
 // ── init ────────────────────────────────────────────────────────────────────
 async function init() {
@@ -26,11 +40,11 @@ async function init() {
 
   try {
     const res  = await fetch(SHARED_URL);
-    const data = await res.json();
-    buildCharList(data);
+    sharedData = await res.json();
+    buildCharList(sharedData);
     renderWordList();
     bindModeTabs();
-    // auto-load first character so the page isn't blank
+    bindSourceSelect();
     if (allChars.length) loadChar(0);
   } catch (e) {
     wordListEl.innerHTML = `<p class="muted small">⚠ Could not load dictionary data.</p>`;
@@ -38,8 +52,16 @@ async function init() {
   }
 }
 
+async function loadTwEnData() {
+  if (twEnLoaded) return;
+  const results = await Promise.all(TW_EN_FILES.map(url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => [])));
+  for (const entries of results) twEnData.push(...entries);
+  twEnLoaded = true;
+}
+
 function buildCharList(data) {
   const seen = new Set();
+  allChars = [];
   for (const entry of data) {
     if (!entry.hanzi) continue;
     const hanziChars = [...entry.hanzi].filter(c =>
@@ -48,15 +70,45 @@ function buildCharList(data) {
     if (hanziChars.length !== 1) continue; // single-char entries only
     if (seen.has(entry.hanzi)) continue;
     seen.add(entry.hanzi);
+    const rom = entry.poj || entry.tl || entry.romanization || "";
     allChars.push({
       hanzi:   entry.hanzi,
-      poj:     entry.poj || entry.romanization || "",
+      rom,
       english: Array.isArray(entry.english)
         ? entry.english.join(", ")
         : (entry.english || ""),
     });
   }
-  allChars.sort((a, b) => a.english.localeCompare(b.english));
+  if (sourceSelect && sourceSelect.value === "taiwanese_en") {
+    allChars.sort((a, b) => a.rom.localeCompare(b.rom));
+  } else {
+    allChars.sort((a, b) => a.english.localeCompare(b.english));
+  }
+}
+
+// ── source selector ──────────────────────────────────────────────────────────
+function bindSourceSelect() {
+  if (!sourceSelect) return;
+  sourceSelect.addEventListener("change", async () => {
+    currentIdx = 0;
+    wordListEl.innerHTML = `<p class="muted small">Loading…</p>`;
+    if (sourceSelect.value === "taiwanese_en") {
+      if (!twEnLoaded) {
+        sourceSelect.disabled = true;
+        wordListEl.innerHTML = `<p class="muted small">Downloading dictionary…</p>`;
+        try {
+          await loadTwEnData();
+        } finally {
+          sourceSelect.disabled = false;
+        }
+      }
+      buildCharList(twEnData);
+    } else {
+      buildCharList(sharedData);
+    }
+    renderWordList();
+    if (allChars.length) loadChar(0);
+  });
 }
 
 // ── word list ────────────────────────────────────────────────────────────────
@@ -67,10 +119,10 @@ function renderWordList() {
   }
   wordListEl.innerHTML = allChars.map((c, i) => `
     <button class="writing-word-btn${i === 0 ? " active" : ""}"
-            data-idx="${i}" aria-label="${c.english}">
+            data-idx="${i}" aria-label="${c.english || c.rom}">
       <span class="ww-hanzi">${c.hanzi}</span>
       <span>
-        <span>${c.poj}</span>
+        <span>${c.rom}</span>
         <span class="ww-english">${c.english}</span>
       </span>
     </button>`
@@ -116,7 +168,7 @@ function loadChar(idx) {
   canvasArea.innerHTML = `
     <div class="writing-char-info">
       <div class="wci-hanzi">${c.hanzi}</div>
-      <div class="wci-rom">${c.poj}</div>
+      <div class="wci-rom">${c.rom}</div>
       <div class="wci-english">${c.english}</div>
     </div>
     <div id="hwTarget" style="width:${CANVAS_SIZE}px;height:${CANVAS_SIZE}px;"></div>

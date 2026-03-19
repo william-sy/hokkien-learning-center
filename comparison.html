@@ -66,7 +66,8 @@ const DIALECT_LABELS = {
   quanzhou:         "Quanzhou (泉州)",
   zhangzhou:        "Zhangzhou (漳州)",
   xiamen:           "Xiamen / Amoy (廈門)",
-  taiwanese:        "Taiwanese (臺灣)",
+  taiwanese:        "Taiwanese",
+  taiwanese_moe:    "Taiwanese (MoE)",
   sea_hokkien:      "SE Asian Hokkien",
   malaysia_north:   "Malaysian – North",
   malaysia_central: "Malaysian – Central",
@@ -104,6 +105,12 @@ async function loadDictionary() {
     "data/dialects/malaysia_north/k-o.json",
     "data/dialects/malaysia_north/p-t.json",
     "data/dialects/malaysia_north/u-z.json",
+    "data/dialects/taiwanese_moe/a-e.json",
+    "data/dialects/taiwanese_moe/f-j.json",
+    "data/dialects/taiwanese_moe/k-o.json",
+    "data/dialects/taiwanese_moe/p-s.json",
+    "data/dialects/taiwanese_moe/t.json",
+    "data/dialects/taiwanese_moe/u-z.json",
   ];
   const results = await Promise.allSettled(
     sources.map(url => fetch(url).then(r => r.ok ? r.json() : []))

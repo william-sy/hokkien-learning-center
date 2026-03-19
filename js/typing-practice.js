@@ -6,9 +6,19 @@ const COOKIE_KEYS = {
   mode:    "hokkien_typing_mode"
 };
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
 const state = {
   content:    null,
   allEntries: [],          // merged words + phrases depending on source
+  twEnLoaded: false,
   deck:       [],
   idx:        0,
   dialect:    "all",
@@ -52,14 +62,21 @@ function stripTones(s) {
 }
 
 /**
- * Get the POJ for the current entry respecting the selected dialect's variant.
+ * Get the POJ/TL for the current entry respecting the selected dialect's variant.
  */
 function getPOJ(entry) {
   if (state.dialect !== "all" && entry.variants) {
     const v = entry.variants.find(v => v.dialectId === state.dialect);
-    if (v) return v.poj;
+    if (v) return v.poj || v.tl || "";
   }
-  return entry.poj;
+  return entry.poj || entry.tl || "";
+}
+
+async function loadTwEnData() {
+  if (state.twEnLoaded) return;
+  const results = await Promise.all(TW_EN_FILES.map(u => fetch(u).then(r => r.ok ? r.json() : []).catch(() => [])));
+  state.allWords = [...(state.allWords || []), ...results.flat()];
+  state.twEnLoaded = true;
 }
 
 // ── data loading ─────────────────────────────────────────────────────────────
@@ -102,6 +119,7 @@ function initDialectSelect() {
     const og = document.createElement("optgroup");
     og.label = grp;
     for (const d of items) {
+      if (d.dictionaryOnly) continue;
       const o = document.createElement("option");
       o.value = d.id;
       o.textContent = d.name;
@@ -308,7 +326,7 @@ function showSummary() {
 
 // ── start session ─────────────────────────────────────────────────────────────
 
-function startSession() {
+async function startSession() {
   state.dialect = byId("typingDialect").value;
   state.source  = byId("typingSource").value;
   state.mode    = byId("typingMode").value;
@@ -318,6 +336,17 @@ function startSession() {
   setCookie(COOKIE_KEYS.source,  state.source);
   setCookie(COOKIE_KEYS.mode,    state.mode);
 
+  if (state.dialect === "taiwanese_en" && !state.twEnLoaded) {
+    const btn = byId("startTypingBtn");
+    btn.disabled    = true;
+    btn.textContent = "Loading…";
+    try {
+      await loadTwEnData();
+    } finally {
+      btn.disabled    = false;
+      btn.textContent = "Start";
+    }
+  }
   state.deck = buildDeck();
 
   if (state.deck.length === 0) {
@@ -373,7 +402,7 @@ function buildCharPicker() {
 
   const title = document.createElement("div");
   title.className = "char-picker-title";
-  title.textContent = "POJ special characters";
+  title.textContent = "POJ / TL special characters";
   container.appendChild(title);
 
   for (const group of CHAR_GROUPS) {
@@ -434,6 +463,9 @@ async function init() {
 
   byId("typingSource").value = state.source;
   byId("typingMode").value   = state.mode;
+
+  // Pre-load en entries in background if last used
+  if (state.dialect === "taiwanese_en")  loadTwEnData();
 
   // Wire events
   byId("startTypingBtn").addEventListener("click",   startSession);

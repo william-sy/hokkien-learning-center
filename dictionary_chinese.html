@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hokkien Chinese Reference Dictionary - Taiwanese MoE | Hokkien Learning Center</title>
+    <meta name="description" content="Browse the Taiwanese Ministry of Education Hokkien dictionary with Chinese definitions. 14,222 entries with Hanzi, Tâi-lô romanization, tones, and example sentences." />
+    <meta name="keywords" content="Hokkien Chinese dictionary, Taiwanese MoE dictionary, 臺灣閩南語常用詞辭典, Hokkien Hanzi, Tâi-lô" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://william-sy.github.io/hokkien-learning-center/dictionary_chinese.html" />
+
+    <meta property="og:title" content="Hokkien Chinese Reference Dictionary (MoE)" />
+    <meta property="og:description" content="Taiwanese Ministry of Education Hokkien dictionary with Chinese definitions, Hanzi, and Tâi-lô romanization." />
+    <meta property="og:url" content="https://william-sy.github.io/hokkien-learning-center/dictionary_chinese.html" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/streak.js" type="module"></script>
+    <script src="js/pwa.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <h1><a href="index.html">Hokkien Learning Center</a></h1>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Learn</a>        <a href="dictionary.html" class="nav-link active">Dictionary</a>
+        <a href="phrases.html" class="nav-link">Phrases</a>
+        <a href="grammar.html" class="nav-link">Grammar</a>
+        <a href="tones.html" class="nav-link">Tones</a>
+        <a href="comparison.html" class="nav-link">Comparison</a>        <a href="info.html" class="nav-link">General Info</a>
+        <a href="contribute.html" class="nav-link">Contribute</a>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle theme">☀️</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>🀄 Chinese Reference Dictionary</h2>
+
+        <div class="dict-tabs">
+          <a href="dictionary.html" class="dict-tab">📖 English Dictionary</a>
+          <a href="dictionary_chinese.html" class="dict-tab active">🀄 Chinese Reference (MoE)</a>
+        </div>
+
+        <p class="muted" style="font-size:0.88em;margin-bottom:1rem">
+          Taiwanese Ministry of Education dictionary (臺灣閩南語常用詞辭典) — 14,222 entries with Chinese definitions.
+          Reference only; not used for learning games.
+          <a href="dictionary.html">Switch to the English dictionary →</a>
+        </p>
+
+        <!-- Loading panel — hidden once data is ready -->
+        <div id="loadPanel" style="text-align:center;padding:1.5rem 0 1rem">
+          <p class="muted" style="margin-bottom:0.5rem">Loading MoE dictionary…</p>
+          <div class="learned-progress" style="max-width:300px;margin:0 auto 0.4rem">
+            <div class="learned-progress-fill" id="loadProgressFill" style="width:0%;transition:width 0.3s"></div>
+          </div>
+          <span id="loadProgressText" style="font-size:0.8em;opacity:0.65">Downloading…</span>
+        </div>
+
+        <div id="mainContent" style="display:none">
+          <div class="dictionary-controls" style="grid-template-columns:1fr">
+            <div class="control-group">
+              <label for="dictSearch">Search</label>
+              <input
+                id="dictSearch"
+                type="search"
+                placeholder="Search Hanzi, Tâi-lô, or Chinese definition…"
+                aria-label="Search dictionary"
+              />
+            </div>
+          </div>
+
+          <div class="alphabet-nav" id="alphabetNav">
+            <button class="alphabet-btn active" data-letter="all">All</button>
+            <button class="alphabet-btn" data-letter="a">A</button>
+            <button class="alphabet-btn" data-letter="b">B</button>
+            <button class="alphabet-btn" data-letter="c">C</button>
+            <button class="alphabet-btn" data-letter="d">D</button>
+            <button class="alphabet-btn" data-letter="e">E</button>
+            <button class="alphabet-btn" data-letter="f">F</button>
+            <button class="alphabet-btn" data-letter="g">G</button>
+            <button class="alphabet-btn" data-letter="h">H</button>
+            <button class="alphabet-btn" data-letter="i">I</button>
+            <button class="alphabet-btn" data-letter="j">J</button>
+            <button class="alphabet-btn" data-letter="k">K</button>
+            <button class="alphabet-btn" data-letter="l">L</button>
+            <button class="alphabet-btn" data-letter="m">M</button>
+            <button class="alphabet-btn" data-letter="n">N</button>
+            <button class="alphabet-btn" data-letter="o">O</button>
+            <button class="alphabet-btn" data-letter="p">P</button>
+            <button class="alphabet-btn" data-letter="q">Q</button>
+            <button class="alphabet-btn" data-letter="r">R</button>
+            <button class="alphabet-btn" data-letter="s">S</button>
+            <button class="alphabet-btn" data-letter="t">T</button>
+            <button class="alphabet-btn" data-letter="u">U</button>
+            <button class="alphabet-btn" data-letter="v">V</button>
+            <button class="alphabet-btn" data-letter="w">W</button>
+            <button class="alphabet-btn" data-letter="x">X</button>
+            <button class="alphabet-btn" data-letter="y">Y</button>
+            <button class="alphabet-btn" data-letter="z">Z</button>
+          </div>
+
+          <!-- Dropdown fallback shown on very narrow screens (≤500px) -->
+          <select class="alphabet-select" id="alphabetSelect" aria-label="Filter by letter">
+            <option value="all">All letters</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+            <option value="f">F</option>
+            <option value="g">G</option>
+            <option value="h">H</option>
+            <option value="i">I</option>
+            <option value="j">J</option>
+            <option value="k">K</option>
+            <option value="l">L</option>
+            <option value="m">M</option>
+            <option value="n">N</option>
+            <option value="o">O</option>
+            <option value="p">P</option>
+            <option value="q">Q</option>
+            <option value="r">R</option>
+            <option value="s">S</option>
+            <option value="t">T</option>
+            <option value="u">U</option>
+            <option value="v">V</option>
+            <option value="w">W</option>
+            <option value="x">X</option>
+            <option value="y">Y</option>
+            <option value="z">Z</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="card" id="resultsSection" style="display:none">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.5rem">
+          <h3>Entries <span class="muted" style="font-size:0.85em;font-weight:normal">— sorted by Tâi-lô romanization</span></h3>
+          <button class="print-btn" onclick="window.print()">🖨️ Print</button>
+        </div>
+        <div id="wordsCount" class="results-count"></div>
+        <div id="wordsList" class="dictionary-entries"></div>
+      </section>
+    </main>
+
+    <footer class="footer">Built for GitHub Pages • Cookie state enabled</footer>
+    <script src="js/progress-manager.js" type="module"></script>
+    <script src="js/dictionary-chinese.js" type="module"></script>
+  </body>
+</html>

@@ -10,7 +10,8 @@
     "tags": [
       "emotion",
       "basic"
-    ]
+    ],
+    "example": "我啥物攏毋驚。 (Guá siánn-mih lóng m̄ kiann.)"
   },
   {
     "dialectId": "shared",
@@ -46,7 +47,8 @@
         "example": "Tong3kim1 lark3 tiam4 ae33por1 liau4. (It's six o'clock in the evening now.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "下晡我欲招阿美仔去𨑨迌。 (Ē-poo guá beh tsio A-bí--á khì tshit-thô.)"
   },
   {
     "dialectId": "shared",
@@ -68,7 +70,8 @@
         "audioHint": "ko",
         "tags": []
       }
-    ]
+    ],
+    "example": "樓閣 (lâu-koh)"
   },
   {
     "dialectId": "shared",
@@ -91,7 +94,8 @@
         "example": "Wah1-eh3 knia4 lark3 hoay3 liau4. (My child is six years old already.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "我比你較濟歲。 (Guá pí lí khah tsē huè.)"
   },
   {
     "dialectId": "shared",
@@ -128,7 +132,8 @@
     "tags": [
       "basic",
       "adverb"
-    ]
+    ],
+    "example": "逐家攏莫去。 (Ta̍k-ke lóng mài khì.)"
   },
   {
     "dialectId": "shared",
@@ -140,7 +145,8 @@
     "audioUrl": "",
     "tags": [
       "basic"
-    ]
+    ],
+    "example": "是毋是，罵家己。 (Sī m̄-sī, mē ka-kī.)"
   },
   {
     "dialectId": "shared",
@@ -152,7 +158,8 @@
     "audioUrl": "",
     "tags": [
       "basic"
-    ]
+    ],
+    "example": "遮的嘛攏是好的。 (Tsia--ê mā lóng sī hó--ê.)"
   },
   {
     "dialectId": "shared",
@@ -267,7 +274,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "伊真愛佇背後講人的長短跤話。 (I tsin ài tī puē-āu kóng lâng ê tn̂g-té-kha-uē.)"
   },
   {
     "dialectId": "shared",
@@ -321,7 +329,8 @@
         "audioHint": "phai",
         "tags": []
       }
-    ]
+    ],
+    "example": "咱人歹代誌毋通做。 (Lán lâng pháinn tāi-tsì m̄-thang tsò.)"
   },
   {
     "dialectId": "shared",
@@ -334,7 +343,8 @@
     "tags": [
       "object",
       "sport"
-    ]
+    ],
+    "example": "籃球 (nâ-kiû)"
   },
   {
     "dialectId": "shared",
@@ -348,7 +358,8 @@
     "tags": [
       "warning",
       "basic"
-    ]
+    ],
+    "example": "你做代誌愛較細膩咧。 (Lí tsò tāi-tsì ài khah sè-jī--leh.)"
   },
   {
     "dialectId": "shared",
@@ -361,7 +372,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "彼个查某囡仔真媠。 (Hit ê tsa-bóo gín-á tsin suí.)"
   },
   {
     "dialectId": "shared",
@@ -374,7 +386,8 @@
     "tags": [
       "furniture",
       "home"
-    ]
+    ],
+    "example": "囡仔大漢了後，眠床就愛換新的矣。 (Gín-á tuā-hàn liáu-āu, bîn-tshn̂g tō ài uānn sin--ê--ah.)"
   },
   {
     "dialectId": "shared",
@@ -417,7 +430,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "阮大兄大我三歲。 (Guán tuā-hiann tuā guá sann huè.)"
   },
   {
     "dialectId": "shared",
@@ -459,7 +473,8 @@
     "tags": [
       "taste",
       "adjective"
-    ]
+    ],
+    "example": "這聲苦矣！ (Tsit siann khóo--ah！)"
   },
   {
     "dialectId": "shared",
@@ -472,7 +487,8 @@
     "tags": [
       "colour",
       "basic"
-    ]
+    ],
+    "example": "紅媠，烏大範。 (Âng suí, oo tuā-pān.)"
   },
   {
     "dialectId": "malaysia_north",
@@ -485,7 +501,8 @@
     "tags": [
       "body",
       "medical"
-    ]
+    ],
+    "example": "流血 (lâu-hueh)"
   },
   {
     "dialectId": "shared",
@@ -498,7 +515,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "伊耍甲規身軀烏趖趖。 (I sńg kah kui-sin-khu oo-sô-sô.)"
   },
   {
     "dialectId": "shared",
@@ -511,7 +529,8 @@
     "tags": [
       "object",
       "education"
-    ]
+    ],
+    "example": "冊皮 (tsheh-phuê)"
   },
   {
     "dialectId": "shared",
@@ -724,7 +743,8 @@
     "tags": [
       "transport",
       "basic"
-    ]
+    ],
+    "example": "火車 (hué-tshia)"
   },
   {
     "dialectId": "shared",
@@ -809,7 +829,8 @@
         "example": "Cit1-leh1 gin1na4 si33 wah1-eh3 knia4. (This little boy is my child.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊的囡仔真古錐。 (I ê gín-á tsin kóo-tsui.)"
   },
   {
     "dialectId": "shared",
@@ -822,7 +843,8 @@
     "tags": [
       "food",
       "utensil"
-    ]
+    ],
+    "example": "動箸 (tāng-tī)"
   },
   {
     "dialectId": "shared",
@@ -835,7 +857,8 @@
     "tags": [
       "nature",
       "weather"
-    ]
+    ],
+    "example": "天頂攏無雲。 (Thinn-tíng lóng bô hûn.)"
   },
   {
     "dialectId": "shared",
@@ -848,7 +871,8 @@
     "tags": [
       "temperature",
       "adjective"
-    ]
+    ],
+    "example": "頭興興，尾冷冷。 (Thâu hìng-hìng, bué líng-líng.)"
   },
   {
     "dialectId": "shared",
@@ -876,7 +900,8 @@
     "tags": [
       "weather",
       "adjective"
-    ]
+    ],
+    "example": "寒甲欲死。 (Kuânn kah beh sí.)"
   },
   {
     "dialectId": "shared",
@@ -912,7 +937,8 @@
     "tags": [
       "adjective",
       "light"
-    ]
+    ],
+    "example": "較暗我就會轉去。 (Khah àm guá tō ē tńg--khì.)"
   },
   {
     "dialectId": "shared",
@@ -924,7 +950,8 @@
     "audioUrl": "",
     "tags": [
       "family"
-    ]
+    ],
+    "example": "阮查某囝今年欲考大學。 (Guán tsa-bóo-kiánn kin-nî beh khó tāi-ha̍k.)"
   },
   {
     "dialectId": "shared",
@@ -937,7 +964,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "出日 (tshut ji̍t)"
   },
   {
     "dialectId": "malaysia_north",
@@ -964,7 +992,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "這兩个物件無仝啦！愛斟酌看才看會出來。 (Tsit nn̄g ê mi̍h-kiānn bô-kāng--lah! Ài tsim-tsiok khuànn tsiah khuànn ē tshut--lâi.)"
   },
   {
     "dialectId": "shared",
@@ -977,7 +1006,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "朋友有難 (pîng-iú iú lān)"
   },
   {
     "dialectId": "shared",
@@ -990,7 +1020,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "垃圾衫愛另外囥。 (Lah-sap sann ài līng-guā khǹg.)"
   },
   {
     "dialectId": "shared",
@@ -1088,7 +1119,8 @@
         "example": "Cit1-leh1 mui2 cin3cnia1 ku33 liau4. (This is a very old door.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "頭前門 (thâu-tsîng mn̂g)"
   },
   {
     "dialectId": "shared",
@@ -1124,7 +1156,8 @@
     "tags": [
       "time",
       "adverb"
-    ]
+    ],
+    "example": "時間猶閣真早，慢慢仔來。 (Sî-kan iáu-koh tsin tsá, bān-bān-á lâi.)"
   },
   {
     "dialectId": "shared",
@@ -1161,7 +1194,8 @@
         "example": "",
         "tags": []
       }
-    ]
+    ],
+    "example": "雞卵 (ke-nn̄g)"
   },
   {
     "dialectId": "shared",
@@ -1174,7 +1208,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "八个人 (peh ê lâng)"
   },
   {
     "dialectId": "shared",
@@ -1248,7 +1283,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "暗時你莫佇外口拋拋走。 (Àm-sî lí mài tī guā-kháu pha-pha-tsáu.)"
   },
   {
     "dialectId": "shared",
@@ -1261,7 +1297,8 @@
     "tags": [
       "adjective",
       "shopping"
-    ]
+    ],
+    "example": "這遮貴，莫買啦！ (Tse tsiah kuì, mài bé--lah!)"
   },
   {
     "dialectId": "shared",
@@ -1284,7 +1321,8 @@
         "example": "Wah1-eh3 bat3ciu1 ceng4. (My eyes are swollen.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊目睭真大蕊。 (I ba̍k-tsiu tsin tuā luí.)"
   },
   {
     "dialectId": "shared",
@@ -1297,7 +1335,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "伊的面真圓。 (I ê bīn tsin înn.)"
   },
   {
     "dialectId": "shared",
@@ -1320,7 +1359,8 @@
         "example": "Ie1-eh3 chu3 cin3 hnui33. (His house is very far.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "彼个所在誠遠。 (Hit ê sóo-tsāi tsiânn hn̄g.)"
   },
   {
     "dialectId": "shared",
@@ -1334,7 +1374,8 @@
       "adjective",
       "adverb",
       "basic"
-    ]
+    ],
+    "example": "伊走了真緊。 (I tsáu liáu tsin kín.)"
   },
   {
     "dialectId": "shared",
@@ -1383,7 +1424,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "五領衫 (gōo niá sann)"
   },
   {
     "dialectId": "shared",
@@ -1406,7 +1448,8 @@
         "example": "Cit1-lui1 hua1 cin3 tua33 lui4. (This flower is very big.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "錢算了花去。 (Tsînn sǹg liáu hue--khì.)"
   },
   {
     "dialectId": "shared",
@@ -1419,7 +1462,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "跤尖手幼 (kha-tsiam-tshiú-iù)"
   },
   {
     "dialectId": "shared",
@@ -1432,7 +1476,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "四个人 (sì ê lâng)"
   },
   {
     "dialectId": "shared",
@@ -1511,7 +1556,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "按呢好！ (Án-ne hó!)"
   },
   {
     "dialectId": "shared",
@@ -1637,7 +1683,8 @@
     "tags": [
       "colour",
       "basic"
-    ]
+    ],
+    "example": "青色 (tshenn-sik)"
   },
   {
     "dialectId": "shared",
@@ -1660,7 +1707,8 @@
         "example": "Thor3kha1 la3sam2 liau4. (The floor is dirty.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "你的物件落佇塗跤矣。 (Lí ê mi̍h-kiānn lak tī thôo-kha--ah.)"
   },
   {
     "dialectId": "shared",
@@ -1696,7 +1744,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "去予伊趁一手去。 (Khì hōo i thàn tsi̍t tshiú khì.)"
   },
   {
     "dialectId": "shared",
@@ -1709,7 +1758,8 @@
     "tags": [
       "emotion",
       "basic"
-    ]
+    ],
+    "example": "伊毋知咧歡喜啥物？ (I m̄ tsai teh huann-hí siánn-mih?)"
   },
   {
     "dialectId": "shared",
@@ -1735,7 +1785,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "朋友有難 (pîng-iú iú lān)"
   },
   {
     "dialectId": "shared",
@@ -1765,7 +1816,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "這項買賣，一頭欲，一頭毋。 (Tsit hāng bé-bē, tsi̍t-thâu beh, tsi̍t-thâu m̄.)"
   },
   {
     "dialectId": "shared",
@@ -1788,7 +1840,8 @@
         "example": "Mm33thang3 ka1liau4 siu1 ti1 sim3knua1. (Don't keepn everything in the heart.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "彼个人的心肝真䆀，不時都想欲害人。 (Hit ê lâng ê sim-kuann tsin bái, put-sî to siūnn-beh hāi--lâng.)"
   },
   {
     "dialectId": "shared",
@@ -1801,7 +1854,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "這粒西瓜有偌重？ (Tsit lia̍p si-kue ū guā tāng?)"
   },
   {
     "dialectId": "shared",
@@ -1845,7 +1899,8 @@
     "tags": [
       "location",
       "basic"
-    ]
+    ],
+    "example": "遮是佗位？ (Tsia sī tó-uī?)"
   },
   {
     "dialectId": "shared",
@@ -1868,7 +1923,8 @@
         "example": "Ie1 beh1 sin3 chu3. (He bought a new house.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "起厝 (khí-tshù)"
   },
   {
     "dialectId": "shared",
@@ -1906,7 +1962,8 @@
         "audioHint": "lua",
         "tags": []
       }
-    ]
+    ],
+    "example": "芥辣 (kài-lua̍h)"
   },
   {
     "dialectId": "shared",
@@ -1919,7 +1976,8 @@
     "tags": [
       "temperature",
       "adjective"
-    ]
+    ],
+    "example": "眠床睏甲真燒。 (Bîn-tshn̂g khùn kah tsin sio.)"
   },
   {
     "dialectId": "shared",
@@ -1980,7 +2038,8 @@
         "example": "Lu1-eh3 chu3 an1cnua1 khee3? (How do we go to your house?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "到底著愛按怎做，你才會相信？ (Tàu-té tio̍h-ài án-tsuánn tsò, lí tsiah ē siong-sìn?)"
   },
   {
     "dialectId": "shared",
@@ -2082,7 +2141,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "一百箍 (tsi̍t-pah khoo)"
   },
   {
     "dialectId": "shared",
@@ -2096,7 +2156,8 @@
       "food",
       "emotion",
       "basic"
-    ]
+    ],
+    "example": "我腹肚枵矣。 (Guá pak-tóo iau--ah.)"
   },
   {
     "dialectId": "shared",
@@ -2119,7 +2180,8 @@
         "example": "Wah4 tua3 cit1-peng2. (I live here.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "你欲揣的人就是我。 (Lí beh tshuē ê lâng tō sī guá.)"
   },
   {
     "dialectId": "shared",
@@ -2361,7 +2423,8 @@
         "example": "Ie1 kio1 teh3 peng1. (he ordered iced tea.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "共肉冰起來。 (Kā bah ping--khí-lâi.)"
   },
   {
     "dialectId": "shared",
@@ -2390,7 +2453,8 @@
     "tags": [
       "location",
       "basic"
-    ]
+    ],
+    "example": "這跤皮箱內底貯啥物？ (Tsit kha phuê-siunn lāi-té té siánn-mih?)"
   },
   {
     "dialectId": "shared",
@@ -2532,7 +2596,8 @@
         "example": "Lu4 ciak1 thau3seng1. (You eat first.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "我頭先是去彼爿，後來才來遮的。 (Guá thâu-sing sī khì hit pîng, āu--lâi tsiah lâi tsia--ê.)"
   },
   {
     "dialectId": "shared",
@@ -2545,7 +2610,8 @@
     "tags": [
       "object",
       "home"
-    ]
+    ],
+    "example": "一支鎖匙 (tsi̍t ki só-sî)"
   },
   {
     "dialectId": "shared",
@@ -2558,7 +2624,8 @@
     "tags": [
       "home",
       "food"
-    ]
+    ],
+    "example": "士林夜市仔敢若阮兜的灶跤咧！ (Sū-lîm iā-tshī-á kánn-ná guán tau ê tsàu-kha--leh!)"
   },
   {
     "dialectId": "shared",
@@ -2602,7 +2669,8 @@
     "tags": [
       "direction",
       "basic"
-    ]
+    ],
+    "example": "你頭拄仔講的彼間店是佇路的倒爿抑是正爿？ (Lí thâu-tú-á kóng--ê hit king tiàm sī tī lōo ê tò-pîng ia̍h-sī tsiànn-pîng?)"
   },
   {
     "dialectId": "shared",
@@ -2638,7 +2706,8 @@
         "audioHint": "kui",
         "tags": []
       }
-    ]
+    ],
+    "example": "天光矣。 (Thinn-kng--ah.)"
   },
   {
     "dialectId": "shared",
@@ -2661,7 +2730,8 @@
         "example": "Mm33thang3 co3 heh1-leh1 pnua2 khing3khong3khiau3. (Don't overturn the plate.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "體重輕 (thé-tāng khin)"
   },
   {
     "dialectId": "shared",
@@ -2706,7 +2776,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "長期 (tn̂g-kî)"
   },
   {
     "dialectId": "shared",
@@ -2729,7 +2800,8 @@
         "example": "Wah1-eh3 lui1 boh3 ce33. (My money isn't much.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊的齣頭真濟。 (I ê tshut-thâu tsin tsē.)"
   },
   {
     "dialectId": "shared",
@@ -2742,7 +2814,8 @@
     "tags": [
       "place",
       "shopping"
-    ]
+    ],
+    "example": "我欲來去市場買一塊豬肝。 (Guá beh lâi-khì tshī-tiûnn bé tsi̍t tè ti-kuann.)"
   },
   {
     "dialectId": "shared",
@@ -2765,7 +2838,8 @@
         "example": "Lu4 uh33 ciak3 bak3 boh2? (Do you eat meat?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "生做肉肉肉。 (Senn tsò bah-bah-bah.)"
   },
   {
     "dialectId": "shared",
@@ -2788,7 +2862,8 @@
         "example": "Ha1mik1 su33 lu1 ciak3 iok1? (Why are you taking medicine?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "中藥 (tiong-io̍h)"
   },
   {
     "dialectId": "shared",
@@ -2802,7 +2877,8 @@
       "noun",
       "shopping",
       "basic"
-    ]
+    ],
+    "example": "金錢 (kim-tsînn)"
   },
   {
     "dialectId": "shared",
@@ -2848,7 +2924,8 @@
         "audioHint": "gue",
         "example": "Kin3meh2-eh3 guek1 cin3 knui1. (The moon tonight is very bright.)"
       }
-    ]
+    ],
+    "example": "月娘 (gue̍h-niû)"
   },
   {
     "dialectId": "shared",
@@ -2861,7 +2938,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "伊逐工早起攏會去公園運動。 (I ta̍k kang tsá-khí lóng ē khì kong-hn̂g ūn-tōng.)"
   },
   {
     "dialectId": "shared",
@@ -2963,7 +3041,8 @@
     "tags": [
       "noun",
       "basic"
-    ]
+    ],
+    "example": "你號做啥物名？ (Lí hō-tsò siánn-mih miâ?)"
   },
   {
     "dialectId": "shared",
@@ -2976,7 +3055,8 @@
     "tags": [
       "adjective",
       "distance"
-    ]
+    ],
+    "example": "近來 (kīn-lâi)"
   },
   {
     "dialectId": "shared",
@@ -3000,7 +3080,8 @@
         "example": "Ie1 boh3yau1kin4 ie1 than3-eh3 sa3man3. (He ignored the fine that he received.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "物件若好，較貴一點仔無要緊。 (Mi̍h-kiānn nā hó, khah kuì--tsi̍t-tiám-á bô iàu-kín.)"
   },
   {
     "dialectId": "shared",
@@ -3039,7 +3120,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "新厝 (sin tshù)"
   },
   {
     "dialectId": "shared",
@@ -3099,7 +3181,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "無月光的暗暝。 (Bô gue̍h-kng ê àm-mê.)"
   },
   {
     "dialectId": "shared",
@@ -3128,7 +3211,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "十喙九尻川。 (Tsa̍p tshuì káu kha-tshng.)"
   },
   {
     "dialectId": "shared",
@@ -3151,7 +3235,8 @@
         "example": "Cit1-leh1 boh3 siang33 ka1 heh1-leh1. (This is not the same as that.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "洗無清氣。 (Sé bô tshing-khì.)"
   },
   {
     "dialectId": "shared",
@@ -3208,7 +3293,8 @@
     "tags": [
       "body",
       "basic"
-    ]
+    ],
+    "example": "伊彼支鼻真媠。 (I hit ki phīnn tsin suí.)"
   },
   {
     "dialectId": "shared",
@@ -3275,7 +3361,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "你這陣有啥物拍算？ (Lí tsit-tsūn ū siánn-mih phah-sǹg?)"
   },
   {
     "dialectId": "shared",
@@ -3302,7 +3389,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "花已經老去矣！ (Hue í king láu--khì--ah!)"
   },
   {
     "dialectId": "shared",
@@ -3315,7 +3403,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "舊鞋較好穿。 (Kū ê khah hó-tshīng.)"
   },
   {
     "dialectId": "shared",
@@ -3361,7 +3450,8 @@
         "audioHint": "it",
         "tags": []
       }
-    ]
+    ],
+    "example": "紅嬰仔哭甲一身軀汗。 (Âng-enn-á khàu kah tsi̍t sin-khu kuānn.)"
   },
   {
     "dialectId": "shared",
@@ -3420,7 +3510,8 @@
     "tags": [
       "location",
       "basic"
-    ]
+    ],
+    "example": "伊拄才對外口轉來。 (I tú-tsiah tuì guā-kháu tńg--lâi.)"
   },
   {
     "dialectId": "shared",
@@ -3433,7 +3524,8 @@
     "tags": [
       "noun",
       "basic"
-    ]
+    ],
+    "example": "做牛著拖，做人著磨。 (Tsò gû tio̍h thua, tsò-lâng tio̍h buâ.)"
   },
   {
     "dialectId": "shared",
@@ -3525,7 +3617,8 @@
     "tags": [
       "food",
       "utensil"
-    ]
+    ],
+    "example": "豆油碟仔 (tāu-iû ti̍h-á)"
   },
   {
     "dialectId": "shared",
@@ -3538,7 +3631,8 @@
     "tags": [
       "politeness",
       "basic"
-    ]
+    ],
+    "example": "請你有閒來阮遐𨑨迌。 (Tshiánn lí ū-îng lâi guán hia tshit-thô.)"
   },
   {
     "dialectId": "shared",
@@ -3664,7 +3758,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "恬靜 (tiām-tsēnn)"
   },
   {
     "dialectId": "shared",
@@ -3690,7 +3785,8 @@
     "tags": [
       "colour",
       "basic"
-    ]
+    ],
+    "example": "伊這馬誠紅。 (I tsit-má tsiânn âng.)"
   },
   {
     "dialectId": "shared",
@@ -3713,7 +3809,8 @@
         "example": "Pnui33 cu4 seik1 liau4 boey3? (Is the rice cooked?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "白飯 (pe̍h-pn̄g)"
   },
   {
     "dialectId": "shared",
@@ -3726,7 +3823,8 @@
     "tags": [
       "food",
       "basic"
-    ]
+    ],
+    "example": "糙米 (tshò-bí)"
   },
   {
     "dialectId": "shared",
@@ -3793,7 +3891,8 @@
         "example": "Cit1-leh1 kae33lor33 cin3 ce33 lark1sap3. (There is a lot of trash on this road.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "垃圾衫愛另外囥。 (Lah-sap sann ài līng-guā khǹg.)"
   },
   {
     "dialectId": "shared",
@@ -3806,7 +3905,8 @@
     "tags": [
       "emotion",
       "adjective"
-    ]
+    ],
+    "example": "人都已經死去矣，你莫閣傷心矣。 (Lâng to í-king sí--khì--ah, lí mài koh siong-sim--ah.)"
   },
   {
     "dialectId": "shared",
@@ -3940,7 +4040,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "七个人 (tshit ê lâng)"
   },
   {
     "dialectId": "shared",
@@ -3978,7 +4079,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "伊攏總生六个後生。 (I lóng-tsóng senn la̍k ê hāu-senn.)"
   },
   {
     "dialectId": "shared",
@@ -3991,7 +4093,8 @@
     "tags": [
       "nature",
       "basic"
-    ]
+    ],
+    "example": "人咧做，天咧看。 (Lâng teh tsò, thinn teh khuànn.)"
   },
   {
     "dialectId": "shared",
@@ -4005,7 +4108,8 @@
       "adjective",
       "adverb",
       "basic"
-    ]
+    ],
+    "example": "你哪會行遮慢！ (Lí ná ē kiânn tsiah bān!)"
   },
   {
     "dialectId": "shared",
@@ -4018,7 +4122,8 @@
     "tags": [
       "adjective",
       "basic"
-    ]
+    ],
+    "example": "講話較細聲咧。 (Kóng-uē khah sè-siann--leh.)"
   },
   {
     "dialectId": "shared",
@@ -4062,7 +4167,8 @@
     "audioUrl": "",
     "tags": [
       "family"
-    ]
+    ],
+    "example": "阮查某囝今年欲考大學。 (Guán tsa-bóo-kiánn kin-nî beh khó tāi-ha̍k.)"
   },
   {
     "dialectId": "shared",
@@ -4102,7 +4208,8 @@
     "tags": [
       "food",
       "basic"
-    ]
+    ],
+    "example": "這粒柑仔真有湯。 (Tsit lia̍p kam-á tsin ū thng.)"
   },
   {
     "dialectId": "shared",
@@ -4125,7 +4232,8 @@
         "example": "Ie1-eh3 bin33 cin3 snui1. (His face looks very unhappy.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "這粒柑仔酸酸。 (Tsit lia̍p kam-á sng-sng.)"
   },
   {
     "dialectId": "shared",
@@ -4138,7 +4246,8 @@
     "tags": [
       "nature",
       "basic"
-    ]
+    ],
+    "example": "天星 (thinn-tshenn)"
   },
   {
     "dialectId": "shared",
@@ -4192,7 +4301,8 @@
         "example": "Ie1-eh3 au33pae33 cin3 ho1 sim1. (His stepfather is very good-hearted.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "𪜶後爸對𪜶兄弟仔袂䆀。 (In āu-pē tuì in hiann-tī-á bē-bái.)"
   },
   {
     "dialectId": "shared",
@@ -4215,7 +4325,8 @@
         "example": "Lu1-eh3 por1tor4 cin3 tua33 leh2 liau4. (Your belly is very big already.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "你無代無誌哪會腹肚疼？ (Lí bô-tāi-bô-tsì ná ē pak-tóo thiànn?)"
   },
   {
     "dialectId": "shared",
@@ -4269,7 +4380,8 @@
         "example": "Ie1 gau3 ciak3 thng2. (He likes to eat sweet things/He has a sweet tooth.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "白糖 (pe̍h-thn̂g)"
   },
   {
     "dialectId": "shared",
@@ -4282,7 +4394,8 @@
     "tags": [
       "nature",
       "basic"
-    ]
+    ],
+    "example": "今仔日的日頭真猛。 (Kin-á-ji̍t ê ji̍t-thâu tsin mé.)"
   },
   {
     "dialectId": "shared",
@@ -4295,7 +4408,8 @@
     "tags": [
       "taste",
       "adjective"
-    ]
+    ],
+    "example": "這種餅真甜。 (Tsit-tsióng piánn tsin tinn.)"
   },
   {
     "dialectId": "shared",
@@ -4332,7 +4446,8 @@
         "audioHint": "te",
         "tags": []
       }
-    ]
+    ],
+    "example": "烏龍茶 (oo-liông-tê)"
   },
   {
     "dialectId": "shared",
@@ -4370,7 +4485,8 @@
         "example": "Tha1na1 cap3 tiam4 liau4. (It is now ten o'clock.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "十个人 (tsa̍p ê lâng)"
   },
   {
     "dialectId": "shared",
@@ -4430,7 +4546,8 @@
     "tags": [
       "location",
       "basic"
-    ]
+    ],
+    "example": "你的物件佇遐。 (Lí ê mi̍h-kiānn tī hia.)"
   },
   {
     "dialectId": "shared",
@@ -4443,7 +4560,8 @@
     "tags": [
       "pronoun",
       "basic"
-    ]
+    ],
+    "example": "𪜶兩个感情真好。 (In nn̄g ê kám-tsîng tsin hó.)"
   },
   {
     "dialectId": "shared",
@@ -4466,7 +4584,8 @@
         "example": "Cit1-leh1 si33 ha1mik1 mi3knia3 lai2? (What is this thing?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "你手提的是啥物物件？ (Lí tshiú the̍h--ê sī siánn-mih mi̍h-kiānn?)"
   },
   {
     "dialectId": "shared",
@@ -4503,7 +4622,8 @@
     "tags": [
       "number",
       "basic"
-    ]
+    ],
+    "example": "三隻狗 (sann tsiah káu)"
   },
   {
     "dialectId": "shared",
@@ -4531,7 +4651,8 @@
     "tags": [
       "emotion",
       "adjective"
-    ]
+    ],
+    "example": "伊看著真疲勞。 (I khuànn tio̍h tsin phî-lô.)"
   },
   {
     "dialectId": "malaysia_north",
@@ -4550,7 +4671,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "叫規半晡攏無人應聲。 (Kiò kui-puànn-poo lóng bô-lâng ìn-siann.)"
   },
   {
     "dialectId": "shared",
@@ -4563,7 +4685,8 @@
     "tags": [
       "verb",
       "movement"
-    ]
+    ],
+    "example": "到位矣。 (Kàu-uī--ah.)"
   },
   {
     "dialectId": "shared",
@@ -4586,7 +4709,8 @@
         "example": "A33si33 be33hiau4, mui33. (If you don't know, ask.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "我問你 (guá mn̄g--lí)"
   },
   {
     "dialectId": "shared",
@@ -4612,7 +4736,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "我是學生。 (Guá sī ha̍k-sing.)"
   },
   {
     "dialectId": "malaysia_north",
@@ -4632,7 +4757,8 @@
         "poj": "bóe",
         "tl": "bué"
       }
-    ]
+    ],
+    "example": "我欲買衫。 (Guá beh bé sann.)"
   },
   {
     "dialectId": "shared",
@@ -4655,7 +4781,8 @@
         "example": "Ie1 pho33 ie1-eh3 knia4. (He carried his baby.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊是抱來的。 (I sī phō--lâi--ê.)"
   },
   {
     "dialectId": "shared",
@@ -4677,7 +4804,8 @@
         "audioHint": "kuan",
         "tags": []
       }
-    ]
+    ],
+    "example": "窗仔愛總關。 (Thang-á ài tsóng kuainn.)"
   },
   {
     "dialectId": "shared",
@@ -4691,7 +4819,8 @@
       "verb",
       "movement",
       "basic"
-    ]
+    ],
+    "example": "𪜶規家攏來。 (In kui ke lóng lâi.)"
   },
   {
     "dialectId": "shared",
@@ -4704,7 +4833,8 @@
     "tags": [
       "verb",
       "food"
-    ]
+    ],
+    "example": "煮規桌頂的菜。 (Tsú kui toh-tíng ê tshài.)"
   },
   {
     "dialectId": "shared",
@@ -4717,7 +4847,8 @@
     "tags": [
       "verb",
       "number"
-    ]
+    ],
+    "example": "算看偌濟錢。 (Sǹg khuànn guā-tsē tsînn.)"
   },
   {
     "dialectId": "shared",
@@ -4730,7 +4861,8 @@
     "tags": [
       "verb",
       "emotion"
-    ]
+    ],
+    "example": "你莫閣哭矣！ (Lí mài koh khàu--ah!)"
   },
   {
     "dialectId": "shared",
@@ -4744,7 +4876,8 @@
       "verb",
       "food",
       "basic"
-    ]
+    ],
+    "example": "伊共西瓜切做四塊。 (I kā si-kue tshiat tsò sì tè.)"
   },
   {
     "dialectId": "shared",
@@ -4756,7 +4889,8 @@
     "audioUrl": "",
     "tags": [
       "verb"
-    ]
+    ],
+    "example": "頭前是死路。 (Thâu-tsîng sī sí-lōo.)"
   },
   {
     "dialectId": "shared",
@@ -4769,7 +4903,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "伊真𠢕啉。 (I tsin gâu lim.)"
   },
   {
     "dialectId": "shared",
@@ -4782,7 +4917,8 @@
     "tags": [
       "verb",
       "transport"
-    ]
+    ],
+    "example": "啉酒駛車會予警察開罰單。 (Lim-tsiú sái-tshia ē hōo kíng-tshat khui hua̍t-tuann.)"
   },
   {
     "dialectId": "shared",
@@ -4796,7 +4932,8 @@
       "verb",
       "food",
       "basic"
-    ]
+    ],
+    "example": "食甲老老老。 (Tsia̍h kah lāu-lāu-lāu.)"
   },
   {
     "dialectId": "shared",
@@ -4809,7 +4946,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "有誠濟較早的代誌，我攏袂記得矣。 (Ū tsiânn tsē khah-tsá ê tāi-tsì, guá lóng bē-kì--tit--ah.)"
   },
   {
     "dialectId": "shared",
@@ -4822,7 +4960,8 @@
     "tags": [
       "verb",
       "daily"
-    ]
+    ],
+    "example": "閣毋起床，你會袂赴。 (Koh m̄ khí-tshn̂g, lí ē bē-hù.)"
   },
   {
     "dialectId": "shared",
@@ -4835,7 +4974,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "我予你一个面子，這件代誌就準拄煞。 (Guá hōo lí tsi̍t ê bīn-tsú, tsit kiānn tāi-tsì tō tsún tú-suah.)"
   },
   {
     "dialectId": "shared",
@@ -4849,7 +4989,8 @@
       "verb",
       "movement",
       "basic"
-    ]
+    ],
+    "example": "伊舊年就去矣。 (I kū-nî tō khì--ah.)"
   },
   {
     "dialectId": "shared",
@@ -4862,7 +5003,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "伊有三間厝。 (I ū sann king tshù.)"
   },
   {
     "dialectId": "shared",
@@ -4885,7 +5027,8 @@
         "example": "Wah1 thnia1-tiok3 lang3 cheeo1 kua1. (I can hear people singing.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "這條歌有聽過無？ (Tsit tiâu kua ū thiann--kuè--bô?)"
   },
   {
     "dialectId": "shared",
@@ -4898,7 +5041,8 @@
     "tags": [
       "verb",
       "adverb"
-    ]
+    ],
+    "example": "伊走了真緊。 (I tsáu liáu tsin kín.)"
   },
   {
     "dialectId": "shared",
@@ -4911,7 +5055,8 @@
     "tags": [
       "verb",
       "movement"
-    ]
+    ],
+    "example": "攬咧跳。 (Lám teh thiàu.)"
   },
   {
     "dialectId": "shared",
@@ -4924,7 +5069,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "你的飯菜我有共你留咧。 (Lí ê pn̄g-tshài guá ū kā lí lâu--leh.)"
   },
   {
     "dialectId": "shared",
@@ -4936,7 +5082,8 @@
     "audioUrl": "",
     "tags": [
       "verb"
-    ]
+    ],
+    "example": "伊無細膩去予刀仔刣著。 (I bô sè-jī khì hōo to-á thâi--tio̍h.)"
   },
   {
     "dialectId": "shared",
@@ -4949,7 +5096,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "知影 (tsai-iánn)"
   },
   {
     "dialectId": "shared",
@@ -4975,7 +5123,8 @@
     "tags": [
       "verb",
       "emotion"
-    ]
+    ],
+    "example": "發粿炊了有笑。 (Huat-kué tshue liáu ū tshiò.)"
   },
   {
     "dialectId": "shared",
@@ -4998,7 +5147,8 @@
         "example": "Ee1 ok3 Ji3pun1na1 wa33. (She is learning Japanese.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "你莫閣學伊講話矣。 (Lí mài koh o̍h i kóng-uē--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5046,7 +5196,8 @@
         "audioHint": "khua",
         "tags": []
       }
-    ]
+    ],
+    "example": "你看彼隻狗。 (Lí khuànn hit tsiah káu.)"
   },
   {
     "dialectId": "shared",
@@ -5059,7 +5210,8 @@
     "tags": [
       "verb",
       "emotion"
-    ]
+    ],
+    "example": "我真愛𨑨迌。 (Guá tsin ài tshit-thô.)"
   },
   {
     "dialectId": "shared",
@@ -5095,7 +5247,8 @@
         "example": "Wah1 khai1 kau3 ka1 wah1 pok1kai1. (I spend until I am penniless.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "我的心肝放袂開。 (Guá ê sim-kuann pàng bē khui.)"
   },
   {
     "dialectId": "shared",
@@ -5121,7 +5274,8 @@
     "tags": [
       "verb",
       "leisure"
-    ]
+    ],
+    "example": "愛耍 (ài sńg)"
   },
   {
     "dialectId": "shared",
@@ -5134,7 +5288,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "財產放予囝孫。 (Tsâi-sán pàng hōo kiánn-sun.)"
   },
   {
     "dialectId": "shared",
@@ -5147,7 +5302,8 @@
     "tags": [
       "verb",
       "education"
-    ]
+    ],
+    "example": "你讀一遍予我聽。 (Lí tha̍k tsi̍t piàn hōo guá thiann.)"
   },
   {
     "dialectId": "shared",
@@ -5160,7 +5316,8 @@
     "tags": [
       "verb",
       "movement"
-    ]
+    ],
+    "example": "伊走無去矣。 (I tsáu bô--khì--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5183,7 +5340,8 @@
         "example": "Wah1 ka3 ie1 kong4. (I told him.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "我共你講。 (Guá kā lí kóng.)"
   },
   {
     "dialectId": "shared",
@@ -5227,7 +5385,8 @@
     "tags": [
       "verb",
       "daily"
-    ]
+    ],
+    "example": "我中晝食飽就愛睏。 (Guá tiong-tàu tsia̍h pá tō ài-khùn.)"
   },
   {
     "dialectId": "shared",
@@ -5250,7 +5409,8 @@
         "example": "Wah1 lau3 phni3. (I have a runny nose.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊彼支鼻真媠。 (I hit ki phīnn tsin suí.)"
   },
   {
     "dialectId": "shared",
@@ -5263,7 +5423,8 @@
     "tags": [
       "verb",
       "posture"
-    ]
+    ],
+    "example": "你徛佇遐創啥物？ (Lí khiā tī hia tshòng siánn-mih?)"
   },
   {
     "dialectId": "shared",
@@ -5286,7 +5447,8 @@
         "example": "Lu1 thek1 wah1-eh3 mi3knia3. (You took my stuff.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "無錢，做你共我提。 (Bô tsînn, tsò lí kā guá the̍h.)"
   },
   {
     "dialectId": "shared",
@@ -5308,7 +5470,8 @@
         "audioHint": "kong-ua",
         "tags": []
       }
-    ]
+    ],
+    "example": "你恬恬莫講話。 (Lí tiām-tiām mài kóng-uē.)"
   },
   {
     "dialectId": "shared",
@@ -5321,7 +5484,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "你敢知影伊叫做啥物名？ (Lí kám tsai-iánn i kiò tsò siánn-mih miâ?)"
   },
   {
     "dialectId": "shared",
@@ -5344,7 +5508,8 @@
         "example": "Ie1 khi4 Seng3 Ki3 Snua1 yong1 snua3lor33. (He went up Penang Hill using the hill road.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "伊共我的電腦用歹去矣。 (I kā guá ê tiān-náu īng pháinn--khì--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5357,7 +5522,8 @@
     "tags": [
       "verb",
       "basic"
-    ]
+    ],
+    "example": "等物僫到，等人快老。 (Tán mi̍h oh kàu, tán lâng khuài lāu.)"
   },
   {
     "dialectId": "shared",
@@ -5381,7 +5547,8 @@
         "example": "Ie1 na1 hnua33 na1 kin4. (He drove faster and faster.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "錶仔定去袂行矣。 (Pió-á tiānn--khì bē kiânn--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5440,7 +5607,8 @@
     "tags": [
       "verb",
       "daily"
-    ]
+    ],
+    "example": "伊去做工矣。 (I khì tsò-kang--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5453,7 +5621,8 @@
     "tags": [
       "verb",
       "education"
-    ]
+    ],
+    "example": "寫字 (siá-jī)"
   },
   {
     "dialectId": "shared",
@@ -5479,7 +5648,8 @@
     "tags": [
       "adverb",
       "social"
-    ]
+    ],
+    "example": "咱兩个做伙來去𨑨迌。 (Lán nn̄g ê tsò-hué lâi-khì tshit-thô.)"
   },
   {
     "dialectId": "shared",
@@ -5576,7 +5746,8 @@
         "audioHint": "tshui-khi",
         "tags": []
       }
-    ]
+    ],
+    "example": "鬥喙齒 (tàu tshuì-khí)"
   },
   {
     "dialectId": "shared",
@@ -5653,7 +5824,8 @@
     "tags": [
       "direction",
       "transport"
-    ]
+    ],
+    "example": "伊已經倒轉去下港矣。 (I í-king tò-tńg-khì ē-káng--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5690,7 +5862,8 @@
         "example": "Ie1 lai2 nor33 leh1pai3. (He comes for two weeks.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "兩蕊目睭 (nn̄g luí ba̍k-tsiu)"
   },
   {
     "dialectId": "shared",
@@ -5760,7 +5933,8 @@
     "tags": [
       "food",
       "basic"
-    ]
+    ],
+    "example": "有幾項菜？ (Ū kuí hāng tshài?)"
   },
   {
     "dialectId": "shared",
@@ -5798,7 +5972,8 @@
         "example": "Kin3jit1 cin3 juak1. (Today is very hot.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "相較真咧。 (Siòng khah tsin--leh.)"
   },
   {
     "dialectId": "shared",
@@ -5842,7 +6017,8 @@
     "tags": [
       "place",
       "noun"
-    ]
+    ],
+    "example": "田庄 (tshân-tsng)"
   },
   {
     "dialectId": "shared",
@@ -5899,7 +6075,8 @@
     "tags": [
       "pronoun",
       "basic"
-    ]
+    ],
+    "example": "阮欲走矣，你咧？ (Guán beh tsáu--ah, lí--leh?)"
   },
   {
     "dialectId": "shared",
@@ -5912,7 +6089,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "這批貨應該後禮拜就會到矣。 (Tsit phue huè ìng-kai āu lé-pài tō ē kàu--ah.)"
   },
   {
     "dialectId": "shared",
@@ -5925,7 +6103,8 @@
     "tags": [
       "question",
       "basic"
-    ]
+    ],
+    "example": "這是啥物件？ (Tse sī siánn mi̍h-kiānn?)"
   },
   {
     "dialectId": "shared",
@@ -5984,7 +6163,8 @@
     "tags": [
       "question",
       "time"
-    ]
+    ],
+    "example": "毋知影伊當時才會來。 (M̄ tsai-iánn i tang-sî tsiah ē lâi.)"
   },
   {
     "dialectId": "shared",
@@ -5997,7 +6177,8 @@
     "tags": [
       "question",
       "location"
-    ]
+    ],
+    "example": "恁兜是蹛佇佗位？ (Lín tau sī tuà tī tó-uī?)"
   },
   {
     "dialectId": "shared",
@@ -6081,7 +6262,8 @@
         "example": "Ie1 su3kak1 cheng33 paek3 sna1. (He likes to wear white shirt.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "白話 (pe̍h-uē)"
   },
   {
     "dialectId": "shared",
@@ -6120,7 +6302,8 @@
     "tags": [
       "weather",
       "nature"
-    ]
+    ],
+    "example": "風真透 (hong tsin thàu)"
   },
   {
     "dialectId": "shared",
@@ -6133,7 +6316,8 @@
     "tags": [
       "noun",
       "basic"
-    ]
+    ],
+    "example": "查某徛這爿，查埔徛彼爿。 (Tsa-bóo khiā tsit pîng, tsa-poo khiā hit pîng.)"
   },
   {
     "dialectId": "shared",
@@ -6156,7 +6340,8 @@
         "example": "All your answers are wrong.",
         "tags": []
       }
-    ]
+    ],
+    "example": "這件代誌毋著的人是你。 (Tsit kiānn tāi-tsì m̄-tio̍h ê lâng sī lí.)"
   },
   {
     "dialectId": "shared",
@@ -6192,7 +6377,8 @@
         "example": "Lu1 beh4-eh3 sna1 ang2 a33si33 ooi2? (The shirt that you bought is red or yellow?)",
         "tags": []
       }
-    ]
+    ],
+    "example": "這粒檨仔黃矣，會使食矣。 (Tsit lia̍p suāinn-á n̂g--ah, ē-sái tsia̍h--ah.)"
   },
   {
     "dialectId": "shared",
@@ -6220,7 +6406,8 @@
     "tags": [
       "basic",
       "particle"
-    ]
+    ],
+    "example": "你著知道理。 (Lí tio̍h tsai tō-lí.)"
   },
   {
     "dialectId": "shared",
@@ -6233,7 +6420,8 @@
     "tags": [
       "time",
       "basic"
-    ]
+    ],
+    "example": "𪜶兩翁仔某昨日就出國去𨑨迌矣。 (In nn̄g ang-á-bóo tso̍h--ji̍t tō tshut-kok khì tshit-thô--ah.)"
   },
   {
     "dialectId": "shared",
@@ -6246,7 +6434,8 @@
     "tags": [
       "pronoun",
       "basic"
-    ]
+    ],
+    "example": "恁欲去佗位？ (Lín beh khì tó-uī?)"
   },
   {
     "dialectId": "shared",
@@ -6259,7 +6448,8 @@
     "tags": [
       "pronoun",
       "basic"
-    ]
+    ],
+    "example": "你蹛佇佗位？ (Lí tuà tī tó-uī?)"
   },
   {
     "dialectId": "shared",
@@ -6308,7 +6498,8 @@
         "example": "Lo1kun1 hor33 ie1 cai1 kong4 ie1 than3 hau33snaeh1. (The doctor told him that he got a son.)",
         "tags": []
       }
-    ]
+    ],
+    "example": "恁後生今年考著佗一間大學？ (Lín hāu-senn kin-nî khó-tio̍h tó tsi̍t king tāi-ha̍k?)"
   },
   {
     "dialectId": "shared",
@@ -6320,7 +6511,8 @@
     "audioUrl": "",
     "tags": [
       "family"
-    ]
+    ],
+    "example": "恁小弟今年幾歲矣？ (Lín sió-tī kin-nî kuí huè--ah?)"
   },
   {
     "dialectId": "shared",
@@ -6332,7 +6524,8 @@
     "audioUrl": "",
     "tags": [
       "family"
-    ]
+    ],
+    "example": "伊是阮小妹。 (I sī guán sió-muē.)"
   },
   {
     "dialectId": "shared",

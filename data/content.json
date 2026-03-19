@@ -23,7 +23,20 @@
       "id": "taiwanese",
       "name": "Taiwanese",
       "group": "Modern Standards",
-      "notes": "A broad local standard shaped historically by Quanzhou/Zhangzhou contact and modern media usage."
+      "notes": "A broad local variety shaped by Quanzhou/Zhangzhou contact and modern media."
+    },
+    {
+      "id": "taiwanese_moe",
+      "name": "Taiwanese MoE (Chinese · 14,222 entries)",
+      "group": "Modern Standards",
+      "notes": "Chinese-definition dictionary from the Ministry of Education 台灣閑南語常用詞轭典 (CC BY-ND 3.0 TW). Available in the Dictionary page only — english translations can be added over time.",
+      "dictionaryOnly": true
+    },
+    {
+      "id": "taiwanese_en",
+      "name": "Taiwanese (English · 75,137 entries)",
+      "group": "Modern Standards",
+      "notes": "Merged Maryknoll English-Taiwanese Dictionary (1976) and Embree A Dictionary of Southern Min (1973), digitised by ChhoeTaigi / 台文雞絲麵 (CC BY-SA 4.0). English definitions with POJ and Tâi-lô romanisation. Loaded on demand."
     },
     {
       "id": "sea_hokkien",
@@ -136,6 +149,11 @@
       "title": "MOE Taiwanese Hokkien Dictionary (官方台語辭典)",
       "type": "Dictionary",
       "url": "https://twblg.dict.edu.tw/holodict_new/"
+    },
+    {
+      "title": "g0v/moedict-data-twblg — Open MoE Dictionary Data (GitHub)",
+      "type": "Open Data",
+      "url": "https://github.com/g0v/moedict-data-twblg"
     },
     {
       "title": "iTaigi — Community Hokkien Dictionary",

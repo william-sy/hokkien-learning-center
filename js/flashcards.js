@@ -14,6 +14,7 @@ const state = {
   dictionary: [],
   currentDeck: [],
   currentIndex: 0,
+  twEnLoaded: false,
   selectedDialect: "all",
   mode: "english-to-hokkien",
   difficulty: "normal",
@@ -54,6 +55,24 @@ const MN_FILES = [
   "data/dialects/malaysia_north/u-z.json",
 ];
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
+async function loadTwEnEntries() {
+  if (state.twEnLoaded) return;
+  const results = await Promise.all(
+    TW_EN_FILES.map(u => fetch(u).then(r => r.ok ? r.json() : []).catch(() => []))
+  );
+  state.dictionary = [...state.dictionary, ...results.flat()];
+  state.twEnLoaded = true;
+}
+
 async function loadContent() {
   const [contentResponse, dictionaryResponse, ...mnResults] = await Promise.all([
     fetch("data/content.json", { cache: "no-store" }),
@@ -93,6 +112,7 @@ function initDialectSelect() {
     const groupEl = document.createElement("optgroup");
     groupEl.label = groupName;
     for (const dialect of items) {
+      if (dialect.dictionaryOnly) continue;
       const option = document.createElement("option");
       option.value = dialect.id;
       option.textContent = dialect.name;
@@ -174,12 +194,22 @@ function sortDeckWithDueFirst(deck) {
   return [...due, ...fresh];
 }
 
-function startSession() {
+async function startSession() {
   state.selectedDialect = byId("flashcardDialect").value;
   state.mode = byId("flashcardMode").value;
   state.difficulty = byId("flashcardDifficulty").value;
   state.reviewLearnedOnly = byId("reviewLearnedOnly").checked;
   state.selectedTag = byId("flashcardTag").value;
+
+
+  if (state.selectedDialect === "taiwanese_en" && !state.twEnLoaded) {
+    byId("startBtn").disabled = true;
+    byId("startBtn").textContent = "Loading dictionary…";
+    await loadTwEnEntries();
+    initTagSelect();
+    byId("startBtn").disabled = false;
+    byId("startBtn").textContent = "Start Session";
+  }
   
   setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
   setCookie(COOKIE_KEYS.mode, state.mode);
@@ -418,7 +448,13 @@ async function init() {
     initDialectSelect();
     initTagSelect();
     loadDueSet();
-    
+
+    // Pre-load en entries if user had that dialect selected last session
+    if (state.selectedDialect === "taiwanese_en") {
+      await loadTwEnEntries();
+      initTagSelect();
+    }
+
     byId("flashcardMode").value = state.mode;
     byId("flashcardDifficulty").value = state.difficulty;
     byId("reviewLearnedOnly").checked = state.reviewLearnedOnly;

@@ -3,9 +3,19 @@ const COOKIE_KEYS = {
   questionCount: "hokkien_tone_count"
 };
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
 const state = {
   content: null,
   dictionary: [],
+  twEnLoaded: false,
   questions: [],
   currentIndex: 0,
   selectedDialect: "all",
@@ -45,6 +55,13 @@ async function loadContent() {
   return { content, dictionary };
 }
 
+async function loadTwEnEntries() {
+  if (state.twEnLoaded) return;
+  const results = await Promise.all(TW_EN_FILES.map(url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => [])));
+  for (const entries of results) state.dictionary.push(...entries);
+  state.twEnLoaded = true;
+}
+
 function initDialectSelect() {
   const select = byId("toneDialect");
   const { dialects } = state.content;
@@ -67,6 +84,7 @@ function initDialectSelect() {
     const groupEl = document.createElement("optgroup");
     groupEl.label = groupName;
     for (const dialect of items) {
+      if (dialect.dictionaryOnly) continue;
       const option = document.createElement("option");
       option.value = dialect.id;
       option.textContent = dialect.name;
@@ -116,12 +134,24 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-function startQuiz() {
+async function startQuiz() {
   state.selectedDialect = byId("toneDialect").value;
   state.questionCount = parseInt(byId("questionCount").value);
   
   setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
   setCookie(COOKIE_KEYS.questionCount, state.questionCount);
+
+  if (state.selectedDialect === "taiwanese_en" && !state.twEnLoaded) {
+    const btn = byId("startBtn");
+    btn.disabled = true;
+    btn.textContent = "Loading…";
+    try {
+      await loadTwEnEntries();
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Start Quiz";
+    }
+  }
 
   const filtered = filterDictionary();
   
@@ -266,6 +296,11 @@ async function init() {
     initDialectSelect();
     
     byId("questionCount").value = state.questionCount;
+
+    // Pre-load en entries in the background if the user had it selected last time
+    if (state.selectedDialect === "taiwanese_en") {
+      loadTwEnEntries();
+    }
 
     byId("backBtn").addEventListener("click", () => window.location.href = "index.html");
     byId("startBtn").addEventListener("click", startQuiz);

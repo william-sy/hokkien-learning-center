@@ -7,6 +7,7 @@ const REPO_URL = "https://github.com/william-sy/hokkien-learning-center";
 
 const state = {
   content: null,
+  twEnLoaded: false,
   selectedDialect: "all",
   search: ""
 };
@@ -34,6 +35,24 @@ const MN_FILES = [
   "data/dialects/malaysia_north/p-t.json",
   "data/dialects/malaysia_north/u-z.json",
 ];
+
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
+async function loadTwEnEntries() {
+  if (state.twEnLoaded) return;
+  const results = await Promise.all(
+    TW_EN_FILES.map(u => fetch(u).then(r => r.ok ? r.json() : []).catch(() => []))
+  );
+  state.content.dictionary = [...state.content.dictionary, ...results.flat()];
+  state.twEnLoaded = true;
+}
 
 async function loadContent() {
   const [contentResponse, dictionaryResponse, ...mnResults] = await Promise.all([
@@ -76,6 +95,7 @@ function initDialectSelect() {
     const groupEl = document.createElement("optgroup");
     groupEl.label = groupName;
     for (const dialect of items) {
+      if (dialect.dictionaryOnly) continue;
       const option = document.createElement("option");
       option.value = dialect.id;
       option.textContent = dialect.name;
@@ -87,10 +107,13 @@ function initDialectSelect() {
   select.value = state.selectedDialect;
   updateDialectNotes();
 
-  select.addEventListener("change", () => {
+  select.addEventListener("change", async () => {
     state.selectedDialect = select.value;
     setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
     updateDialectNotes();
+    if (state.selectedDialect === "taiwanese_en" && !state.twEnLoaded) {
+      await loadTwEnEntries();
+    }
     renderDictionary();
     renderPronunciation();
   });
@@ -152,7 +175,7 @@ function renderDictionary() {
     
     article.innerHTML = `
       <div class="entry-header">
-        <h3>${item.hanzi || "(No Hanzi)"} · ${item.english}</h3>
+        <h3>${item.hanzi || "(No Hanzi)"} · ${item.english || item.chinese || ""}</h3>
         ${audioBtn}
       </div>
       <p class="meta">POJ: ${item.poj || "-"} | TL: ${item.tl || "-"}</p>
@@ -254,6 +277,8 @@ function playAudio(audioUrl) {
 
 function hydrateStateFromCookies() {
   state.selectedDialect = getCookie(COOKIE_KEYS.selectedDialect) || "all";
+  // taiwanese_moe moved to dictionary_chinese.html — reset any stale cookie
+  if (state.selectedDialect === "taiwanese_moe") state.selectedDialect = "all";
   state.search = getCookie(COOKIE_KEYS.search) || "";
 }
 

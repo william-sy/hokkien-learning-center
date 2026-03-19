@@ -25,9 +25,21 @@ const finalScoreEl    = document.getElementById("finalScore");
 const perfMsgEl       = document.getElementById("performanceMessage");
 const retryBtn        = document.getElementById("retryBtn");
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
 // ── state ─────────────────────────────────────────────────────────────────────
-let allData    = null;   // full dictionary array
-let pojPool    = [];     // all unique POJ strings for distractors
+let sharedData = null;   // shared.json entries
+let twEnData   = null;   // taiwanese_en entries (lazy)
+let twEnLoaded = false;
+let allData    = null;   // active dataset rebuilt per ensureData call
+let pojPool    = [];     // all unique POJ/TL strings for distractors
 let queue      = [];     // question objects for this session
 let current    = 0;
 let score      = 0;
@@ -41,25 +53,48 @@ async function populateDialectSelect() {
     const res      = await fetch("data/content.json");
     const content  = await res.json();
     const dialects = content.dialects || [];
-    dialectSelect.innerHTML =
-      `<option value="all">All dialects</option>` +
-      `<option value="shared">Shared / Cross-dialect</option>` +
-      dialects.map(d =>
-        `<option value="${d.id}"${d.id === "taiwanese" ? " selected" : ""}>${d.name}</option>`
-      ).join("");
+    const groups   = dialects.reduce((acc, d) => {
+      const g = d.group || "Other";
+      (acc[g] = acc[g] || []).push(d);
+      return acc;
+    }, {});
+    dialectSelect.innerHTML = `<option value="all">All dialects</option>`;
+    for (const [grp, items] of Object.entries(groups)) {
+      const og = document.createElement("optgroup");
+      og.label = grp;
+      dialectSelect.appendChild(og);
+      for (const d of items) {
+        if (d.dictionaryOnly) continue;
+        const o = document.createElement("option");
+        o.value = d.id;
+        o.textContent = d.name;
+        og.appendChild(o);
+      }
+    }
   } catch {
-    // Fallback: leave the select empty so the game still works
     dialectSelect.innerHTML = `<option value="all">All dialects</option>`;
   }
 }
 populateDialectSelect();
 
 // ── data loading ──────────────────────────────────────────────────────────────
-async function ensureData() {
-  if (allData) return;
-  const res = await fetch("data/dialects/shared.json");
-  allData   = await res.json();
-  pojPool   = [...new Set(allData.filter(e => e.poj).map(e => e.poj.trim()))];
+async function ensureData(dialect) {
+  if (!sharedData) {
+    const res = await fetch("data/dialects/shared.json");
+    sharedData = await res.json();
+  }
+  if (dialect === "taiwanese_en" && !twEnLoaded) {
+    const results = await Promise.all(TW_EN_FILES.map(u => fetch(u).then(r => r.ok ? r.json() : []).catch(() => [])));
+    twEnData   = results.flat();
+    twEnLoaded = true;
+  }
+  allData = [
+    ...sharedData,
+    ...(twEnLoaded && twEnData ? twEnData : []),
+  ];
+  pojPool = [...new Set(
+    allData.map(e => (e.poj || e.tl || "").trim()).filter(Boolean)
+  )];
 }
 
 // ── question building ─────────────────────────────────────────────────────────
@@ -68,28 +103,43 @@ function escRe(s) {
 }
 
 function buildQuestion(entry) {
-  const poj     = (entry.poj     || "").trim();
+  const answer  = (entry.poj || entry.tl || "").trim();
   const example = (entry.example || "").trim();
+  const isMoe   = !entry.poj && !!entry.tl;
 
-  if (poj && example) {
-    const re = new RegExp(escRe(poj), "i");
+  if (answer && example) {
+    const re = new RegExp(escRe(answer), "i");
     if (re.test(example)) {
       return {
-        prompt:     "Fill in the blank:",
-        sentence:   example.replace(re, "____"),
-        answer:     poj,
-        hint:       entry.english,
-        hintLabel:  "Meaning",
-        type:       "gap",
+        prompt:    "Fill in the blank:",
+        sentence:  example.replace(re, "____"),
+        answer,
+        hint:      isMoe
+          ? `${entry.hanzi || ""}${entry.english ? " — " + entry.english : ""}`
+          : entry.english,
+        hintLabel: "Meaning",
+        type:      "gap",
       };
     }
   }
 
-  // Fallback: direct question
+  // MoE fallback: show hanzi and ask for TL pronunciation
+  if (isMoe && entry.hanzi) {
+    return {
+      prompt:    "What is the Tâi-lô (TL) pronunciation?",
+      sentence:  `${entry.hanzi}${entry.english ? `  （${entry.english}）` : ""}`,
+      answer,
+      hint:      example || null,
+      hintLabel: "Example",
+      type:      "direct",
+    };
+  }
+
+  // Standard fallback
   return {
     prompt:    "How do you say this in Hokkien (POJ)?",
     sentence:  entry.english + (entry.hanzi ? `  ${entry.hanzi}` : ""),
-    answer:    poj,
+    answer,
     hint:      example || null,
     hintLabel: "Example",
     type:      "direct",
@@ -118,16 +168,16 @@ startBtn.addEventListener("click", async () => {
   startBtn.disabled    = true;
   startBtn.textContent = "Loading…";
 
-  await ensureData();
+  const dialect = dialectSelect.value;
+  await ensureData(dialect);
 
   startBtn.disabled    = false;
   startBtn.textContent = "Start";
 
-  const dialect = dialectSelect.value;
   const count   = parseInt(countSelect.value, 10);
   difficulty    = diffSelect.value;
 
-  let candidates = allData.filter(e => e.poj && e.poj.trim());
+  let candidates = allData.filter(e => (e.poj || e.tl) && (e.poj || e.tl).trim());
   if (dialect !== "all") {
     candidates = candidates.filter(e => e.dialectId === dialect);
   }

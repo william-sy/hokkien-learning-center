@@ -2,12 +2,13 @@
 // Cache-first strategy. All static assets are pre-cached on install.
 // New resources fetched at runtime are also cached for future offline use.
 
-const CACHE = "hokkien-v10";
+const CACHE = "hokkien-v23";
 
 const ASSETS = [
   "./",
   "./index.html",
   "./dictionary.html",
+  "./dictionary_chinese.html",
   "./phrases.html",
   "./grammar.html",
   "./tones.html",
@@ -25,6 +26,8 @@ const ASSETS = [
   "./writing.html",
   "./styles.css",
   "./manifest.json",
+  "./icon-192.png",
+  "./icon-512.png",
   "./data/dialects/shared.json",
   "./data/dialects/taiwanese.json",
   "./data/dialects/singapore.json",
@@ -43,6 +46,7 @@ const ASSETS = [
   "./js/pwa.js",
   "./js/app.js",
   "./js/dictionary-page.js",
+  "./js/dictionary-chinese.js",
   "./js/phrases-page.js",
   "./js/info.js",
   "./js/contribute.js",

@@ -13,7 +13,7 @@ const DIALECT_LABELS = {
   quanzhou:         "Quanzhou",
   zhangzhou:        "Zhangzhou",
   xiamen:           "Xiamen / Amoy",
-  taiwanese:        "Taiwanese",
+  taiwanese_moe:    "Taiwanese (MoE)",
   sea_hokkien:      "SE Asian Hokkien",
   malaysia_north:   "Malaysian – North",
   malaysia_central: "Malaysian – Central",

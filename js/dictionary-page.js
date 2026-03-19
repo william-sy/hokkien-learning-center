@@ -9,6 +9,7 @@ const LS_LEARNED_KEY = "hokkien_learned_words";
 const state = {
   content: null,
   dictionary: [],
+  twEnLoaded: false,
   selectedDialect: "all",
   selectedLetter: "all",
   search: "",
@@ -82,6 +83,66 @@ const MN_FILES = [
   "data/dialects/malaysia_north/u-z.json",
 ];
 
+const TW_EN_FILES = [
+  "data/dialects/taiwanese_en/a-e.json",
+  "data/dialects/taiwanese_en/f-j.json",
+  "data/dialects/taiwanese_en/k-o.json",
+  "data/dialects/taiwanese_en/p-s.json",
+  "data/dialects/taiwanese_en/t.json",
+  "data/dialects/taiwanese_en/u-z.json",
+];
+
+async function loadTwEnEntries(onProgress) {
+  if (state.twEnLoaded) return;
+  let loaded = 0;
+  const total = TW_EN_FILES.length;
+  const results = await Promise.all(
+    TW_EN_FILES.map(u =>
+      fetch(u).then(r => r.ok ? r.json() : []).catch(() => []).then(entries => {
+        loaded++;
+        if (onProgress) onProgress(loaded, total);
+        return entries;
+      })
+    )
+  );
+  state.dictionary = [...state.dictionary, ...results.flat()];
+  state.twEnLoaded = true;
+}
+
+function initTwEnPreloadPanel() {
+  const panel = byId("twEnPreloadPanel");
+  if (!panel) return;
+  if (state.twEnLoaded || state.selectedDialect !== "taiwanese_en") { panel.style.display = "none"; return; }
+
+  panel.style.display = "";
+  panel.innerHTML = `
+    <button id="twEnPreloadBtn" style="font-size:0.8em;padding:0.2rem 0.6rem;opacity:0.8">
+      ⬇ Pre-load Taiwanese (English) offline
+    </button>
+    <div id="twEnProgressWrap" style="display:none;margin-top:0.3rem">
+      <div class="learned-progress" style="height:6px">
+        <div class="learned-progress-fill" id="twEnProgressFill" style="width:0%;transition:width 0.2s"></div>
+      </div>
+      <span id="twEnProgressText" style="font-size:0.75em;opacity:0.65">Downloading…</span>
+    </div>
+  `;
+
+  byId("twEnPreloadBtn").addEventListener("click", async () => {
+    const btn  = byId("twEnPreloadBtn");
+    const wrap = byId("twEnProgressWrap");
+    const fill = byId("twEnProgressFill");
+    const text = byId("twEnProgressText");
+    btn.disabled = true;
+    wrap.style.display = "";
+    await loadTwEnEntries((loaded, total) => {
+      fill.style.width = `${Math.round(loaded / total * 100)}%`;
+      text.textContent = `Loading… ${loaded}/${total} files`;
+    });
+    panel.innerHTML = `<span style="font-size:0.8em;opacity:0.65">✓ All 75,137 English entries loaded</span>`;
+    if (state.selectedDialect === "taiwanese_en") renderDictionary();
+  });
+}
+
 async function loadContent() {
   const [contentResponse, dictionaryResponse, ...mnResults] = await Promise.all([
     fetch("data/content.json", { cache: "no-store" }),
@@ -108,7 +169,7 @@ function initDialectSelect() {
   allOpt.textContent = "All dialects";
   select.appendChild(allOpt);
 
-  const groups = dialects.reduce((acc, dialect) => {
+  const groups = dialects.filter(d => !d.dictionaryOnly).reduce((acc, dialect) => {
     const group = dialect.group || "Other";
     if (!acc[group]) acc[group] = [];
     acc[group].push(dialect);
@@ -129,9 +190,15 @@ function initDialectSelect() {
 
   select.value = state.selectedDialect;
 
-  select.addEventListener("change", () => {
+  select.addEventListener("change", async () => {
     state.selectedDialect = select.value;
     setCookie(COOKIE_KEYS.selectedDialect, state.selectedDialect);
+    initTwEnPreloadPanel();
+    if (state.selectedDialect === "taiwanese_en" && !state.twEnLoaded) {
+      byId("wordsList").innerHTML = '<p class="muted">Loading dictionary data…</p>';
+      await loadTwEnEntries();
+      initTwEnPreloadPanel();
+    }
     renderDictionary();
   });
 }
@@ -181,8 +248,9 @@ function initSearch() {
 }
 
 function isPhrase(entry) {
-  // Consider it a phrase if English has multiple words or if it's tagged as a phrase/sentence
-  const hasMultipleWords = entry.english.trim().split(/\s+/).length > 2;
+  const text = entry.english || entry.chinese || "";
+  // Consider it a phrase if the display text has multiple words or has phrase tags
+  const hasMultipleWords = text.trim().split(/\s+/).length > 2;
   const hasPhraseTags = entry.tags && (
     entry.tags.includes("phrase") || 
     entry.tags.includes("sentence") ||
@@ -204,24 +272,28 @@ function filterEntries(entries) {
 
     // Letter filter
     if (state.selectedLetter !== "all") {
-      const firstLetter = entry.english.charAt(0).toLowerCase();
-      if (firstLetter !== state.selectedLetter) {
+      // MoE entries have empty english — fall back to TL romanization for letter bucketing
+      const engFirst = (entry.english || "").charAt(0).toLowerCase();
+      const checkFirst = /^[a-z]/.test(engFirst) ? engFirst : (entry.tl || "").charAt(0).toLowerCase();
+      if (checkFirst !== state.selectedLetter) {
         return false;
       }
     }
     
-    // Search filter
+    // Search filter — diacritic-insensitive: "a" matches á/à/â/ā, "tsia" matches "tsiáh"
     if (state.search.trim()) {
-      const q = state.search.toLowerCase();
-      const searchable = [
+      const stripDia = s => (s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      const qExact = state.search.toLowerCase();
+      const qNorm  = stripDia(state.search);
+      const raw = [
         entry.english,
+        entry.chinese,
         entry.hanzi,
         entry.poj,
         entry.tl,
         ...(entry.tags || [])
-      ].join(" ").toLowerCase();
-      
-      if (!searchable.includes(q)) {
+      ].join(" ");
+      if (!raw.toLowerCase().includes(qExact) && !stripDia(raw).includes(qNorm)) {
         return false;
       }
     }
@@ -231,12 +303,14 @@ function filterEntries(entries) {
 }
 
 function sortByEnglish(entries) {
-  return entries.sort((a, b) => a.english.localeCompare(b.english));
+  return entries.sort((a, b) => (a.english || a.chinese || "").localeCompare(b.english || b.chinese || ""));
 }
 
 function renderEntry(entry) {
   const article = document.createElement("article");
-  const isLearned = state.learnedSet.has(entry.english);
+  // Key off english if populated, else fall back to tl for MoE entries
+  const learnKey = entry.english || entry.tl || entry.hanzi || "";
+  const isLearned = state.learnedSet.has(learnKey);
   article.className = "dict-entry" + (isLearned ? " learned" : "");
 
   const audioBtn = (entry.audioUrl && entry.audioUrl.trim()) ?
@@ -269,7 +343,7 @@ function renderEntry(entry) {
   article.innerHTML = `
     <div class="dict-entry-header">
       <div class="dict-entry-title">
-        <strong class="english">${entry.english}</strong>
+        <strong class="english">${entry.english || entry.chinese || ""}</strong>
         <span class="hanzi">${entry.hanzi || ""}</span>
       </div>
       ${audioBtn}
@@ -283,6 +357,7 @@ function renderEntry(entry) {
         <span class="label">Tone:</span> ${entry.tone || "-"}
       </p>
       ${variantsHtml}
+      ${entry.chinese && entry.english ? `<p class="example"><span class="label">中:</span> ${entry.chinese}</p>` : ""}
       ${entry.example ? `<p class="example"><span class="label">Example:</span> ${entry.example}</p>` : ""}
       <p class="meta">
         <span class="dialect-tag">${dialectName}</span>
@@ -297,7 +372,7 @@ function renderEntry(entry) {
   learnBtn.textContent = isLearned ? "✓ Learned" : "Mark learned";
   learnBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    toggleLearned(entry.english, article, learnBtn);
+    toggleLearned(learnKey, article, learnBtn);
   });
   article.querySelector(".dict-entry-header").appendChild(learnBtn);
 
@@ -342,6 +417,8 @@ function playAudio(audioUrl) {
 
 function hydrateStateFromCookies() {
   state.selectedDialect = getCookie(COOKIE_KEYS.selectedDialect) || "all";
+  // taiwanese_moe has moved to dictionary_chinese.html — reset stale cookie
+  if (state.selectedDialect === "taiwanese_moe") state.selectedDialect = "all";
   state.selectedLetter = getCookie(COOKIE_KEYS.selectedLetter) || "all";
   state.search = getCookie(COOKIE_KEYS.search) || "";
 }
@@ -355,7 +432,12 @@ async function init() {
     state.content = data.content;
     state.dictionary = data.dictionary;
 
+    if (state.selectedDialect === "taiwanese_en") {
+      await loadTwEnEntries();
+    }
+
     initDialectSelect();
+    initTwEnPreloadPanel();
     initAlphabetNav();
     initSearch();
     
